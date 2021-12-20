@@ -1,0 +1,302 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="auto" viewBox="0 0 933 572">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.307" y1="0.123" x2="0.61" y2="0.541" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#4975e6"/>
+      <stop offset="0.776" stop-color="#5f98e8"/>
+      <stop offset="1" stop-color="#69a6e9"/>
+    </linearGradient>
+    <filter id="Path_2160">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#4975e6"/>
+      <stop offset="1" stop-color="#6554e9"/>
+    </linearGradient>
+    <filter id="Path_2161">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161" result="color-2"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color-2"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="-0.228" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#4975e6"/>
+      <stop offset="0.813" stop-color="#5998e8"/>
+      <stop offset="1" stop-color="#5fa3e9"/>
+    </linearGradient>
+    <filter id="Path_2162">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161" result="color-3"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-3"/>
+      <feComposite operator="in" in="color-3"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" x1="0.822" y1="0.741" x2="0.306" y2="0.492" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#4975e6"/>
+      <stop offset="0.532" stop-color="#6c78e7"/>
+      <stop offset="1" stop-color="#9e7ee9"/>
+    </linearGradient>
+    <filter id="Path_2165">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161" result="color-4"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-4"/>
+      <feComposite operator="in" in="color-4"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-5" x1="-0.537" y1="0.5" x2="1.001" y2="0.5" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-6" x1="2.092" y1="0.845" x2="0.782" y2="0.561" xlink:href="#linear-gradient-4"/>
+    <linearGradient id="linear-gradient-7" x1="-0.457" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#4975e6"/>
+      <stop offset="0.713" stop-color="#5d98e7"/>
+      <stop offset="1" stop-color="#69ace9"/>
+    </linearGradient>
+    <filter id="Path_2168">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161" result="color-5"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-5"/>
+      <feComposite operator="in" in="color-5"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-8" x1="-0.4" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#4975e6"/>
+      <stop offset="0.648" stop-color="#5451e7"/>
+      <stop offset="1" stop-color="#5d36e9"/>
+    </linearGradient>
+    <filter id="Path_2169">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161" result="color-6"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-6"/>
+      <feComposite operator="in" in="color-6"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-9" x1="-0.509" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#34b1e6"/>
+      <stop offset="0.687" stop-color="#2f8de7"/>
+      <stop offset="1" stop-color="#2d77e9"/>
+    </linearGradient>
+    <filter id="Path_2170">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161" result="color-7"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-7"/>
+      <feComposite operator="in" in="color-7"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-10" x1="-0.265" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#5c62e6"/>
+      <stop offset="0.492" stop-color="#5885e7"/>
+      <stop offset="1" stop-color="#52c2e9"/>
+    </linearGradient>
+    <filter id="Path_2171">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161" result="color-8"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-8"/>
+      <feComposite operator="in" in="color-8"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-11" x1="-0.154" y1="0.641" x2="0.595" y2="0.433" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#4975e6"/>
+      <stop offset="0.609" stop-color="#6c64e7"/>
+      <stop offset="1" stop-color="#8e54e9"/>
+    </linearGradient>
+    <filter id="Path_2172">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-opacity="0.161" result="color-9"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-9"/>
+      <feComposite operator="in" in="color-9"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-12" x1="0" y1="0.5" x2="1.032" y2="0.5" xlink:href="#linear-gradient"/>
+    <filter id="Path_2175">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-10"/>
+      <feFlood flood-opacity="0.161" result="color-10"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-10"/>
+      <feComposite operator="in" in="color-10"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-13" x1="-0.001" y1="0.971" x2="1.067" y2="0.072" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#4975e6"/>
+      <stop offset="0.663" stop-color="#4b51e7"/>
+      <stop offset="1" stop-color="#4e38e9"/>
+    </linearGradient>
+    <filter id="Path_2176">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-11"/>
+      <feFlood flood-opacity="0.161" result="color-11"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-11"/>
+      <feComposite operator="in" in="color-11"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-14" x1="0.564" y1="-0.281" x2="0.502" y2="0.553" xlink:href="#linear-gradient-11"/>
+    <filter id="Path_2177">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-12"/>
+      <feFlood flood-opacity="0.161" result="color-12"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-12"/>
+      <feComposite operator="in" in="color-12"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern-chart" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 808 821">
+      <image width="808" height="821" xlink:href="/public/assets/svg/tokenomics-coin.png"/>
+    </pattern>
+  </defs>
+  <g id="Group_1235" data-name="Group 1235" transform="translate(-164 -149)">
+    <g id="Group_1234" data-name="Group 1234" transform="translate(2636.117 -3232)">
+      <g id="Group_1221" data-name="Group 1221" transform="translate(-2559.371 3290.147)">
+        <g data-type="innerShadowGroup">
+          <path id="Path_2160-2" data-name="Path 2160" d="M586.02,320.1c.414,0,.821.024,1.232.031V188.853c-67.167,0-124.5,29.215-163.983,83.554l105.368,76.554A71.364,71.364,0,0,1,586.02,320.1Z" transform="translate(-3.227 0)" fill="url(#linear-gradient)"/>
+          <g transform="matrix(1, 0, 0, 1, 87.25, 90.85)" filter="url(#Path_2160)">
+            <path id="Path_2160-3" data-name="Path 2160" d="M586.02,320.1c.414,0,.821.024,1.232.031V188.853c-67.167,0-124.5,29.215-163.983,83.554l105.368,76.554A71.364,71.364,0,0,1,586.02,320.1Z" transform="translate(-90.48 -90.85)" fill="#fff"/>
+          </g>
+        </g>
+        <g data-type="innerShadowGroup">
+          <path id="Path_2161-2" data-name="Path 2161" d="M612.952,321.357s22.637-128.508,22.767-129.215c-14.569-2.884-21.734-3.289-35.167-3.289V320.128A86.594,86.594,0,0,1,612.952,321.357Z" transform="translate(-16.527 0)" fill="url(#linear-gradient-2)"/>
+          <g transform="matrix(1, 0, 0, 1, 87.25, 90.85)" filter="url(#Path_2161)">
+            <path id="Path_2161-3" data-name="Path 2161" d="M612.952,321.357s22.637-128.508,22.767-129.215c-14.569-2.884-21.734-3.289-35.167-3.289V320.128A86.594,86.594,0,0,1,612.952,321.357Z" transform="translate(-103.78 -90.85)" fill="#fff"/>
+          </g>
+        </g>
+        <g data-type="innerShadowGroup">
+          <path id="Path_2162-2" data-name="Path 2162" d="M625.8,325.054l47.013-122.471c.078.03.152.061.229.091l.035-.091a195.575,195.575,0,0,0-36.356-10.18l-22.793,129.27A70.834,70.834,0,0,1,625.8,325.054Z" transform="translate(-17.53 -0.266)" fill="url(#linear-gradient-3)"/>
+          <g transform="matrix(1, 0, 0, 1, 87.25, 90.85)" filter="url(#Path_2162)">
+            <path id="Path_2162-3" data-name="Path 2162" d="M625.8,325.054l47.013-122.471c.078.03.152.061.229.091l.035-.091a195.575,195.575,0,0,0-36.356-10.18l-22.793,129.27A70.834,70.834,0,0,1,625.8,325.054Z" transform="translate(-104.78 -91.12)" fill="#fff"/>
+          </g>
+        </g>
+        <g data-type="innerShadowGroup">
+          <path id="Path_2165-2" data-name="Path 2165" d="M652.62,342.943l94.337-91.1c-21.716-22.487-43.79-37.116-72.938-48.337L627.006,325.977A71.538,71.538,0,0,1,652.62,342.943Z" transform="translate(-18.511 -1.099)" fill="url(#linear-gradient-4)"/>
+          <g transform="matrix(1, 0, 0, 1, 87.25, 90.85)" filter="url(#Path_2165)">
+            <path id="Path_2165-3" data-name="Path 2165" d="M652.62,342.943l94.337-91.1c-21.716-22.487-43.79-37.116-72.938-48.337L627.006,325.977A71.538,71.538,0,0,1,652.62,342.943Z" transform="translate(-105.76 -91.95)" fill="#fff"/>
+          </g>
+        </g>
+        <path id="Path_2166" data-name="Path 2166" d="M626.758,325.879l.229.091L674,203.5c-.077-.03-.151-.061-.228-.091Z" transform="translate(-18.493 -1.092)" fill="url(#linear-gradient-5)"/>
+        <path id="Path_2167" data-name="Path 2167" d="M626.758,325.879l.229.091L674,203.5c-.077-.03-.151-.061-.228-.091Z" transform="translate(-18.493 -1.092)" fill="url(#linear-gradient-6)"/>
+        <g data-type="innerShadowGroup">
+          <path id="Path_2168-2" data-name="Path 2168" d="M661.133,354.5l106.078-77.07a213.562,213.562,0,0,0-18.177-21.663l-94.337,91.1A71.874,71.874,0,0,1,661.133,354.5Z" transform="translate(-20.589 -5.02)" fill="url(#linear-gradient-7)"/>
+          <g transform="matrix(1, 0, 0, 1, 87.25, 90.85)" filter="url(#Path_2168)">
+            <path id="Path_2168-3" data-name="Path 2168" d="M661.133,354.5l106.078-77.07a213.562,213.562,0,0,0-18.177-21.663l-94.337,91.1A71.874,71.874,0,0,1,661.133,354.5Z" transform="translate(-107.84 -95.87)" fill="#fff"/>
+          </g>
+        </g>
+        <g data-type="innerShadowGroup">
+          <path id="Path_2169-2" data-name="Path 2169" d="M767.733,279.183l-106.078,77.07a71.133,71.133,0,0,1,13.721,42.07H806.444C806.444,353.546,794.053,315.409,767.733,279.183Z" transform="translate(-21.11 -6.776)" fill="url(#linear-gradient-8)"/>
+          <g transform="matrix(1, 0, 0, 1, 87.25, 90.85)" filter="url(#Path_2169)">
+            <path id="Path_2169-3" data-name="Path 2169" d="M767.733,279.183l-106.078,77.07a71.133,71.133,0,0,1,13.721,42.07H806.444C806.444,353.546,794.053,315.409,767.733,279.183Z" transform="translate(-108.36 -97.63)" fill="#fff"/>
+          </g>
+        </g>
+        <g data-type="innerShadowGroup">
+          <path id="Path_2170-2" data-name="Path 2170" d="M676.2,408.009a71.366,71.366,0,0,1-3.534,22.2l124.372,40.412c6.919-21.294,10.207-40.264,10.207-62.653l-131.046.016Z" transform="translate(-21.937 -16.439)" fill="url(#linear-gradient-9)"/>
+          <g transform="matrix(1, 0, 0, 1, 87.25, 90.85)" filter="url(#Path_2170)">
+            <path id="Path_2170-3" data-name="Path 2170" d="M676.2,408.009a71.366,71.366,0,0,1-3.534,22.2l124.372,40.412c6.919-21.294,10.207-40.264,10.207-62.653l-131.046.016Z" transform="translate(-109.19 -107.29)" fill="#fff"/>
+          </g>
+        </g>
+        <g data-type="innerShadowGroup">
+          <path id="Path_2171-2" data-name="Path 2171" d="M642.394,469.095,713.709,578.91c40.536-26.685,66-60.144,81.061-106.485L670.4,432.014A71.639,71.639,0,0,1,642.394,469.095Z" transform="translate(-19.666 -18.242)" fill="url(#linear-gradient-10)"/>
+          <g transform="matrix(1, 0, 0, 1, 87.25, 90.85)" filter="url(#Path_2171)">
+            <path id="Path_2171-3" data-name="Path 2171" d="M642.394,469.095,713.709,578.91c40.536-26.685,66-60.144,81.061-106.485L670.4,432.014A71.639,71.639,0,0,1,642.394,469.095Z" transform="translate(-106.92 -109.09)" fill="#fff"/>
+          </g>
+        </g>
+        <g data-type="innerShadowGroup">
+          <path id="Path_2172-2" data-name="Path 2172" d="M638.424,472.175c-11.137,7.164-25.723,12.186-39.949,12.186-.779,0-2.047-.049-2.82-.074l-6.885,130.99c44.716,2.343,83.3-8.951,120.851-33.339C709.065,580.954,710.2,581.723,638.424,472.175Z" transform="translate(-15.682 -21.318)" fill="url(#linear-gradient-11)"/>
+          <g transform="matrix(1, 0, 0, 1, 87.25, 90.85)" filter="url(#Path_2172)">
+            <path id="Path_2172-3" data-name="Path 2172" d="M638.424,472.175c-11.137,7.164-25.723,12.186-39.949,12.186-.779,0-2.047-.049-2.82-.074l-6.885,130.99c44.716,2.343,83.3-8.951,120.851-33.339C709.065,580.954,710.2,581.723,638.424,472.175Z" transform="translate(-102.93 -112.17)" fill="#fff"/>
+          </g>
+        </g>
+        <g data-type="innerShadowGroup">
+          <path id="Path_2175-2" data-name="Path 2175" d="M471.414,576.695c32.6,23.688,68.289,36.325,108.533,38.434l6.865-130.993a71.071,71.071,0,0,1-38.586-13.162Z" transform="translate(-6.839 -21.164)" fill="url(#linear-gradient-12)"/>
+          <g transform="matrix(1, 0, 0, 1, 87.25, 90.85)" filter="url(#Path_2175)">
+            <path id="Path_2175-3" data-name="Path 2175" d="M471.414,576.695c32.6,23.688,68.289,36.325,108.533,38.434l6.865-130.993a71.071,71.071,0,0,1-38.586-13.162Z" transform="translate(-94.09 -112.02)" fill="#fff"/>
+          </g>
+        </g>
+        <g data-type="innerShadowGroup">
+          <path id="Path_2176-2" data-name="Path 2176" d="M528.486,453.884,422.935,530.57a192.7,192.7,0,0,0,44.842,44.842l76.812-105.722A71.858,71.858,0,0,1,528.486,453.884Z" transform="translate(-3.202 -19.882)" fill="url(#linear-gradient-13)"/>
+          <g transform="matrix(1, 0, 0, 1, 87.25, 90.85)" filter="url(#Path_2176)">
+            <path id="Path_2176-3" data-name="Path 2176" d="M528.486,453.884,422.935,530.57a192.7,192.7,0,0,0,44.842,44.842l76.812-105.722A71.858,71.858,0,0,1,528.486,453.884Z" transform="translate(-90.46 -110.74)" fill="#fff"/>
+          </g>
+        </g>
+        <g data-type="innerShadowGroup">
+          <path id="Path_2177-2" data-name="Path 2177" d="M511.321,398.346A71.147,71.147,0,0,1,525.3,355.885l-105.572-76.7c-52.64,72.452-52.64,165.83,0,238.282l105.551-76.687A71.148,71.148,0,0,1,511.321,398.346Z" transform="translate(0 -6.776)" fill="url(#linear-gradient-14)"/>
+          <g transform="matrix(1, 0, 0, 1, 87.25, 90.85)" filter="url(#Path_2177)">
+            <path id="Path_2177-3" data-name="Path 2177" d="M511.321,398.346A71.147,71.147,0,0,1,525.3,355.885l-105.572-76.7c-52.64,72.452-52.64,165.83,0,238.282l105.551-76.687A71.148,71.148,0,0,1,511.321,398.346Z" transform="translate(-87.25 -97.63)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+      <rect id="Image_1" data-name="Image 1" width="88" height="89" transform="translate(-2021 3637)" fill="url(#pattern-chart)"/>
+      <text id="_3_" data-name="3%" transform="translate(-1966.981 3502.263)" fill="#fff" font-size="10" font-family="Exo" font-weight="500"><tspan x="0" y="0">3%</tspan></text>
+      <text id="_3_2" data-name="3%" transform="translate(-1933 3507.763)" fill="#fff" font-size="10" font-family="Exo" font-weight="500"><tspan x="0" y="0">3%</tspan></text>
+      <text id="_7_" data-name="7%" transform="translate(-1886 3530.763)" fill="#fff" font-size="10" font-family="Exo" font-weight="500"><tspan x="0" y="0">7%</tspan></text>
+      <text id="_2_" data-name="2%" transform="translate(-1843 3567.763)" fill="#fff" font-size="10" font-family="Exo" font-weight="500"><tspan x="0" y="0">2%</tspan></text>
+      <text id="_10_" data-name="10%" transform="translate(-1818 3633.764)" fill="#fff" font-size="10" font-family="Exo" font-weight="500"><tspan x="0" y="0">10%</tspan></text>
+      <text id="_5_" data-name="5%" transform="translate(-1813 3709.764)" fill="#fff" font-size="10" font-family="Exo" font-weight="500"><tspan x="0" y="0">5%</tspan></text>
+      <text id="_11_" data-name="11%" transform="translate(-1845 3785.764)" fill="#fff" font-size="10" font-family="Exo" font-weight="500"><tspan x="0" y="0">11%</tspan></text>
+      <text id="_10_2" data-name="10%" transform="translate(-1938 3857.764)" fill="#fff" font-size="10" font-family="Exo" font-weight="500"><tspan x="0" y="0">10%</tspan></text>
+      <text id="_9_" data-name="9%" transform="translate(-2040 3854.264)" fill="#fff" font-size="10" font-family="Exo" font-weight="500"><tspan x="0" y="0">9%</tspan></text>
+      <text id="_5_2" data-name="5%" transform="translate(-2109 3811.264)" fill="#fff" font-size="10" font-family="Exo" font-weight="500"><tspan x="0" y="0">5%</tspan></text>
+      <text id="_20_" data-name="20%" transform="translate(-2158 3685.264)" fill="#fff" font-size="10" font-family="Exo" font-weight="500"><tspan x="0" y="0">20%</tspan></text>
+      <text id="_15_" data-name="15%" transform="translate(-2060 3520.263)" fill="#fff" font-size="10" font-family="Exo" font-weight="500"><tspan x="0" y="0">15%</tspan></text>
+    </g>
+    <g id="Group_1000" data-name="Group 1000" transform="translate(750.615 202.802)">
+      <text id="_3_SEED" data-name="3% SEED" transform="translate(25.385 18.198)" fill="#fff" font-size="18" font-family="Exo" font-weight="500"><tspan x="0" y="0">3% SEED</tspan></text>
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="7" cy="7" r="7" transform="translate(0.385 6.198)" fill="#fff"/>
+    </g>
+    <g id="Group_1000-2" data-name="Group 1000" transform="translate(832.615 259.802)">
+      <text id="_7_PRIVATE_ROUND" data-name="7% PRIVATE ROUND" transform="translate(25.385 18.198)" fill="#fff" font-size="18" font-family="Exo" font-weight="500"><tspan x="0" y="0">7% PRIVATE ROUND</tspan></text>
+      <circle id="Ellipse_8-2" data-name="Ellipse 8" cx="7" cy="7" r="7" transform="translate(0.385 6.198)" fill="#fff"/>
+    </g>
+    <g id="Group_1001" data-name="Group 1001" transform="translate(876.615 324.696)">
+      <text id="_2_IDO_SALE" data-name="2% IDO SALE" transform="translate(25.385 18.304)" fill="#fff" font-size="18" font-family="Exo" font-weight="500"><tspan x="0" y="0">2% IDO SALE</tspan></text>
+      <circle id="Ellipse_8-3" data-name="Ellipse 8" cx="7" cy="7" r="7" transform="translate(0.385 5.304)" fill="#fff"/>
+    </g>
+    <g id="Group_1002" data-name="Group 1002" transform="translate(897.615 405.508)">
+      <text id="_10_TEAM" data-name="10% TEAM" transform="translate(25.385 18.492)" fill="#fff" font-size="18" font-family="Exo" font-weight="500"><tspan x="0" y="0">10% TEAM</tspan></text>
+      <circle id="Ellipse_8-4" data-name="Ellipse 8" cx="7" cy="7" r="7" transform="translate(0.385 6.491)" fill="#fff"/>
+    </g>
+    <g id="Group_1003" data-name="Group 1003" transform="translate(893.615 495.321)">
+      <text id="_5_ADVISOR" data-name="5% ADVISOR" transform="translate(25.385 17.679)" fill="#fff" font-size="18" font-family="Exo" font-weight="500"><tspan x="0" y="0">5% ADVISOR</tspan></text>
+      <circle id="Ellipse_8-5" data-name="Ellipse 8" cx="7" cy="7" r="7" transform="translate(0.385 5.679)" fill="#fff"/>
+    </g>
+    <g id="Group_1003-2" data-name="Group 1003" transform="translate(850.615 584.321)">
+      <text id="_11_GAME_DEVELOPMENT" data-name="11% GAME DEVELOPMENT" transform="translate(25.385 17.679)" fill="#fff" font-size="18" font-family="Exo" font-weight="500"><tspan x="0" y="0">11% GAME DEVELOPMENT</tspan></text>
+      <circle id="Ellipse_8-6" data-name="Ellipse 8" cx="7" cy="7" r="7" transform="translate(0.385 5.679)" fill="#fff"/>
+    </g>
+    <g id="Group_1004" data-name="Group 1004" transform="translate(733.615 688.215)">
+      <text id="_10_STAKING_REWARD" data-name="10% STAKING REWARD" transform="translate(25.385 17.785)" fill="#fff" font-size="18" font-family="Exo" font-weight="500"><tspan x="0" y="0">10% STAKING REWARD</tspan></text>
+      <ellipse id="Ellipse_8-7" data-name="Ellipse 8" cx="7" cy="6.5" rx="7" ry="6.5" transform="translate(0.385 6.785)" fill="#fff"/>
+    </g>
+    <g id="Group_1005" data-name="Group 1005" transform="translate(479 696.889)">
+      <text id="_9_ECOSYSTEM_FUND" data-name="9% ECOSYSTEM FUND" transform="translate(26 18.112)" fill="#fff" font-size="18" font-family="Exo" font-weight="500"><tspan x="0" y="0">9% ECOSYSTEM FUND</tspan></text>
+      <ellipse id="Ellipse_8-8" data-name="Ellipse 8" cx="7.5" cy="7" rx="7.5" ry="7" transform="translate(0 5.112)" fill="#fff"/>
+    </g>
+    <g id="Group_1006" data-name="Group 1006" transform="translate(221 604.319)">
+      <text id="_5_AFFILIATE_MARKETING" data-name="5% AFFILIATE &amp; MARKETING" transform="translate(26 17.681)" fill="#fff" font-size="18" font-family="Exo" font-weight="500"><tspan x="0" y="0">5% AFFILIATE &amp; MARKETING</tspan></text>
+      <circle id="Ellipse_8-9" data-name="Ellipse 8" cx="7.5" cy="7.5" r="7.5" transform="translate(0 5.681)" fill="#fff"/>
+    </g>
+    <g id="Group_1007" data-name="Group 1007" transform="translate(164 449.75)">
+      <text id="_20_PLAY_TO_EARN_REWARD" data-name="20% PLAY TO EARN REWARD" transform="translate(26 18.251)" fill="#fff" font-size="18" font-family="Exo" font-weight="500"><tspan x="0" y="0">20% PLAY TO EARN REWARD</tspan></text>
+      <ellipse id="Ellipse_8-10" data-name="Ellipse 8" cx="7.5" cy="7" rx="7.5" ry="7" transform="translate(0 5.251)" fill="#fff"/>
+    </g>
+    <g id="Group_999" data-name="Group 999" transform="translate(657.615 150.99)">
+      <text id="_3_PARTNERSHIP" data-name="3% PARTNERSHIP" transform="translate(25.385 18.011)" fill="#fff" font-size="18" font-family="Exo" font-weight="500"><tspan x="0" y="0">3% PARTNERSHIP</tspan></text>
+      <circle id="Ellipse_8-11" data-name="Ellipse 8" cx="7" cy="7" r="7" transform="translate(0.385 6.011)" fill="#fff"/>
+    </g>
+    <g id="Group_1008" data-name="Group 1008" transform="translate(250 263.775)">
+      <text id="_15_LIQUIDITY_INCENTIVES" data-name="15% LIQUIDITY &amp; INCENTIVES" transform="translate(26 18.225)" fill="#fff" font-size="18" font-family="Exo" font-weight="500"><tspan x="0" y="0">15% LIQUIDITY &amp; INCENTIVES</tspan></text>
+      <ellipse id="Ellipse_8-12" data-name="Ellipse 8" cx="7.5" cy="7" rx="7.5" ry="7" transform="translate(0 6.225)" fill="#fff"/>
+    </g>
+    <g id="Group_1023" data-name="Group 1023" transform="translate(-19 -3206)">
+      <rect id="Rectangle_96" data-name="Rectangle 96" width="241" height="59" rx="8" transform="translate(378 3355)" fill="rgba(255,255,255,0.5)"/>
+      <text id="Initial_Circulating_Supply_at_TGE:_4.60_from_1M_Total_Supply" data-name="Initial Circulating Supply at TGE:
+4.60% from 1M Total Supply" transform="translate(394 3367)" fill="#fff" font-size="13" font-family="Exo" font-weight="500"><tspan x="0" y="13">Initial Circulating Supply at TGE:</tspan><tspan font-size="15"><tspan x="0" y="31">4.60% from 1M Total Supply</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

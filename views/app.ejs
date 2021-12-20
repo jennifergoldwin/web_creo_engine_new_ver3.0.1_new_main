@@ -1,0 +1,241 @@
+<%- include ('partials/header_app',{title:"Creo Engine"}) %> 
+
+<section class='bg-light'>
+    <div class="container">
+        <div class="font-barlow pv-3">
+            <div class="row  align-items-center h-100">
+                <div class="col text-center text-dark">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    Creo Owned
+                                </div>
+                                <div class="card-body">
+                                    <div id="creo-owned">
+                                        0
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <div class="card mb-3" style="height:100%">
+                                <div class="card-header">
+                                    Creo Locked (<span class='jmlvesting'>0</span>)
+                                </div>
+                                <div class="card-body">
+                                    <div id='vesting-list'>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <div class="card text-center" style="height: 100%;">
+                                <div class="card-title">
+                                    <div class="card-header">
+                                        Seed Sale <span class='sale-period'>-</span>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-3">
+                                        <div class="col">
+                                             <a class='sale-kuota text-med text-main'>
+                                                0<br/>
+                                                CREOENGINE
+                                             </a>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col">
+                                            Start<br/>
+                                            <span class='sale-start'>
+                                                -
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col">
+                                            End<br/>
+                                            <span class='sale-end'>
+                                                -
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col">
+                                            Token Price<br/>
+                                            <span class='sale-price'>
+                                                0 BUSD
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col">
+                                            Token Allocation<br/>
+                                             <span class='sale-allocation'>
+                                                0
+                                            </span>
+                                            % From Total Supply
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col">
+                                            Token Remaining<br/>
+                                            <span class='sale-remaining'>
+                                                0 CREOENGINE
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="row mb-3">
+                                        <div class="col">
+                                            Allocation<br/>
+                                            <span class='sale-allocation'>
+                                                0
+                                            </span>
+                                            % From Total Supply
+                                        </div>
+                                    </div> -->
+                                    <hr/>
+                                    <div id='div-to-open-buy'>
+                                        <button class='btn btn-success' data-toggle='modal' data-target='#modal-buy-token'>
+                                            Buy Now
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+  
+                 </div>
+            </div>
+        </div>
+    </div>
+   
+</section>
+
+<!-- 1637317200
+1637319000
+1637319927.578 -->
+
+<div class="modal" id="modal-buy-token">
+    <div class="modal-dialog">
+        <div class="modal-content bg-dark font-barlow">
+            <div class="modal-header">
+                <h4 class="modal-title">
+                    BUY CREO
+                </h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="row mb-3">
+                    <div class="col">
+                        Seed Sale 
+                    </div>
+                    <div class="col">
+                        <span class='sale-period'>-</span>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        Token Price
+                    </div>
+                    <div class="col">
+                        <span class='sale-price'>-</span>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col align-self-center">
+                        CREO Amount
+                    </div>
+                    <div class="col">
+                        <input type='number' class='form-control' id='buyamount' onkeyup="calctotalbuy(this.value)">
+                    </div>
+                </div>
+                <hr/>
+                <div class="row">
+                    <div class="col text-center">
+                        Total<br/>
+                        <span id='totalbuy'>0</span>
+                        BUSD<br/>
+                    </div>
+                </div>
+                <hr/>
+                <div class="row">
+                    <div class="col">
+                        <button class='btn btn-primary btn-block' id='btn-approve-busd' onclick="approveapp('busd')">
+                            Approve BUSD
+                        </button>
+                    </div>
+                    <div class="col">
+                        <button class='btn btn-success btn-block' onclick="buytoken()" id='btn-buy-now'>
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<%- include ('partials/footer_app') %>
+<script> 
+    function slide(el,dir){
+        // console.log("el : "+el);
+        // console.log("el : "+dir);
+
+        var l=$("."+el).scrollLeft();
+        // var r=$("."+el).scrollRight();
+
+        // var leftPos = $('.innerWrapper').scrollLeft();
+        if(dir=='right'){
+            $("."+el).animate({scrollLeft: l + 200}, 300);
+        }else{
+            $("."+el).animate({scrollLeft: l - 200}, 300);
+        }
+        // $("."+el).scrollLeft(100);
+
+        // console.log("l : "+l);
+        // console.log("r : "+r);
+        
+    }
+    // $(function(){
+    //     $().timelinr({
+    //         // autoPlay: 'true',
+    //         // autoPlayDirection: 'forward',
+    //         startAt: 1,
+    //         // orientation:'vertical'
+    //     })
+    // });
+    // $('#recipeCarousel').carousel({
+    // interval: 10000
+    // })
+
+    // $('.carousel .carousel-item').each(function(){
+    //     var minPerSlide = 3;
+    //     var next = $(this).next();
+    //     if (!next.length) {
+    //     next = $(this).siblings(':first');
+    //     }
+    //     next.children(':first-child').clone().appendTo($(this));
+        
+    //     for (var i=0;i<minPerSlide;i++) {
+    //         next=next.next();
+    //         if (!next.length) {
+    //             next = $(this).siblings(':first');
+    //         }
+            
+    //         next.children(':first-child').clone().appendTo($(this));
+    //     }
+    // });
+
+</script> 
+
+
+
+ </body>
+</html>

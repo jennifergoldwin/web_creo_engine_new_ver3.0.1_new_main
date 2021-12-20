@@ -1,0 +1,866 @@
+<%- include ('partials/header_app',{title:"Creo Engine"}) %> 
+
+<section class='bg-light pt-10'>
+    <div class="container">
+        
+        <!-- <div class="row mb-3">
+            <div class="col text-center" id='divconnectwallet'>
+                <button class='btn btn-primary'  onclick="approveapp('busd')">
+                    Approve
+                </button>
+            </div>
+        </div> -->
+        
+        <div class="row mb-3" id='divadmns'>
+            <div class="col mb-3 font-barlow">
+                <div class="card" style='height:100%'>
+                    <div class="card-title bg-dark">
+                        <div class="card-header text-center text-white">
+                            <h4>
+                                Info
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <!-- <div class="row mb-3">
+                            <div class="col">
+                                Wallet Penampung
+                            </div>
+                            <div class="col">
+                                ---
+                                <span class='float-right'>
+                                    <button class='btn btn-success'>
+                                        <i class='fa fa-cog'></i>
+                                    </button>
+                                </span>
+                            </div>
+                        </div> -->
+                        <div class="row mb-3">
+                            <div class="col">
+                                Likuidasi Sale
+                            </div>
+                            <div class="col" id='div-likuidasi-sale'>
+                                ---
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                Active Sale
+                            </div>
+                            <div class="col" id='div-active-sale'>
+                                ---
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                Jumlah Vesting (Unit)
+                            </div>
+                            <div class="col banyakvesting">
+                                0
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                Total Vesting (CREO)
+                            </div>
+                            <div class="col" id='totalvesting'>
+                                0
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                Total CREO Dijual
+                            </div>
+                            <div class="col" id='total-creo-dijual'>
+                                0
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                Total CREO Terjual
+                            </div>
+                            <div class="col" id='total-creo-terjual'>
+                                0
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                Total BUSD Terkumpul
+                            </div>
+                            <div class="col" id='total-busd-terkumpul'>
+                                0
+                            </div>
+                        </div>
+                        
+                        <div class="row mb-3">
+                            <div class="col">
+                                Total Jumlah Transaksi
+                            </div>
+                            <div class="col" id='total-jumlah-pembeli'>
+                                0
+                            </div>
+                        </div>
+                    </div>
+                    <div id='footer-setlikuidasi'>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-3 font-barlow">
+                <div class="card" style='height:100%'>
+                    <div class="card-title bg-dark text-white">
+                        <div class="card-header text-center">
+                            <h4>
+                                Admin (<span id='jmladmin'>0</span>) 
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="card-body text-center" id='div-card-admin'>
+                    </div>
+                    <div id='footer-tambahadmin'>
+
+                    </div>
+                </div>
+            </div>
+        
+        
+        </div>
+        <div class="row mb-3">
+            <div class="col text-center">
+                <button class='btn btn-info' data-toggle='modal' data-target='#modal-set-active-sale'>
+                    <i class='fa fa-database mr-3'></i>
+                    Set Active Sale
+                </button>
+                <button class='btn btn-primary' data-toggle='modal' data-target='#modal-likuidasi-sale'>
+                    <i class='fa fa-calendar mr-3'></i>
+                    Set Likuidasi
+                </button>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col mb-3 font-barlow" >
+                <div class="card" style='height:100%'>
+                    <div class="card-title bg-dark">
+                        <div class="card-header">
+                            <h4 class='text-left text-white'>
+                                Seed Sale
+                            </h4>
+                        </div>
+                    </div>
+                        <!-- <h4 class="card-header">
+                            </h4> -->
+                    <div class="card-body bg-light">
+                        <div class="table-responsive">
+                            <table class='table table-hover table-striped'>
+                                <tr>
+                                    <th>
+                                        Periode
+                                    </th>
+                                    <th>
+                                        1 
+                                        <span class='ml-3' id='set-sale1'>
+                                            
+                                        </span>
+                                    </th>
+                                    <th>
+                                        2
+                                        <span class='ml-3' id='set-sale2'>
+                                            
+                                        </span>
+                                    </th>
+                                    <th>
+                                        3
+                                        <span class='ml-3' id='set-sale3'>
+                                            
+                                        </span>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Kuota (CREO)
+                                    </th>
+                                    <td id='ss-kuota-1'>
+                                        ---
+                                    </td>
+                                    <td id='ss-kuota-2'>
+                                        ---
+                                    </td>
+                                    <td id='ss-kuota-3'>
+                                        ---
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Harga (BUSD)
+                                    </th>
+                                    <td id='ss-harga-1'>
+                                        ---
+                                    </td>
+                                    <td id='ss-harga-2'>
+                                        ---
+                                    </td>
+                                    <td id='ss-harga-3'>
+                                        ---
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Mulai
+                                    </th>
+                                    <td id='ss-mulai-1'>
+                                        ---
+                                    </td>
+                                    <td id='ss-mulai-2'>
+                                        ---
+                                    </td>
+                                    <td id='ss-mulai-3'>
+                                        ---
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Selesai
+                                    </th>
+                                    <td id='ss-selesai-1'>
+                                        ---
+                                    </td>
+                                    <td id='ss-selesai-2'>
+                                        ---
+                                    </td>
+                                    <td id='ss-selesai-3'>
+                                        ---
+                                    </td>
+                                </tr>
+                                <!-- <tr>
+                                    <th>
+                                        Jumlah Transaksi
+                                    </th>
+                                    <td id='ss-pembeli-1'>
+                                        ---
+                                    </td>
+                                    <td id='ss-pembeli-2'>
+                                        ---
+                                    </td>
+                                    <td id='ss-pembeli-3'>
+                                        ---
+                                    </td>
+                                </tr> -->
+                                <tr>
+                                    <th>
+                                        TGE
+                                    </th>
+                                    <td id='ss-tge-1'>
+                                        ---
+                                    </td>
+                                    <td id='ss-tge-2'>
+                                        ---
+                                    </td>
+                                    <td id='ss-tge-3'>
+                                        ---
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Jeda Redeem
+                                    </th>
+                                    <td id='ss-jeda-1'>
+                                        ---
+                                    </td>
+                                    <td id='ss-jeda-2'>
+                                        ---
+                                    </td>
+                                    <td id='ss-jeda-3'>
+                                        ---
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Jumlah Pencairan
+                                    </th>
+                                    <td id='ss-kali-1'>
+                                        ---
+                                    </td>
+                                    <td id='ss-kali-2'>
+                                        ---
+                                    </td>
+                                    <td id='ss-kali-3'>
+                                        ---
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Terjual (CREO)
+                                    </th>
+                                    <td id='ss-terjual-1'>
+                                        ---
+                                    </td>
+                                    <td id='ss-terjual-2'>
+                                        ---
+                                    </td>
+                                    <td id='ss-terjual-3'>
+                                        ---
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Terkumpul (BUSD)
+                                    </th>
+                                    <td id='ss-terkumpul-1'>
+                                        ---
+                                    </td>
+                                    <td id='ss-terkumpul-2'>
+                                        ---
+                                    </td>
+                                    <td id='ss-terkumpul-3'>
+                                        ---
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Wallet Penampung
+                                    </th>
+                                    <td id='ss-beneficiary-1'>
+                                        ---
+                                    </td>
+                                    <td id='ss-beneficiary-2'>
+                                        ---
+                                    </td>
+                                    <td id='ss-beneficiary-3'>
+                                        ---
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Min Amount
+                                    </th>
+                                    <td id='ss-min-1'>
+                                        ---
+                                    </td>
+                                    <td id='ss-min-2'>
+                                        ---
+                                    </td>
+                                    <td id='ss-min-3'>
+                                        ---
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Max Amount
+                                    </th>
+                                    <td id='ss-max-1'>
+                                        ---
+                                    </td>
+                                    <td id='ss-max-2'>
+                                        ---
+                                    </td>
+                                    <td id='ss-max-3'>
+                                        ---
+                                    </td>
+                                </tr>
+                                
+                            </table>
+                        </div> 
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+</section>
+
+<section class='bg-dark pt-10'>
+    <div class="container">
+        <div class="row mb-3">
+            <div class="col mb-3 font-barlow" >
+                <div class="card"style='height:100%'>
+                    <div class="card-title bg-dark">
+                        <!-- <div class="card-header">
+                            <h4 class='text-left'>
+                                Seed Sale
+                                <span class='float-right'>
+                                        <button class='btn btn-success'>
+                                            <i class='fa fa-calendar'></i>
+                                            Set Likuidasi
+                                        </button>
+                                    </span>
+                            </h4>
+                        </div> -->
+                        <div class="card-header text-white">
+                            <h4 class='text-left'>
+                                Vesting (<span class='banyakvesting'></span>)
+                                <span class='float-right'>
+                                    <button class='btn btn-success' data-toggle='modal' data-target='#modal-vesting'>
+                                        <i class='fa fa-plus'></i>
+                                        Tambah Vesting
+                                    </button>
+                                </span>
+                            </h4>
+                        </div>
+                    </div>
+                    <!-- <div class="card-title">
+                    </div> -->
+                    <div class="card-body bg-light">
+                        <table class='table table-hovered table-striped'>
+                            <thead>
+
+                                <tr>
+                                    <th>
+                                        Detail
+                                    </th>
+                                    <th>
+                                        Amount
+                                    </th>
+                                    <th>
+                                        TGE Amount
+                                    </th>
+                                    <th>
+                                        Vesting Period
+                                    </th>
+                                    <th>
+                                        Periodic Amount
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody id='daftarvesting'>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="modal" id="modal-set-active-sale">
+    <div class="modal-dialog">
+        <div class="modal-content bg-dark font-barlow">
+        <div class="modal-header">
+            <h4 class="modal-title">
+                Set Active Sale
+            </h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="row mb-3">
+                <div class="col">
+                    <select class='form-control' id='opsi-active-sale'>
+                        <option value='1'>Periode 1</option>
+                        <option value='2'>Periode 2</option>
+                        <option value='3'>Periode 3</option>
+                        <option value='4'>IDO</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-footer">
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-success" onclick='setactivesale()' id='btn-set-active-sale'>
+                        <i class='fa fa-check mr-3'></i>
+                        Set
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+<div class="modal" id="modal-vesting">
+    <div class="modal-dialog">
+        <div class="modal-content bg-dark font-barlow">
+        <div class="modal-header">
+            <h4 class="modal-title">
+                Set Vesting
+            </h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="row mb-3">
+                <div class="col">
+                    <label>
+                        Keterangan
+                    </label>
+                    <input type='text' class='form-control' id='input-set-vesting-keterangan'>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label>
+                        Jumlah (CREO)
+                    </label>
+                    <input type='text' class='form-control' id='input-set-vesting-jumlah'>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label>
+                        Wallet Penerima
+                    </label>
+                    <input type='text' class='form-control' id='input-set-vesting-wallet'>
+                </div>
+            </div>
+            <!-- <div class="row mb-3">
+                <div class="col">
+                    <label>
+                        Likuidasi
+                    </label>
+                    <input type='text' class='form-control bg-light' id='input-set-vesting-likuidasi'>
+                </div>
+            </div> -->
+            <div class="row mb-3">
+                <div class="col">
+                    <label>
+                        Pencairan Awal
+                    </label>
+                    <div class="input-group mb-3">
+                        <input type="number" class="form-control" placeholder="Pencairan Awal" id='input-set-vesting-awal'>
+                        <div class="input-group-append">
+                            <span class="input-group-text">%</span>
+                        </div>
+                    </div>
+                    <!-- <input type='number' class='form-control bg-light' id='input-set-vesting-likuidasi'> -->
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label>
+                       Jeda Waktu Pencairan
+                    </label>
+                    <div class="input-group mb-3">
+                        <input type="number" class="form-control" placeholder="Jeda Waktu Pencairan" id='input-set-vesting-waktu'>
+                        <div class="input-group-append">
+                            <span class="input-group-text">Hari</span>
+                        </div>
+                    </div>
+                    <!-- <input type='number' class='form-control bg-light' id='input-set-vesting-likuidasi'> -->
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label>
+                       Berapa Kali Pencairan
+                    </label>
+                    <div class="input-group mb-3">
+                        <input type="number" class="form-control" placeholder="Berapa Kali Pencairan" id='input-set-vesting-kali'>
+                        <div class="input-group-append">
+                            <span class="input-group-text">Kali</span>
+                        </div>
+                    </div>
+                    <!-- <input type='number' class='form-control bg-light' id='input-set-vesting-likuidasi'> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-footer">
+            <div class="row">
+                <div class="col">
+                    <button type="button" id='btn-approve-creo-vesting' class="btn btn-primary btn-block" onclick="approveapp('creo-vesting')">
+                        <i class='fa fa-check mr-3'></i>
+                        Approve
+                    </button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-success" onclick='setvesting()' id='btn-set-vesting-program'>
+                        <i class='fa fa-check mr-3'></i>
+                        Set
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+<div class="modal" id="modal-tambahadm">
+    <div class="modal-dialog">
+        <div class="modal-content bg-dark font-barlow">
+
+        <div class="modal-header">
+            <p class="modal-title">
+                Masukan Wallet Admin / Governance
+            </p>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <div class="modal-body">
+            <div class="row">
+                <div class="col">
+                    <input type='text' class='form-control' id='input-set-governance'>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-footer">
+            <button type="button" class="btn btn-success" onclick='addgovernance()' id='btn-set-gov'>
+                <i class='fa fa-plus mr-3'></i>
+                Tambah
+            </button>
+        </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="modal-likuidasi-sale">
+    <div class="modal-dialog">
+        <div class="modal-content bg-dark font-barlow">
+
+        <div class="modal-header">
+            <p class="modal-title">
+                Masukan Tanggal Likuidasi Sale
+            </p>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <div class="modal-body">
+            <div class="row mb-3">
+                <div class="col p-3">
+                    <input type='text' class='form-control bg-light' id='input-set-likuidasi'>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-footer">
+            <button type="button" class="btn btn-success"  onclick='setlikuidasi()' id='btn-set-likuidasi'>
+                <i class='fa fa-check mr-3'></i>
+                Set Tanggal Likuidasi
+            </button>
+        </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="modal-setsale">
+    <div class="modal-dialog">
+        <div class="modal-content bg-dark font-barlow">
+        <div class="modal-header">
+            <p class="modal-title">
+                Seed Sale Periode <span class='set-periode'></span>
+            </p>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <div class="modal-body">
+           
+            <div class="row mb-3">
+                <div class="col">
+                    <label>
+                        Kuota (CREO)
+                    </label>
+                    <div class="input-group mb-3">
+                        <input type='number' class='form-control' placeholder="Kuota" id='input-set-kuota'>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label>
+                        Harga (BUSD)
+                    </label>
+                    <div class="input-group mb-3">
+                        <input type='number' class='form-control' placeholder="Harga" id='input-set-harga'>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label>
+                        Tanggal Mulai
+                    </label>
+                </div>
+                <div class="col-12">
+                    <input type='text' class='form-control bg-light' id='input-set-mulai'>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label>
+                        Tanggal Selesai
+                    </label>
+                </div>
+                <div class="col-12">
+                    <input type='text' class='form-control bg-light' id='input-set-selesai'>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label>
+                        Wallet Penerima
+                    </label>
+                     <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Wallet Penerima" id='input-set-beneficiary'>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label>
+                        Nilai TGE
+                    </label>
+                    <div class="input-group mb-3">
+                        <input type="number" class="form-control" placeholder="Pencairan Awal" id='input-set-awal'>
+                        <div class="input-group-append">
+                            <span class="input-group-text">%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label>
+                        Jeda Waktu Pencairan
+                    </label>
+                    <div class="input-group mb-3">
+                        <input type="number" class="form-control" placeholder="Jeda Waktu Pencairan" id='input-set-jeda'>
+                        <div class="input-group-append">
+                            <span class="input-group-text">Hari</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label>
+                        Berapa Kali Pencairan
+                    </label>
+                    <div class="input-group mb-3">
+                        <input type="number" class="form-control" placeholder="Berapa Kali Pencairan" id='input-set-kali'>
+                        <div class="input-group-append">
+                            <span class="input-group-text">Kali</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-footer">
+            <div class="row">
+                <div class="col" id="div-revoke">
+                    <button type="button" id='btn-approve-creo' class="btn btn-primary btn-block" onclick="approveapp('creo')">
+                        <i class='fa fa-check mr-3'></i>
+                        Approve
+                    </button>
+                </div>
+                <div class="col" id='div-sale'>
+                    <button type="button" id='btn-set-sale-program' class="btn btn-success btn-block" onclick="setsaleprogram()">
+                        <i class='fa fa-save mr-3'></i>
+                        Set Sale <span class='set-periode'></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+<div class="modal" id="modal-setminmax">
+    <div class="modal-dialog">
+        <div class="modal-content bg-dark font-barlow">
+        <div class="modal-header">
+            <p class="modal-title">
+                Set Min Max Periode <span class='set-periode'></span>
+            </p>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <div class="modal-body">
+            <div class="row mb-3">
+                <div class="col">
+                    <label>
+                        Minimum Purchase (CREO)
+                    </label>
+                    <div class="input-group mb-3">
+                        <input type='number' class='form-control' placeholder="Min" id='input-set-min'>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label>
+                        Maximum Purchase (CREO)
+                    </label>
+                    <div class="input-group mb-3">
+                        <input type='number' class='form-control' placeholder="Max" id='input-set-max'>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-footer">
+            <div class="row">
+                <div class="col" id='div-sale'>
+                    <button type="button" id='btn-set-minmax-program' class="btn btn-success btn-block" onclick="setminmaxprogram()">
+                        <i class='fa fa-save mr-3'></i>
+                        Set Min Max Periode <span class='set-periode'></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+
+
+<%- include ('partials/footer_app') %>
+<script> 
+    function slide(el,dir){
+        // console.log("el : "+el);
+        // console.log("el : "+dir);
+
+        var l=$("."+el).scrollLeft();
+        // var r=$("."+el).scrollRight();
+
+        // var leftPos = $('.innerWrapper').scrollLeft();
+        if(dir=='right'){
+            $("."+el).animate({scrollLeft: l + 200}, 300);
+        }else{
+            $("."+el).animate({scrollLeft: l - 200}, 300);
+        }
+        // $("."+el).scrollLeft(100);
+
+        // console.log("l : "+l);
+        // console.log("r : "+r);
+        
+    }
+    // $(function(){
+    //     $().timelinr({
+    //         // autoPlay: 'true',
+    //         // autoPlayDirection: 'forward',
+    //         startAt: 1,
+    //         // orientation:'vertical'
+    //     })
+    // });
+    // $('#recipeCarousel').carousel({
+    // interval: 10000
+    // })
+
+    // $('.carousel .carousel-item').each(function(){
+    //     var minPerSlide = 3;
+    //     var next = $(this).next();
+    //     if (!next.length) {
+    //     next = $(this).siblings(':first');
+    //     }
+    //     next.children(':first-child').clone().appendTo($(this));
+        
+    //     for (var i=0;i<minPerSlide;i++) {
+    //         next=next.next();
+    //         if (!next.length) {
+    //             next = $(this).siblings(':first');
+    //         }
+            
+    //         next.children(':first-child').clone().appendTo($(this));
+    //     }
+    // });
+
+</script> 
+
+
+
+ </body>
+</html>

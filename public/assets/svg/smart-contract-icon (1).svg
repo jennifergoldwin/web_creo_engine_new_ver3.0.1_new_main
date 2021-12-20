@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="253" height="300" viewBox="0 0 253 300">
+  <defs>
+    <pattern id="pattern" width="1" height="1" viewBox="0 0 158 211">
+      <image preserveAspectRatio="xMidYMid slice" width="158" height="211.887" xlink:href="Group%201115-image.png"/>
+    </pattern>
+    <pattern id="pattern-2" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 490 423">
+      <image width="490" height="423" xlink:href="Group%201115-image2.png"/>
+    </pattern>
+  </defs>
+  <g id="Group_1115" data-name="Group 1115" transform="translate(-1262 -856)">
+    <rect id="PADKEY2_3x" data-name="PADKEY2@3x" width="158" height="211" transform="translate(1357 856)" fill="url(#pattern)"/>
+    <rect id="PADKEY_3x" data-name="PADKEY@3x" width="253" height="218" transform="translate(1262 938)" fill="url(#pattern-2)"/>
+  </g>
+</svg>
