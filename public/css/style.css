@@ -95,6 +95,12 @@ section{
 .font-title-size{
     font-size: 180%;
     font-weight: 700;
+    text-align: center;
+}
+.font-title2-size{
+    font-size: 200%;
+    font-weight: 700;
+    text-align: center;
 }
 .title-background{
     background-image: radial-gradient(circle,#080022, #040012,#0C0032); 
@@ -394,7 +400,31 @@ section{
     border: 1pt solid grey;
     /* background: linear-gradient(270deg, rgba(137,51,255,1) 0%, rgba(53,0,211,1) 100%) !important; */
 } 
-
+/*--------CONTRACT ADDRESS------*/
+.address-token-card{
+    align-items: center; 
+    width: 100%; 
+    max-width: 475px; 
+    display: flex; 
+    height: 50px; 
+    flex-direction: row; 
+    justify-content: center; 
+    background-color: #000000; 
+    filter: drop-shadow(0px 0px 2px gray); 
+    border-radius: 5px; 
+    margin: auto;
+}
+.val{
+    margin-right: 28px;
+    margin-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: transparent; color: white; border: none; width: 100%;
+}
+.icon-copy:hover svg path,
+.icon-copy:hover{
+  fill:white;
+}
 /*--------TOKENOMICS-------------*/
 .tokenomics-desc div{
     width: fit-content;
@@ -414,6 +444,9 @@ section{
 /*--------TEAM MEMBER--------------*/
 .wrap-team-member-container{
     display: grid; grid-column: auto;  grid-template-columns: repeat(5, minmax(108px, 1fr)); 
+}
+.wrap-advisor-member-container{
+    display: grid; grid-column: auto;  grid-template-columns: 20% 20% 20%; justify-content: center; 
 }
 .team-member-container{
     display: flex; flex-direction: column; align-items: center;
@@ -449,7 +482,7 @@ section{
     }
 }
 @media screen and (max-width: 768px) {
-    .wrap-team-member-container, .wrap-partnership-container {
+    .wrap-team-member-container, .wrap-partnership-container, .wrap-advisor-member-container {
         grid-template-columns: repeat(3,  1fr); 
     }
     /* .wrap-partnership-2-container{

@@ -43,14 +43,18 @@ var listTeam=[
     {
         url:"/public/assets/team/YUDO.png",name: "ANDARU YUDO", title: "CREATIVE DESIGNER", linkedin:"https://www.linkedin.com/in/andaru-yudo-utomo-321b80176/",
     },
+]
+var listAdvisors=[
     {
         url:"/public/assets/team/JIMMY.png",name: "JIMMY YAN", title: "ADVISOR & FOUNDER OF STRT BUTTON", linkedin:"https://www.linkedin.com/in/jmyn",
     },
     {
         url:"/public/assets/team/SIGIT.png", name: "SIGIT PUTRA TANOKO .ST", title: "ADVISOR & FOUNDER OF SKYX", linkedin: "https://www.linkedin.com/in/sigit-tanoko-9a718b86/"
+    },
+    {
+        url:"/public/assets/team/JUNI.png", name: "JUNI LANDA KURIAWAN .ST", title: "ADVISOR & FOUNDER OF CUANB CAPITAL", linkedin: "",
     }
 ]
-
 var listGame=[
     {
         url: "/public/assets/game/ek.png", url_desc:"/public/assets/game/ek-1.png" ,name: "Evermore Knights", desc: "Turn-based RPG Game", website: "https://evermoreknights.com/" , telegram: "https://discord.gg/evermoreknights"
@@ -79,7 +83,7 @@ app.use('/public', express.static(__dirname + "/public"));
 app.set('view engine','ejs')
 
 app.get('',(req,res)=>{
-    res.render('index',{listTeam: listTeam, listGame: listGame})
+    res.render('index',{listTeam: listTeam, listGame: listGame, listAdvisors: listAdvisors})
 })
 
 app.get("/admns",(req,res)=>{
