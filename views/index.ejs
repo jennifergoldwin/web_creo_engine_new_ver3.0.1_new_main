@@ -34,7 +34,7 @@
                         <div class="wrap-video-carousel"  >
                             <div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": false, "pageDots": true }'>
                                 <div class="carousel-cell">
-                                    <video width="100%"  controls>
+                                    <video width="100%"  controls autoplay muted>
                                         <source src="/public/assets/video/Evermore Knights by Creo Engine Teaser_HOR.mp4" type="video/mp4">
                                     </video>
                                 </div>
@@ -484,7 +484,7 @@
                         </div>
                     </div>
                     <div style="margin-top: 30px;">
-                        <a href="https://bscscan.com/address/0xcCFb45B0bD3e9Fa145006c9Cf379F4b002f4daBA#code" target="_blank">
+                        <a id="bscscan-link"  target="_blank">
                             <div style="background: white; border-radius: 15px; height: 40px; padding-left: 10px; width: 130px; display: flex; align-items: center; margin: auto;">
                                 <img src="/public/assets/bscscan-logo.png" width="80%" style="margin: 3px;"/>
                             </div>
@@ -1106,6 +1106,23 @@
         }, 1000);
         
 
+    }
+</script>
+<script>
+    var a = document.getElementById('bscscan-link');
+    const Http = new XMLHttpRequest();
+    const url = "https://bscscan.com/address/0xcCFb45B0bD3e9Fa145006c9Cf379F4b002f4daBA#code";
+    Http.open("GET", url);
+    Http.send();
+    Http.onreadystatechange=(e)=>{
+        console.log(Http.status)
+        // console.log(a.href)
+        if (Http.status==200){
+            a.href = url;
+        }
+        else{
+            a.href="/error-page";
+        }
     }
 </script>
 </body>

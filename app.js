@@ -73,19 +73,17 @@ var listGame=[
 
 // Static Files
 app.use('/public', express.static(__dirname + "/public"));
-// app.use(express.static('public'))
-// app.use('/css',express.static(__dirname + 'public/css'))
-// app.use('/js',express.static(__dirname + 'public/js'))
-// app.use('/img',express.static(__dirname + 'public/img'))
 
 // Set Views
-// app.set('views','./views')
+
 app.set('view engine','ejs')
 
 app.get('',(req,res)=>{
     res.render('index',{listTeam: listTeam, listGame: listGame, listAdvisors: listAdvisors})
 })
-
+app.get('/error-page',(req,res)=>{
+    res.render('error-page')
+})
 app.get("/admns",(req,res)=>{
     res.render('admns')
 });
