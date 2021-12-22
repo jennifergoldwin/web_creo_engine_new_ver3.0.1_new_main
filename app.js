@@ -52,7 +52,7 @@ var listAdvisors=[
         url:"/public/assets/team/SIGIT.png", name: "SIGIT PUTRA TANOKO .ST", title: "ADVISOR & FOUNDER OF SKYX", linkedin: "https://www.linkedin.com/in/sigit-tanoko-9a718b86/"
     },
     {
-        url:"/public/assets/team/JUNI.png", name: "JUNI LANDA KURIAWAN .ST", title: "ADVISOR & FOUNDER OF CUANB CAPITAL", linkedin: "",
+        url:"/public/assets/team/JUNI.png", name: "JUNI LANDA KURIAWAN .ST", title: "ADVISOR & FOUNDER OF CUANB CAPITAL", linkedin: "https://www.linkedin.com/in/juni-landa-kurniawan-087ab8228",
     }
 ]
 var listGame=[

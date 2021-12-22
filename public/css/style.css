@@ -440,6 +440,9 @@ section{
 .wrap-partnership-2-container{
     display: grid; grid-column: auto; grid-template-columns: repeat(5, minmax(120px, 1fr))
 }
+.wrap-partnership-3-container{
+    display: grid; grid-column: auto; grid-template-columns: repeat(1, minmax(120px, 1fr))
+}
 
 /*--------TEAM MEMBER--------------*/
 .wrap-team-member-container{
@@ -482,16 +485,10 @@ section{
     }
 }
 @media screen and (max-width: 768px) {
-    .wrap-team-member-container, .wrap-partnership-container, .wrap-advisor-member-container {
+    .wrap-team-member-container, .wrap-partnership-container,.wrap-partnership-2-container, .wrap-advisor-member-container {
         grid-template-columns: repeat(3,  1fr); 
     }
-    /* .wrap-partnership-2-container{
-        grid-template-columns: repeat(2,  minmax(1fr)) !important; 
-    } */
-    .wrap-partnership-2-container{
-        grid-template-columns: repeat(2, 1fr);
-       
-    }
+
     .wrap-list-game-container{
         grid-template-columns: repeat(1, 1fr);
     }
