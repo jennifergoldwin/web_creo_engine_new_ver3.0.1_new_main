@@ -42,24 +42,6 @@
     transform-origin: left;
 }
 
-.chartCard {
-    width: inherit;
-    height: 100vh;
-    /* background: rgba(255, 26, 104, 0.2); */
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .chartBox {
-    width: 100%;
-    height: 80vh;
-    /* height: 90%; */
-    /* padding: 20px; */
-    /* border-radius: 20px; */
-    /* border: solid 3px rgba(255, 26, 104, 1); */
-    /* background: white; */
-  }
 
 body{   
     margin:0;
@@ -282,7 +264,7 @@ section{
 
 /*----------------WALLET----------------------*/
 .bg-wallet{
-    height: 20vh; display: flex; justify-content: center; align-items: center;
+    min-height: 20vh; display: flex; justify-content: center; align-items: center;
 }
 .wrap-wallet-container{
     display: flex;
@@ -338,14 +320,14 @@ section{
 /*-----MEDIA PARTNER-----*/
 .wrap-media-partner-container{
    
-    height: 30vh;
+    min-height: 30vh;
     display: flex;
     justify-content: center; 
     align-items: center;
 }
 .wrap-media-list{
-    display: flex;
-    flex-direction: row;
+    display: grid; grid-column: auto; grid-template-columns: repeat(4, minmax(104px, 1fr));
+    justify-items: center;
 }
 /*-------------------------TOKEN SALE--------------*/
 .wrap-seed-sale-container{
@@ -488,7 +470,9 @@ section{
     .wrap-team-member-container, .wrap-partnership-container,.wrap-partnership-2-container, .wrap-advisor-member-container {
         grid-template-columns: repeat(3,  1fr); 
     }
-
+    .wrap-media-list{
+        grid-template-columns: repeat(2, 1fr);
+    }
     .wrap-list-game-container{
         grid-template-columns: repeat(1, 1fr);
     }
