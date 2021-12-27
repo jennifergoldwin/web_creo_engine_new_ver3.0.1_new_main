@@ -441,7 +441,7 @@ section{
     display: grid; grid-column: auto; grid-template-columns: repeat(5, minmax(120px, 1fr))
 }
 .wrap-partnership-3-container{
-    display: grid; grid-column: auto; grid-template-columns: repeat(1, minmax(120px, 1fr))
+    display: grid; grid-column: auto; grid-template-columns: repeat(2, minmax(120px, 1fr))
 }
 
 /*--------TEAM MEMBER--------------*/

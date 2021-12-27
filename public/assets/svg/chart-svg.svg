@@ -254,9 +254,9 @@ monthly liquid" transform="translate(0 9)" fill="#fff" font-size="9" font-family
       <g id="Initial_Circulating_Supply_at_TGE:_4.60_from_1M_Total_Supply" data-name="Initial Circulating Supply at TGE: 4.60 from 1M Total Supply" style="isolation: isolate">
         <text id="Initial_Circulating_Supply_at_TGE:" data-name="Initial Circulating Supply at TGE:" transform="translate(0 13)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">Initial Circulating Supply at TGE:</tspan></text>
         <text id="Initial_Market_Capital_435_000" data-name="Initial Market Capital $435,000" transform="translate(0 58.335)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">Initial Market Capital $435,000</tspan></text>
-        <text id="_0.87_from_" data-name="0.87% from " transform="translate(0 32.209)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">0.87% from </tspan></text>
-        <text id="_1M" data-name="1M" transform="translate(92.79 32.209)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">1M</tspan></text>
-        <text id="_Total_Supply" data-name=" Total Supply" transform="translate(112.567 32.209)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0" xml:space="preserve"> Total Supply</tspan></text>
+        <text id="_0.87_from_" data-name="0.87% from " transform="translate(0 32.209)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">0.87% from 1B</tspan></text>
+        <!-- <text id="_1M" data-name="1M" transform="translate(92.79 32.209)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">1B</tspan></text> -->
+        <text id="_Total_Supply" data-name=" Total Supply" transform="translate(99.567 32.209)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0" xml:space="preserve"> Total Supply</tspan></text>
       </g>
     </g>
     <g id="Group_3" data-name="Group 3" transform="translate(398.483 234.042)">
