@@ -53,6 +53,12 @@ var listAdvisors=[
     },
     {
         url:"/public/assets/team/JUNI.png", name: "JUNI LANDA KURIAWAN .ST", title: "ADVISOR & FOUNDER OF CUANB CAPITAL", linkedin: "https://www.linkedin.com/in/juni-landa-kurniawan-087ab8228",
+    },
+    {
+        url:"/public/assets/team/ROBY.png", name: "ROBY JEO", title:"ADVISOR & FOUNDER OF KOMMUNITAS", linkedin: "https://www.linkedin.com/in/robby678/",
+    },
+    {
+        url:"/public/assets/team/GAGA.png", name: "CRYPTO LADY GAGA", title:"ADVISOR", linkedin: "",
     }
 ]
 var listGame=[
