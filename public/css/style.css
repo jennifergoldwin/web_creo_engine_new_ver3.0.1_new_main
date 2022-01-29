@@ -25,8 +25,6 @@
 [data-inviewport="fadeIn"]{
     opacity: 0.4;
     transition: 1s;
-   
-
 }
 [data-inviewport="fadeIn"].is-inViewport{
     opacity: 1;

@@ -1,0 +1,311 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="989.583" height="712.68" viewBox="0 0 989.583 712.68">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0c0032"/>
+      <stop offset="0.384" stop-color="#110045"/>
+      <stop offset="1" stop-color="#190061"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.813" stop-color="#5d5bf0"/>
+      <stop offset="1" stop-color="#6853f1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.729" y1="-0.018" x2="0.191" y2="0.783" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.648" stop-color="#4752ef"/>
+      <stop offset="1" stop-color="#5237f1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.813" stop-color="#4199ed"/>
+      <stop offset="1" stop-color="#44a4ee"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="-0.517" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5581f1"/>
+      <stop offset="0.167" stop-color="#4777f3"/>
+      <stop offset="0.715" stop-color="#205df9"/>
+      <stop offset="1" stop-color="#1153fc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="-0.517" y1="0.5" x2="2.37" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#facd68"/>
+      <stop offset="1" stop-color="#fc76b3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="1.048" y1="-0.023" x2="0.108" y2="0.92" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.466" stop-color="#5d78ed"/>
+      <stop offset="1" stop-color="#a37cef"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="-0.517" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-9" x1="-0.517" y1="0.5" x2="1.282" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00f7a7"/>
+      <stop offset="1" stop-color="#04f5ed"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-10" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.713" stop-color="#4899ed"/>
+      <stop offset="1" stop-color="#50adee"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-11" x1="-0.516" x2="1" xlink:href="#linear-gradient-9"/>
+    <linearGradient id="linear-gradient-12" x1="-0.516" y1="0.5" x2="1.358" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1de5e2"/>
+      <stop offset="1" stop-color="#b588f7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-13" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.627" stop-color="#4f52ef"/>
+      <stop offset="1" stop-color="#6334f1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-14" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#00b3ea"/>
+      <stop offset="0.687" stop-color="#008fed"/>
+      <stop offset="1" stop-color="#0079f0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-15" x1="-0.519" y1="0.5" x2="1.078" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffe324"/>
+      <stop offset="1" stop-color="#ffb533"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-16" x1="-0.519" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fa6768"/>
+      <stop offset="1" stop-color="#fc76b3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-17" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#5b62ed"/>
+      <stop offset="0.486" stop-color="#3a85ec"/>
+      <stop offset="1" stop-color="#00c4ec"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-18" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.506" stop-color="#5d67ee"/>
+      <stop offset="1" stop-color="#9650f0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-19" y1="0.5" x2="3.887" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2a8968"/>
+      <stop offset="1" stop-color="#08c75d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-20" x1="-3.01" y1="0.5" x2="1.525" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5581f1"/>
+      <stop offset="1" stop-color="#1153fc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-21" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.776" stop-color="#4b99ed"/>
+      <stop offset="1" stop-color="#53a7ee"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-23" y1="0.5" x2="1.525" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffcb52"/>
+      <stop offset="1" stop-color="#ff7b02"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-24" x1="-0.177" y1="0.5" x2="1.525" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.227" stop-color="#c165dd"/>
+      <stop offset="1" stop-color="#5c27fe"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-26" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-7"/>
+  </defs>
+  <g id="Group_13" data-name="Group 13" transform="translate(-79 -152.922)">
+    <g id="Group_1" data-name="Group 1" transform="translate(79 152.922)">
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="267.538" height="90.571" rx="7.038" transform="translate(123.253)" fill="url(#linear-gradient)" style="mix-blend-mode: screen;isolation: isolate"/>
+      <g id="Group_1010" data-name="Group 1010" transform="translate(614.127 146.204)">
+        <g id="Group_1000" data-name="Group 1000" transform="translate(0 0)">
+          <g id="_3_SEED" data-name=" 3 SEED" transform="translate(26.742)" style="isolation: isolate">
+            <text id="_3_SEED-2" data-name="3% SEED" transform="translate(0 18)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">3% SEED</tspan></text>
+          </g>
+          <circle id="Ellipse_8" data-name="Ellipse 8" cx="7.488" cy="7.488" r="7.488" transform="translate(0 5.875)" fill="#fff"/>
+        </g>
+        <g id="TGE_10_9_mths_Vesting_Period_monthly_liquid" data-name="TGE 10 9 mths Vesting Period monthly liquid" transform="translate(26.742 26.821)" style="isolation: isolate">
+          <text id="TGE_5_9_mnths_Vesting_Period_monthly_liquid" data-name="TGE 5%, 9 mnths Vesting Period, monthly liquid" transform="translate(0 9)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">TGE 5%, 9 mnths Vesting Period, monthly liquid</tspan></text>
+        </g>
+      </g>
+      <g id="Group_1224" data-name="Group 1224" transform="translate(709.913 195.166)">
+        <g id="Group_1000-2" data-name="Group 1000-2">
+          <g id="_7_PRIVATE_ROUND" data-name=" 7 PRIVATE ROUND" transform="translate(26.742)" style="isolation: isolate">
+            <text id="_5_PRIVATE_ROUND" data-name="5% PRIVATE ROUND" transform="translate(0 18)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">5% PRIVATE ROUND</tspan></text>
+          </g>
+          <circle id="Ellipse_8-2" data-name="Ellipse 8-2" cx="7.488" cy="7.488" r="7.488" transform="translate(0 5.875)" fill="#fff"/>
+        </g>
+        <g id="TGE_10_9_mths_Vesting_Period_monthly_liquid-2" data-name="TGE 10 9 mths Vesting Period monthly liquid-2" transform="translate(26.742 26.821)" style="isolation: isolate">
+          <text id="TGE_7_9_mnths_Vesting_Period_monthly_liquid" data-name="TGE 7%, 9 mnths Vesting Period, monthly liquid" transform="translate(0 9)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">TGE 7%, 9 mnths Vesting Period, monthly liquid</tspan></text>
+        </g>
+      </g>
+      <g id="Group_1011" data-name="Group 1011" transform="translate(755.375 248.013)">
+        <g id="Group_1001" data-name="Group 1001">
+          <g id="_2_IDO_SALE" data-name=" 2 IDO SALE" transform="translate(26.743)" style="isolation: isolate">
+            <text id="_3_IDO_SALE" data-name="3% IDO SALE" transform="translate(0 18)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">3% IDO SALE</tspan></text>
+          </g>
+          <circle id="Ellipse_8-3" data-name="Ellipse 8-3" cx="7.488" cy="7.488" r="7.488" transform="translate(0 4.805)" fill="#fff"/>
+        </g>
+        <g id="TGE_20_6_mths_Vesting_Period_monthly_liquid" data-name="TGE 20 6 mths Vesting Period monthly liquid" transform="translate(26.743 26.821)" style="isolation: isolate">
+          <text id="TGE_10_6_mnths_Vesting_Period_" data-name="TGE 10%, 6 mnths Vesting Period, " transform="translate(0 9)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">TGE 10%, 6 mnths Vesting Period, </tspan></text>
+          <text id="monthly_liquid" data-name="monthly liquid" transform="translate(0 21.838)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">monthly liquid</tspan></text>
+        </g>
+      </g>
+      <g id="Group_1012" data-name="Group 1012" transform="translate(800.42 337.972)">
+        <g id="Group_1002" data-name="Group 1002">
+          <g id="_10_TEAM" data-name=" 10 TEAM" transform="translate(26.742)" style="isolation: isolate">
+            <text id="_10_TEAM-2" data-name="10% TEAM" transform="translate(0 18)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">10% TEAM</tspan></text>
+          </g>
+          <circle id="Ellipse_8-4" data-name="Ellipse 8-4" cx="7.488" cy="7.488" r="7.488" transform="translate(0 5.873)" fill="#fff"/>
+        </g>
+        <g id="_9_mnths_cliff_24_mths_Vesting_Period_monthly_liquid" data-name=" 9 mnths cliff 24 mths Vesting Period monthly liquid" transform="translate(26.742 25.751)" style="isolation: isolate">
+          <text id="_9_mnth_cliff_24_mnths_Vesting_" data-name="9 mnth cliff, 24 mnths Vesting " transform="translate(0 9)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">9 mnth cliff, 24 mnths Vesting </tspan></text>
+          <text id="Period_monthly_liquid" data-name="Period, monthly liquid" transform="translate(0 21.836)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">Period, monthly liquid</tspan></text>
+        </g>
+      </g>
+      <g id="Group_1013" data-name="Group 1013" transform="translate(793.837 441.614)">
+        <g id="Group_1003" data-name="Group 1003">
+          <g id="_5_ADVISOR" data-name=" 5 ADVISOR" transform="translate(26.742)" style="isolation: isolate">
+            <text id="_5_ADVISOR-2" data-name="5% ADVISOR" transform="translate(0 18)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">5% ADVISOR</tspan></text>
+          </g>
+          <circle id="Ellipse_8-5" data-name="Ellipse 8-5" cx="7.488" cy="7.488" r="7.488" transform="translate(0 5.875)" fill="#fff"/>
+        </g>
+        <g id="_12_mths_Vesting_Period_quarterly_liquid" data-name=" 12 mths Vesting Period quarterly liquid" transform="translate(26.742 26.822)" style="isolation: isolate">
+          <text id="_12_mnths_Vesting_Period_" data-name="12 mnths Vesting Period, " transform="translate(0 9)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">12 mnths Vesting Period, </tspan></text>
+          <text id="quarterly_liquid" data-name="quarterly liquid" transform="translate(0 21.836)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">quarterly liquid</tspan></text>
+        </g>
+      </g>
+      <g id="Group_1223" data-name="Group 1223" transform="translate(747.84 564.165)">
+        <g id="Group_1003-2" data-name="Group 1003-2">
+          <g id="_11_GAME_DEVELOPMENT" data-name=" 11 GAME DEVELOPMENT" transform="translate(26.743)" style="isolation: isolate">
+            <text id="_14_GAME_DEVELOPMENT" data-name="14% GAME DEVELOPMENT" transform="translate(0 18)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">14% GAME DEVELOPMENT</tspan></text>
+          </g>
+          <circle id="Ellipse_8-6" data-name="Ellipse 8-6" cx="7.488" cy="7.488" r="7.488" transform="translate(0 5.876)" fill="#fff"/>
+        </g>
+        <g id="TGE_5_12_mths_Vesting_Period_monthly_liquid" data-name="TGE 5 12 mths Vesting Period monthly liquid" transform="translate(26.743 26.822)" style="isolation: isolate">
+          <text id="_14_days_cliff_4_First_Liquid_24_mnths_Vesting_Period_monthly_liquid" data-name="14 days cliff, 4% First Liquid, 24 mnths
+Vesting Period, monthly liquid" transform="translate(0 9)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">14 days cliff, 4% First Liquid, 24 mnths</tspan><tspan x="0" y="11">Vesting Period, monthly liquid</tspan></text>
+        </g>
+      </g>
+      <g id="Group_1014" data-name="Group 1014" transform="translate(547.838 661.021)">
+        <g id="Group_1004" data-name="Group 1004">
+          <g id="_10_STAKING_REWARD" data-name=" 10 STAKING REWARD" transform="translate(26.743)" style="isolation: isolate">
+            <text id="_10_STAKING_REWARD-2" data-name="10% STAKING REWARD" transform="translate(0 18)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">10% STAKING REWARD</tspan></text>
+          </g>
+          <ellipse id="Ellipse_8-7" data-name="Ellipse 8-7" cx="7.488" cy="6.953" rx="7.488" ry="6.953" transform="translate(0 6.945)" fill="#fff"/>
+        </g>
+        <g id="_36_mths_Vesting_Period_monthly_liquid_" data-name=" 36 mths Vesting Period monthly liquid " transform="translate(26.743 26.822)" style="isolation: isolate">
+          <text id="_36_mnths_Vesting_Period_monthly_" data-name="36 mnths Vesting Period, monthly " transform="translate(0 9)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">36 mnths Vesting Period, monthly </tspan></text>
+          <text id="liquid" transform="translate(0 21.836)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">liquid</tspan></text>
+        </g>
+      </g>
+      <g id="Group_1015" data-name="Group 1015" transform="translate(190.141 634.666)">
+        <g id="Group_1005" data-name="Group 1005">
+          <g id="_9_ECOSYSTEM_FUND" data-name=" 9 ECOSYSTEM FUND" transform="translate(27.812)" style="isolation: isolate">
+            <text id="_9_ECOSYSTEM_FUND-2" data-name="9% ECOSYSTEM FUND" transform="translate(0 18)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">9% ECOSYSTEM FUND</tspan></text>
+          </g>
+          <ellipse id="Ellipse_8-8" data-name="Ellipse 8-8" cx="8.023" cy="7.488" rx="8.023" ry="7.488" transform="translate(0 4.804)" fill="#fff"/>
+        </g>
+        <g id="_24_mths_Vesting_Period_monthly_liquid" data-name=" 24 mths Vesting Period monthly liquid" transform="translate(27.812 26.819)" style="isolation: isolate">
+          <text id="_24_mnths_Vesting_Period_monthly_" data-name="24 mnths Vesting Period, monthly " transform="translate(0 9)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">24 mnths Vesting Period, monthly </tspan></text>
+          <text id="liquid-2" data-name="liquid" transform="translate(0 21.836)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">liquid</tspan></text>
+        </g>
+      </g>
+      <g id="Group_1016" data-name="Group 1016" transform="translate(45.14 542.379)">
+        <g id="Group_1006" data-name="Group 1006">
+          <g id="_5_AFFILIATE_MARKETING" data-name=" 5 AFFILIATE MARKETING" transform="translate(27.813)" style="isolation: isolate">
+            <text id="_5_AFFILIATE_MARKETING-2" data-name="5% AFFILIATE &amp; MARKETING" transform="translate(0 18)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">5% AFFILIATE &amp; MARKETING</tspan></text>
+          </g>
+          <circle id="Ellipse_8-9" data-name="Ellipse 8-9" cx="8.023" cy="8.023" r="8.023" transform="translate(0 5.875)" fill="#fff"/>
+        </g>
+        <g id="_12_mths_Vesting_Period_monthly_liquid_" data-name=" 12 mths Vesting Period monthly liquid " transform="translate(27.813 26.821)" style="isolation: isolate">
+          <text id="_12_mnths_Vesting_Period_monthly_liquid" data-name="12 mnths Vesting Period monthly liquid" transform="translate(0 9)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">12 mnths Vesting Period monthly liquid</tspan></text>
+        </g>
+      </g>
+      <g id="Group_1017" data-name="Group 1017" transform="translate(0 354.617)">
+        <g id="Group_1007" data-name="Group 1007">
+          <g id="_20_PLAY_TO_EARN_REWARD" data-name=" 20 PLAY TO EARN REWARD" transform="translate(27.813)" style="isolation: isolate">
+            <text id="_20_PLAY_TO_EARN_REWARD-2" data-name="20% PLAY TO EARN REWARD" transform="translate(0 18)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">20% PLAY TO EARN REWARD</tspan></text>
+          </g>
+          <ellipse id="Ellipse_8-10" data-name="Ellipse 8-10" cx="8.023" cy="7.488" rx="8.023" ry="7.488" transform="translate(0 4.804)" fill="#fff"/>
+        </g>
+        <g id="TGE_2_36_mths_Vesting_Period_monthly_liquid_" data-name="TGE 2 36 mths Vesting Period monthly liquid " transform="translate(27.813 26.819)" style="isolation: isolate">
+          <text id="_14_days_cliff_2_First_Liquid_36_mnths_Vesting_Period_monthly_liquid" data-name="14 days cliff, 2% First Liquid, 36 mnths Vesting Period,
+monthly liquid" transform="translate(0 9)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">14 days cliff, 2% First Liquid, 36 mnths Vesting Period,</tspan><tspan x="0" y="11">monthly liquid</tspan></text>
+        </g>
+      </g>
+      <g id="Group_1009" data-name="Group 1009" transform="translate(550.597 86.057)">
+        <g id="Group_999" data-name="Group 999">
+          <g id="_3_PARTNERSHIP" data-name=" 3 PARTNERSHIP" transform="translate(26.743)" style="isolation: isolate">
+            <text id="_3_PARTNERSHIP-2" data-name="3% PARTNERSHIP" transform="translate(0 18)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">3% PARTNERSHIP</tspan></text>
+          </g>
+          <circle id="Ellipse_8-11" data-name="Ellipse 8-11" cx="7.488" cy="7.488" r="7.488" transform="translate(0 5.875)" fill="#fff"/>
+        </g>
+        <g id="_12_mths_Vesting_Period_monthly_liquid_2" data-name=" 12 mths Vesting Period monthly liquid 2" transform="translate(26.743 26.821)" style="isolation: isolate">
+          <text id="_12_mnths_Vesting_Period_monthly_liquid-2" data-name="12 mnths Vesting Period, monthly liquid" transform="translate(0 9)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">12 mnths Vesting Period, monthly liquid</tspan></text>
+        </g>
+      </g>
+      <g id="Group_1009-2" data-name="Group 1009" transform="translate(261.987 121.54)">
+        <g id="Group_999-2" data-name="Group 999">
+          <g id="_3_PARTNERSHIP-3" data-name=" 3 PARTNERSHIP" transform="translate(26.743)" style="isolation: isolate">
+            <text id="_3_RESERVES_INCENTIVES" data-name="3% RESERVES &amp; INCENTIVES" transform="translate(0 18)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">3% RESERVES &amp; INCENTIVES</tspan></text>
+          </g>
+          <circle id="Ellipse_8-11-2" data-name="Ellipse 8-11" cx="7.488" cy="7.488" r="7.488" transform="translate(0 5.875)" fill="#fff"/>
+        </g>
+        <g id="_12_mths_Vesting_Period_monthly_liquid_2-2" data-name=" 12 mths Vesting Period monthly liquid 2" transform="translate(26.743 26.821)" style="isolation: isolate">
+          <text id="TGE_100_" data-name="TGE 100%" transform="translate(0 9)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">TGE 100%</tspan></text>
+        </g>
+      </g>
+      <g id="Group_1018" data-name="Group 1018" transform="translate(104.949 182.999)">
+        <g id="Group_1008" data-name="Group 1008">
+          <g id="_15_LIQUIDITY_INCENTIVES" data-name=" 15 LIQUIDITY INCENTIVES" transform="translate(27.813)" style="isolation: isolate">
+            <text id="_10_LIQUIDITY_" data-name="10% LIQUIDITY " transform="translate(0 18)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">10% LIQUIDITY </tspan></text>
+          </g>
+          <ellipse id="Ellipse_8-12" data-name="Ellipse 8-12" cx="8.023" cy="7.488" rx="8.023" ry="7.488" transform="translate(0 5.875)" fill="#fff"/>
+        </g>
+        <g id="TGE_15_12_mth_Vesting_Period_monthly_liquid" data-name="TGE 15 12 mth Vesting Period monthly liquid" transform="translate(27.813 26.821)" style="isolation: isolate">
+          <text id="TGE_10_12_mnths_Vesting_Period_monthly_liquid_Liquidity_will_be_lock_in_smart_contract" data-name="TGE 10%, 12 mnths Vesting Period, monthly liquid
+*Liquidity will be lock in smart contract" transform="translate(0 9)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">TGE 10%, 12 mnths Vesting Period, monthly liquid</tspan><tspan x="0" y="11">*Liquidity will be lock in smart contract</tspan></text>
+        </g>
+      </g>
+      <g id="Group_1023" data-name="Group 1023" transform="translate(150.156 11.279)">
+        <g id="Initial_Circulating_Supply_at_TGE:_4.60_from_1M_Total_Supply" data-name="Initial Circulating Supply at TGE: 4.60 from 1M Total Supply" transform="translate(0)" style="isolation: isolate">
+          <text id="Initial_Circulating_Supply_at_TGE:" data-name="Initial Circulating Supply at TGE:" transform="translate(0 13)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">Initial Circulating Supply at TGE:</tspan></text>
+          <text id="Initial_Market_Capital_320_000" data-name="Initial Market Capital $320,000" transform="translate(0 59.932)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">Initial Market Capital $320,000</tspan></text>
+          <text id="_0.80_from_" data-name="0.80% from " transform="translate(0 34.254)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">0.80% from </tspan></text>
+          <text id="_1B" data-name="1B" transform="translate(94.619 34.977)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">1B</tspan></text>
+          <text id="_Total_Supply" data-name=" Total Supply" transform="translate(112.214 35.254)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0" xml:space="preserve"> Total Supply</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Group_3" data-name="Group 3" transform="translate(395.501 337.002)">
+      <g id="Group_2" data-name="Group 2">
+        <path id="Path_1" data-name="Path 1" d="M443.367,332.723l25.922-147a199.3,199.3,0,0,0-39.375-3.444v149.21A78.006,78.006,0,0,1,443.367,332.723Z" transform="translate(-202.485 -182.274)" fill="url(#linear-gradient-2)"/>
+        <path id="Path_2" data-name="Path 2" d="M507,196.3A219.279,219.279,0,0,0,465.179,184.7L439.266,331.657a77.052,77.052,0,0,1,14.245,3.994Z" transform="translate(-198.375 -181.207)" fill="url(#linear-gradient-3)"/>
+        <path id="Path_3" data-name="Path 3" d="M449.2,332.184a77.623,77.623,0,0,1,24.907,15.666L576.079,238.5A219.75,219.75,0,0,0,502.7,192.651l-.06.154.06.023Z" transform="translate(-194.009 -177.715)" fill="url(#linear-gradient-4)"/>
+        <path id="Path_4" data-name="Path 4" d="M449.222,332.137l53.494-139.356-.06-.023L449.163,332.113Z" transform="translate(-194.027 -177.668)" fill="url(#linear-gradient-5)"/>
+        <path id="Path_5" data-name="Path 5" d="M449.222,332.137l53.494-139.356-.06-.023L449.163,332.113Z" transform="translate(-194.027 -177.668)" fill="url(#linear-gradient-6)"/>
+        <path id="Path_6" data-name="Path 6" d="M466.51,333.858a78.119,78.119,0,0,1,9.78,11.051l120.963-87.885a219.25,219.25,0,0,0-28.776-32.52v.006Z" transform="translate(-186.405 -163.72)" fill="url(#linear-gradient-7)"/>
+        <path id="Path_7" data-name="Path 7" d="M466.511,333.856,568.479,224.509l0,0L466.508,333.854Z" transform="translate(-186.406 -163.719)" fill="url(#linear-gradient-8)"/>
+        <path id="Path_8" data-name="Path 8" d="M466.511,333.856,568.479,224.509l0,0L466.508,333.854Z" transform="translate(-186.406 -163.719)" fill="url(#linear-gradient-9)"/>
+        <path id="Path_9" data-name="Path 9" d="M473.323,335.024a77.287,77.287,0,0,1,14.831,45.343H637.592c0-50.093-13.862-92.755-43.306-133.282l-.026.019.026.035Z" transform="translate(-183.412 -153.799)" fill="url(#linear-gradient-10)"/>
+        <path id="Path_10" data-name="Path 10" d="M473.331,335.019l120.962-87.886-.026-.035L473.3,334.983Z" transform="translate(-183.42 -153.793)" fill="url(#linear-gradient-11)"/>
+        <path id="Path_11" data-name="Path 11" d="M473.331,335.019l120.962-87.886-.026-.035L473.3,334.983Z" transform="translate(-183.42 -153.793)" fill="url(#linear-gradient-12)"/>
+        <path id="Path_12" data-name="Path 12" d="M484.741,339.683c0,.1.009.2.009.3a77.621,77.621,0,0,1-3.657,23.584L623.081,409.7l-.017.05.017.006a215.561,215.561,0,0,0,11.1-70.07Z" transform="translate(-179.999 -113.115)" fill="url(#linear-gradient-13)"/>
+        <path id="Path_13" data-name="Path 13" d="M450.177,404.515l55.775,138.048c65.006-26.264,109.017-73.449,130.694-140.12L494.658,356.308A77.859,77.859,0,0,1,450.177,404.515Z" transform="translate(-193.581 -105.81)" fill="url(#linear-gradient-14)"/>
+        <path id="Path_14" data-name="Path 14" d="M481.1,356.273l-.017.05,141.989,46.134.017-.05Z" transform="translate(-180.004 -105.826)" fill="url(#linear-gradient-15)"/>
+        <path id="Path_15" data-name="Path 15" d="M481.1,356.273l-.017.05,141.989,46.134.017-.05Z" transform="translate(-180.004 -105.826)" fill="url(#linear-gradient-16)"/>
+        <path id="Path_16" data-name="Path 16" d="M427.765,393.369,391.8,537.6h0l-.007.024c48.606,12.119,93.354,8.989,139.8-9.776L475.821,389.8a77.721,77.721,0,0,1-48.056,3.567Z" transform="translate(-219.233 -91.094)" fill="url(#linear-gradient-17)"/>
+        <path id="Path_17" data-name="Path 17" d="M423.49,377.339,316.59,480.571c31.318,32.429,64.509,51.592,108.253,62.5L460.8,398.843A77.531,77.531,0,0,1,423.49,377.339Z" transform="translate(-252.274 -96.57)" fill="url(#linear-gradient-18)"/>
+        <path id="Path_18" data-name="Path 18" d="M427.763,392.28h0L391.8,536.507h0Z" transform="translate(-219.231 -90.006)" fill="url(#linear-gradient-19)"/>
+        <path id="Path_19" data-name="Path 19" d="M427.763,392.28h0L391.8,536.507h0Z" transform="translate(-219.231 -90.006)" fill="url(#linear-gradient-20)"/>
+        <path id="Path_20" data-name="Path 20" d="M288.405,428.638A215.5,215.5,0,0,0,328.973,486.5L435.8,383.34a77.783,77.783,0,0,1-13.883-19.823Z" transform="translate(-264.658 -102.643)" fill="url(#linear-gradient-21)"/>
+        <path id="Path_21" data-name="Path 21" d="M429.045,423.517a77.662,77.662,0,0,1,16.345-89.927L341.879,226.4c-72.067,69.6-90.206,172.467-46.288,262.514l.063-.03c-.04-.083-.082-.164-.122-.246Z" transform="translate(-271.907 -162.887)" fill="url(#linear-gradient-13)"/>
+        <path id="Path_22" data-name="Path 22" d="M421.834,363.347,288.32,428.467c.04.082.082.163.122.246l133.517-65.121C421.919,363.51,421.873,363.431,421.834,363.347Z" transform="translate(-264.695 -102.718)" fill="url(#linear-gradient-23)"/>
+        <path id="Path_23" data-name="Path 23" d="M421.834,363.347,288.32,428.467c.04.082.082.163.122.246l133.517-65.121C421.919,363.51,421.873,363.431,421.834,363.347Z" transform="translate(-264.695 -102.718)" fill="url(#linear-gradient-24)"/>
+        <path id="Path_24" data-name="Path 24" d="M446.418,183.88l.091-.012-.032-.225c-49.6,6.972-89.924,26.637-125.957,61.433L424.085,352.323A77.38,77.38,0,0,1,467.178,331.6Z" transform="translate(-250.548 -181.672)" fill="url(#linear-gradient-2)"/>
+        <path id="Path_25" data-name="Path 25" d="M440.238,331.477c.114,0,.225.009.338.009V182.275c-10.047-.029-24.03.484-34.933,2.408l24.226,147.5A78.226,78.226,0,0,1,440.238,331.477Z" transform="translate(-213.148 -182.274)" fill="url(#linear-gradient-26)"/>
+      </g>
+      <text id="_3_" data-name="3%" transform="matrix(1, -0.002, 0.002, 1, 377.244, 107.646)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="-17.646" y="0">3%</tspan></text>
+      <text id="_3_2" data-name="3%" transform="matrix(1, 0.029, -0.029, 1, 288.664, 43.557)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="-17.646" y="0">3%</tspan></text>
+      <text id="_5_" data-name="5%" transform="matrix(0.999, 0.04, -0.04, 0.999, 334.953, 74.02)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="-17.646" y="0">5%</tspan></text>
+      <text id="_3_3" data-name="3%" transform="matrix(1, 0.006, -0.006, 1, 254.877, 34.181)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="-17.646" y="0">3%</tspan></text>
+      <text id="_10_" data-name="10%" transform="translate(420.521 174.603)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="-24.654" y="0">10%</tspan></text>
+      <text id="_5_2" data-name="5%" transform="translate(420.332 259.39)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="-17.646" y="0">5%</tspan></text>
+      <text id="_5_3" data-name="5%" transform="translate(83.78 339.668) rotate(-0.03)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="-17.646" y="0">5%</tspan></text>
+      <text id="_9_" data-name="9%" transform="matrix(1, -0.017, 0.018, 1, 143.75, 393.389)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="-17.646" y="0">9%</tspan></text>
+      <text id="_20_" data-name="20%" transform="translate(60.166 199.983)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="-24.654" y="0">20%</tspan></text>
+      <text id="_10_2" data-name="10%" transform="matrix(1, 0.024, -0.024, 1, 161.888, 53.135)" fill="#fff" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-22.758" y="0">10%</tspan></text>
+      <text id="_3_4" data-name="3%" transform="matrix(0.999, 0.036, -0.037, 0.999, 224.548, 35.578)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="-17.646" y="0">3%</tspan></text>
+      <text id="_10_3" data-name="10%" transform="matrix(1, -0.009, 0.008, 1, 256.095, 416.356)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="-24.654" y="0">10%</tspan></text>
+      <text id="_14_" data-name="14%" transform="matrix(1, -0.011, 0.012, 1, 376.814, 354.155)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="-24.654" y="0">14%</tspan></text>
+    </g>
+  </g>
+</svg>
