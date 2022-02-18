@@ -1,0 +1,332 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1177" height="747.324" viewBox="0 0 1177 747.324">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 0 0">
+      <image xlink:href="D:%5CWORK%20PROJECT%5Cweb_creo_engine_new_ver3.0.1_new_main%5Cpublic%5Cassets%5Csvg%5CGroup%201023-image.png"/>
+    </pattern>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0c0032"/>
+      <stop offset="0.384" stop-color="#110045"/>
+      <stop offset="1" stop-color="#190061"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.813" stop-color="#5d5bf0"/>
+      <stop offset="1" stop-color="#6853f1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.729" y1="-0.018" x2="0.191" y2="0.783" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.648" stop-color="#4752ef"/>
+      <stop offset="1" stop-color="#5237f1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.813" stop-color="#4199ed"/>
+      <stop offset="1" stop-color="#44a4ee"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="-0.517" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5581f1"/>
+      <stop offset="0.167" stop-color="#4777f3"/>
+      <stop offset="0.715" stop-color="#205df9"/>
+      <stop offset="1" stop-color="#1153fc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="-0.517" y1="0.5" x2="2.37" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#facd68"/>
+      <stop offset="1" stop-color="#fc76b3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="1.048" y1="-0.023" x2="0.108" y2="0.92" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.466" stop-color="#5d78ed"/>
+      <stop offset="1" stop-color="#a37cef"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="-0.517" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-9" x1="-0.517" y1="0.5" x2="1.282" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00f7a7"/>
+      <stop offset="1" stop-color="#04f5ed"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-10" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.713" stop-color="#4899ed"/>
+      <stop offset="1" stop-color="#50adee"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-11" x1="-0.516" x2="1" xlink:href="#linear-gradient-9"/>
+    <linearGradient id="linear-gradient-12" x1="-0.516" y1="0.5" x2="1.358" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1de5e2"/>
+      <stop offset="1" stop-color="#b588f7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-13" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.627" stop-color="#4f52ef"/>
+      <stop offset="1" stop-color="#6334f1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-14" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#00b3ea"/>
+      <stop offset="0.687" stop-color="#008fed"/>
+      <stop offset="1" stop-color="#0079f0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-15" x1="-0.519" y1="0.5" x2="1.078" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffe324"/>
+      <stop offset="1" stop-color="#ffb533"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-16" x1="-0.519" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fa6768"/>
+      <stop offset="1" stop-color="#fc76b3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-17" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#5b62ed"/>
+      <stop offset="0.486" stop-color="#3a85ec"/>
+      <stop offset="1" stop-color="#00c4ec"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-18" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.506" stop-color="#5d67ee"/>
+      <stop offset="1" stop-color="#9650f0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-19" y1="0.5" x2="3.887" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2a8968"/>
+      <stop offset="1" stop-color="#08c75d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-20" x1="-3.01" y1="0.5" x2="1.525" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5581f1"/>
+      <stop offset="1" stop-color="#1153fc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-21" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.776" stop-color="#4b99ed"/>
+      <stop offset="1" stop-color="#53a7ee"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-23" y1="0.5" x2="1.525" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffcb52"/>
+      <stop offset="1" stop-color="#ff7b02"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-24" x1="-0.177" y1="0.5" x2="1.525" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.227" stop-color="#c165dd"/>
+      <stop offset="1" stop-color="#5c27fe"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-26" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-7"/>
+  </defs>
+  <g id="Group_15" data-name="Group 15" transform="translate(-50 -93.922)">
+    <g id="Group_1023" data-name="Group 1023" transform="translate(8 55.776)">
+      <g id="Group_1022" data-name="Group 1022" transform="translate(-553.253 -3416.783)">
+        <circle id="Ellipse_13" data-name="Ellipse 13" cx="104.5" cy="104.5" r="104.5" transform="translate(1563.253 3505.253)" fill="#fc4446" opacity="0.083"/>
+        <circle id="Ellipse_14" data-name="Ellipse 14" cx="67.5" cy="67.5" r="67.5" transform="translate(1523.253 3610.253)" fill="#b133ff" opacity="0.083"/>
+        <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(833.253 3530.253)" fill="none" stroke="#b133ff" stroke-width="1" opacity="0.571">
+          <circle cx="336" cy="336" r="336" stroke="none"/>
+          <circle cx="336" cy="336" r="335.5" fill="none"/>
+        </g>
+        <circle id="Ellipse_11" data-name="Ellipse 11" cx="256.5" cy="256.5" r="256.5" transform="translate(912.253 3609.253)" fill="#240090" opacity="0.269"/>
+        <circle id="Ellipse_12" data-name="Ellipse 12" cx="166.5" cy="166.5" r="166.5" transform="translate(595.253 3706.253)" fill="#8933ff" opacity="0.043"/>
+      </g>
+      <rect id="Image_1" data-name="Image 1" width="88" height="89" transform="translate(574 409)" fill="url(#pattern)"/>
+    </g>
+    <g id="Group_14" data-name="Group 14" transform="translate(30 -20)">
+      <g id="Group_13" data-name="Group 13" transform="translate(-27 -39)">
+        <g id="Group_1" data-name="Group 1" transform="translate(79 152.922)">
+          <rect id="Rectangle_3" data-name="Rectangle 3" width="267.538" height="90.571" rx="7.038" transform="translate(123.253)" fill="url(#linear-gradient)" style="mix-blend-mode: screen;isolation: isolate"/>
+          <g id="Group_1010" data-name="Group 1010" transform="translate(614.127 146.204)">
+            <g id="Group_1000" data-name="Group 1000" transform="translate(0 0)">
+              <g id="_3_SEED" data-name=" 3 SEED" transform="translate(26.742)" style="isolation: isolate">
+                <text id="_3_SEED-2" data-name="3% SEED" transform="translate(0 18)" fill="#fff" font-size="18" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">3% SEED</tspan></text>
+              </g>
+              <circle id="Ellipse_8" data-name="Ellipse 8" cx="7.488" cy="7.488" r="7.488" transform="translate(0 5.875)" fill="#fff"/>
+            </g>
+            <g id="TGE_10_9_mths_Vesting_Period_monthly_liquid" data-name="TGE 10 9 mths Vesting Period monthly liquid" transform="translate(26.742 26.821)" style="isolation: isolate">
+              <text id="TGE_5_9_mnths_Vesting_Period_monthly_liquid" data-name="TGE 5%, 9 mnths Vesting Period, monthly liquid" transform="translate(0 9)" fill="#fff" font-size="9" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">TGE 5%, 9 mnths Vesting Period, monthly liquid</tspan></text>
+            </g>
+          </g>
+          <g id="Group_1224" data-name="Group 1224" transform="translate(709.913 195.166)">
+            <g id="Group_1000-2" data-name="Group 1000-2">
+              <g id="_7_PRIVATE_ROUND" data-name=" 7 PRIVATE ROUND" transform="translate(26.742)" style="isolation: isolate">
+                <text id="_5_PRIVATE_ROUND" data-name="5% PRIVATE ROUND" transform="translate(0 18)" fill="#fff" font-size="18" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">5% PRIVATE ROUND</tspan></text>
+              </g>
+              <circle id="Ellipse_8-2" data-name="Ellipse 8-2" cx="7.488" cy="7.488" r="7.488" transform="translate(0 5.875)" fill="#fff"/>
+            </g>
+            <g id="TGE_10_9_mths_Vesting_Period_monthly_liquid-2" data-name="TGE 10 9 mths Vesting Period monthly liquid-2" transform="translate(26.742 26.821)" style="isolation: isolate">
+              <text id="TGE_7_9_mnths_Vesting_Period_monthly_liquid" data-name="TGE 7%, 9 mnths Vesting Period, monthly liquid" transform="translate(0 9)" fill="#fff" font-size="9" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">TGE 7%, 9 mnths Vesting Period, monthly liquid</tspan></text>
+            </g>
+          </g>
+          <g id="Group_1011" data-name="Group 1011" transform="translate(755.375 248.013)">
+            <g id="Group_1001" data-name="Group 1001">
+              <g id="_2_IDO_SALE" data-name=" 2 IDO SALE" transform="translate(26.743)" style="isolation: isolate">
+                <text id="_3_IDO_SALE" data-name="3% IDO SALE" transform="translate(0 18)" fill="#fff" font-size="18" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">3% IDO SALE</tspan></text>
+              </g>
+              <circle id="Ellipse_8-3" data-name="Ellipse 8-3" cx="7.488" cy="7.488" r="7.488" transform="translate(0 4.805)" fill="#fff"/>
+            </g>
+            <g id="TGE_20_6_mths_Vesting_Period_monthly_liquid" data-name="TGE 20 6 mths Vesting Period monthly liquid" transform="translate(26.743 26.821)" style="isolation: isolate">
+              <text id="TGE_10_6_mnths_Vesting_Period_" data-name="TGE 10%, 6 mnths Vesting Period, " transform="translate(0 9)" fill="#fff" font-size="9" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">TGE 10%, 6 mnths Vesting Period, </tspan></text>
+              <text id="monthly_liquid" data-name="monthly liquid" transform="translate(0 21.838)" fill="#fff" font-size="9" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">monthly liquid</tspan></text>
+            </g>
+          </g>
+          <g id="Group_1012" data-name="Group 1012" transform="translate(800.42 337.972)">
+            <g id="Group_1002" data-name="Group 1002">
+              <g id="_10_TEAM" data-name=" 10 TEAM" transform="translate(26.742)" style="isolation: isolate">
+                <text id="_10_TEAM-2" data-name="10% TEAM" transform="translate(0 18)" fill="#fff" font-size="18" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">10% TEAM</tspan></text>
+              </g>
+              <circle id="Ellipse_8-4" data-name="Ellipse 8-4" cx="7.488" cy="7.488" r="7.488" transform="translate(0 5.873)" fill="#fff"/>
+            </g>
+            <g id="_9_mnths_cliff_24_mths_Vesting_Period_monthly_liquid" data-name=" 9 mnths cliff 24 mths Vesting Period monthly liquid" transform="translate(26.742 25.751)" style="isolation: isolate">
+              <text id="_9_mnth_cliff_24_mnths_Vesting_" data-name="9 mnth cliff, 24 mnths Vesting " transform="translate(0 9)" fill="#fff" font-size="9" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">9 mnth cliff, 24 mnths Vesting </tspan></text>
+              <text id="Period_monthly_liquid" data-name="Period, monthly liquid" transform="translate(0 21.836)" fill="#fff" font-size="9" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">Period, monthly liquid</tspan></text>
+            </g>
+          </g>
+          <g id="Group_1013" data-name="Group 1013" transform="translate(793.837 441.614)">
+            <g id="Group_1003" data-name="Group 1003">
+              <g id="_5_ADVISOR" data-name=" 5 ADVISOR" transform="translate(26.742)" style="isolation: isolate">
+                <text id="_5_ADVISOR-2" data-name="5% ADVISOR" transform="translate(0 18)" fill="#fff" font-size="18" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">5% ADVISOR</tspan></text>
+              </g>
+              <circle id="Ellipse_8-5" data-name="Ellipse 8-5" cx="7.488" cy="7.488" r="7.488" transform="translate(0 5.875)" fill="#fff"/>
+            </g>
+            <g id="_12_mths_Vesting_Period_quarterly_liquid" data-name=" 12 mths Vesting Period quarterly liquid" transform="translate(26.742 26.822)" style="isolation: isolate">
+              <text id="_12_mnths_Vesting_Period_" data-name="12 mnths Vesting Period, " transform="translate(0 9)" fill="#fff" font-size="9" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">12 mnths Vesting Period, </tspan></text>
+              <text id="quarterly_liquid" data-name="quarterly liquid" transform="translate(0 21.836)" fill="#fff" font-size="9" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">quarterly liquid</tspan></text>
+            </g>
+          </g>
+          <g id="Group_1223" data-name="Group 1223" transform="translate(747.84 564.165)">
+            <g id="Group_1003-2" data-name="Group 1003-2">
+              <g id="_11_GAME_DEVELOPMENT" data-name=" 11 GAME DEVELOPMENT" transform="translate(26.743)" style="isolation: isolate">
+                <text id="_14_GAME_DEVELOPMENT" data-name="14% GAME DEVELOPMENT" transform="translate(0 18)" fill="#fff" font-size="18" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">14% GAME DEVELOPMENT</tspan></text>
+              </g>
+              <circle id="Ellipse_8-6" data-name="Ellipse 8-6" cx="7.488" cy="7.488" r="7.488" transform="translate(0 5.876)" fill="#fff"/>
+            </g>
+            <g id="TGE_5_12_mths_Vesting_Period_monthly_liquid" data-name="TGE 5 12 mths Vesting Period monthly liquid" transform="translate(26.743 26.822)" style="isolation: isolate">
+              <text id="_14_days_cliff_4_First_Liquid_24_mnths_Vesting_Period_monthly_liquid" data-name="14 days cliff, 4% First Liquid, 24 mnths
+Vesting Period, monthly liquid" transform="translate(0 9)" fill="#fff" font-size="9" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">14 days cliff, 4% First Liquid, 24 mnths</tspan><tspan x="0" y="11">Vesting Period, monthly liquid</tspan></text>
+            </g>
+          </g>
+          <g id="Group_1014" data-name="Group 1014" transform="translate(547.838 661.021)">
+            <g id="Group_1004" data-name="Group 1004">
+              <g id="_10_STAKING_REWARD" data-name=" 10 STAKING REWARD" transform="translate(26.743)" style="isolation: isolate">
+                <text id="_10_STAKING_REWARD-2" data-name="10% STAKING REWARD" transform="translate(0 18)" fill="#fff" font-size="18" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">10% STAKING REWARD</tspan></text>
+              </g>
+              <ellipse id="Ellipse_8-7" data-name="Ellipse 8-7" cx="7.488" cy="6.953" rx="7.488" ry="6.953" transform="translate(0 6.945)" fill="#fff"/>
+            </g>
+            <g id="_36_mths_Vesting_Period_monthly_liquid_" data-name=" 36 mths Vesting Period monthly liquid " transform="translate(26.743 26.822)" style="isolation: isolate">
+              <text id="_36_mnths_Vesting_Period_monthly_" data-name="36 mnths Vesting Period, monthly " transform="translate(0 9)" fill="#fff" font-size="9" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">36 mnths Vesting Period, monthly </tspan></text>
+              <text id="liquid" transform="translate(0 21.836)" fill="#fff" font-size="9" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">liquid</tspan></text>
+            </g>
+          </g>
+          <g id="Group_1015" data-name="Group 1015" transform="translate(190.141 634.666)">
+            <g id="Group_1005" data-name="Group 1005">
+              <g id="_9_ECOSYSTEM_FUND" data-name=" 9 ECOSYSTEM FUND" transform="translate(27.812)" style="isolation: isolate">
+                <text id="_9_ECOSYSTEM_FUND-2" data-name="9% ECOSYSTEM FUND" transform="translate(0 18)" fill="#fff" font-size="18" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">9% ECOSYSTEM FUND</tspan></text>
+              </g>
+              <ellipse id="Ellipse_8-8" data-name="Ellipse 8-8" cx="8.023" cy="7.488" rx="8.023" ry="7.488" transform="translate(0 4.804)" fill="#fff"/>
+            </g>
+            <g id="_24_mths_Vesting_Period_monthly_liquid" data-name=" 24 mths Vesting Period monthly liquid" transform="translate(27.812 26.819)" style="isolation: isolate">
+              <text id="_24_mnths_Vesting_Period_monthly_" data-name="24 mnths Vesting Period, monthly " transform="translate(0 9)" fill="#fff" font-size="9" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">24 mnths Vesting Period, monthly </tspan></text>
+              <text id="liquid-2" data-name="liquid" transform="translate(0 21.836)" fill="#fff" font-size="9" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">liquid</tspan></text>
+            </g>
+          </g>
+          <g id="Group_1016" data-name="Group 1016" transform="translate(45.14 542.379)">
+            <g id="Group_1006" data-name="Group 1006">
+              <g id="_5_AFFILIATE_MARKETING" data-name=" 5 AFFILIATE MARKETING" transform="translate(27.813)" style="isolation: isolate">
+                <text id="_5_AFFILIATE_MARKETING-2" data-name="5% AFFILIATE &amp; MARKETING" transform="translate(0 18)" fill="#fff" font-size="18" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">5% AFFILIATE &amp; MARKETING</tspan></text>
+              </g>
+              <circle id="Ellipse_8-9" data-name="Ellipse 8-9" cx="8.023" cy="8.023" r="8.023" transform="translate(0 5.875)" fill="#fff"/>
+            </g>
+            <g id="_12_mths_Vesting_Period_monthly_liquid_" data-name=" 12 mths Vesting Period monthly liquid " transform="translate(27.813 26.821)" style="isolation: isolate">
+              <text id="_12_mnths_Vesting_Period_monthly_liquid" data-name="12 mnths Vesting Period monthly liquid" transform="translate(0 9)" fill="#fff" font-size="9" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">12 mnths Vesting Period monthly liquid</tspan></text>
+            </g>
+          </g>
+          <g id="Group_1017" data-name="Group 1017" transform="translate(0 354.617)">
+            <g id="Group_1007" data-name="Group 1007">
+              <g id="_20_PLAY_TO_EARN_REWARD" data-name=" 20 PLAY TO EARN REWARD" transform="translate(27.813)" style="isolation: isolate">
+                <text id="_20_PLAY_TO_EARN_REWARD-2" data-name="20% PLAY TO EARN REWARD" transform="translate(0 18)" fill="#fff" font-size="18" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">20% PLAY TO EARN REWARD</tspan></text>
+              </g>
+              <ellipse id="Ellipse_8-10" data-name="Ellipse 8-10" cx="8.023" cy="7.488" rx="8.023" ry="7.488" transform="translate(0 4.804)" fill="#fff"/>
+            </g>
+            <g id="TGE_2_36_mths_Vesting_Period_monthly_liquid_" data-name="TGE 2 36 mths Vesting Period monthly liquid " transform="translate(27.813 26.819)" style="isolation: isolate">
+              <text id="_14_days_cliff_2_First_Liquid_36_mnths_Vesting_Period_monthly_liquid" data-name="14 days cliff, 2% First Liquid, 36 mnths Vesting Period,
+monthly liquid" transform="translate(0 9)" fill="#fff" font-size="9" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">14 days cliff, 2% First Liquid, 36 mnths Vesting Period,</tspan><tspan x="0" y="11">monthly liquid</tspan></text>
+            </g>
+          </g>
+          <g id="Group_1009" data-name="Group 1009" transform="translate(550.597 86.057)">
+            <g id="Group_999" data-name="Group 999">
+              <g id="_3_PARTNERSHIP" data-name=" 3 PARTNERSHIP" transform="translate(26.743)" style="isolation: isolate">
+                <text id="_3_PARTNERSHIP-2" data-name="3% PARTNERSHIP" transform="translate(0 18)" fill="#fff" font-size="18" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">3% PARTNERSHIP</tspan></text>
+              </g>
+              <circle id="Ellipse_8-11" data-name="Ellipse 8-11" cx="7.488" cy="7.488" r="7.488" transform="translate(0 5.875)" fill="#fff"/>
+            </g>
+            <g id="_12_mths_Vesting_Period_monthly_liquid_2" data-name=" 12 mths Vesting Period monthly liquid 2" transform="translate(26.743 26.821)" style="isolation: isolate">
+              <text id="_12_mnths_Vesting_Period_monthly_liquid-2" data-name="12 mnths Vesting Period, monthly liquid" transform="translate(0 9)" fill="#fff" font-size="9" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">12 mnths Vesting Period, monthly liquid</tspan></text>
+            </g>
+          </g>
+          <g id="Group_1009-2" data-name="Group 1009" transform="translate(261.987 121.54)">
+            <g id="Group_999-2" data-name="Group 999">
+              <g id="_3_PARTNERSHIP-3" data-name=" 3 PARTNERSHIP" transform="translate(26.743)" style="isolation: isolate">
+                <text id="_3_RESERVES_INCENTIVES" data-name="3% RESERVES &amp; INCENTIVES" transform="translate(0 18)" fill="#fff" font-size="18" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">3% RESERVES &amp; INCENTIVES</tspan></text>
+              </g>
+              <circle id="Ellipse_8-11-2" data-name="Ellipse 8-11" cx="7.488" cy="7.488" r="7.488" transform="translate(0 5.875)" fill="#fff"/>
+            </g>
+            <g id="_12_mths_Vesting_Period_monthly_liquid_2-2" data-name=" 12 mths Vesting Period monthly liquid 2" transform="translate(26.743 26.821)" style="isolation: isolate">
+              <text id="TGE_100_" data-name="TGE 100%" transform="translate(0 9)" fill="#fff" font-size="9" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">TGE 100%</tspan></text>
+            </g>
+          </g>
+          <g id="Group_1018" data-name="Group 1018" transform="translate(104.949 182.999)">
+            <g id="Group_1008" data-name="Group 1008">
+              <g id="_15_LIQUIDITY_INCENTIVES" data-name=" 15 LIQUIDITY INCENTIVES" transform="translate(27.813)" style="isolation: isolate">
+                <text id="_10_LIQUIDITY_" data-name="10% LIQUIDITY " transform="translate(0 18)" fill="#fff" font-size="18" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">10% LIQUIDITY </tspan></text>
+              </g>
+              <ellipse id="Ellipse_8-12" data-name="Ellipse 8-12" cx="8.023" cy="7.488" rx="8.023" ry="7.488" transform="translate(0 5.875)" fill="#fff"/>
+            </g>
+            <g id="TGE_15_12_mth_Vesting_Period_monthly_liquid" data-name="TGE 15 12 mth Vesting Period monthly liquid" transform="translate(27.813 26.821)" style="isolation: isolate">
+              <text id="TGE_10_12_mnths_Vesting_Period_monthly_liquid_Liquidity_will_be_lock_in_smart_contract" data-name="TGE 10%, 12 mnths Vesting Period, monthly liquid
+*Liquidity will be lock in smart contract" transform="translate(0 9)" fill="#fff" font-size="9" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">TGE 10%, 12 mnths Vesting Period, monthly liquid</tspan><tspan font-family="Exo-Italic, Exo" font-weight="400" font-style="italic"><tspan x="0" y="11">*Liquidity will be lock in smart contract</tspan></tspan></text>
+            </g>
+          </g>
+          <g id="Group_1023-2" data-name="Group 1023" transform="translate(150.156 11.279)">
+            <g id="Initial_Circulating_Supply_at_TGE:_4.60_from_1M_Total_Supply" data-name="Initial Circulating Supply at TGE: 4.60 from 1M Total Supply" transform="translate(0)" style="isolation: isolate">
+              <text id="Initial_Circulating_Supply_at_TGE:" data-name="Initial Circulating Supply at TGE:" transform="translate(0 13)" fill="#fff" font-size="13" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">Initial Circulating Supply at TGE:</tspan></text>
+              <text id="Initial_Market_Capital_320_000" data-name="Initial Market Capital $320,000" transform="translate(0 59.932)" fill="#fff" font-size="13" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">Initial Market Capital $320,000</tspan></text>
+              <text id="_0.80_from_" data-name="0.80% from " transform="translate(0 34.254)" fill="#fff" font-size="15" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">0.80% from</tspan></text>
+              <text id="_1B" data-name="1B" transform="translate(80.619 34.977)" fill="#fff" font-size="18" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0">1B</tspan></text>
+              <text id="_Total_Supply" data-name=" Total Supply" transform="translate(103.214 35.254)" fill="#fff" font-size="16" font-family="Exo-ExtraBold, Exo" font-weight="800" style="isolation: isolate"><tspan x="0" y="0" xml:space="preserve"> Total Supply</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g id="Group_3" data-name="Group 3" transform="translate(395.501 337.002)">
+          <g id="Group_2" data-name="Group 2">
+            <path id="Path_1" data-name="Path 1" d="M443.367,332.723l25.922-147a199.3,199.3,0,0,0-39.375-3.444v149.21A78.006,78.006,0,0,1,443.367,332.723Z" transform="translate(-202.485 -182.274)" fill="url(#linear-gradient-2)"/>
+            <path id="Path_2" data-name="Path 2" d="M507,196.3A219.279,219.279,0,0,0,465.179,184.7L439.266,331.657a77.052,77.052,0,0,1,14.245,3.994Z" transform="translate(-198.375 -181.207)" fill="url(#linear-gradient-3)"/>
+            <path id="Path_3" data-name="Path 3" d="M449.2,332.184a77.623,77.623,0,0,1,24.907,15.666L576.079,238.5A219.75,219.75,0,0,0,502.7,192.651l-.06.154.06.023Z" transform="translate(-194.009 -177.715)" fill="url(#linear-gradient-4)"/>
+            <path id="Path_4" data-name="Path 4" d="M449.222,332.137l53.494-139.356-.06-.023L449.163,332.113Z" transform="translate(-194.027 -177.668)" fill="url(#linear-gradient-5)"/>
+            <path id="Path_5" data-name="Path 5" d="M449.222,332.137l53.494-139.356-.06-.023L449.163,332.113Z" transform="translate(-194.027 -177.668)" fill="url(#linear-gradient-6)"/>
+            <path id="Path_6" data-name="Path 6" d="M466.51,333.858a78.119,78.119,0,0,1,9.78,11.051l120.963-87.885a219.25,219.25,0,0,0-28.776-32.52v.006Z" transform="translate(-186.405 -163.72)" fill="url(#linear-gradient-7)"/>
+            <path id="Path_7" data-name="Path 7" d="M466.511,333.856,568.479,224.509l0,0L466.508,333.854Z" transform="translate(-186.406 -163.719)" fill="url(#linear-gradient-8)"/>
+            <path id="Path_8" data-name="Path 8" d="M466.511,333.856,568.479,224.509l0,0L466.508,333.854Z" transform="translate(-186.406 -163.719)" fill="url(#linear-gradient-9)"/>
+            <path id="Path_9" data-name="Path 9" d="M473.323,335.024a77.287,77.287,0,0,1,14.831,45.343H637.592c0-50.093-13.862-92.755-43.306-133.282l-.026.019.026.035Z" transform="translate(-183.412 -153.799)" fill="url(#linear-gradient-10)"/>
+            <path id="Path_10" data-name="Path 10" d="M473.331,335.019l120.962-87.886-.026-.035L473.3,334.983Z" transform="translate(-183.42 -153.793)" fill="url(#linear-gradient-11)"/>
+            <path id="Path_11" data-name="Path 11" d="M473.331,335.019l120.962-87.886-.026-.035L473.3,334.983Z" transform="translate(-183.42 -153.793)" fill="url(#linear-gradient-12)"/>
+            <path id="Path_12" data-name="Path 12" d="M484.741,339.683c0,.1.009.2.009.3a77.621,77.621,0,0,1-3.657,23.584L623.081,409.7l-.017.05.017.006a215.561,215.561,0,0,0,11.1-70.07Z" transform="translate(-179.999 -113.115)" fill="url(#linear-gradient-13)"/>
+            <path id="Path_13" data-name="Path 13" d="M450.177,404.515l55.775,138.048c65.006-26.264,109.017-73.449,130.694-140.12L494.658,356.308A77.859,77.859,0,0,1,450.177,404.515Z" transform="translate(-193.581 -105.81)" fill="url(#linear-gradient-14)"/>
+            <path id="Path_14" data-name="Path 14" d="M481.1,356.273l-.017.05,141.989,46.134.017-.05Z" transform="translate(-180.004 -105.826)" fill="url(#linear-gradient-15)"/>
+            <path id="Path_15" data-name="Path 15" d="M481.1,356.273l-.017.05,141.989,46.134.017-.05Z" transform="translate(-180.004 -105.826)" fill="url(#linear-gradient-16)"/>
+            <path id="Path_16" data-name="Path 16" d="M427.765,393.369,391.8,537.6h0l-.007.024c48.606,12.119,93.354,8.989,139.8-9.776L475.821,389.8a77.721,77.721,0,0,1-48.056,3.567Z" transform="translate(-219.233 -91.094)" fill="url(#linear-gradient-17)"/>
+            <path id="Path_17" data-name="Path 17" d="M423.49,377.339,316.59,480.571c31.318,32.429,64.509,51.592,108.253,62.5L460.8,398.843A77.531,77.531,0,0,1,423.49,377.339Z" transform="translate(-252.274 -96.57)" fill="url(#linear-gradient-18)"/>
+            <path id="Path_18" data-name="Path 18" d="M427.763,392.28h0L391.8,536.507h0Z" transform="translate(-219.231 -90.006)" fill="url(#linear-gradient-19)"/>
+            <path id="Path_19" data-name="Path 19" d="M427.763,392.28h0L391.8,536.507h0Z" transform="translate(-219.231 -90.006)" fill="url(#linear-gradient-20)"/>
+            <path id="Path_20" data-name="Path 20" d="M288.405,428.638A215.5,215.5,0,0,0,328.973,486.5L435.8,383.34a77.783,77.783,0,0,1-13.883-19.823Z" transform="translate(-264.658 -102.643)" fill="url(#linear-gradient-21)"/>
+            <path id="Path_21" data-name="Path 21" d="M429.045,423.517a77.662,77.662,0,0,1,16.345-89.927L341.879,226.4c-72.067,69.6-90.206,172.467-46.288,262.514l.063-.03c-.04-.083-.082-.164-.122-.246Z" transform="translate(-271.907 -162.887)" fill="url(#linear-gradient-13)"/>
+            <path id="Path_22" data-name="Path 22" d="M421.834,363.347,288.32,428.467c.04.082.082.163.122.246l133.517-65.121C421.919,363.51,421.873,363.431,421.834,363.347Z" transform="translate(-264.695 -102.718)" fill="url(#linear-gradient-23)"/>
+            <path id="Path_23" data-name="Path 23" d="M421.834,363.347,288.32,428.467c.04.082.082.163.122.246l133.517-65.121C421.919,363.51,421.873,363.431,421.834,363.347Z" transform="translate(-264.695 -102.718)" fill="url(#linear-gradient-24)"/>
+            <path id="Path_24" data-name="Path 24" d="M446.418,183.88l.091-.012-.032-.225c-49.6,6.972-89.924,26.637-125.957,61.433L424.085,352.323A77.38,77.38,0,0,1,467.178,331.6Z" transform="translate(-250.548 -181.672)" fill="url(#linear-gradient-2)"/>
+            <path id="Path_25" data-name="Path 25" d="M440.238,331.477c.114,0,.225.009.338.009V182.275c-10.047-.029-24.03.484-34.933,2.408l24.226,147.5A78.226,78.226,0,0,1,440.238,331.477Z" transform="translate(-213.148 -182.274)" fill="url(#linear-gradient-26)"/>
+          </g>
+          <text id="_3_" data-name="3%" transform="matrix(1, -0.002, 0.002, 1, 377.244, 107.646)" fill="#fff" font-size="13" font-family="Exo-ExtraBold, Exo" font-weight="800"><tspan x="-20.059" y="0">3%</tspan></text>
+          <text id="_3_2" data-name="3%" transform="matrix(1, 0.029, -0.029, 1, 288.664, 43.557)" fill="#fff" font-size="13" font-family="Exo-ExtraBold, Exo" font-weight="800"><tspan x="-20.059" y="0">3%</tspan></text>
+          <text id="_5_" data-name="5%" transform="matrix(0.999, 0.04, -0.04, 0.999, 334.953, 74.02)" fill="#fff" font-size="13" font-family="Exo-ExtraBold, Exo" font-weight="800"><tspan x="-20.345" y="0">5%</tspan></text>
+          <text id="_3_3" data-name="3%" transform="matrix(1, 0.006, -0.006, 1, 254.877, 34.181)" fill="#fff" font-size="13" font-family="Exo-ExtraBold, Exo" font-weight="800"><tspan x="-20.059" y="0">3%</tspan></text>
+          <text id="_10_" data-name="10%" transform="translate(420.521 174.603)" fill="#fff" font-size="13" font-family="Exo-ExtraBold, Exo" font-weight="800"><tspan x="-25.818" y="0">10%</tspan></text>
+          <text id="_5_2" data-name="5%" transform="translate(420.332 259.39)" fill="#fff" font-size="13" font-family="Exo-ExtraBold, Exo" font-weight="800"><tspan x="-20.345" y="0">5%</tspan></text>
+          <text id="_5_3" data-name="5%" transform="translate(83.78 339.668) rotate(-0.03)" fill="#fff" font-size="13" font-family="Exo-ExtraBold, Exo" font-weight="800"><tspan x="-20.345" y="0">5%</tspan></text>
+          <text id="_9_" data-name="9%" transform="matrix(1, -0.017, 0.018, 1, 143.75, 393.389)" fill="#fff" font-size="13" font-family="Exo-ExtraBold, Exo" font-weight="800"><tspan x="-20.384" y="0">9%</tspan></text>
+          <text id="_20_" data-name="20%" transform="translate(60.166 199.983)" fill="#fff" font-size="13" font-family="Exo-ExtraBold, Exo" font-weight="800"><tspan x="-28.522" y="0">20%</tspan></text>
+          <text id="_10_2" data-name="10%" transform="matrix(1, 0.024, -0.024, 1, 161.888, 53.135)" fill="#fff" font-size="12" font-family="Exo-ExtraBold, Exo" font-weight="800"><tspan x="-23.832" y="0">10%</tspan></text>
+          <text id="_3_4" data-name="3%" transform="matrix(0.999, 0.036, -0.037, 0.999, 224.548, 35.578)" fill="#fff" font-size="13" font-family="Exo-ExtraBold, Exo" font-weight="800"><tspan x="-20.059" y="0">3%</tspan></text>
+          <text id="_10_3" data-name="10%" transform="matrix(1, -0.009, 0.008, 1, 256.095, 416.356)" fill="#fff" font-size="13" font-family="Exo-ExtraBold, Exo" font-weight="800"><tspan x="-25.818" y="0">10%</tspan></text>
+          <text id="_14_" data-name="14%" transform="matrix(1, -0.011, 0.012, 1, 376.814, 354.155)" fill="#fff" font-size="13" font-family="Exo-ExtraBold, Exo" font-weight="800"><tspan x="-25.61" y="0">14%</tspan></text>
+        </g>
+      </g>
+      <image id="tokenomics-coin-1" width="88" height="89" transform="translate(555 481)" xlink:href="data:image/png;base64,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"/>
+    </g>
+  </g>
+</svg>

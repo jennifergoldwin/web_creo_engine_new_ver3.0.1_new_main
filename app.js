@@ -63,7 +63,7 @@ var listAdvisors=[
 ]
 var listGame=[
     {
-        url: "/public/assets/game/ek.png", url_desc:"/public/assets/game/ek-1.png" ,name: "Evermore Knights", desc: "Turn-based RPG Game", website: "https://evermoreknights.com/" , telegram: "https://discord.gg/evermoreknights"
+        url: "/public/assets/game/ek.png", url_desc:"/public/assets/game/ek-1.png" ,name: "Evermore Knights", desc: "Turn-based RPG Game", website: "https://evermoreknights.com/" , discord: "https://discord.gg/evermoreknights"
     },
     {
         url: "/public/assets/game/slime.png",url_desc:"/public/assets/game/slime-1.png", name: "Slime Haven", desc: "Pet Game"
