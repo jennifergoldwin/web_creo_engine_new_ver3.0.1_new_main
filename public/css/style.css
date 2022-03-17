@@ -1,5 +1,16 @@
 
+.content-why-creo-wrap > div> p{
+    font-weight: 700;
+    text-align: center;
+ 
+}
 
+.content-why-creo-wrap > div{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
 .creo-icon-home{
     transform-origin: center;
 }
@@ -146,6 +157,12 @@ section{
   
 .carousel-cell {
     width: 100%;
+    /* height: 100%; */
+}
+
+.carousel.text-cell{
+    width: 80%;
+    /* height: 100%; */
 }
   
   /* cell number */
@@ -173,6 +190,19 @@ section{
   /* fill-in selected dot */
 .flickity-page-dots .dot.is-selected {
     background: white;
+}
+
+.flickity-prev-next-button.next{
+    right: -50px !important;
+}
+
+.flickity-prev-next-button.previous{
+    left: -50px !important;
+}
+.flickity-button{
+    background: transparent !important;
+    color: white !important;
+    border: 1pt solid white !important;
 }
 
 
