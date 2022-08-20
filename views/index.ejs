@@ -1,47 +1,223 @@
-<%- include ('partials/header',{title:"Creo Engine"}) %> 
+
+<%- include ('partials/header',{title:"Creo Engine",display: "true"}) %> 
 <main>
     <div class="element-wrap-background-1">
         <div class="element-wrap-background-2" >
-            <div style="display: flex; flex-direction: column; position: fixed; top: 23%;  right: 7%; justify-content: end; z-index: 1; ">
+            <div style="display: flex; flex-direction: column; position: fixed; top: 23%;  right: 4%; justify-content: end; z-index: 1; ">
                 <a href="https://creoengineofficial.medium.com/" target="_blank"><i class="fa-brands fa-medium fa-icon"></i></a>
                 <a href="https://t.me/CreoEngineChannel" target="_blank"><i class="fa-solid fa-paper-plane fa-icon"></i></a>
-                <a href="https://discord.gg/X4zBzD92P9" target="_blank"><i class="fa-brands fa-discord fa-icon"></i></a>
+                <a href="https://discord.gg/creoengine" target="_blank"><i class="fa-brands fa-discord fa-icon"></i></a>
                 <a href="https://twitter.com/creo_engine" target="_blank"><i class="fa-brands fa-twitter fa-icon"></i></a>
-                
             </div>
+            
+             <!-- Modal -->
+            <div class="modal fade in" id="myModal" role="dialog" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">
+                                <i style="color: white;"  class="fa-solid fa-l fa-xmark"></i>
+                            </button>
+                            <!-- <h4 class="modal-title text-center">Join Our Discord Community</h4> -->
+                        </div>
+                        <div class="modal-body">
+                            <!-- <img src="/public/assets/vote_creo.jpg" alt=""/> -->
+                            <!-- <div class="d-flex flex-column justify-content-center align-items-center text-center">
+                                <span class="p-4" aria-hidden="true"><i class="fa-brands fa-7x fa-discord fa-icon"></i></span>
+                                <p>Join our Discord server and find out more!</p>
+                            </div> -->
+                            <!-- <img src="/public/assets/modal-content-pre-registration.png" alt=""/> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 1142 786">
+                                <defs>
+                                  <linearGradient id="linear-gradient" x1="0.06" y1="1" x2="0.617" y2="1" gradientUnits="objectBoundingBox">
+                                    <stop offset="0" stop-color="#687794"/>
+                                    <stop offset="1" stop-color="#525d74" stop-opacity="0"/>
+                                  </linearGradient>
+                                  <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1142 786">
+                                    <image width="1142" height="786" xlink:href="/public/assets/Group%202188-image.png"/>
+                                  </pattern>
+                                  <linearGradient id="linear-gradient-2" x1="0.495" x2="2.314" y2="1.021" gradientUnits="objectBoundingBox">
+                                    <stop offset="0" stop-color="#066585"/>
+                                    <stop offset="0.406" stop-color="#007ea6"/>
+                                    <stop offset="0.854" stop-color="#0091cf"/>
+                                    <stop offset="1" stop-color="#0091cf" stop-opacity="0"/>
+                                  </linearGradient>
+                                  <radialGradient id="radial-gradient" cx="0.493" cy="1" r="0.455" gradientTransform="matrix(0, -0.55, 1.1, 0, 1.05, -0.05)" gradientUnits="objectBoundingBox">
+                                    <stop offset="0.307" stop-color="#9eeeff"/>
+                                    <stop offset="1" stop-color="#57aeff" stop-opacity="0"/>
+                                    <stop offset="1" stop-color="#0085ff" stop-opacity="0"/>
+                                  </radialGradient>
+                                  <clipPath id="clip-path">
+                                    <path id="Vector" d="M297.764,0H26.1L0,55.241l26.1,55.254H297.764l26.1-55.254Z" transform="matrix(1, 0, 0, 1, 0, 0)" fill="url(#linear-gradient)"/>
+                                  </clipPath>
+                                  <filter id="Vector-2" x="434.82" y="451.774" width="327.718" height="114.349" filterUnits="userSpaceOnUse">
+                                    <feOffset dx="-0.321" dy="0.642" input="SourceAlpha"/>
+                                    <feGaussianBlur stdDeviation="0.642" result="blur"/>
+                                    <feFlood flood-opacity="0.251"/>
+                                    <feComposite operator="in" in2="blur"/>
+                                    <feComposite in="SourceGraphic"/>
+                                  </filter>
+                                </defs>
+                                <g id="Group_2188" data-name="Group 2188" transform="translate(-389 -92)">
+                                  <rect id="EK_Pre-Register_Banner" width="1142" height="786" transform="translate(389 92)" fill="url(#pattern)"/>
+                                  <text id="CREO_ENGINE_S_FIRST_JRPG_TITLE" data-name="CREO ENGINE&apos;S
+                              FIRST JRPG TITLE" transform="translate(988 772)" fill="#a7a7a7" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="-69.722" y="0">CREO ENGINE&apos;S</tspan><tspan x="-74.473" y="27">FIRST JRPG TITLE</tspan></text>
+                                  <a href="/ekpre-registration" target="_blank" style="text-decoration: none;">
+                                    <g id="Group_3069" data-name="Group 3069" transform="translate(75.624 -264.777)">
+                                        <g id="btn_blue" transform="translate(750.444 809.837)">
+                                          <g id="Group_3068" data-name="Group 3068">
+                                            <path id="Vector-3" data-name="Vector" d="M323.864,55.241l-26.1,55.254H26.1L0,55.241,26.1,0H297.764Z" transform="matrix(1, 0, 0, 1, 0, 0)" fill="#a0edff"/>
+                                            <path id="Vector-4" data-name="Vector" d="M322.182,53.165l-25.519,55.292L25.519,107.394,0,53.165,23.924,0H295.068Z" transform="translate(1.063 2.127)" fill="url(#linear-gradient-2)"/>
+                                            <path id="Ellipse_599" data-name="Ellipse 599" d="M265.827,91.261H0S65.661,0,139.067,0,265.827,91.261,265.827,91.261Z" transform="translate(29.773 17.196)" fill="url(#radial-gradient)"/>
+                                            <g id="Mask_group" data-name="Mask group" transform="translate(0 0)" opacity="0.4">
+                                              <g id="Vector-5" data-name="Vector" clip-path="url(#clip-path)">
+                                                <g id="Group_1537" data-name="Group 1537" transform="translate(-101.298 -131.224)">
+                                                  <g id="Group" transform="translate(38.043 51.408)">
+                                                    <path id="Vector-6" data-name="Vector" d="M106.778,53.078A53.39,53.39,0,1,1,53.389,0a53.234,53.234,0,0,1,53.389,53.078Z" transform="translate(5.7 109.038) rotate(-75)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-7" data-name="Vector" d="M710.278,753.071l20.271,34.993-34.875,20.067L675.4,773.138Z" transform="translate(-675.403 -721.105)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-8" data-name="Vector" d="M760.7,780.626,772.451,800.9l-20.209,11.628L740.5,792.254Z" transform="translate(-685.627 -725.433)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-9" data-name="Vector" d="M775.518,715.148l20.271,34.993-34.875,20.067-20.271-34.993Z" transform="translate(-685.65 -715.148)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-10" data-name="Vector" d="M747.817,818.544l20.271,34.993L733.213,873.6l-20.271-34.993Z" transform="translate(-681.299 -731.389)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-11" data-name="Vector" d="M813.075,780.613l20.271,34.993-34.875,20.067L778.2,800.68Z" transform="translate(-691.55 -725.431)" fill="#fff" opacity="0.3"/>
+                                                  </g>
+                                                  <g id="Group-2" data-name="Group" transform="translate(179.641 89.349)">
+                                                    <path id="Vector-12" data-name="Vector" d="M106.778,53.078A53.39,53.39,0,1,1,53.389,0a53.234,53.234,0,0,1,53.389,53.078Z" transform="translate(5.7 109.038) rotate(-75)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-13" data-name="Vector" d="M878.261,798.079l20.271,34.993-34.875,20.067-20.271-34.993Z" transform="translate(-843.386 -766.115)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-14" data-name="Vector" d="M928.689,825.636l11.747,20.277-20.209,11.628L908.48,837.265Z" transform="translate(-853.611 -770.443)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-15" data-name="Vector" d="M943.5,760.159l20.271,34.993L928.9,815.219l-20.271-34.993Z" transform="translate(-853.634 -760.159)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-16" data-name="Vector" d="M915.8,863.554l20.271,34.993L901.2,918.614l-20.271-34.993Z" transform="translate(-849.283 -776.399)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-17" data-name="Vector" d="M981.06,825.624l20.271,34.993-34.875,20.067-20.271-34.993Z" transform="translate(-859.533 -770.442)" fill="#fff" opacity="0.3"/>
+                                                  </g>
+                                                  <g id="Group-3" data-name="Group" transform="translate(89.877 141.592)">
+                                                    <path id="Vector-18" data-name="Vector" d="M106.155,53.078A53.078,53.078,0,1,1,53.078,0a53.078,53.078,0,0,1,53.078,53.078Z" transform="translate(5.774 108.322) rotate(-75)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-19" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 34.832, 31.708)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-20" data-name="Vector" d="M0,0H23.307V23.307H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 75.051, 54.872)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-21" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 89.757, 0)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-22" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 66.541, 86.647)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-23" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 121.475, 54.926)" fill="#fff" opacity="0.3"/>
+                                                  </g>
+                                                  <g id="Group-4" data-name="Group" transform="translate(127.812)">
+                                                    <path id="Vector-24" data-name="Vector" d="M106.155,53.078A53.078,53.078,0,1,1,53.078,0a53.078,53.078,0,0,1,53.078,53.078Z" transform="translate(5.774 108.322) rotate(-75)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-25" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 34.832, 31.714)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-26" data-name="Vector" d="M0,0H23.307V23.307H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 75.051, 54.872)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-27" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 89.748, 0)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-28" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 66.532, 86.647)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-29" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 121.474, 54.932)" fill="#fff" opacity="0.3"/>
+                                                  </g>
+                                                  <g id="Group-5" data-name="Group" transform="translate(176.229 211.773)">
+                                                    <path id="Vector-30" data-name="Vector" d="M106.155,53.078A53.078,53.078,0,1,1,53.078,0a53.078,53.078,0,0,1,53.078,53.078Z" transform="translate(5.783 108.325) rotate(-75)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-31" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 34.832, 31.71)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-32" data-name="Vector" d="M0,0H23.307V23.307H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 75.052, 54.873)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-33" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 89.757, 0)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-34" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 66.541, 86.647)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-35" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 121.474, 54.926)" fill="#fff" opacity="0.3"/>
+                                                  </g>
+                                                  <g id="Group-6" data-name="Group" transform="translate(0 193.832)">
+                                                    <path id="Vector-36" data-name="Vector" d="M106.155,53.078A53.078,53.078,0,1,1,53.078,0a53.078,53.078,0,0,1,53.078,53.078Z" transform="translate(5.783 108.322) rotate(-75)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-37" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 34.832, 31.71)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-38" data-name="Vector" d="M0,0H23.307V23.307H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 75.052, 54.872)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-39" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 89.757, 0)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-40" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 66.541, 86.647)" fill="#fff" opacity="0.3"/>
+                                                    <path id="Vector-41" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 121.475, 54.926)" fill="#fff" opacity="0.3"/>
+                                                  </g>
+                                                </g>
+                                              </g>
+                                            </g>
+                                            <g transform="matrix(1, 0, 0, 1, -437.07, -453.06)" filter="url(#Vector-2)">
+                                              <path id="Vector-42" data-name="Vector" d="M8.717,61.5,4.529,55.247,8.717,49l4.188,6.243ZM314.3,49l4.188,6.243L314.3,61.491l-4.188-6.243Zm9.563,6.243-26.48,55.247H26.48L0,55.247,26.48,0H297.4Zm-8.78-12.5-8.238,12.5,8.238,12.5,5.992-12.5Zm-312.3,12.5L8.427,67.015l7.759-11.768L8.427,43.479ZM314.6,68.737l-8.894-13.49,8.894-13.49L295.782,2.477H28.069L8.907,42.488l8.4,12.759-8.4,12.759,19.175,40.011H295.794Z" transform="matrix(1, 0, 0, 1, 437.07, 453.06)" fill="#c3a76d"/>
+                                            </g>
+                                          </g>
+                                        </g>
+                                        <text id="PRE-REGISTER" transform="translate(760.444 840.741)" fill="#fff" font-size="34"  font-weight="700"><tspan x="17.33" y="37" xml:space="preserve">REGISTER NOW !        </tspan></text>
+                                    </g>
+                                  </a>
+                                  <g id="Group_2187" data-name="Group 2187" transform="translate(0 7)">
+                                    <g id="Group_2185" data-name="Group 2185" transform="translate(0 -17)">
+                                      <text id="Join_the_Pre-Register_for_Evermore_Knights_and_get" data-name="Join the Pre-Register for
+                              Evermore Knights and get" transform="translate(988 417)" fill="#fff" font-size="28" ><tspan x="-148.88" y="0">Join the Pre-Register for</tspan><tspan x="-159.817" y="37">Evermore Knights and get</tspan></text>
+                                    </g>
+                                    <text id="Exclusive_Rewards_" data-name="Exclusive Rewards!" transform="translate(862 471)" fill="#e1c95d" font-size="29"  font-weight="700"><tspan x="0" y="0">Exclusive Rewards!</tspan></text>
+                                  </g>
+                                </g>
+                            </svg>
+                              
+                            
+                        </div>
+                        <!-- <div class="modal-footer">
+                            <a class="whitepaper-btn" href="https://discord.gg/creoengine" target="_blank" rel="noreferrer" >JOIN US</a>
+                        </div> -->
+                    </div>
+                
+                </div>
+            </div>
+
             <section class="bg-home">
+                
                 <div class="container" style="margin-top: 5.625rem;">
                     <div class="row justify-content-center">
-                        <div class="col-md-6" >
-                            <div class="home-text-desc">
-                                <p class='text-main' >
-                                    BEST DECENTRALIZED
-                                </p>
-                                <p class="animate-text">
-                                    <span>GAMING ECOSYSTEM PLATFORM</span>
-                                    <span>MARKETPLACE FOR GAMING NFTS</span>
-                                    <span>NFTS GAMING TO EARN AND TRADE</span>
-                                   
-                                 </p>
-                            </div>
-            
-                            <div style="display: flex; flex-direction: row; margin-top: 1rem; margin-bottom: 1rem;">
-                                <button class="whitepaper-btn" onclick="parent.open('https://tny.sh/CreoEngineWhitepaper')">WHITE PAPER</button>
-                                <div style="display: flex; flex-direction: row;">
-                                    <button title="Coming Soon" class="btn-store"><img src="/public/assets/appstore.png"></button>
-                                    <button  title="Coming Soon" class="btn-store"><img src="/public/assets/googlestore.png" ></button>
+                        <div class="col-md-6 col-lg-6">
+                            <div class="">
+                                <div class="home-text-desc">
+                                    <p class='text-main' >
+                                        BEST DECENTRALIZED
+                                    </p>
+                                    <p class="animate-text">
+                                        <span>GAMING ECOSYSTEM PLATFORM<br></span>
+                                        <span>MARKETPLACE FOR GAMING NFTS</span>
+                                        <span>NFTS GAMING TO EARN AND TRADE</span>
+                                       
+                                     </p>
+                                </div>
+                
+                                <div style="display: grid; grid-template-columns: repeat(2,1fr);  margin-top: 1rem; margin-bottom: 1rem; gap: 0.5rem;">
+                                    
+                                    <!-- <div style="display: flex; flex-direction: row;">
+                                        <button title="Coming Soon" class="btn-store"><img src="/public/assets/appstore.png"></button>
+                                        <button  title="Coming Soon" class="btn-store"><img src="/public/assets/googlestore.png" ></button>
+                                    </div> -->
+                                    <button class="whitepaper-btn btn-bg" title="Coming soon">DOWNLOAD NOW</button>
+    
+                                    <button class="whitepaper-btn" data-toggle="modal" data-target="#modalBuyCreo">BUY CREO  <img src="/public/assets/logo_creo.png" alt=""/></button>
+    
+                                    <div class="modal fade" id="modalBuyCreo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <button type="button" class="close-btn" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true"><i  class="fa-solid fa-xl fa-xmark"></i></span>
+                                                </button>
+                                                <div class="modal-body">
+                                                    <div class="container">
+                                                        <div class="creo-modal-row">
+                                                            <a href="https://pancakeswap.finance/swap?outputCurrency=0x9521728bF66a867BC65A93Ece4a543D817871Eb7" target="_blank" rel="noreferrer">
+                                                                <img  src="/public/assets/pancakeswap.png">
+                                                                <span>PANCAKESWAP</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="creo-modal-row">
+                                                            <a href="https://www.mexc.com/exchange/CREO_USDT" target="_blank" rel="noreferrer">
+                                                                <img src="/public/assets/mexc.png"/>
+                                                                <span>MEXC</span>
+                                                            </a>
+                                                        </div>     
+                                                    </div>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": false, "pageDots": true }'>
+                                        <div class="carousel-cell">
+                                            <iframe width="100%" height="290" src="https://www.youtube.com/embed/Rhy6LX0dVRo?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        <div>
-                            <div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": false, "pageDots": true }'>
-                                <div class="carousel-cell">
-                                    <iframe width="100%" height="290" src="https://www.youtube.com/embed/nrGxCqTACWM?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </div>
-                            </div>
-                        </div>
-
                        </div>
-                       <div class="col-md-6 centering-content">
+                       <div class="col-md-6 col-lg-6 centering-content">
                             <div style="display: flex; flex-direction: row; justify-content: space-around;">
                                 <svg id="svg-home" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="339.22" height="478.109" viewBox="0 0 339.22 478.109">
                                     <defs>
@@ -78,30 +254,30 @@
             <!-- WALLET-->    
             <section class="bg-wallet">
                 <div class="container">
-                    <div class="js-scroll wrap-wallet-container">
-                        <div class="wrap-row-wallet centering-content">
+                    <div class="js-scroll ">
+                        <div class="wrap-wallet-container">
                             <div >
-                                <img src="/public/assets/wallet/binance.png" >
+                                <img src="/public/assets/wallet/binance.png" alt=""/>
                             </div>
                             <div  >
-                                <img src="/public/assets/wallet/metamask.png" >
+                                <img src="/public/assets/wallet/metamask.png" alt=""/>
                             </div>
-                            <div >
-                                <img src="/public/assets/wallet/trust-wallet.png" >
-                            </div>
-                        </div>
-                        <div class="wrap-row-wallet centering-content">
                             <div>
-                                <img src="/public/assets/wallet/CoinGecko.png" >
+                                <img src="/public/assets/wallet/unicrypt-logo.png" alt=""/>
+                            </div>
+                            <div>
+                                <a href="https://t.co/7XrOCoINZG" target="_blank" rel="noreferrer">
+                                    <img src="/public/assets/wallet/CoinGecko.png"  alt=""/>
+                                </a>
                             </div>
                             
-                            <div >
-                                <a href="https://coinmarketcap.com/currencies/creo-engine/" target="_blank">
-                                    <img  src="/public/assets/wallet/coin_market_cap.png">
+                            <div class="cmc">
+                                <a href="https://coinmarketcap.com/currencies/creo-engine/" target="_blank" rel="noreferrer">
+                                    <img  src="/public/assets/wallet/coin_market_cap.png" alt=""/>
                                 </a>
-                                
                             </div>
                         </div>
+                        
                    </div>
                 </div>
             </section>
@@ -119,14 +295,13 @@
                             <div class="col-md-8" style="display: flex; justify-content: center; align-items: center;">
                                 <div style="float: right; text-align: right; "> 
                                     <div >
-                                        <span style="font-size: 250%; font-weight: 800;">What is CreoEngine</span>
+                                        <span style="font-size: 2.365rem; font-weight: 800; text-decoration: underline; text-decoration-thickness: 2.5px;">What is Creo Engine</span>
                                     </div>
-                                    <div style="font-weight: 700;" >
-                                        <p >We want to bring non-Crypto game users and developers together with 
-                                            blockchain game users through the CreoEngine service platform. To do so, we provide PG 
-                                            solutions to play games without Crypto Currency. CreoEngine will provide various 
-                                            blockchain networks and games to allow more users to play games on the 
-                                            CreoEngine service platform and become crypto game users.</p>
+                                    <div style="font-weight: 600;" >
+                                        <p >Creo Engine is a gaming platform dedicated to game developers worldwide to establish their games. 
+                                            Developers can join the Creo Engine platform and utilize its ecosystem that contains many features and user bases, 
+                                            similar to how the Steam store distributes its library of games. Creo Engine also serves as a game developer aiming to 
+                                            provide the best gaming experience for its players through the in-house studio, ‘Nomina Games’.</p>
                                     </div>
                                 </div>  
 
@@ -138,70 +313,49 @@
             <!--WHY CREO ENGINE-->
             <section>
                 <div class="container-fluid" style="background-image: radial-gradient( rgba(84,51,255,0.8), rgba(255,0,0,0)); ">
-                    <div class="container" style="padding-top: 2rem; padding-bottom: 2rem;">
+                    <div class="container" style="padding-top: 0.8rem; padding-bottom: 0.8rem;">
                         
                         <div style="display: flex; text-align: center; justify-content: center; align-items: center; flex-direction: column;">
-                            <span style="font-size: 250%; font-weight: 800;">Why CreoEngine</span>
+                            <span style="font-size: 2.365rem; font-weight: 800; text-decoration: underline; text-decoration-thickness: 2.5px;">Why Creo Engine</span>
 
-                            <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <div class="carousel-caption">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
                                         <p >
                                             We utilize our own infrastructure to facilitate asset interoperability between games under 
                                             the platform to further enhance user experience and as well add value to the assets they’ve 
                                             worked hard to achieve.
                                         </p>
                                     </div>
-                                  </div>
-                                  <div class="carousel-item">
-                                    <div class="carousel-caption">
-                                        <p>1.	High-quality video games with a wide variety of selections for the best gaming experience.</p>
+                                    <div class="swiper-slide">
+                                        <p>1. High-quality video games with a wide variety of selections for the best gaming experience.</p>
+                                        
                                     </div>
-                                  </div>
-                                  <div class="carousel-item">
-                                    <div class="carousel-caption">
-                                        <p>2.	Gamefi that players can enjoy, not just for earning.</p>
+                                    <div class="swiper-slide">
+                                        <p>
+                                            2. Gamefi that players can enjoy, not just for earning.
+                                        </p>
                                     </div>
-                                  </div>
-                                  <div class="carousel-item">
-                                    <div class="carousel-caption">
-                                        <p >3.	Creo Engine connects players to do business in the metaverse.</p>
+                                    <div class="swiper-slide">
+                                        <p >3. Creo Engine connects players to do business in the metaverse.</p>
                                     </div>
-                                  </div>
-                                  <div class="carousel-item">
-                                    <div class="carousel-caption">
-                                        <p >4.	Staking Creo token rewards investors with more token.</p>
+                                    <div class="swiper-slide">
+                                        <p >4. Staking Creo token rewards investors with more token.</p></div>
+                                    <div class="swiper-slide">
+                                        <p >5. Extra benefit for players when using Creo as payment in the marketplace</p>
                                     </div>
-                                  </div>
-                                  <div class="carousel-item">
-                                    <div class="carousel-caption">
-                                        <p >5.	Extra benefit for players when using Creo as payment in the marketplace</p>
+                                    <div class="swiper-slide">
+                                      <p >6. Creo Engine offers an all-in-one platform where gamefi products are 
+                                            vetted and carefully integrated into a steady and stable ecosystem.</p></div>
+                                    <div class="swiper-slide"> 
+                                      <p >7. One token for all transactions to ensure integrity and safety among games. Creo platform will strive to stabilize prices to ensure profitable, long-lasting yields.</p></div>
                                     </div>
-                                  </div>
-                                  <div class="carousel-item">
-                                    <div class="carousel-caption">
-                                        <p >6.	Creo Engine offers an all-in-one platform where gamefi products are 
-                                            vetted and carefully integrated into a steady and stable ecosystem.</p>
-                                    </div>
-                                  </div>
-                                  <div class="carousel-item">
-                                    <div class="carousel-caption">
-                                        <p >7.	One token for all transactions to ensure integrity and safety among games. Creo platform will strive to stabilize prices to ensure profitable, long-lasting yields.</p>
-                                    </div>
-                                  </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Next</span>
-                                </a>
-                              </div> -->
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
 
-                            <div style="margin-top: 1rem;" class="carousel text-cell" data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": true, "pageDots": true }'>
+                            <!-- <div style="margin-top: 1rem;" class="carousel text-cell" data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": true, "pageDots": true }'>
                                 <div class="carousel-cell content-why-creo-wrap ">
                                     <div>
                                         <p >
@@ -259,7 +413,7 @@
                                 
     
                                 
-                            </div>
+                            </div> -->
                         </div>
 
                         
@@ -271,58 +425,172 @@
             <section>
                 <div class="container-fluid" style="background-image: radial-gradient( rgba(84,51,255,0.8), rgba(255,0,0,0));   ">
                     <div class="container">
-                        <div class="row">  
-                            <div class="col-md-8" style="display: flex; justify-content: right; align-items: center;">
-                                <div style="float: right; text-align: center; width: 80%; "> 
-                                    <div >
-                                        <span style="font-size: 250%; font-weight: 800;">SMART CONTRACT</span>
-                                    </div>
-                                    <div style="font-weight: 700; margin-top: 0.625rem;" >
-                                        <p >Lock Token & Lock Liquidity is becoming a common standard in the fundraising ecosystem to 
-                                            avoid rug projects or scams by providing Transparent & Auditable Smart Contracts for token sale, 
-                                            token release, vesting, funds & liquidity.</p>
-                                    </div>
-                                    <div >
-                                        <div style="display: flex; flex-direction: row;justify-content: center; align-items: center;">
-                                            <div style="display: flex; align-items: center; margin: 0.5rem;">
-                                                <a href="https://github.com/AuditRateTech/Smart-Contract-Audits/blob/main/CREOENGINE_0x0364e3691b8dFBb213e4E897d5A0DD0C622D672f.pdf" target="_blank">
-                                                    <img src="/public/assets/audit-rate.png">
-                                                </a>
-                                                
-                                            </div>
-                                            <div style="height: 60px; display: flex; align-items: center; margin: 0.6rem;">
-                                                <a href="https://www.certik.com/projects/creo-engine" target="_blank">
-                                                    <img src="/public/assets/certik-1.png" >
+                    <div class="row">  
+                        <div class="col-md-8 centering-content">
+                            <div style="text-align: center; flex-direction: column; width: 100%; display: flex; justify-content: center; align-items: center; "> 
+                                <div >
+                                    <span style="font-size: 2.365rem; font-weight: 800; text-decoration: underline; text-decoration-thickness: 2.5px;">$CREO Utility</span>
+                                </div>
 
-                                                </a>
-                                            </div>
-                                            
+                                <div class="swiper mySwiper swiperAuto">
+                                    <div class="swiper-wrapper">
+                                        
+                                        <div class="swiper-slide">
+                                            <p>
+                                                1. Governance token in our Ecosystem<br>All games that run under the Creo Engine platform will only use one game token; the CREO token.
+                                            </p>
                                             
                                         </div>
+                                        <div class="swiper-slide">
+                                            <p>
+                                                2. Token Staking program to earn rewards<br>
+                                                Users/gamers that stake their Creo tokens will receive Creo tokens as rewards.
+                                            </p>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <p >3. Gas fees for marketplace transaction<br>
+                                                All transactions in the marketplace will be charged with a small amount of CREO token as transaction fees.</p>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <p >4. In-game and marketplace transactions<br>
+                                                All transactions occurred in the marketplace use the CREO token.</p>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <p >5. Liquidity<br>
+                                                Creo Tokens will also be used as liquidity in exchanges.</p>
+                                        </div>
+                                        <div class="swiper-slide">
+                                          <p >6. Staking for Developers<br>
+                                            Game developers are required to stake a certain amount of CREO tokens before joining the ecosystem.</p></div>
+                                        <div class="swiper-slide"> 
+                                          <p >7. Incubation Program<br>
+                                            Creo Engine will use the Creo token in the project incubation program.
+                                          </p>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <p >
+                                                8. Rewards<br>
+                                                Creo Engine will occasionally give away Creo tokens in promotional events as a reward.
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>  
+                                        
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
 
-                            </div>
+                                <!-- <div style="margin-top: 0.5rem; margin-bottom: 0.5rem;" class="carousel text-cell" data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": true, "pageDots": true , "autoPlay": true}'>
+                                    <div class="carousel-cell content-why-creo-wrap ">
+                                        <div>
+                                            <p >
+                                                1. Governance token in our Ecosystem<br>All games that run under the Creo Engine platform will only use one game token; the CREO token.
+                                            </p>
+                                        </div>
+                                    </div>
+        
+                                    <div class="carousel-cell content-why-creo-wrap ">
+                                        <div>
+                                            <p>2. Token Staking program to earn rewards<br>
+                                                Users/gamers that stake their Creo tokens will receive Creo tokens as rewards.</p>
+                                        </div>
+                                    </div>
+        
+                                    <div class="carousel-cell content-why-creo-wrap">
+                                        <div>
+                                            <p>3. Gas fees for marketplace transaction<br>
+                                                All transactions in the marketplace will be charged with a small amount of CREO token as transaction fees. </p>
+                                        </div>
+                                    </div>
+        
+                                    <div class="carousel-cell content-why-creo-wrap">
+                                        <div>
+                                            <p >4. In-game and marketplace transactions<br>
+                                                All transactions occurred in the marketplace use the CREO token.</p>
+                                        </div>
+                                    </div>
+        
+                                    <div class="carousel-cell content-why-creo-wrap">
+                                        <div>
+                                            <p >5. Liquidity<br>
+                                                Creo Tokens will also be used as liquidity in exchanges.</p>
+                                        </div>
+                                    </div>
+        
+                                    <div class="carousel-cell content-why-creo-wrap">
+                                        <div>
+                                            <p >6. Staking for Developers<br>
+                                                Game developers are required to stake a certain amount of CREO tokens before joining the ecosystem.</p>
+                                        </div>
+                                    </div>
+        
+                                    <div class="carousel-cell content-why-creo-wrap">
+                                        <div>
+                                            <p >7. Incubation Program<br>
+                                                Creo Engine will use the Creo token in the project incubation program. </p>
+                                        </div>                                    
+                                    </div>
+        
+                                    <div class="carousel-cell content-why-creo-wrap">
+                                        <div>
+                                            <p >8. Rewards<br>
+                                                Creo Engine will occasionally give away Creo tokens in promotional events as a reward.</p>
+                                        </div>
+                                        
+                                    </div>
+        
+                                    
+        
+                                    
+                                </div> -->
 
-                            <div class="col-md-4" style="display: flex; justify-content: end;">
-                                <svg id="svg-about" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="253" height="300" viewBox="0 0 253 300">
-                                    <defs>
-                                      <pattern id="pattern-1" width="1" height="1" viewBox="0 0 158 211">
-                                        <image preserveAspectRatio="xMidYMid slice" width="158" height="211.887" xlink:href="/public/assets/svg/padlock-1-2.png"/>
-                                      </pattern>
-                                      <pattern id="pattern-2" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 490 423">
-                                        <image width="490" height="423" xlink:href="/public/assets/svg/padlock-1-1.png"/>
-                                      </pattern>
-                                    </defs>
-                                    <g id="smart-contract" data-name="Group 1115" transform="translate(-1262 -856)">
-                                      <rect id="PADKEY2_3x" data-name="PADKEY2@3x" width="158" height="211" transform="translate(1357 856)" fill="url(#pattern-1)"/>
-                                      <animateTransform id="anim4" xlink:href="#PADKEY2_3x" attributeName="transform" attributeType="XML"type="translate" from="-10 30" to="0 0"  dur="1s" additive="sum" begin="indefinite" />
-                                      <rect id="PADKEY_3x" data-name="PADKEY@3x" width="253" height="218" transform="translate(1262 938)" fill="url(#pattern-2)"/>
-                                    </g>
-                                </svg>
+                                <button class="whitepaper-btn" style="margin-bottom: 0.8rem;" data-toggle="modal" data-target="#modalBuyCreo">BUY CREO  <img src="/public/assets/logo_creo.png" alt=""/></button>
+                                <!-- <div style="font-weight: 700; margin-top: 0.625rem;" >
+                                    <p >Lock Token & Lock Liquidity is becoming a common standard in the fundraising ecosystem to 
+                                        avoid rug projects or scams by providing Transparent & Auditable Smart Contracts for token sale, 
+                                        token release, vesting, funds & liquidity.</p>
+                                </div>
+                                <div >
+                                    <div style="display: flex; flex-direction: row;justify-content: center; align-items: center;">
+                                        <div style="display: flex; align-items: center; margin: 0.5rem;">
+                                            <a href="https://github.com/AuditRateTech/Smart-Contract-Audits/blob/main/CREOENGINE_0x0364e3691b8dFBb213e4E897d5A0DD0C622D672f.pdf" target="_blank">
+                                                <img src="/public/assets/audit-rate.png">
+                                            </a>
+                                            
+                                        </div>
+                                        <div style="height: 60px; display: flex; align-items: center; margin: 0.6rem;">
+                                            <a href="https://www.certik.com/projects/creo-engine" target="_blank">
+                                                <img src="/public/assets/certik-1.png" >
 
-                            </div>
+                                            </a>
+                                        </div>   
+                                    </div>
+                                </div> -->
+                            </div>  
+
                         </div>
+
+                        <div class="col-md-4" style="display: flex; justify-content: end;">
+                            <svg id="svg-about" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="203" height="240" viewBox="0 0 253 300">
+                                <defs>
+                                  <pattern id="pattern-1" width="1" height="1" viewBox="0 0 158 211">
+                                    <image preserveAspectRatio="xMidYMid slice" width="158" height="211.887" xlink:href="/public/assets/svg/padlock-1-2.png"/>
+                                  </pattern>
+                                  <pattern id="pattern-2" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 490 423">
+                                    <image width="490" height="423" xlink:href="/public/assets/svg/padlock-1-1.png"/>
+                                  </pattern>
+                                </defs>
+                                <g id="smart-contract" data-name="Group 1115" transform="translate(-1262 -856)">
+                                  <rect id="PADKEY2_3x" data-name="PADKEY2@3x" width="158" height="211" transform="translate(1357 856)" fill="url(#pattern-1)"/>
+                                  <animateTransform id="anim4" xlink:href="#PADKEY2_3x" attributeName="transform" attributeType="XML"type="translate" from="-10 30" to="0 0"  dur="1s" additive="sum" begin="indefinite" />
+                                  <rect id="PADKEY_3x" data-name="PADKEY@3x" width="253" height="218" transform="translate(1262 938)" fill="url(#pattern-2)"/>
+                                </g>
+                                <animateTransform  xlink:href="#svg-about" attributeName="transform" attributeType="XML"type="translate" from="10 30" to="0 0"  dur="1s" additive="sum" begin="indefinite" />
+                            </svg>
+                            
+                            
+                        </div>
+                    </div>
                     </div>
                 </div>
             
@@ -335,7 +603,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-4">
-                                <div style="position: relative; bottom: -2rem;">
+                                <div style="position: relative; bottom: 0rem;">
                                     <img  data-inviewport="slide-left" src="/public/assets/planet.png" >
                                 </div>
                             </div>
@@ -343,10 +611,14 @@
                                 <div style="float: left; text-align: left; display: flex;  align-items: center; "> 
                                     <div style="display: block;z-index: 1; ">
                                         <div >
-                                            <span style="font-size: 250%; font-weight: 700;">OUR CREOVERSE</span>
+                                            <span style="font-size: 2.165rem; font-weight: 800;text-decoration: underline; text-decoration-thickness: 2.5px;">The CreoPlay</span>
                                         </div>
                                         <div >
-                                            <p >All Creo Engine games are intertwined with each other, players can use their assets and materials in one game, or have them sent to the other games and utilize them there.</p>
+                                            <p style="font-weight: 600;">
+                                                A collection of web3 games from all over the globe, and with facilities and infrastructures which will allow users and 
+                                                developers to interoperate between these games. 
+                                                A seamless massive data bank of assets where NFTs and items are all moving inbetween games.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>  
@@ -378,14 +650,26 @@
                                                 <span style="font-size: 1.4rem; font-weight: 700;"><%= listGame[i].name %></span>
                                             </div>
                                             <div>
-                                                <span style="color: #B133FF; font-weight: 600;"><%= listGame[i].desc %></span>
+                                                <% if (listGame[i].name == 'Slime Haven') { %>
+                                                    <span style="color: #B133FF; font-weight: 600;">Pet Raising Game</span>
+                                                <%} else if (listGame[i].name == 'Merchant Marvel') { %>
+                                                    <span style="color: #B133FF; font-weight: 600;">Idle Crafting Game</span>
+                                                <%} else if (listGame[i].name == 'Peony Ranch')  { %>
+                                                    <span style="color: #B133FF; font-weight: 600;">Farming Game</span>
+
+                                                <%} else { %>
+                                                    <span style="color: #B133FF; font-weight: 600;"><%= listGame[i].desc %></span>
+                                                <% } %>
                                             </div>
                                             <div style="display: flex; flex-direction: row;">
                                                 
                                                 
                                                 <% if (listGame[i].name == 'Evermore Knights') { %>
                                                     <a href="<%= listGame[i].website%>" target="_blank"><i class="fa-solid fa-globe fa-icon-small"></i></a>
-                                                    <a href= "https://discord.gg/evermoreknights" target="_blank"><i class="fa-brands fa-discord fa-icon-small"></i></a>
+                                                    <a href= "https://discord.gg/creoengine" target="_blank"><i class="fa-brands fa-discord fa-icon-small"></i></a>
+                                                <%} else if (listGame[i].name == 'Slime Haven') { %>
+                                                    <a href="https://slimehaven.com/" target="_blank"><i class="fa-solid fa-globe fa-icon-small"></i></a>
+                                                    <a href= "https://discord.gg/creoengine" target="_blank"><i class="fa-brands fa-discord fa-icon-small"></i></a>
                                                 <%} else { %>
                                                     <i class="fa-solid fa-globe fa-icon-small"></i>
                                                     <i class="fa-brands fa-discord fa-icon-small"></i>
@@ -394,16 +678,23 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <% if (listGame[i].name != 'Evermore Knights') { %>
+                                    <% if (listGame[i].name == 'Evermore Knights') { %>
+                                        <a href="https://drive.google.com/drive/u/1/folders/1XcNaeluJMWs8oJxoo4-D_8gvgkwUcHw-" target="_blank" class="btn-try-demo">
+                                            <div class="coming-soon-text">
+                                                <span>DOWNLOAD PRE-BETA</span>
+                                            </div>
+                                        </a>
+                                    <% } else if (listGame[i].name == 'Slime Haven') { %>
+                                        <a href="https://drive.google.com/drive/folders/1kdh5hqSY8E0AjliXMmQ5IL_s3X3FX8eS?usp=sharing" target="_blank" class="btn-try-demo">
+                                            <div class="coming-soon-text">
+                                                <span>DOWNLOAD PRE-ALPHA</span>
+                                            </div>
+                                        </a>
+                                    <% } else { %>
+                                        
                                         <div class="coming-soon-text">
                                             <span>COMING SOON</span>
                                         </div>
-                                    <% } else { %>
-                                        <a href="https://evermoreknights.com/play" target="_blank" class="btn-try-demo">
-                                            <div class="coming-soon-text">
-                                                <span>TRY DEMO</span>
-                                            </div>
-                                        </a>
 
                                     <% } %>
         
@@ -418,11 +709,11 @@
                 </div>
             </section>
 
-            <!--SMART CONTRACT ADDRESS-->
-            <!-- <section style="display: flex; flex-direction: column; justify-content: center;">
+            <!-- SMART CONTRACT ADDRESS -->
+            <section style="display: flex; flex-direction: column; justify-content: center;">
                 <div class="container">
                     <div class="centering-content">
-                        <span class="font-title2-size">CREO ENGINE CONTRACT ADDRESS</span>
+                        <span class="font-title2-size" style="text-shadow: 0px 0px 5px #B133FF;">CREO ENGINE CONTRACT ADDRESS</span>
                     </div>
                 </div>
                 <div class="container" style="margin-top: 2rem;">
@@ -433,31 +724,135 @@
                                 <path id="path"  fill-rule="evenodd" clip-rule="evenodd" d="M6 3C6 1.34315 7.34315 0 9 0H14C14.2652 0 14.5196 0.105357 14.7071 0.292893L21.7071 7.29289C21.8946 7.48043 22 7.73478 22 8V17C22 18.6569 20.6569 20 19 20H18V21C18 22.6569 16.6569 24 15 24H5C3.34315 24 2 22.6569 2 21V7C2 5.34315 3.34315 4 5 4H6V3ZM6 6H5C4.44772 6 4 6.44772 4 7V21C4 21.5523 4.44772 22 5 22H15C15.5523 22 16 21.5523 16 21V20H9C7.34315 20 6 18.6569 6 17V6ZM9 2C8.44772 2 8 2.44772 8 3V17C8 17.5523 8.44771 18 9 18H19C19.5523 18 20 17.5523 20 17V9H16C14.3431 9 13 7.65685 13 6V2H9ZM15 3.41421L18.5858 7H16C15.4477 7 15 6.55228 15 6V3.41421Z" fill="#293644"/>
                             </svg>
                         </div>
-                        <input type="text" class="val" value="0x0364e3691b8dFBb213e4E897d5A0DD0C622D672f" readonly id="address-text">
+                        <input type="text" class="val" value="0x9521728bF66a867BC65A93Ece4a543D817871Eb7" readonly id="address-text">
                         <div style="position: absolute;  right: -1rem; ">
                             <img src="/public/assets/verify.png">
                         </div>
                     </div>
                     <div style="margin-top: 2rem">
-                        <a id="bscscan-link"  target="_blank" href="https://bscscan.com/token/0x0364e3691b8dFBb213e4E897d5A0DD0C622D672f">
+                        <a id="bscscan-link"  target="_blank" href="https://bscscan.com/address/0x9521728bf66a867bc65a93ece4a543d817871eb7">
                             <div class="wrap-bscscan-btn-img">
                                 <img src="/public/assets/bscscan-logo.png" width="80%" style="margin: 0.2rem;"/>
                             </div>
                         </a>
                     </div>
                 </div>
+            </section>
+
+            <!--Token Utility-->
+
+            <!-- <section id="utility">
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="title-background" style="padding: 1rem; display: flex; justify-content: center; align-items: center;">
+                            <span class="font-title-size">TOKEN Utility</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 centering-content">
+                            
+                                <img class="rotating" style="margin-top: 3rem;" src="/public/assets/logo-creo-large.png">
+                          
+                        </div>
+                        <div class="col-md-6">
+                            <div class="container" style="margin-top: 3rem;">
+                                <ul style="list-style: none; padding: 0px; ">
+                                    <div>
+                                        <li class="wrap-util-li">
+                                            <div style="font-weight: 700; font-size: 1.2rem; ">Governance token in our Ecosystem</div>
+                                            <div class="desc-utl">All games that run under the Creo Engine platform will only use one game token; the CREO token.</div>
+                                            <div class="bullet-wrapper">
+                                                <div class="bullet"></div>
+                                            </div>
+                                        </li>
+                                    </div>
+
+                                    <div>
+                                        <li class="wrap-util-li">
+                                            <div style="font-weight: 700; font-size: 1.2rem; ">Token Staking program to earn rewards</div>
+                                            <div class="desc-utl">Users/gamers that stake their Creo tokens will receive Creo tokens as rewards.</div>
+                                            <div class="bullet-wrapper">
+                                                <div class="bullet"></div>
+                                            </div>
+                                        </li>
+                                    </div>
+
+                                    <div>
+                                        <li class="wrap-util-li">
+                                            <div style="font-weight: 700; font-size: 1.2rem;">Gas fees for marketplace transaction</div>
+                                            <div class="desc-utl">All transactions in the marketplace will be charged with a small amount of CREO token as transaction fees. </div>
+                                            <div class="bullet-wrapper">
+                                                <div class="bullet"></div>
+                                            </div>
+                                        </li>
+                                    </div>
+
+                                    <div>
+                                        <li class="wrap-util-li">
+                                            <div style="font-weight: 700; font-size: 1.2rem;">In-game and marketplace transactions</div>
+                                            <div class="desc-utl">All transactions occurred in the marketplace use the CREO token.</div>
+                                            <div class="bullet-wrapper">
+                                                <div class="bullet"></div>
+                                            </div>
+                                        </li>
+                                    </div>
+
+                                    <div>
+                                        <li class="wrap-util-li">
+                                            <div style="font-weight: 700; font-size: 1.2rem;">Liquidity</div>
+                                            <div class="desc-utl">Creo Tokens will also be used as liquidity in exchanges.</div>
+                                            <div class="bullet-wrapper">
+                                                <div class="bullet"></div>
+                                            </div>
+                                        </li>
+                                    </div>
+
+                                    <div>
+                                        <li class="wrap-util-li">
+                                            <div style="font-weight: 700; font-size: 1.2rem;">Staking for Developers </div>
+                                            <div class="desc-utl">Game developers are required to stake a certain amount of CREO tokens before joining the ecosystem.</div>
+                                            <div class="bullet-wrapper">
+                                                <div class="bullet"></div>
+                                            </div>
+                                        </li>
+                                    </div>
+
+                                    <div>
+                                        <li class="wrap-util-li">
+                                            <div style="font-weight: 700; font-size: 1.2rem;">Incubation Program</div>
+                                            <div class="desc-utl">Creo Engine will use the Creo token in the project incubation program.</div>
+                                            <div class="bullet-wrapper">
+                                                <div class="bullet"></div>
+                                            </div>
+                                        </li>
+                                    </div>
+
+                                    <div>
+                                        <li class="wrap-util-li">
+                                            <div style="font-weight: 700; font-size: 1.1rem;">Rewards</div>
+                                            <div class="desc-utl">Creo Engine will occasionally give away Creo tokens in promotional events as a reward.</div>
+                                            <div class="bullet-wrapper">
+                                                <div class="bullet"></div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section> -->
 
             <!--TOKENOMICS-->
-            <section  id="tokenomics" >
-                <div class="container-fluid" >
+            <section  id="tokenomics" class="pb-0">
+                <div class="container-fluid"  >
                     <div class="container">
                         <div class="title-background" style="padding: 1rem; display: flex; justify-content: center; align-items: center;">
-                            <span class="font-title-size">TOKENOMICS</span>
+                            <span class="font-title-size" style="text-shadow: 0px 0px 5px #B133FF;">TOKENOMICS</span>
                         </div>
                     </div>
-                    <div class="container" style="width: 100%; margin-top: 2rem; margin-bottom: 2rem; padding: 0;">
-                        <%- include ('../public/assets/svg/chart-svg.svg') %>    
+                    <div  class="container px-4" style="width: 100%; height: auto; margin-top: 4rem;">
+                        <%- include ('../public/assets/Group 1239.svg') %>    
                     </div>            
                 </div>
             </section>
@@ -469,7 +864,7 @@
                     <div class="container-fluid title-background" style="display: flex; justify-content: center; align-items: center; ">
                         <div class="container" style="margin-top: 2rem; margin-bottom: 2rem;">
                             <div  style="text-align: center; padding-top: 2rem;">
-                                <span data-inviewport="fadeIn" class="font-title-size">INCUBATED BY</span>
+                                <span data-inviewport="fadeIn" class="font-title-size" style="text-shadow: 0px 0px 5px #B133FF;">INCUBATED BY</span>
                             </div>
                             <div class="centering-content" style="margin-top: 1rem;">
                                 <div style="display: grid; grid-column: auto;  grid-template-columns: repeat(3, 1fr);">
@@ -486,7 +881,7 @@
                             </div>
 
                             <div  style="text-align: center; padding-top: 2rem;">
-                                <span data-inviewport="fadeIn" class="font-title-size">BACKERS</span>
+                                <span data-inviewport="fadeIn" class="font-title-size" style="text-shadow: 0px 0px 5px #B133FF;">BACKERS</span>
                             </div>
 
                             <div class="desktop-view">
@@ -516,7 +911,7 @@
                                 <div style="margin-top: 1rem;">
                                     <div data-inviewport="fadeIn" style="display: grid; grid-column: auto;  grid-template-columns: repeat(5,1fr) ;" >
                                         <div class="partnership-img-wrap">
-                                            <img src="/public/assets/partner/gusta color.png">
+                                            <img src="/public/assets/partner/cointelligence.png">
                                         </div>
                                         
                                         <div class="partnership-img-wrap" >
@@ -537,9 +932,11 @@
                                 </div>
     
                                 <div style="margin-top: 1rem;">
-                                    <div data-inviewport="fadeIn" style="display: grid; grid-column: auto;  grid-template-columns: repeat(4,1fr) ;" >
+                                    <div data-inviewport="fadeIn" style="display: grid; grid-column: auto;  grid-template-columns: repeat(6,1fr) ;" >
                                        
-                                        
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/gusta color.png">
+                                        </div>
                                         
                                         <div class="partnership-img-wrap" >
                                             <img src="/public/assets/partner/safe-launch.png">
@@ -547,12 +944,17 @@
                                         <div class="partnership-img-wrap">
                                             <img src="/public/assets/partner/tc capital.png">
                                         </div>
-                                        <div class="partnership-img-wrap">
-                                            <img src="/public/assets/partner/lunapad.png">
-                                        </div>
+                                        
                                         <div class="partnership-img-wrap">
                                             <img src="/public/assets/partner/bsclaunch.png">
                                         </div>
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/bvibri ventures.png">
+                                        </div>
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/smaugs.png">
+                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -574,7 +976,7 @@
                                     <img src="/public/assets/partner/SMO CAPITAL GREEN Logo.png">
                                 </div>
                                 <div class="partnership-img-wrap">
-                                    <img src="/public/assets/partner/gusta color.png">
+                                    <img src="/public/assets/partner/cointelligence.png">
                                 </div>
                                 <div class="partnership-img-wrap" >
                                     <img src="/public/assets/partner/logo cuan b capital.png">
@@ -589,7 +991,9 @@
                                 <div class="partnership-img-wrap">
                                     <img src="/public/assets/partner/AB Ventures.png">
                                 </div>
-                                
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/gusta color.png">
+                                </div>
                                 
                                 <div class="partnership-img-wrap" >
                                     <img src="/public/assets/partner/safe-launch.png">
@@ -597,21 +1001,29 @@
                                 <div class="partnership-img-wrap">
                                     <img src="/public/assets/partner/tc capital.png">
                                 </div>
-                                <div class="partnership-img-wrap">
+                                <!-- <div class="partnership-img-wrap">
                                     <img src="/public/assets/partner/lunapad.png">
-                                </div>
+                                </div> -->
                                 <div class="partnership-img-wrap">
                                     <img src="/public/assets/partner/bsclaunch.png">
+                                </div>
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/bvibri ventures.png">
+                                </div>
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/smaugs.png">
                                 </div>
                             </div>
 
                             <div  style="text-align: center; padding-top: 3rem;">
-                                <span data-inviewport="fadeIn" class="font-title-size">PARTNERSHIP</span>
+                                <span data-inviewport="fadeIn" class="font-title-size" style="text-shadow: 0px 0px 5px #B133FF;">PARTNERSHIP</span>
                             </div>
                             <div class="desktop-view">
-                                <div  style="margin-top: 2rem;;">
+                                <div  style="margin-top: 1.5rem;;">
                                     <div data-inviewport="fadeIn" style="display: grid; grid-column: auto;  grid-template-columns: repeat(5,1fr) ;" >
-                                       
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/game-starter.png">
+                                        </div>
                                         <div class="partnership-img-wrap">
                                             <img src="/public/assets/partner/inifinitypad.png">
                                         </div>
@@ -625,21 +1037,19 @@
                                             <img src="/public/assets/partner/synapse.png">
                                         </div>
 
-                                        <div class="partnership-img-wrap" >
-                                            <img src="/public/assets/partner/truepnl.png">
-                                        </div>
+                                        
                                         
                                     </div>
                                 </div>
     
                                 <div style="margin-top: 1rem;">
                                     <div data-inviewport="fadeIn" style="display: grid; grid-column: auto;  grid-template-columns: repeat(5,1fr) ;" >
-                                       
-                                        <div class="partnership-img-wrap">
-                                            <img src="/public/assets/partner/metalaunch.png">
+                                        <div class="partnership-img-wrap" >
+                                            <img src="/public/assets/partner/fantomstarter.png">
                                         </div>
+                                        
                                         <div class="partnership-img-wrap">
-                                            <img src="/public/assets/partner/STRT.png">
+                                            <img src="/public/assets/wallet/unicrypt-logo.png">
                                         </div>
                                         <div class="partnership-img-wrap" >
                                             <img src="/public/assets/partner/ksm.png">
@@ -650,27 +1060,31 @@
                                         <div class="partnership-img-wrap" >
                                             <img src="/public/assets/partner/koi.png">
                                         </div>
+                                        
                                     </div>
                                 </div>
     
                                 <div style="margin-top: 1rem;">
                                     <div data-inviewport="fadeIn" style="display: grid; grid-column: auto;  grid-template-columns: repeat(5,1fr) ;" >
-                                       
                                         <div class="partnership-img-wrap">
                                             <img src="/public/assets/partner/ernx.png">
                                         </div>
-                                        <div class="partnership-img-wrap">
-                                            <img src="/public/assets/partner/Milkyway_logo_400x400.png">
+                                        <div class="partnership-img-wrap" >
+                                            <img src="/public/assets/partner/STRT.png">
                                         </div>
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/huobi.png">
+                                        </div>
+                                        <div class="partnership-img-wrap" >
+                                            <img src="/public/assets/partner/BGA.png">
+                                        </div>
+                                        
                                         <div class="partnership-img-wrap">
                                             <img src="/public/assets/partner/dao.png">
                                         </div>
-                                        <div class="partnership-img-wrap" >
-                                            <img src="/public/assets/partner/asto.png">
-                                        </div>
-                                        <div class="partnership-img-wrap" >
-                                            <img src="/public/assets/partner/mpad_mono.png">
-                                        </div>
+                                        
+                                        
+                                       
                                         
                                     </div>
                                 </div>
@@ -694,6 +1108,7 @@
                                             <img src="/public/assets/partner/regular.png">
                                         </div>
                                         
+                                        
                                     </div>
                                 </div>
     
@@ -702,8 +1117,8 @@
                                     grid-template-columns: repeat(5,1fr) ;" >
                                        
                                        <div class="partnership-img-wrap">
-                                            <img src="/public/assets/partner/cheesus.png">
-                                        </div>
+                                        <img src="/public/assets/partner/cheesus.png">
+                                    </div>
                                         <div class="partnership-img-wrap">
                                             <img src="/public/assets/partner/metadhana.png">
                                         </div>
@@ -713,15 +1128,22 @@
                                         <div class="partnership-img-wrap">
                                             <img src="/public/assets/partner/dex_capital.png">
                                         </div>
+                                        
                                         <div class="partnership-img-wrap">
                                             <img src="/public/assets/partner/emerald.png">
                                         </div>  
+                                        
+                                        
                                     </div>
                                 </div>
 
                                 <div  style="margin-top: 1rem;">
                                     <div data-inviewport="fadeIn" style="display: grid; grid-column: auto;  
-                                    grid-template-columns: repeat(3,1fr) ;" >
+                                    grid-template-columns: repeat(5,1fr) ;" >
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/metalaunch.png">
+                                        </div>
+                                        
                                         <div class="partnership-img-wrap">
                                             <img src="/public/assets/partner/mafia-capital.png">
                                         </div>
@@ -731,10 +1153,40 @@
                                         <div class="partnership-img-wrap">
                                             <img src="/public/assets/partner/spintop.png">
                                         </div>
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/earn-guild.png">
+                                        </div>
+                                        
+                                        
+                                        
+                                    </div>
+                                </div>
+
+                                <div  style="margin-top: 1rem;">
+                                    <div data-inviewport="fadeIn" style="display: grid; grid-column: auto;  
+                                    grid-template-columns: repeat(5,1fr) ;" >
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/Milkyway_logo_400x400.png">
+                                        </div>
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/playzap.png">
+                                        </div>
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/cryptoguild.png">
+                                        </div>
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/mpad_mono.png">
+                                        </div>
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/UKISS_Logo_W.png">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="mobile-view" data-inviewport="fadeIn"  >
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/game-starter.png">
+                                </div>
                                 <div class="partnership-img-wrap">
                                     <img src="/public/assets/partner/inifinitypad.png">
                                 </div>
@@ -748,15 +1200,11 @@
                                     <img src="/public/assets/partner/synapse.png">
                                 </div>
 
-                                <div class="partnership-img-wrap" >
-                                    <img src="/public/assets/partner/truepnl.png">
-                                </div>
-
                                 <div class="partnership-img-wrap">
-                                    <img src="/public/assets/partner/metalaunch.png">
+                                    <img src="/public/assets/partner/fantomstarter.png">
                                 </div>
                                 <div class="partnership-img-wrap">
-                                    <img src="/public/assets/partner/STRT.png">
+                                    <img src="/public/assets/partner/unicrypt.png">
                                 </div>
                                 <div class="partnership-img-wrap" >
                                     <img src="/public/assets/partner/ksm.png">
@@ -771,18 +1219,20 @@
                                 <div class="partnership-img-wrap">
                                     <img src="/public/assets/partner/ernx.png">
                                 </div>
-                                <div class="partnership-img-wrap">
-                                    <img src="/public/assets/partner/Milkyway_logo_400x400.png">
+                                <div class="partnership-img-wrap" >
+                                    <img src="/public/assets/partner/STRT.png">
+                                </div>
+                                <div class="partnership-img-wrap" >
+                                    <img src="/public/assets/partner/huobi.png">
+                                </div>
+                                <div class="partnership-img-wrap" >
+                                    <img src="/public/assets/partner/BGA.png">
                                 </div>
                                 <div class="partnership-img-wrap">
                                     <img src="/public/assets/partner/dao.png">
                                 </div>
-                                <div class="partnership-img-wrap" >
-                                    <img src="/public/assets/partner/asto.png">
-                                </div>
-                                <div class="partnership-img-wrap" >
-                                    <img src="/public/assets/partner/mpad_mono.png">
-                                </div>
+                                
+                                
                                 
                                 <div class="partnership-img-wrap">
                                     <img src="/public/assets/partner/metabase.png">
@@ -812,8 +1262,12 @@
                                 <div class="partnership-img-wrap">
                                     <img src="/public/assets/partner/dex_capital.png">
                                 </div>
+                                
                                 <div class="partnership-img-wrap">
                                     <img src="/public/assets/partner/emerald.png">
+                                </div>
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/metalaunch.png">
                                 </div>
                                 <div class="partnership-img-wrap">
                                     <img src="/public/assets/partner/mafia-capital.png">
@@ -824,10 +1278,156 @@
                                 <div class="partnership-img-wrap">
                                     <img src="/public/assets/partner/spintop.png">
                                 </div>
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/earn-guild.png">
+                                </div>
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/Milkyway_logo_400x400.png">
+                                </div>
+                                
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/playzap.png">
+                                </div>
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/cryptoguild.png">
+                                </div>
+                                <div class="partnership-img-wrap" >
+                                    <img src="/public/assets/partner/mpad_mono.png">
+                                </div>
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/UKISS_Logo_W.png">
+                                </div>
                             </div>
 
                             <div  style="text-align: center; padding-top: 3rem;">
-                                <span data-inviewport="fadeIn" class="font-title-size">PRESS RELEASE</span>
+                                <span data-inviewport="fadeIn" class="font-title-size" style="text-shadow: 0px 0px 5px #B133FF;">GAME PARTNERS</span>
+                            </div>
+                            <div class="desktop-view" data-inviewport="fadeIn"  >
+                                <div style="margin-top: 1rem;">
+                                    <div data-inviewport="fadeIn" style="display: grid; grid-column: auto;  
+                                    grid-template-columns: repeat(3,1fr) ;" >
+                                        <div class="partnership-img-wrap" >
+                                            <img src="/public/assets/partner/CryptoWushu.png">
+                                        </div>
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/BRAWL TALES.png">
+                                        </div>
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/sur.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="margin-top: 1rem;">
+                                    <div data-inviewport="fadeIn" style="display: grid; grid-column: auto;  
+                                    grid-template-columns: repeat(3,1fr) ;" >
+                                        <div class="partnership-img-wrap" >
+                                            <img src="/public/assets/partner/loa.png">
+                                        </div>
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/shadow_legacy.png">
+                                        </div>
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/galaxy_survivor.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="margin-top: 1rem;">
+                                    <div data-inviewport="fadeIn" style="display: grid; grid-column: auto;  
+                                    grid-template-columns: repeat(4,1fr) ;" >
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/Heroes_lineage.png">
+                                        </div>
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/Xmetaverse.png">
+                                        </div>
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/galaxy_blitz.png">
+                                        </div>
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/Square_White-1-2.png"></div>
+                                    </div>
+                                </div>
+                                <div style="margin-top: 1rem;">
+                                    <div data-inviewport="fadeIn" style="display: grid; grid-column: auto;  
+                                    grid-template-columns: repeat(4,1fr) ;" >
+                                    <div class="partnership-img-wrap">
+                                        <img src="/public/assets/partner/galaxy_arena.png">
+                                    </div>
+                                        <div class="partnership-img-wrap" >
+                                            <img src="/public/assets/partner/haunted_space.png">
+                                        </div>
+                                        
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/Metarace.png">
+                                        </div>
+                                        <div class="partnership-img-wrap">
+                                            <img src="/public/assets/partner/djinn_logo.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <div class="mobile-view" data-inviewport="fadeIn" style="margin-top: 2rem;"  >
+                                <div class="partnership-img-wrap" >
+                                    <img src="/public/assets/partner/CryptoWushu.png">
+                                </div>
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/BRAWL TALES.png">
+                                </div>
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/sur.png">
+                                </div>
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/Heroes_lineage.png">
+                                </div>
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/Xmetaverse.png">
+                                </div>
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/galaxy_blitz.png">
+                                </div>
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/Square_White-1-2.png">
+                                </div>
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/loa.png">
+                                </div>
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/shadow_legacy.png">
+                                </div>
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/galaxy_survivor.png">
+                                </div>
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/galaxy_arena.png">
+                                </div>
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/haunted_space.png">
+                                </div>
+                                
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/Metarace.png">
+                                </div>
+                                <div class="partnership-img-wrap">
+                                    <img src="/public/assets/partner/djinn_logo.png">
+                                </div>
+                            </div>
+                            
+
+                            <div  style="text-align: center; padding-top: 3rem;">
+                                <span data-inviewport="fadeIn" class="font-title-size" style="text-shadow: 0px 0px 5px #B133FF;">CYBER SECURITY BY</span>
+                            </div>
+                            <div  style="margin-top: 2rem;">
+                                <div class="wrap-security-container">
+                                    <div class="partnership-img-wrap" >
+                                        <img src="/public/assets/partner/ARAY_LIGHT_FULL.png">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div  style="text-align: center; padding-top: 3rem;">
+                                <span data-inviewport="fadeIn" class="font-title-size" style="text-shadow: 0px 0px 5px #B133FF;">PRESS RELEASE</span>
                             </div>
                             <div  style="margin-top: 2rem;">
                                 <div class="wrap-partnership-container">
@@ -851,8 +1451,9 @@
                                         <img src="/public/assets/partner/RFD-tv.png">
                                     </div>
                                 </div>
-                                
                             </div>
+
+                            
                         </div>
                     </div>
                 </section>
@@ -863,8 +1464,8 @@
                         <div class="container ">
                             <div>
                                 <div style="display: flex; flex-direction: column; text-align: center; margin-bottom: 1rem;">
-                                    <span class="font-title-size">TEAM</span>
-                                    <span style="color: white; font-size: 120%; font-weight: 500;">The CreoEngine team is a group of developers, operators, marketers, strategist and<br>designers
+                                    <span class="font-title-size" style="text-shadow: 0px 0px 5px #B133FF;">TEAM</span>
+                                    <span style="color: white; font-size: 120%; font-weight: 500;">The Creo Engine team is a group of developers, operators, marketers, strategist and<br>designers
                                         with expertise in their respective fields.
                                     </span>
                                 </div>
@@ -878,12 +1479,16 @@
                                                         <img src="<%= listTeam[i].url %>" >
     
                                                         <div class="social-linkedin">
-                                                            <a href="<%= listTeam[i].linkedin%>" target="_blank" style="cursor: <%= listTeam[i].linkedin=='' ? 'not-allowed' : 'pointer' %>" ><img src="/public/assets/linkedin.png"></a>
+                                                            <a href="<%= listTeam[i].linkedin%>" target="_blank" 
+                                                                style="cursor: <%= listTeam[i].linkedin=='' ? 'not-allowed' : 'pointer' %>" 
+                                                            >
+                                                                <img src="/public/assets/linkedin.png">
+                                                            </a>
                                                         </div>
                                                     </div>
                                                     
                                                 </div>
-                                                <div style="display: block;  text-align: center;">
+                                                <div style="display: block;  text-align: center; margin-top: 0.5rem;">
                                                     <div>
                                                         <span  style="font-weight: 600;"><%= listTeam[i].name %></span>
                                                     </div>
@@ -906,7 +1511,7 @@
                         <div class="container">
                             <div>
                                 <div style="display: flex; flex-direction: column; text-align: center; margin-bottom: 1rem;">
-                                    <span class="font-title-size">ADVISORS</span>
+                                    <span class="font-title-size" style="text-shadow: 0px 0px 5px #B133FF;">ADVISORS</span>
                                 </div>
 
                                 <div data-inviewport="fadeIn" class=" wrap-team-member-container">
@@ -921,7 +1526,7 @@
                                             </div>
                                             
                                         </div>
-                                        <div style="display: block;  text-align: center;">
+                                        <div style="display: block;  text-align: center; margin-top: 0.5rem;">
                                             <div>
                                                 <span  style="font-weight: 600;">JIMMY YAN</span>
                                             </div>
@@ -941,7 +1546,7 @@
                                             </div>
                                             
                                         </div>
-                                        <div style="display: block;  text-align: center;">
+                                        <div style="display: block;  text-align: center; margin-top: 0.5rem;">
                                             <div>
                                                 <span  style="font-weight: 600;">SIGIT PUTRA TANOKO .ST</span>
                                             </div>
@@ -961,7 +1566,7 @@
                                             </div>
                                             
                                         </div>
-                                        <div style="display: block;  text-align: center;">
+                                        <div style="display: block;  text-align: center; margin-top: 0.5rem;">
                                             <div>
                                                 <span  style="font-weight: 600;">JUNI LANDA KURIAWAN .ST</span>
                                             </div>
@@ -981,7 +1586,7 @@
                                             </div>
                                             
                                         </div>
-                                        <div style="display: block;  text-align: center;">
+                                        <div style="display: block;  text-align: center; margin-top: 0.5rem;">
                                             <div>
                                                 <span  style="font-weight: 600;">ROBBY JEO</span>
                                             </div>
@@ -1001,7 +1606,7 @@
                                             </div>
                                             
                                         </div>
-                                        <div style="display: block;  text-align: center;">
+                                        <div style="display: block;  text-align: center; margin-top: 0.5rem;">
                                             <div>
                                                 <span  style="font-weight: 600;">BUDI TUNJUNG</span>
                                             </div>
@@ -1022,7 +1627,7 @@
                                             </div>
                                             
                                         </div>
-                                        <div style="display: block;  text-align: center;">
+                                        <div style="display: block;  text-align: center; margin-top: 0.5rem;">
                                             <div>
                                                 <span  style="font-weight: 600;">JAYA V RAJAN</span>
                                             </div>
@@ -1043,12 +1648,33 @@
                                             </div>
                                             
                                         </div>
-                                        <div style="display: block;  text-align: center;">
+                                        <div style="display: block;  text-align: center; margin-top: 0.5rem;">
                                             <div>
                                                 <span  style="font-weight: 600;">DR. NAUT (TOBY ROTSCHILD)</span>
                                             </div>
                                             <div>
                                                 <span class="color-default" style="font-weight: 600;">ADVISOR & CO FOUNDER OF ASTRONAUT</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="team-member-container">
+                                        <div style="width: 60%; display: flex; justify-content: center; ">
+                                            <div style="position: relative;">
+                                                <img src="/public/assets/team/INFINITYPAD.png">
+
+                                                <div class="social-linkedin">
+                                                    <a href="https://infinitypad.com/" target="_blank" style="cursor: pointer" ><img src="/public/assets/globe.png"></a>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                        <div style="display: block;  text-align: center; margin-top: 0.5rem;">
+                                            <div>
+                                                <span  style="font-weight: 600;">INFINITY PAD</span>
+                                            </div>
+                                            <div>
+                                                <span class="color-default" style="font-weight: 600;">BSC's Most Dominant Launchpad</span>
                                             </div>
                                         </div>
                                     </div>
@@ -1062,7 +1688,7 @@
                     <div class="container-fluid">
                         <div class="container">
                             <div class="title-background" style="padding: 1rem; display: flex; justify-content: center; align-items: center;">
-                                <span class="font-title-size">ROADMAP</span>
+                                <span class="font-title-size" style="text-shadow: 0px 0px 5px #B133FF;">ROADMAP</span>
                             </div>
 
                             <div style="margin-top: 1rem; margin-bottom: 1rem;" class="carousel-roadmap" data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": false, "pageDots": false }' tabindex="5">
@@ -1076,34 +1702,50 @@
         
                                             <div>
                                                 <div class="roadmap-list-text">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10.75" height="10.75" viewBox="0 0 10.75 10.75">
-                                                        <path id="Icon_ionic-ios-checkmark-circle" data-name="Icon ionic-ios-checkmark-circle" d="M8.75,3.375A5.375,5.375,0,1,0,14.125,8.75,5.374,5.374,0,0,0,8.75,3.375Z" transform="translate(-3.375 -3.375)" fill="#fff"/>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16.82" height="16.82" viewBox="0 0 23.82 22.027">
+                                                        <g id="_13225365361543238866" data-name="13225365361543238866" transform="translate(-0.998 -0.982)">
+                                                          <path id="Path_160" data-name="Path 160" d="M22,11.08V12a10,10,0,1,1-5.93-9.14" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                                          <path id="Path_161" data-name="Path 161" d="M25.4,4,12.785,17.031,9,13.125" transform="translate(-2 -1)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                                        </g>
                                                     </svg>
+                                                      
+                                                      
                                                     <span>1st game alpha testing</span>
                                                 </div>
                                                 <div class="roadmap-list-text" >
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10.75" height="10.75" viewBox="0 0 10.75 10.75">
-                                                        <path id="Icon_ionic-ios-checkmark-circle" data-name="Icon ionic-ios-checkmark-circle" d="M8.75,3.375A5.375,5.375,0,1,0,14.125,8.75,5.374,5.374,0,0,0,8.75,3.375Z" transform="translate(-3.375 -3.375)" fill="#fff"/>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16.82" height="16.82" viewBox="0 0 23.82 22.027">
+                                                        <g id="_13225365361543238866" data-name="13225365361543238866" transform="translate(-0.998 -0.982)">
+                                                          <path id="Path_160" data-name="Path 160" d="M22,11.08V12a10,10,0,1,1-5.93-9.14" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                                          <path id="Path_161" data-name="Path 161" d="M25.4,4,12.785,17.031,9,13.125" transform="translate(-2 -1)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                                        </g>
                                                     </svg>
                                                     <span>IDO SALE in multiple launchpad</span>
                                                 </div>
                                                 
                                                 <div class="roadmap-list-text">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10.75" height="10.75" viewBox="0 0 10.75 10.75">
-                                                        <path id="Icon_ionic-ios-checkmark-circle" data-name="Icon ionic-ios-checkmark-circle" d="M8.75,3.375A5.375,5.375,0,1,0,14.125,8.75,5.374,5.374,0,0,0,8.75,3.375Z" transform="translate(-3.375 -3.375)" fill="#fff"/>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16.82" height="16.82" viewBox="0 0 23.82 22.027">
+                                                        <g id="_13225365361543238866" data-name="13225365361543238866" transform="translate(-0.998 -0.982)">
+                                                          <path id="Path_160" data-name="Path 160" d="M22,11.08V12a10,10,0,1,1-5.93-9.14" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                                          <path id="Path_161" data-name="Path 161" d="M25.4,4,12.785,17.031,9,13.125" transform="translate(-2 -1)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                                        </g>
                                                     </svg>
                                                     <span>2nd Game Development</span>
                                                 </div>
                                                 <div class="roadmap-list-text">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10.75" height="10.75" viewBox="0 0 10.75 10.75">
-                                                        <path id="Icon_ionic-ios-checkmark-circle" data-name="Icon ionic-ios-checkmark-circle" d="M8.75,3.375A5.375,5.375,0,1,0,14.125,8.75,5.374,5.374,0,0,0,8.75,3.375Z" transform="translate(-3.375 -3.375)" fill="#fff"/>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16.82" height="16.82" viewBox="0 0 23.82 22.027">
+                                                        <g id="_13225365361543238866" data-name="13225365361543238866" transform="translate(-0.998 -0.982)">
+                                                          <path id="Path_160" data-name="Path 160" d="M22,11.08V12a10,10,0,1,1-5.93-9.14" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                                          <path id="Path_161" data-name="Path 161" d="M25.4,4,12.785,17.031,9,13.125" transform="translate(-2 -1)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                                        </g>
                                                     </svg>
+                                                      
+                                                      
                                                     <span>NFT Development / NFT Marketplace</span>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div style=" position: absolute; transform: translate(55%, -15%); ">
+                                        <div style=" position: absolute; transform: translate(55%, -27%); ">
                                             <img src="/public/assets/puzzle-dynamic-clay.png">
                                         </div>
                                     </div>
@@ -1118,48 +1760,63 @@
         
                                             <div>     
                                                 <div class="roadmap-list-text">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10.75" height="10.75" viewBox="0 0 10.75 10.75">
-                                                        <path id="Icon_ionic-ios-checkmark-circle" data-name="Icon ionic-ios-checkmark-circle" d="M8.75,3.375A5.375,5.375,0,1,0,14.125,8.75,5.374,5.374,0,0,0,8.75,3.375Z" transform="translate(-3.375 -3.375)" fill="#fff"/>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16.82" height="16.82" viewBox="0 0 23.82 22.027">
+                                                        <g id="_13225365361543238866" data-name="13225365361543238866" transform="translate(-0.998 -0.982)">
+                                                          <path id="Path_160" data-name="Path 160" d="M22,11.08V12a10,10,0,1,1-5.93-9.14" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                                          <path id="Path_161" data-name="Path 161" d="M25.4,4,12.785,17.031,9,13.125" transform="translate(-2 -1)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                                        </g>
                                                     </svg>
                                                     <span>First Exchanger Listing</span>
                                                 </div>
                                                 <div class="roadmap-list-text">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10.75" height="10.75" viewBox="0 0 10.75 10.75">
-                                                        <path id="Icon_ionic-ios-checkmark-circle" data-name="Icon ionic-ios-checkmark-circle" d="M8.75,3.375A5.375,5.375,0,1,0,14.125,8.75,5.374,5.374,0,0,0,8.75,3.375Z" transform="translate(-3.375 -3.375)" fill="#fff"/>
-                                                    </svg>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16.82" height="16.82" viewBox="0 0 23.82 22.027">
+                                                        <g id="_13225365361543238866" data-name="13225365361543238866" transform="translate(-0.998 -0.982)">
+                                                          <path id="Path_160" data-name="Path 160" d="M22,11.08V12a10,10,0,1,1-5.93-9.14" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                                          <path id="Path_161" data-name="Path 161" d="M25.4,4,12.785,17.031,9,13.125" transform="translate(-2 -1)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                                        </g>
+                                                      </svg>
                                                     <span>Listing on Dex</span>
                                                 </div>   
-                                                <div class="roadmap-list-text" >
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10.75" height="10.75" viewBox="0 0 10.75 10.75">
-                                                        <path id="Icon_ionic-ios-checkmark-circle" data-name="Icon ionic-ios-checkmark-circle" d="M8.75,3.375A5.375,5.375,0,1,0,14.125,8.75,5.374,5.374,0,0,0,8.75,3.375Z" transform="translate(-3.375 -3.375)" fill="#fff"/>
-                                                    </svg>
-                                                    <span>1st Game Close Beta</span>
-                                                </div>
                                                 <div class="roadmap-list-text">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10.75" height="10.75" viewBox="0 0 10.75 10.75">
-                                                        <path id="Icon_ionic-ios-checkmark-circle" data-name="Icon ionic-ios-checkmark-circle" d="M8.75,3.375A5.375,5.375,0,1,0,14.125,8.75,5.374,5.374,0,0,0,8.75,3.375Z" transform="translate(-3.375 -3.375)" fill="#fff"/>
-                                                    </svg>
-                                                    <span>1st Game Full Release</span>
-                                                </div>
-                                                <div class="roadmap-list-text">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10.75" height="10.75" viewBox="0 0 10.75 10.75">
-                                                        <path id="Icon_ionic-ios-checkmark-circle" data-name="Icon ionic-ios-checkmark-circle" d="M8.75,3.375A5.375,5.375,0,1,0,14.125,8.75,5.374,5.374,0,0,0,8.75,3.375Z" transform="translate(-3.375 -3.375)" fill="#fff"/>
-                                                    </svg>
-                                                    <span>Exchanger Listing</span>
-                                                </div>
-                                                
-                                                <div class="roadmap-list-text">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10.75" height="10.75" viewBox="0 0 10.75 10.75">
-                                                        <path id="Icon_ionic-ios-checkmark-circle" data-name="Icon ionic-ios-checkmark-circle" d="M8.75,3.375A5.375,5.375,0,1,0,14.125,8.75,5.374,5.374,0,0,0,8.75,3.375Z" transform="translate(-3.375 -3.375)" fill="#fff"/>
-                                                    </svg>
-                                                    <span>2nd Game Alpha Testing</span>
-                                                </div>
-                                                <div class="roadmap-list-text">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10.75" height="10.75" viewBox="0 0 10.75 10.75">
-                                                        <path id="Icon_ionic-ios-checkmark-circle" data-name="Icon ionic-ios-checkmark-circle" d="M8.75,3.375A5.375,5.375,0,1,0,14.125,8.75,5.374,5.374,0,0,0,8.75,3.375Z" transform="translate(-3.375 -3.375)" fill="#fff"/>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16.82" height="16.82" viewBox="0 0 23.82 22.027">
+                                                        <g id="_13225365361543238866" data-name="13225365361543238866" transform="translate(-0.998 -0.982)">
+                                                          <path id="Path_160" data-name="Path 160" d="M22,11.08V12a10,10,0,1,1-5.93-9.14" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                                          <path id="Path_161" data-name="Path 161" d="M25.4,4,12.785,17.031,9,13.125" transform="translate(-2 -1)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                                        </g>
                                                     </svg>
                                                     <span>Staking Rewards</span>
                                                 </div>
+                                                <div class="roadmap-list-text">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16.82" height="16.82" viewBox="0 0 23.82 22.027">
+                                                        <g id="_13225365361543238866" data-name="13225365361543238866" transform="translate(-0.998 -0.982)">
+                                                          <path id="Path_160" data-name="Path 160" d="M22,11.08V12a10,10,0,1,1-5.93-9.14" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                                          <path id="Path_161" data-name="Path 161" d="M25.4,4,12.785,17.031,9,13.125" transform="translate(-2 -1)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                                        </g>
+                                                    </svg>
+                                                    <span>Exchanger Listing</span>
+                                                </div>
+                                                <div class="roadmap-list-text" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16.82" height="16.82" viewBox="0 0 23.82 22.027">
+                                                        <g id="_13225365361543238866" data-name="13225365361543238866" transform="translate(-0.998 -0.982)">
+                                                          <path id="Path_160" data-name="Path 160" d="M22,11.08V12a10,10,0,1,1-5.93-9.14" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                                          <path id="Path_161" data-name="Path 161" d="M25.4,4,12.785,17.031,9,13.125" transform="translate(-2 -1)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                                        </g>
+                                                    </svg>
+                                                    <span>1st Game Close Beta</span>
+                                                </div>
+                                                
+                                                
+                                                
+                                                <div class="roadmap-list-text">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16.82" height="16.82" viewBox="0 0 23.82 22.027">
+                                                        <g id="_13225365361543238866" data-name="13225365361543238866" transform="translate(-0.998 -0.982)">
+                                                          <path id="Path_160" data-name="Path 160" d="M22,11.08V12a10,10,0,1,1-5.93-9.14" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                                          <path id="Path_161" data-name="Path 161" d="M25.4,4,12.785,17.031,9,13.125" transform="translate(-2 -1)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                                        </g>
+                                                    </svg>
+                                                    <span>2nd Game Alpha Testing</span>
+                                                </div>
+                                                
 
                                                 
                                             </div>
@@ -1179,7 +1836,24 @@
                                             </div>
 
                                             <div>
-                                                
+                                                <div class="roadmap-list-text" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10.75" height="10.75" viewBox="0 0 10.75 10.75">
+                                                        <path id="Icon_ionic-ios-checkmark-circle" data-name="Icon ionic-ios-checkmark-circle" d="M8.75,3.375A5.375,5.375,0,1,0,14.125,8.75,5.374,5.374,0,0,0,8.75,3.375Z" transform="translate(-3.375 -3.375)" fill="#fff"/>
+                                                    </svg>
+                                                    <span>Launch Marketplace</span>
+                                                </div>
+                                                <div class="roadmap-list-text" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10.75" height="10.75" viewBox="0 0 10.75 10.75">
+                                                        <path id="Icon_ionic-ios-checkmark-circle" data-name="Icon ionic-ios-checkmark-circle" d="M8.75,3.375A5.375,5.375,0,1,0,14.125,8.75,5.374,5.374,0,0,0,8.75,3.375Z" transform="translate(-3.375 -3.375)" fill="#fff"/>
+                                                    </svg>
+                                                    <span>Launch CreoPlay Platform</span>
+                                                </div>
+                                                <div class="roadmap-list-text">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10.75" height="10.75" viewBox="0 0 10.75 10.75">
+                                                        <path id="Icon_ionic-ios-checkmark-circle" data-name="Icon ionic-ios-checkmark-circle" d="M8.75,3.375A5.375,5.375,0,1,0,14.125,8.75,5.374,5.374,0,0,0,8.75,3.375Z" transform="translate(-3.375 -3.375)" fill="#fff"/>
+                                                    </svg>
+                                                    <span>1st Game Full Release</span>
+                                                </div>
                                                 <div class="roadmap-list-text" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="10.75" height="10.75" viewBox="0 0 10.75 10.75">
                                                         <path id="Icon_ionic-ios-checkmark-circle" data-name="Icon ionic-ios-checkmark-circle" d="M8.75,3.375A5.375,5.375,0,1,0,14.125,8.75,5.374,5.374,0,0,0,8.75,3.375Z" transform="translate(-3.375 -3.375)" fill="#fff"/>
@@ -1493,7 +2167,7 @@
                 <img src="/public/assets/logo-footer.png">
                 <div style="margin-top: 2rem;">
                     <span>
-                        © 2021 CreoEngine. All Rights Reserved
+                        © 2021 Creo Engine. All Rights Reserved
                     </span>
                 </div>
             </div>
@@ -1504,11 +2178,11 @@
                         Any question / feedback? Please contact us:<br>contact@creoengine.com
                     </span>
                 </div>
-                <div style="float: right; margin-top: 2rem;" >
+                <div style="float: right; margin-top: 2rem; display: flex; " >
                     <button class="btn-rounded-footer" onclick="parent.open('https://www.facebook.com/CreoEngineGlobal/')"><i class="fa-brands fa-facebook-f"></i></button>
                     <button class="btn-rounded-footer" onclick="parent.open('https://twitter.com/creo_engine')"><i class="fa-brands fa-twitter"></i></button>
                     <button class="btn-rounded-footer" onclick="parent.open('https://www.instagram.com/creoengine.official/')"><i class="fa-brands fa-instagram"></i></button>
-                    <button class="btn-rounded-footer" onclick="parent.open('https://discord.gg/evermoreknights')"><i class="fa-brands fa-discord"></i></button>
+                    <button class="btn-rounded-footer centering-content" onclick="parent.open('https://discord.gg/creoengine')"><i class="fa-brands fa-discord"></i></button>
                     <button class="btn-rounded-footer" onclick="parent.open('https://t.me/CreoEngineChannel')"><i class="fa-solid fa-paper-plane"></i></button>
                     <button class="btn-rounded-footer"onclick="parent.open(' https://www.youtube.com/channel/UCiYbgRVmXNbX7iB9q_9sleA')"><i class="fa-brands fa-youtube"></i></button>
                 </div>
@@ -1521,7 +2195,32 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
 <script src="/public/js/animated-slide-up.js"></script>
 <script src="/public/js/animate-svg-home.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script type="text/javascript">
+    $(window).on('load', function() {
+        $('#myModal').modal('show');
+    });
+</script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+    // pagination: {
+    //     el: ".swiper-pagination",
+    //     // type: "progressbar",
+    // },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    });
 
+    var swiper1 = new Swiper(".swiperAuto",{
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+    })
+</script>
 <script>
     const copyBtn = document.getElementById('copy-btn');
     const copyText = document.getElementById('address-text');
@@ -1545,5 +2244,7 @@
   $('[data-toggle="tooltip"]').tooltip({ trigger: 'hover'});
 });
 </script>
+
+
 </body>
 </html>

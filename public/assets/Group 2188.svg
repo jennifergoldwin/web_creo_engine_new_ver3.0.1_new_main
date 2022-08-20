@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1142" height="786" viewBox="0 0 1142 786">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.06" y1="1" x2="0.617" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#687794"/>
+      <stop offset="1" stop-color="#525d74" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1142 786">
+      <image width="1142" height="786" xlink:href="Group%202188-image.png"/>
+    </pattern>
+    <linearGradient id="linear-gradient-2" x1="0.495" x2="2.314" y2="1.021" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#066585"/>
+      <stop offset="0.406" stop-color="#007ea6"/>
+      <stop offset="0.854" stop-color="#0091cf"/>
+      <stop offset="1" stop-color="#0091cf" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.493" cy="1" r="0.455" gradientTransform="matrix(0, -0.55, 1.1, 0, 1.05, -0.05)" gradientUnits="objectBoundingBox">
+      <stop offset="0.307" stop-color="#9eeeff"/>
+      <stop offset="1" stop-color="#57aeff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0085ff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip-path">
+      <path id="Vector" d="M297.764,0H26.1L0,55.241l26.1,55.254H297.764l26.1-55.254Z" transform="matrix(1, 0, 0, 1, 0, 0)" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <filter id="Vector-2" x="434.82" y="451.774" width="327.718" height="114.349" filterUnits="userSpaceOnUse">
+      <feOffset dx="-0.321" dy="0.642" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.642" result="blur"/>
+      <feFlood flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2188" data-name="Group 2188" transform="translate(-389 -92)">
+    <rect id="EK_Pre-Register_Banner" width="1142" height="786" transform="translate(389 92)" fill="url(#pattern)"/>
+    <text id="CREO_ENGINE_S_FIRST_JRPG_TITLE" data-name="CREO ENGINE&apos;S
+FIRST JRPG TITLE" transform="translate(988 772)" fill="#a7a7a7" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="-69.722" y="0">CREO ENGINE&apos;S</tspan><tspan x="-74.473" y="27">FIRST JRPG TITLE</tspan></text>
+    <g id="Group_3069" data-name="Group 3069" transform="translate(75.624 -264.777)">
+      <g id="btn_blue" transform="translate(750.444 809.837)">
+        <g id="Group_3068" data-name="Group 3068">
+          <path id="Vector-3" data-name="Vector" d="M323.864,55.241l-26.1,55.254H26.1L0,55.241,26.1,0H297.764Z" transform="matrix(1, 0, 0, 1, 0, 0)" fill="#a0edff"/>
+          <path id="Vector-4" data-name="Vector" d="M322.182,53.165l-25.519,55.292L25.519,107.394,0,53.165,23.924,0H295.068Z" transform="translate(1.063 2.127)" fill="url(#linear-gradient-2)"/>
+          <path id="Ellipse_599" data-name="Ellipse 599" d="M265.827,91.261H0S65.661,0,139.067,0,265.827,91.261,265.827,91.261Z" transform="translate(29.773 17.196)" fill="url(#radial-gradient)"/>
+          <g id="Mask_group" data-name="Mask group" transform="translate(0 0)" opacity="0.4">
+            <g id="Vector-5" data-name="Vector" clip-path="url(#clip-path)">
+              <g id="Group_1537" data-name="Group 1537" transform="translate(-101.298 -131.224)">
+                <g id="Group" transform="translate(38.043 51.408)">
+                  <path id="Vector-6" data-name="Vector" d="M106.778,53.078A53.39,53.39,0,1,1,53.389,0a53.234,53.234,0,0,1,53.389,53.078Z" transform="translate(5.7 109.038) rotate(-75)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-7" data-name="Vector" d="M710.278,753.071l20.271,34.993-34.875,20.067L675.4,773.138Z" transform="translate(-675.403 -721.105)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-8" data-name="Vector" d="M760.7,780.626,772.451,800.9l-20.209,11.628L740.5,792.254Z" transform="translate(-685.627 -725.433)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-9" data-name="Vector" d="M775.518,715.148l20.271,34.993-34.875,20.067-20.271-34.993Z" transform="translate(-685.65 -715.148)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-10" data-name="Vector" d="M747.817,818.544l20.271,34.993L733.213,873.6l-20.271-34.993Z" transform="translate(-681.299 -731.389)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-11" data-name="Vector" d="M813.075,780.613l20.271,34.993-34.875,20.067L778.2,800.68Z" transform="translate(-691.55 -725.431)" fill="#fff" opacity="0.3"/>
+                </g>
+                <g id="Group-2" data-name="Group" transform="translate(179.641 89.349)">
+                  <path id="Vector-12" data-name="Vector" d="M106.778,53.078A53.39,53.39,0,1,1,53.389,0a53.234,53.234,0,0,1,53.389,53.078Z" transform="translate(5.7 109.038) rotate(-75)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-13" data-name="Vector" d="M878.261,798.079l20.271,34.993-34.875,20.067-20.271-34.993Z" transform="translate(-843.386 -766.115)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-14" data-name="Vector" d="M928.689,825.636l11.747,20.277-20.209,11.628L908.48,837.265Z" transform="translate(-853.611 -770.443)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-15" data-name="Vector" d="M943.5,760.159l20.271,34.993L928.9,815.219l-20.271-34.993Z" transform="translate(-853.634 -760.159)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-16" data-name="Vector" d="M915.8,863.554l20.271,34.993L901.2,918.614l-20.271-34.993Z" transform="translate(-849.283 -776.399)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-17" data-name="Vector" d="M981.06,825.624l20.271,34.993-34.875,20.067-20.271-34.993Z" transform="translate(-859.533 -770.442)" fill="#fff" opacity="0.3"/>
+                </g>
+                <g id="Group-3" data-name="Group" transform="translate(89.877 141.592)">
+                  <path id="Vector-18" data-name="Vector" d="M106.155,53.078A53.078,53.078,0,1,1,53.078,0a53.078,53.078,0,0,1,53.078,53.078Z" transform="translate(5.774 108.322) rotate(-75)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-19" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 34.832, 31.708)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-20" data-name="Vector" d="M0,0H23.307V23.307H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 75.051, 54.872)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-21" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 89.757, 0)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-22" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 66.541, 86.647)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-23" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 121.475, 54.926)" fill="#fff" opacity="0.3"/>
+                </g>
+                <g id="Group-4" data-name="Group" transform="translate(127.812)">
+                  <path id="Vector-24" data-name="Vector" d="M106.155,53.078A53.078,53.078,0,1,1,53.078,0a53.078,53.078,0,0,1,53.078,53.078Z" transform="translate(5.774 108.322) rotate(-75)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-25" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 34.832, 31.714)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-26" data-name="Vector" d="M0,0H23.307V23.307H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 75.051, 54.872)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-27" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 89.748, 0)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-28" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 66.532, 86.647)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-29" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 121.474, 54.932)" fill="#fff" opacity="0.3"/>
+                </g>
+                <g id="Group-5" data-name="Group" transform="translate(176.229 211.773)">
+                  <path id="Vector-30" data-name="Vector" d="M106.155,53.078A53.078,53.078,0,1,1,53.078,0a53.078,53.078,0,0,1,53.078,53.078Z" transform="translate(5.783 108.325) rotate(-75)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-31" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 34.832, 31.71)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-32" data-name="Vector" d="M0,0H23.307V23.307H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 75.052, 54.873)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-33" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 89.757, 0)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-34" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 66.541, 86.647)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-35" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 121.474, 54.926)" fill="#fff" opacity="0.3"/>
+                </g>
+                <g id="Group-6" data-name="Group" transform="translate(0 193.832)">
+                  <path id="Vector-36" data-name="Vector" d="M106.155,53.078A53.078,53.078,0,1,1,53.078,0a53.078,53.078,0,0,1,53.078,53.078Z" transform="translate(5.783 108.322) rotate(-75)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-37" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 34.832, 31.71)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-38" data-name="Vector" d="M0,0H23.307V23.307H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 75.052, 54.872)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-39" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 89.757, 0)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-40" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 66.541, 86.647)" fill="#fff" opacity="0.3"/>
+                  <path id="Vector-41" data-name="Vector" d="M0,0H40.221V40.221H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 121.475, 54.926)" fill="#fff" opacity="0.3"/>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -437.07, -453.06)" filter="url(#Vector-2)">
+            <path id="Vector-42" data-name="Vector" d="M8.717,61.5,4.529,55.247,8.717,49l4.188,6.243ZM314.3,49l4.188,6.243L314.3,61.491l-4.188-6.243Zm9.563,6.243-26.48,55.247H26.48L0,55.247,26.48,0H297.4Zm-8.78-12.5-8.238,12.5,8.238,12.5,5.992-12.5Zm-312.3,12.5L8.427,67.015l7.759-11.768L8.427,43.479ZM314.6,68.737l-8.894-13.49,8.894-13.49L295.782,2.477H28.069L8.907,42.488l8.4,12.759-8.4,12.759,19.175,40.011H295.794Z" transform="matrix(1, 0, 0, 1, 437.07, 453.06)" fill="#c3a76d"/>
+          </g>
+        </g>
+      </g>
+      <text id="PRE-REGISTER" transform="translate(760.444 840.741)" fill="#fff" font-size="34" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="17.33" y="37" xml:space="preserve">REGISTER NOW !        </tspan></text>
+    </g>
+    <g id="Group_2187" data-name="Group 2187" transform="translate(0 7)">
+      <g id="Group_2185" data-name="Group 2185" transform="translate(0 -17)">
+        <text id="Join_the_Pre-Register_for_Evermore_Knights_and_get" data-name="Join the Pre-Register for
+Evermore Knights and get" transform="translate(988 417)" fill="#fff" font-size="28" font-family="SegoeUI, Segoe UI"><tspan x="-148.88" y="0">Join the Pre-Register for</tspan><tspan x="-159.817" y="37">Evermore Knights and get</tspan></text>
+      </g>
+      <text id="Exclusive_Rewards_" data-name="Exclusive Rewards!" transform="translate(862 471)" fill="#e1c95d" font-size="29" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Exclusive Rewards!</tspan></text>
+    </g>
+  </g>
+</svg>

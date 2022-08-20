@@ -629,9 +629,9 @@ gj.picker.methods = {
             $wrapper = $input.parent('div[role="wrapper"]');
 
         if (data.uiLibrary === 'bootstrap') {
-            $rightIcon = $('<span class="input-group-addon">' + data.icons.rightIcon + '</span>');
+            $rightIcon = $('<span className="input-group-addon">' + data.icons.rightIcon + '</span>');
         } else if (data.uiLibrary === 'bootstrap4') {
-            $rightIcon = $('<span class="input-group-append"><button class="btn btn-outline-secondary border-left-0" type="button">' + data.icons.rightIcon + '</button></span>');
+            $rightIcon = $('<span className="input-group-append"><button className="btn btn-outline-secondary border-left-0" type="button">' + data.icons.rightIcon + '</button></span>');
         } else {
             $rightIcon = $(data.icons.rightIcon);
         }
@@ -787,7 +787,7 @@ gj.dialog.config = {
          * </script>
          * @example False <!-- dialog.base, bootstrap -->
          * <div id="dialog" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
-         * <button onclick="dialog.open()" class="btn btn-default">Open Dialog</button>
+         * <button onclick="dialog.open()" className="btn btn-default">Open Dialog</button>
          * <script>
          *     var dialog = $("#dialog").dialog({
          *         uiLibrary: 'bootstrap',
@@ -805,8 +805,8 @@ gj.dialog.config = {
          *     <div data-role="header"><h4 data-role="title">Dialog</h4></div>
          *     <div data-role="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
          *     <div data-role="footer">
-         *         <button onclick="dialog.close()" class="gj-button-md">Ok</button>
-         *         <button onclick="dialog.close()" class="gj-button-md">Cancel</button>
+         *         <button onclick="dialog.close()" className="gj-button-md">Ok</button>
+         *         <button onclick="dialog.close()" className="gj-button-md">Cancel</button>
          *     </div>
          * </div>
          * <script>
@@ -820,8 +820,8 @@ gj.dialog.config = {
          *     <div data-role="header"><h4 data-role="title">Dialog</h4></div>
          *     <div data-role="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
          *     <div data-role="footer">
-         *         <button onclick="dialog.close()" class="gj-button-md">Ok</button>
-         *         <button onclick="dialog.close()" class="gj-button-md">Cancel</button>
+         *         <button onclick="dialog.close()" className="gj-button-md">Ok</button>
+         *         <button onclick="dialog.close()" className="gj-button-md">Cancel</button>
          *     </div>
          * </div>
          * <script>
@@ -1050,8 +1050,8 @@ gj.dialog.config = {
          * <div id="dialog">
          *     <div data-role="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor quam in magna vulputate, vitae laoreet odio ultrices. Phasellus at efficitur magna. Mauris purus dolor, egestas quis leo et, vulputate dictum mauris. Vivamus maximus lectus sollicitudin lorem blandit tempor. Maecenas eget posuere mi. Suspendisse id hendrerit nibh. Morbi eu odio euismod, venenatis ipsum in, egestas nunc. Mauris dignissim metus ac risus porta eleifend. Aliquam tempus libero orci, id placerat odio vehicula eu. Donec tincidunt justo dolor, sit amet tempus turpis varius sit amet. Suspendisse ut ex blandit, hendrerit enim tristique, iaculis ipsum. Vivamus venenatis dolor justo, eget scelerisque lacus dignissim quis. Duis imperdiet ex at aliquet cursus. Proin non ultricies leo. Fusce quam diam, laoreet quis fringilla vitae, viverra id magna. Nam laoreet sem in volutpat rhoncus.</div>
          *     <div data-role="footer">
-         *         <button class="btn btn-default" data-role="close">Cancel</button>
-         *         <button class="btn btn-default" onclick="dialog.close()">OK</button>
+         *         <button className="btn btn-default" data-role="close">Cancel</button>
+         *         <button className="btn btn-default" onclick="dialog.close()">OK</button>
          *     </div>
          * </div>
          * <script>
@@ -1116,8 +1116,8 @@ gj.dialog.config = {
          * <div id="dialog">
          *     <div data-role="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
          *     <div data-role="footer">
-         *         <button class="btn btn-default" data-role="close">Cancel</button>
-         *         <button class="btn btn-default" onclick="dialog.close()">OK</button>
+         *         <button className="btn btn-default" data-role="close">Cancel</button>
+         *         <button className="btn btn-default" onclick="dialog.close()">OK</button>
          *     </div>
          * </div>
          * <script>
@@ -1132,8 +1132,8 @@ gj.dialog.config = {
          *     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
          *   </div>
          *   <div data-role="footer">
-         *     <button class="gj-button-md" onclick="dialog.close()">OK</button>
-         *     <button class="gj-button-md" data-role="close">Cancel</button>
+         *     <button className="gj-button-md" onclick="dialog.close()">OK</button>
+         *     <button className="gj-button-md" data-role="close">Cancel</button>
          *   </div>
          * </div>
          * <script>
@@ -1214,7 +1214,7 @@ gj.dialog.events = {
      * @param {object} e - event data
      * @example sample <!-- draggable, dialog.base, bootstrap -->
      * <div id="dialog" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
-     * <button onclick="dialog.open()" class="gj-button-md">Open Dialog</button>
+     * <button onclick="dialog.open()" className="gj-button-md">Open Dialog</button>
      * <script>
      *     var dialog = $("#dialog").dialog({
      *         autoOpen: false,
@@ -1234,7 +1234,7 @@ gj.dialog.events = {
      * @param {object} e - event data
      * @example sample <!-- draggable, dialog.base, bootstrap -->
      * <div id="dialog" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
-     * <button onclick="dialog.open()" class="gj-button-md">Open Dialog</button>
+     * <button onclick="dialog.open()" className="gj-button-md">Open Dialog</button>
      * <script>
      *     var dialog = $("#dialog").dialog({
      *         autoOpen: false,
@@ -1257,7 +1257,7 @@ gj.dialog.events = {
      * @param {object} e - event data
      * @example sample <!-- draggable, dialog.base, bootstrap -->
      * <div id="dialog" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
-     * <button onclick="dialog.open()" class="gj-button-md">Open Dialog</button>
+     * <button onclick="dialog.open()" className="gj-button-md">Open Dialog</button>
      * <script>
      *     var dialog = $("#dialog").dialog({
      *         autoOpen: false,
@@ -1280,7 +1280,7 @@ gj.dialog.events = {
      * @param {object} e - event data
      * @example sample <!-- draggable, dialog.base, bootstrap -->
      * <div id="dialog" style="display: none">Close the dialog in order to fire closing event.</div>
-     * <button onclick="dialog.open()" class="gj-button-md">Open Dialog</button>
+     * <button onclick="dialog.open()" className="gj-button-md">Open Dialog</button>
      * <script>
      *     var dialog = $("#dialog").dialog({
      *         autoOpen: false,
@@ -1303,7 +1303,7 @@ gj.dialog.events = {
      * @param {object} e - event data
      * @example sample <!-- draggable, dialog.base, bootstrap -->
      * <div id="dialog" style="display: none">Close the dialog in order to fire closed event.</div>
-     * <button onclick="dialog.open()" class="gj-button-md">Open Dialog</button>
+     * <button onclick="dialog.open()" className="gj-button-md">Open Dialog</button>
      * <script>
      *     var dialog = $("#dialog").dialog({
      *         autoOpen: false,
@@ -1326,18 +1326,18 @@ gj.dialog.events = {
      * @param {object} e - event data
      * @example sample <!-- draggable, dialog.base, bootstrap -->
      * <div id="dialog" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
-     * <div id="logPanel" class="col-xs-12 well pre-scrollable" style="height: 200px"></div>
+     * <div id="logPanel" className="col-xs-12 well pre-scrollable" style="height: 200px"></div>
      * <script>
      *     var log = $('#logPanel');
      *     $("#dialog").dialog({
      *         drag: function (e) {
-     *             log.append('<div class="row">The drag event is fired.</div>');
+     *             log.append('<div className="row">The drag event is fired.</div>');
      *         },
      *         dragStart: function (e) {
-     *             log.append('<div class="row">The dragStart event is fired.</div>');
+     *             log.append('<div className="row">The dragStart event is fired.</div>');
      *         },
      *         dragStop: function (e) {
-     *             log.append('<div class="row">The dragStop event is fired.</div>');
+     *             log.append('<div className="row">The dragStop event is fired.</div>');
      *         }
      *     });
      * </script>
@@ -1352,18 +1352,18 @@ gj.dialog.events = {
      * @param {object} e - event data
      * @example sample <!-- draggable, dialog.base, bootstrap -->
      * <div id="dialog" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
-     * <div id="logPanel" class="col-xs-12 well pre-scrollable" style="height: 200px"></div>
+     * <div id="logPanel" className="col-xs-12 well pre-scrollable" style="height: 200px"></div>
      * <script>
      *     var log = $('#logPanel');
      *     $("#dialog").dialog({
      *         drag: function (e) {
-     *             log.append('<div class="row">The drag event is fired.</div>');
+     *             log.append('<div className="row">The drag event is fired.</div>');
      *         },
      *         dragStart: function (e) {
-     *             log.append('<div class="row">The dragStart event is fired.</div>');
+     *             log.append('<div className="row">The dragStart event is fired.</div>');
      *         },
      *         dragStop: function (e) {
-     *             log.append('<div class="row">The dragStop event is fired.</div>');
+     *             log.append('<div className="row">The dragStop event is fired.</div>');
      *         }
      *     });
      * </script>
@@ -1378,18 +1378,18 @@ gj.dialog.events = {
      * @param {object} e - event data
      * @example sample <!-- draggable, dialog.base, bootstrap -->
      * <div id="dialog" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
-     * <div id="logPanel" class="col-xs-12 well pre-scrollable" style="height: 200px"></div>
+     * <div id="logPanel" className="col-xs-12 well pre-scrollable" style="height: 200px"></div>
      * <script>
      *     var log = $('#logPanel');
      *     $("#dialog").dialog({
      *         drag: function (e) {
-     *             log.append('<div class="row">The drag event is fired.</div>');
+     *             log.append('<div className="row">The drag event is fired.</div>');
      *         },
      *         dragStart: function (e) {
-     *             log.append('<div class="row">The dragStart event is fired.</div>');
+     *             log.append('<div className="row">The dragStart event is fired.</div>');
      *         },
      *         dragStop: function (e) {
-     *             log.append('<div class="row">The dragStop event is fired.</div>');
+     *             log.append('<div className="row">The dragStop event is fired.</div>');
      *         }
      *     });
      * </script>
@@ -1404,19 +1404,19 @@ gj.dialog.events = {
      * @param {object} e - event data
      * @example sample <!-- draggable, dialog.base, bootstrap -->
      * <div id="dialog" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
-     * <div id="logPanel" class="col-xs-12 well pre-scrollable" style="height: 200px"></div>
+     * <div id="logPanel" className="col-xs-12 well pre-scrollable" style="height: 200px"></div>
      * <script>
      *     var log = $('#logPanel');
      *     $("#dialog").dialog({
      *         resizable: true,
      *         resize: function (e) {
-     *             log.append('<div class="row">The resize event is fired.</div>');
+     *             log.append('<div className="row">The resize event is fired.</div>');
      *         },
      *         resizeStart: function (e) {
-     *             log.append('<div class="row">The resizeStart event is fired.</div>');
+     *             log.append('<div className="row">The resizeStart event is fired.</div>');
      *         },
      *         resizeStop: function (e) {
-     *             log.append('<div class="row">The resizeStop event is fired.</div>');
+     *             log.append('<div className="row">The resizeStop event is fired.</div>');
      *         }
      *     });
      * </script>
@@ -1431,19 +1431,19 @@ gj.dialog.events = {
      * @param {object} e - event data
      * @example sample <!-- draggable, dialog.base, bootstrap -->
      * <div id="dialog" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
-     * <div id="logPanel" class="col-xs-12 well pre-scrollable" style="height: 200px"></div>
+     * <div id="logPanel" className="col-xs-12 well pre-scrollable" style="height: 200px"></div>
      * <script>
      *     var log = $('#logPanel');
      *     $("#dialog").dialog({
      *         resizable: true,
      *         resize: function (e) {
-     *             log.append('<div class="row">The resize event is fired.</div>');
+     *             log.append('<div className="row">The resize event is fired.</div>');
      *         },
      *         resizeStart: function (e) {
-     *             log.append('<div class="row">The resizeStart event is fired.</div>');
+     *             log.append('<div className="row">The resizeStart event is fired.</div>');
      *         },
      *         resizeStop: function (e) {
-     *             log.append('<div class="row">The resizeStop event is fired.</div>');
+     *             log.append('<div className="row">The resizeStop event is fired.</div>');
      *         }
      *     });
      * </script>
@@ -1458,19 +1458,19 @@ gj.dialog.events = {
      * @param {object} e - event data
      * @example sample <!-- draggable, dialog.base, bootstrap -->
      * <div id="dialog" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
-     * <div id="logPanel" class="col-xs-12 well pre-scrollable" style="height: 200px"></div>
+     * <div id="logPanel" className="col-xs-12 well pre-scrollable" style="height: 200px"></div>
      * <script>
      *     var log = $('#logPanel');
      *     $("#dialog").dialog({
      *         resizable: true,
      *         resize: function (e) {
-     *             log.append('<div class="row">The resize event is fired.</div>');
+     *             log.append('<div className="row">The resize event is fired.</div>');
      *         },
      *         resizeStart: function (e) {
-     *             log.append('<div class="row">The resizeStart event is fired.</div>');
+     *             log.append('<div className="row">The resizeStart event is fired.</div>');
      *         },
      *         resizeStop: function (e) {
-     *             log.append('<div class="row">The resizeStop event is fired.</div>');
+     *             log.append('<div className="row">The resizeStop event is fired.</div>');
      *         }
      *     });
      * </script>
@@ -1559,7 +1559,7 @@ gj.dialog.methods = {
         gj.core.center($dialog);
 
         if (data.modal) {
-            $dialog.wrapAll('<div data-role="modal" class="' + data.style.modal + '"/>');
+            $dialog.wrapAll('<div data-role="modal" className="' + data.style.modal + '"/>');
         }
 
         if (data.autoOpen) {
@@ -1636,14 +1636,14 @@ gj.dialog.methods = {
                 gj.dialog.events.resizeStop($dialog);
             }
         };
-        $dialog.append($('<div class="gj-resizable-handle gj-resizable-n"></div>').draggable($.extend(true, { horizontal: false }, config)));
-        $dialog.append($('<div class="gj-resizable-handle gj-resizable-e"></div>').draggable($.extend(true, { vertical: false }, config)));
-        $dialog.append($('<div class="gj-resizable-handle gj-resizable-s"></div>').draggable($.extend(true, { horizontal: false }, config)));
-        $dialog.append($('<div class="gj-resizable-handle gj-resizable-w"></div>').draggable($.extend(true, { vertical: false }, config)));
-        $dialog.append($('<div class="gj-resizable-handle gj-resizable-ne"></div>').draggable($.extend(true, {}, config)));
-        $dialog.append($('<div class="gj-resizable-handle gj-resizable-nw"></div>').draggable($.extend(true, {}, config)));
-        $dialog.append($('<div class="gj-resizable-handle gj-resizable-sw"></div>').draggable($.extend(true, {}, config)));
-        $dialog.append($('<div class="gj-resizable-handle gj-resizable-se"></div>').draggable($.extend(true, {}, config)));
+        $dialog.append($('<div className="gj-resizable-handle gj-resizable-n"></div>').draggable($.extend(true, { horizontal: false }, config)));
+        $dialog.append($('<div className="gj-resizable-handle gj-resizable-e"></div>').draggable($.extend(true, { vertical: false }, config)));
+        $dialog.append($('<div className="gj-resizable-handle gj-resizable-s"></div>').draggable($.extend(true, { horizontal: false }, config)));
+        $dialog.append($('<div className="gj-resizable-handle gj-resizable-w"></div>').draggable($.extend(true, { vertical: false }, config)));
+        $dialog.append($('<div className="gj-resizable-handle gj-resizable-ne"></div>').draggable($.extend(true, {}, config)));
+        $dialog.append($('<div className="gj-resizable-handle gj-resizable-nw"></div>').draggable($.extend(true, {}, config)));
+        $dialog.append($('<div className="gj-resizable-handle gj-resizable-sw"></div>').draggable($.extend(true, {}, config)));
+        $dialog.append($('<div className="gj-resizable-handle gj-resizable-se"></div>').draggable($.extend(true, {}, config)));
     },
 
     resize: function (e, newPosition) {
@@ -1784,7 +1784,7 @@ gj.dialog.widget = function ($element, jsConfig) {
      * @return dialog
      * @example Sample <!-- draggable, dialog.base, bootstrap -->
      * <div id="dialog" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
-     * <button onclick="dialog.open()" class="gj-button-md">Open Dialog</button>
+     * <button onclick="dialog.open()" className="gj-button-md">Open Dialog</button>
      * <script>
      *     var dialog = $('#dialog').dialog({
      *         autoOpen: false
@@ -1792,7 +1792,7 @@ gj.dialog.widget = function ($element, jsConfig) {
      * </script>
      * @example Title <!-- draggable, dialog.base, bootstrap -->
      * <div id="dialog" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
-     * <button onclick="dialog.open('Custom Text')" class="gj-button-md">Open Dialog</button>
+     * <button onclick="dialog.open('Custom Text')" className="gj-button-md">Open Dialog</button>
      * <script>
      *     var dialog = $('#dialog').dialog({
      *         autoOpen: false
@@ -1810,8 +1810,8 @@ gj.dialog.widget = function ($element, jsConfig) {
      * @return dialog
      * @example sample <!-- draggable, dialog.base, bootstrap -->
      * <div id="dialog" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
-     * <button onclick="dialog.open()" class="gj-button-md">Open Dialog</button>
-     * <button onclick="dialog.close()" class="gj-button-md">Close Dialog</button>
+     * <button onclick="dialog.open()" className="gj-button-md">Open Dialog</button>
+     * <button onclick="dialog.close()" className="gj-button-md">Close Dialog</button>
      * <script>
      *     var dialog = $('#dialog').dialog();
      * </script>
@@ -1826,9 +1826,9 @@ gj.dialog.widget = function ($element, jsConfig) {
      * @return boolean
      * @example sample <!-- draggable, dialog.base, bootstrap -->
      * <div id="dialog" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
-     * <button onclick="dialog.open()" class="gj-button-md">Open Dialog</button>
-     * <button onclick="dialog.close()" class="gj-button-md">Close Dialog</button>
-     * <button onclick="alert($('#dialog').dialog('isOpen'))" class="gj-button-md">isOpen</button>
+     * <button onclick="dialog.open()" className="gj-button-md">Open Dialog</button>
+     * <button onclick="dialog.close()" className="gj-button-md">Close Dialog</button>
+     * <button onclick="alert($('#dialog').dialog('isOpen'))" className="gj-button-md">isOpen</button>
      * <script>
      *     var dialog = $('#dialog').dialog();
      * </script>
@@ -1844,8 +1844,8 @@ gj.dialog.widget = function ($element, jsConfig) {
      * @return String|Dialog
      * @example sample <!-- draggable, dialog.base, bootstrap -->
      * <div id="dialog">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
-     * <button onclick="alert(dialog.content())" class="btn btn-default">Get Content</button>
-     * <button onclick="dialog.content('New Test Content Value')" class="btn btn-default">Set Content</button>
+     * <button onclick="alert(dialog.content())" className="btn btn-default">Get Content</button>
+     * <button onclick="dialog.content('New Test Content Value')" className="btn btn-default">Set Content</button>
      * <script>
      *     var dialog = $('#dialog').dialog({ uiLibrary: 'bootstrap' });
      * </script>
@@ -1861,8 +1861,8 @@ gj.dialog.widget = function ($element, jsConfig) {
      * @return void
      * @example Keep.HTML.Markup <!-- draggable, dialog.base -->
      * <div id="dialog" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
-     * <button onclick="create()" class="gj-button-md">Create</button>
-     * <button onclick="dialog.destroy()" class="gj-button-md">Destroy</button>
+     * <button onclick="create()" className="gj-button-md">Create</button>
+     * <button onclick="dialog.destroy()" className="gj-button-md">Destroy</button>
      * <script>
      *     var dialog;
      *     function create() { 
@@ -1871,8 +1871,8 @@ gj.dialog.widget = function ($element, jsConfig) {
      * </script>
      * @example Remove.HTML.Markup <!-- draggable, dialog.base -->
      * <div id="dialog" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
-     * <button onclick="create()" class="gj-button-md">Create</button>
-     * <button onclick="dialog.destroy(false)" class="gj-button-md">Destroy</button>
+     * <button onclick="create()" className="gj-button-md">Create</button>
+     * <button onclick="dialog.destroy(false)" className="gj-button-md">Destroy</button>
      * <script>
      *     var dialog;
      *     function create() {
@@ -1942,8 +1942,8 @@ gj.draggable.config = {
          * .element { border: 1px solid #999; width: 300px; height: 200px; }
          * .handle { background-color: #DDD; cursor: move; width: 200px; margin: 5px auto 0px auto; text-align: center; padding: 5px; }
          * </style>
-         * <div id="element" class="element">
-         *   <div id="handle" class="handle">Handle for dragging</div>
+         * <div id="element" className="element">
+         *   <div id="handle" className="handle">Handle for dragging</div>
          * </div>
          * <script>
          *     $('#element').draggable({
@@ -1960,7 +1960,7 @@ gj.draggable.config = {
          * <style>
          * .element { border: 1px solid #999; width: 300px; height: 200px; cursor: move; text-align: center; background-color: #DDD; }
          * </style>
-         * <div id="element" class="element">
+         * <div id="element" className="element">
          *     drag me<br/>
          *     <i>(dragging on vertical direction is disabled)</i>
          * </div>
@@ -1979,7 +1979,7 @@ gj.draggable.config = {
          * <style>
          * .element { border: 1px solid #999; width: 300px; height: 200px; cursor: move; text-align: center; background-color: #DDD; }
          * </style>
-         * <div id="element" class="element">
+         * <div id="element" className="element">
          *     drag me<br/>
          *     <i>(dragging on horizontal direction is disabled)</i>
          * </div>
@@ -1999,8 +1999,8 @@ gj.draggable.config = {
          * .container { border: 1px solid #999; width: 600px; height: 600px; }
          * .element { border: 1px solid #999; width: 300px; height: 200px; cursor: move; text-align: center; background-color: #DDD; }
          * </style>
-         * <div id="container" class="container">
-         *     <div id="element" class="element">drag me</div>
+         * <div id="container" className="container">
+         *     <div id="element" className="element">drag me</div>
          * </div>
          * <script>
          *     $('#element').draggable({
@@ -2146,7 +2146,7 @@ gj.draggable.events = {
      * <style>
      * .element { border: 1px solid #999; width: 300px; height: 200px; cursor: move; text-align: center; background-color: #DDD; }
      * </style>
-     * <div id="element" class="element gj-unselectable">drag me</div>
+     * <div id="element" className="element gj-unselectable">drag me</div>
      * <script>
      *     $('#element').draggable({
      *         drag: function (e, newPosition, mousePosition) {
@@ -2169,7 +2169,7 @@ gj.draggable.events = {
      * <style>
      * .element { border: 1px solid #999; width: 300px; height: 200px; cursor: move; text-align: center; background-color: #DDD; }
      * </style>
-     * <div id="element" class="element gj-unselectable">
+     * <div id="element" className="element gj-unselectable">
      *   drag me
      * </div>
      * <script>
@@ -2194,7 +2194,7 @@ gj.draggable.events = {
      * <style>
      * .element { border: 1px solid #999; width: 300px; height: 200px; cursor: move; text-align: center; background-color: #DDD; }
      * </style>
-     * <div id="element" class="element gj-unselectable">
+     * <div id="element" className="element gj-unselectable">
      *   drag me
      * </div>
      * <script>
@@ -2222,8 +2222,8 @@ gj.draggable.widget = function ($element, jsConfig) {
          * <style>
          * .element { border: 1px solid #999; width: 300px; height: 200px; cursor: move; text-align: center; background-color: #DDD; }
          * </style>
-         * <button onclick="dragEl.destroy()" class="gj-button-md">Destroy</button>
-         * <div id="element" class="element">Drag Me</div>
+         * <button onclick="dragEl.destroy()" className="gj-button-md">Destroy</button>
+         * <div id="element" className="element">Drag Me</div>
          * <script>
          *     var dragEl = $('#element').draggable();
          * </script>
@@ -2280,8 +2280,8 @@ gj.droppable.config = {
      * .droppable { border: 1px solid #999; width: 300px; height: 200px; text-align: center; }
      * .hover { background-color: #FF0000; }
      * </style>
-     * <div id="droppable" class="droppable">Drop Here</div>
-     * <div id="draggable" class="draggable">Drag Me</div>
+     * <div id="droppable" className="droppable">Drop Here</div>
+     * <div id="draggable" className="draggable">Drag Me</div>
      * <script>
      *     $('#draggable').draggable();
      *     $('#droppable').droppable({ hoverClass: 'hover' });
@@ -2381,8 +2381,8 @@ gj.droppable.events = {
      * .droppable { border: 1px solid #999; width: 300px; height: 200px; text-align: center; }
      * .drop { background-color: #FF0000; }
      * </style>
-     * <div id="droppable" class="droppable">Drop Here</div>
-     * <div id="draggable" class="draggable">Drag Me</div>
+     * <div id="droppable" className="droppable">Drop Here</div>
+     * <div id="draggable" className="draggable">Drag Me</div>
      * <script>
      *     $('#draggable').draggable();
      *     $('#droppable').droppable({ drop: function() { $(this).addClass('drop') } });
@@ -2402,8 +2402,8 @@ gj.droppable.events = {
      * .droppable { border: 1px solid #999; width: 300px; height: 200px; text-align: center; }
      * .hover { background-color: #FF0000; }
      * </style>
-     * <div id="droppable" class="droppable">Drop Here</div>
-     * <div id="draggable" class="draggable">Drag Me</div>
+     * <div id="droppable" className="droppable">Drop Here</div>
+     * <div id="draggable" className="draggable">Drag Me</div>
      * <script>
      *     $('#draggable').draggable();
      *     $('#droppable').droppable({
@@ -2429,8 +2429,8 @@ gj.droppable.events = {
      * .droppable { border: 1px solid #999; width: 300px; height: 200px; text-align: center; }
      * .hover { background-color: #FF0000; }
      * </style>
-     * <div id="droppable" class="droppable">Drop Here</div>
-     * <div id="draggable" class="draggable">Drag Me</div>
+     * <div id="droppable" className="droppable">Drop Here</div>
+     * <div id="draggable" className="draggable">Drag Me</div>
      * <script>
      *     $('#draggable').draggable();
      *     $('#droppable').droppable({
@@ -2455,16 +2455,16 @@ gj.droppable.widget = function ($element, jsConfig) {
      * @method
      * @return jquery element
      * @example sample <!-- draggable, droppable -->
-     * <button onclick="create()" class="gj-button-md">Create</button>
-     * <button onclick="dropEl.destroy()" class="gj-button-md">Destroy</button>
+     * <button onclick="create()" className="gj-button-md">Create</button>
+     * <button onclick="dropEl.destroy()" className="gj-button-md">Destroy</button>
      * <br/><br/>
      * <style>
      * .draggable { border: 1px solid #999; width: 300px; height: 200px; text-align: center; }
      * .droppable { border: 1px solid #999; width: 300px; height: 200px; text-align: center; }
      * .hover { background-color: #FF0000; }
      * </style>
-     * <div id="droppable" class="droppable">Drop Here</div>
-     * <div id="draggable" class="draggable">Drag Me</div>
+     * <div id="droppable" className="droppable">Drop Here</div>
+     * <div id="draggable" className="draggable">Drag Me</div>
      * <script>
      *     var dropEl;
      *     $('#draggable').draggable();
@@ -3294,7 +3294,7 @@ gj.grid.config = {
          *     });
          * </script>
          * @example Bootstrap.3 <!-- grid, dropdown, bootstrap -->
-         * <div class="container"><table id="grid"></table></div>
+         * <div className="container"><table id="grid"></table></div>
          * <script>
          *     $('#grid').grid({
          *         dataSource: '/Players/Get',
@@ -3704,22 +3704,22 @@ gj.grid.config = {
 
     materialicons: {
         icons: {
-            asc: '<i class="gj-icon arrow-upward" />',
-            desc: '<i class="gj-icon arrow-downward" />'
+            asc: '<i className="gj-icon arrow-upward" />',
+            desc: '<i className="gj-icon arrow-downward" />'
         }
     },
 
     fontawesome: {
         icons: {
-            asc: '<i class="fa fa-sort-amount-asc" aria-hidden="true"></i>',
-            desc: '<i class="fa fa-sort-amount-desc" aria-hidden="true"></i>'
+            asc: '<i className="fa fa-sort-amount-asc" aria-hidden="true"></i>',
+            desc: '<i className="fa fa-sort-amount-desc" aria-hidden="true"></i>'
         }
     },
 
     glyphicons: {
         icons: {
-            asc: '<span class="glyphicon glyphicon-sort-by-alphabet" />',
-            desc: '<span class="glyphicon glyphicon-sort-by-alphabet-alt" />'
+            asc: '<span className="glyphicon glyphicon-sort-by-alphabet" />',
+            desc: '<span className="glyphicon glyphicon-sort-by-alphabet-alt" />'
         }
     }
 };
@@ -3906,7 +3906,7 @@ gj.grid.events = {
      * @param {string} id - the id of the record
      * @param {object} record - the data of the row record
      * @example sample <!-- grid -->
-     * <button onclick="grid.removeRow('1')" class="gj-button-md">Remove Row</button><br/><br/>
+     * <button onclick="grid.removeRow('1')" className="gj-button-md">Remove Row</button><br/><br/>
      * <table id="grid"></table>
      * <script>
      *     var grid = $('#grid').grid({
@@ -3933,7 +3933,7 @@ gj.grid.events = {
      * @event destroying
      * @param {object} e - event data
      * @example sample <!-- grid -->
-     * <button id="btnDestroy" class="gj-button-md">Destroy</button>
+     * <button id="btnDestroy" className="gj-button-md">Destroy</button>
      * <br/><br/>
      * <table id="grid"></table>
      * <script>
@@ -4261,7 +4261,7 @@ gj.grid.methods = {
             position = gj.grid.methods.getColumnPosition($grid.data('columns'), sortBy);
             if (position > -1) {
                 $cellTitle = $grid.find('thead tr th:eq(' + position + ') div[data-role="title"]');
-                $sortIcon = $('<div data-role="sorticon" class="gj-unselectable" />').append(('desc' === direction) ? data.icons.desc : data.icons.asc);
+                $sortIcon = $('<div data-role="sorticon" className="gj-unselectable" />').append(('desc' === direction) ? data.icons.desc : data.icons.asc);
                 $cellTitle.after($sortIcon);
             }
         }
@@ -5025,7 +5025,7 @@ gj.grid.widget = function ($grid, jsConfig) {
      * @param {boolean} showNotFoundText - Indicates if the "Not Found" text is going to show after the clearing of the grid.
      * @return grid
      * @example sample <!-- grid, dropdown -->
-     * <button id="btnClear" class="gj-button-md">Clear</button>
+     * <button id="btnClear" className="gj-button-md">Clear</button>
      * <br/><br/>
      * <table id="grid"></table>
      * <script>
@@ -5049,8 +5049,8 @@ gj.grid.widget = function ($grid, jsConfig) {
      * @param {boolean} includeAllRecords - include records that are not visible when you are using local dataSource.
      * @return number
      * @example Local.DataSource <!-- bootstrap, grid, grid.pagination -->
-     * <button class="btn btn-default" onclick="alert(grid.count())">Count Visible Records</button>
-     * <button class="btn btn-default" onclick="alert(grid.count(true))">Count All Records</button>
+     * <button className="btn btn-default" onclick="alert(grid.count())">Count Visible Records</button>
+     * <button className="btn btn-default" onclick="alert(grid.count(true))">Count All Records</button>
      * <br/><br/>
      * <table id="grid"></table>
      * <script>
@@ -5119,8 +5119,8 @@ gj.grid.widget = function ($grid, jsConfig) {
      * @fires destroying
      * @return void
      * @example keep.wrapper.and.table <!-- grid -->
-     * <button class="gj-button-md" id="btnDestroy">Destroy</button>
-     * <button class="gj-button-md" id="btnCreate">Create</button>
+     * <button className="gj-button-md" id="btnDestroy">Destroy</button>
+     * <button className="gj-button-md" id="btnCreate">Create</button>
      * <br/><br/>
      * <table id="grid"></table>
      * <script>
@@ -5139,7 +5139,7 @@ gj.grid.widget = function ($grid, jsConfig) {
      *     });
      * </script>
      * @example remove.wrapper.and.table <!-- grid -->
-     * <button class="gj-button-md" id="btnRemove">Remove</button>
+     * <button className="gj-button-md" id="btnRemove">Remove</button>
      * <br/><br/>
      * <table id="grid"></table>
      * <script>
@@ -5163,7 +5163,7 @@ gj.grid.widget = function ($grid, jsConfig) {
      * @return grid
      * @example sample <!-- checkbox, grid -->
      * <input type="text" id="txtNumber" value="1" />
-     * <button id="btnSelect" class="gj-button-md">Select</button>
+     * <button id="btnSelect" className="gj-button-md">Select</button>
      * <br/><br/>
      * <table id="grid"></table>
      * <script>
@@ -5187,7 +5187,7 @@ gj.grid.widget = function ($grid, jsConfig) {
      * @method
      * @return string
      * @example sample <!-- checkbox, grid -->
-     * <button id="btnShowSelection" class="gj-button-md">Show Selection</button>
+     * <button id="btnShowSelection" className="gj-button-md">Show Selection</button>
      * <br/><br/>
      * <table id="grid"></table>
      * <script>
@@ -5211,7 +5211,7 @@ gj.grid.widget = function ($grid, jsConfig) {
      * @method
      * @return array
      * @example With.Primary.Ket <!-- checkbox, grid, dropdown -->
-     * <button id="btnShowSelection" class="gj-button-md">Show Selections</button>
+     * <button id="btnShowSelection" className="gj-button-md">Show Selections</button>
      * <br/><br/>
      * <table id="grid"></table>
      * <script>
@@ -5235,7 +5235,7 @@ gj.grid.widget = function ($grid, jsConfig) {
      *     });
      * </script>
      * @example Without.Primary.Ket <!-- checkbox, grid, dropdown -->
-     * <button id="btnShowSelection" class="gj-button-md">Show Selections</button>
+     * <button id="btnShowSelection" className="gj-button-md">Show Selections</button>
      * <br/><br/>
      * <table id="grid"></table>
      * <script>
@@ -5267,7 +5267,7 @@ gj.grid.widget = function ($grid, jsConfig) {
      * @method
      * @return grid
      * @example sample <!-- checkbox, grid -->
-     * <button id="btnSelectAll" class="gj-button-md">Select All</button>
+     * <button id="btnSelectAll" className="gj-button-md">Select All</button>
      * <br/><br/>
      * <table id="grid"></table>
      * <script>
@@ -5291,8 +5291,8 @@ gj.grid.widget = function ($grid, jsConfig) {
      * @method
      * @return void
      * @example sample <!-- checkbox, grid -->
-     * <button id="btnSelectAll" class="gj-button-md">Select All</button>
-     * <button id="btnUnSelectAll" class="gj-button-md">UnSelect All</button>
+     * <button id="btnSelectAll" className="gj-button-md">Select All</button>
+     * <button id="btnUnSelectAll" className="gj-button-md">UnSelect All</button>
      * <br/><br/>
      * <table id="grid"></table>
      * <script>
@@ -5320,7 +5320,7 @@ gj.grid.widget = function ($grid, jsConfig) {
      * @param {string} id - The id of the row that needs to be returned.
      * @return object
      * @example sample <!-- grid -->
-     * <button id="btnGetData" class="gj-button-md">Get Data</button>
+     * <button id="btnGetData" className="gj-button-md">Get Data</button>
      * <br/><br/>
      * <table id="grid"></table>
      * <script>
@@ -5345,7 +5345,7 @@ gj.grid.widget = function ($grid, jsConfig) {
      * @param {number} position - The position of the row that needs to be return.
      * @return object
      * @example sample <!-- grid -->
-     * <button id="btnGetData" class="gj-button-md">Get Data</button>
+     * <button id="btnGetData" className="gj-button-md">Get Data</button>
      * <br/><br/>
      * <table id="grid"></table>
      * <script>
@@ -5369,8 +5369,8 @@ gj.grid.widget = function ($grid, jsConfig) {
      * @param {boolean} includeAllRecords - include records that are not visible when you are using local dataSource.
      * @return number
      * @example Local.DataSource <!-- bootstrap, grid, grid.pagination -->
-     * <button onclick="alert(JSON.stringify(grid.getAll()))" class="btn btn-default">Get All Visible Records</button>
-     * <button onclick="alert(JSON.stringify(grid.getAll(true)))" class="btn btn-default">Get All Records</button>
+     * <button onclick="alert(JSON.stringify(grid.getAll()))" className="btn btn-default">Get All Visible Records</button>
+     * <button onclick="alert(JSON.stringify(grid.getAll(true)))" className="btn btn-default">Get All Records</button>
      * <br/><br/>
      * <table id="grid"></table>
      * <script>
@@ -5388,8 +5388,8 @@ gj.grid.widget = function ($grid, jsConfig) {
      *     });
      * </script>
      * @example Remote.DataSource <!-- bootstrap, grid, grid.pagination -->
-     * <button onclick="alert(JSON.stringify(grid.getAll()))" class="btn btn-default">Get All Visible Records</button>
-     * <button onclick="alert(JSON.stringify(grid.getAll(true)))" class="btn btn-default">Get All Records</button>
+     * <button onclick="alert(JSON.stringify(grid.getAll()))" className="btn btn-default">Get All Visible Records</button>
+     * <button onclick="alert(JSON.stringify(grid.getAll(true)))" className="btn btn-default">Get All Records</button>
      * <br/><br/>
      * <table id="grid"></table>
      * <script>
@@ -5411,7 +5411,7 @@ gj.grid.widget = function ($grid, jsConfig) {
      * @param {string} field - The name of the field bound to the column.
      * @return grid
      * @example sample <!-- grid -->
-     * <button id="btnShowColumn" class="gj-button-md">Show Column</button>
+     * <button id="btnShowColumn" className="gj-button-md">Show Column</button>
      * <br/><br/>
      * <table id="grid"></table>
      * <script>
@@ -5434,7 +5434,7 @@ gj.grid.widget = function ($grid, jsConfig) {
      * @param {string} field - The name of the field bound to the column.
      * @return grid
      * @example sample <!-- grid -->
-     * <button id="btnHideColumn" class="gj-button-md">Hide Column</button>
+     * <button id="btnHideColumn" className="gj-button-md">Hide Column</button>
      * <br/><br/>
      * <table id="grid"></table>
      * <script>
@@ -5457,7 +5457,7 @@ gj.grid.widget = function ($grid, jsConfig) {
      * @param {object} record - Object with data for the new record.
      * @return grid
      * @example without.pagination <!-- grid -->
-     * <button id="btnAdd" class="gj-button-md">Add Row</button>
+     * <button id="btnAdd" className="gj-button-md">Add Row</button>
      * <br/><br/>
      * <table id="grid"></table>
      * <script>
@@ -5474,7 +5474,7 @@ gj.grid.widget = function ($grid, jsConfig) {
      *     });
      * </script>
      * @example with.pagination <!-- grid, dropdown -->
-     * <button id="btnAdd" class="gj-button-md">Add Row</button>
+     * <button id="btnAdd" className="gj-button-md">Add Row</button>
      * <br/><br/>
      * <table id="grid"></table>
      * <script>
@@ -5489,7 +5489,7 @@ gj.grid.widget = function ($grid, jsConfig) {
      *             { field: 'ID', width: 56 },
      *             { field: 'Name' },
      *             { field: 'PlaceOfBirth' },
-     *             { width: 100, align: 'center', tmpl: '<i class="material-icons">delete</i>', events: { 'click': function(e) { grid.removeRow(e.data.id); } } }
+     *             { width: 100, align: 'center', tmpl: '<i className="material-icons">delete</i>', events: { 'click': function(e) { grid.removeRow(e.data.id); } } }
      *         ],
      *         pager: { limit: 2, sizes: [2, 5, 10, 20] }
      *     });
@@ -5567,7 +5567,7 @@ gj.grid.widget = function ($grid, jsConfig) {
      *             { field: 'ID', width: 56 },
      *             { field: 'Name' },
      *             { field: 'PlaceOfBirth' },
-     *             { width: 100, align: 'center', tmpl: '<u class="gj-cursor-pointer">Delete</u>', events: { 'click': Delete } }
+     *             { width: 100, align: 'center', tmpl: '<u className="gj-cursor-pointer">Delete</u>', events: { 'click': Delete } }
      *         ]
      *     });
      * </script>
@@ -5591,7 +5591,7 @@ gj.grid.widget = function ($grid, jsConfig) {
      *             { field: 'ID', width: 56 },
      *             { field: 'Name' },
      *             { field: 'PlaceOfBirth' },
-     *             { width: 100, align: 'center', tmpl: '<u class="gj-cursor-pointer">Delete</u>', events: { 'click': Delete } }
+     *             { width: 100, align: 'center', tmpl: '<u className="gj-cursor-pointer">Delete</u>', events: { 'click': Delete } }
      *         ],
      *         pager: { limit: 2, sizes: [2, 5, 10, 20] }
      *     });
@@ -5664,7 +5664,7 @@ gj.grid.plugins.fixedHeader = {
              *     });
              * </script>
              * @example Bootstrap.3.Without.Pager <!-- bootstrap, grid -->
-             * <div class="container"><table id="grid"></table></div>
+             * <div className="container"><table id="grid"></table></div>
              * <script>
              *     $('#grid').grid({
              *         uiLibrary: 'bootstrap',
@@ -5679,7 +5679,7 @@ gj.grid.plugins.fixedHeader = {
              *     });
              * </script>
              * @example Bootstrap.3.With.Pager <!-- bootstrap, grid -->
-             * <div class="container"><table id="grid"></table></div>
+             * <div className="container"><table id="grid"></table></div>
              * <script>
              *     $('#grid').grid({
              *         uiLibrary: 'bootstrap',
@@ -5695,7 +5695,7 @@ gj.grid.plugins.fixedHeader = {
              *     });
              * </script>
              * @example Bootstrap.4 <!-- bootstrap4, grid -->
-             * <div class="container"><table id="grid"></table></div>
+             * <div className="container"><table id="grid"></table></div>
              * <script>
              *     $('#grid').grid({
              *         uiLibrary: 'bootstrap4',
@@ -5857,9 +5857,9 @@ gj.grid.plugins.expandCollapseRows = {
              * You need to specify primaryKey on the initialization of the grid in order to enable this feature.
              * @default true
              * @example True <!-- bootstrap, grid  -->
-             * <div class="container">
-             *     <div class="row">
-             *         <div class="col-xs-12">
+             * <div className="container">
+             *     <div className="row">
+             *         <div className="col-xs-12">
              *             <p>Expand row, then change the page and return back to the page with expanded row in order to see that the expansion is kept.</p>
              *             <table id="grid"></table>
              *         </div>
@@ -5885,7 +5885,7 @@ gj.grid.plugins.expandCollapseRows = {
                 /** Expand row icon definition.
                  * @alias icons.expandRow
                  * @type String
-                 * @default '<i class="gj-icon chevron-right" />'
+                 * @default '<i className="gj-icon chevron-right" />'
                  * @example Plus.Minus.Icons <!-- materialicons, grid -->
                  * <table id="grid"></table>
                  * <script>
@@ -5895,18 +5895,18 @@ gj.grid.plugins.expandCollapseRows = {
                  *         columns: [ { field: 'ID', width: 56 }, { field: 'Name' } ],
                  *         detailTemplate: '<div><b>Place Of Birth:</b> {PlaceOfBirth}</div>',
                  *         icons: {
-                 *             expandRow: '<i class="material-icons">add</i>',
-                 *             collapseRow: '<i class="material-icons">remove</i>'
+                 *             expandRow: '<i className="material-icons">add</i>',
+                 *             collapseRow: '<i className="material-icons">remove</i>'
                  *         }
                  *     });
                  * </script>
                  */
-                expandRow: '<i class="gj-icon chevron-right" />',
+                expandRow: '<i className="gj-icon chevron-right" />',
 
                 /** Collapse row icon definition.
                  * @alias icons.collapseRow
                  * @type String
-                 * @default '<i class="gj-icon chevron-down" />'
+                 * @default '<i className="gj-icon chevron-down" />'
                  * @example Plus.Minus.Icons <!-- materialicons, grid -->
                  * <table id="grid"></table>
                  * <script>
@@ -5916,27 +5916,27 @@ gj.grid.plugins.expandCollapseRows = {
                  *         columns: [ { field: 'ID', width: 56 }, { field: 'Name' } ],
                  *         detailTemplate: '<div><b>Place Of Birth:</b> {PlaceOfBirth}</div>',
                  *         icons: {
-                 *             expandRow: '<i class="material-icons">add</i>',
-                 *             collapseRow: '<i class="material-icons">remove</i>'
+                 *             expandRow: '<i className="material-icons">add</i>',
+                 *             collapseRow: '<i className="material-icons">remove</i>'
                  *         }
                  *     });
                  * </script>
                  */
-                collapseRow: '<i class="gj-icon chevron-down" />'
+                collapseRow: '<i className="gj-icon chevron-down" />'
             }
         },
 
         fontawesome: {
             icons: {
-                expandRow: '<i class="fa fa-angle-right" aria-hidden="true"></i>',
-                collapseRow: '<i class="fa fa-angle-down" aria-hidden="true"></i>'
+                expandRow: '<i className="fa fa-angle-right" aria-hidden="true"></i>',
+                collapseRow: '<i className="fa fa-angle-down" aria-hidden="true"></i>'
             }
         },
 
         glyphicons: {
             icons: {
-                expandRow: '<span class="glyphicon glyphicon-chevron-right" />',
-                collapseRow: '<span class="glyphicon glyphicon-chevron-down" />'
+                expandRow: '<span className="glyphicon glyphicon-chevron-right" />',
+                collapseRow: '<span className="glyphicon glyphicon-chevron-down" />'
             }
         }
     },
@@ -6013,8 +6013,8 @@ gj.grid.plugins.expandCollapseRows = {
          * @method
          * @return jQuery object
          * @example Sample <!-- grid -->
-         * <button onclick="grid.expandAll()" class="gj-button-md">Expand All</button>
-         * <button onclick="grid.collapseAll()" class="gj-button-md">Collapse All</button>
+         * <button onclick="grid.expandAll()" className="gj-button-md">Expand All</button>
+         * <button onclick="grid.collapseAll()" className="gj-button-md">Collapse All</button>
          * <br/><br/>
          * <table id="grid"></table>
          * <script>
@@ -6050,8 +6050,8 @@ gj.grid.plugins.expandCollapseRows = {
          * @method
          * @return jQuery object
          * @example Sample <!-- grid -->
-         * <button onclick="grid.expandAll()" class="gj-button-md">Expand All</button>
-         * <button onclick="grid.collapseAll()" class="gj-button-md">Collapse All</button>
+         * <button onclick="grid.expandAll()" className="gj-button-md">Expand All</button>
+         * <button onclick="grid.collapseAll()" className="gj-button-md">Collapse All</button>
          * <br/><br/>
          * <table id="grid"></table>
          * <script>
@@ -6470,10 +6470,10 @@ gj.grid.plugins.inlineEditing.config = {
              *     ];
              *     editManager = function (value, record, $cell, $displayEl, id, $grid) {
              *         var data = $grid.data(),
-             *             $edit = $('<button class="gj-button-md"><i class="material-icons">mode_edit</i> Edit</button>').attr('data-key', id),
-             *             $delete = $('<button class="gj-button-md"><i class="material-icons">delete</i> Delete</button>').attr('data-key', id),
-             *             $update = $('<button class="gj-button-md"><i class="material-icons">check_circle</i> Update</button>').attr('data-key', id).hide(),
-             *             $cancel = $('<button class="gj-button-md"><i class="material-icons">cancel</i> Cancel</button>').attr('data-key', id).hide();
+             *             $edit = $('<button className="gj-button-md"><i className="material-icons">mode_edit</i> Edit</button>').attr('data-key', id),
+             *             $delete = $('<button className="gj-button-md"><i className="material-icons">delete</i> Delete</button>').attr('data-key', id),
+             *             $update = $('<button className="gj-button-md"><i className="material-icons">check_circle</i> Update</button>').attr('data-key', id).hide(),
+             *             $cancel = $('<button className="gj-button-md"><i className="material-icons">cancel</i> Cancel</button>').attr('data-key', id).hide();
              *         $edit.on('click', function (e) {
              *             $grid.edit($(this).data('key'));
              *             $edit.hide();
@@ -6583,15 +6583,15 @@ gj.grid.plugins.inlineEditing.config = {
 gj.grid.plugins.inlineEditing.private = {
     localization: function (data) {
         if (data.uiLibrary === 'bootstrap') {
-            data.inlineEditing.editButton = '<button role="edit" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> ' + gj.grid.messages[data.locale].Edit + '</button>';
-            data.inlineEditing.deleteButton = '<button role="delete" class="btn btn-default btn-sm gj-margin-left-10"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> ' + gj.grid.messages[data.locale].Delete + '</button>';
-            data.inlineEditing.updateButton = '<button role="update" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> ' + gj.grid.messages[data.locale].Update + '</button>';
-            data.inlineEditing.cancelButton = '<button role="cancel" class="btn btn-default btn-sm gj-margin-left-10"><span class="glyphicon glyphicon-ban-circle" aria-hidden="true"></span> ' + gj.grid.messages[data.locale].Cancel + '</button>';
+            data.inlineEditing.editButton = '<button role="edit" className="btn btn-default btn-sm"><span className="glyphicon glyphicon-pencil" aria-hidden="true"></span> ' + gj.grid.messages[data.locale].Edit + '</button>';
+            data.inlineEditing.deleteButton = '<button role="delete" className="btn btn-default btn-sm gj-margin-left-10"><span className="glyphicon glyphicon-remove" aria-hidden="true"></span> ' + gj.grid.messages[data.locale].Delete + '</button>';
+            data.inlineEditing.updateButton = '<button role="update" className="btn btn-default btn-sm"><span className="glyphicon glyphicon-ok" aria-hidden="true"></span> ' + gj.grid.messages[data.locale].Update + '</button>';
+            data.inlineEditing.cancelButton = '<button role="cancel" className="btn btn-default btn-sm gj-margin-left-10"><span className="glyphicon glyphicon-ban-circle" aria-hidden="true"></span> ' + gj.grid.messages[data.locale].Cancel + '</button>';
         } else {
-            data.inlineEditing.editButton = '<button role="edit" class="gj-button-md"><i class="gj-icon pencil" /> ' + gj.grid.messages[data.locale].Edit.toUpperCase() + '</button>';
-            data.inlineEditing.deleteButton = '<button role="delete" class="gj-button-md"><i class="gj-icon delete" /> ' + gj.grid.messages[data.locale].Delete.toUpperCase() + '</button>';
-            data.inlineEditing.updateButton = '<button role="update" class="gj-button-md"><i class="gj-icon check-circle" /> ' + gj.grid.messages[data.locale].Update.toUpperCase() + '</button>';
-            data.inlineEditing.cancelButton = '<button role="cancel" class="gj-button-md"><i class="gj-icon cancel" /> ' +gj.grid.messages[data.locale].Cancel.toUpperCase() + '</button>';
+            data.inlineEditing.editButton = '<button role="edit" className="gj-button-md"><i className="gj-icon pencil" /> ' + gj.grid.messages[data.locale].Edit.toUpperCase() + '</button>';
+            data.inlineEditing.deleteButton = '<button role="delete" className="gj-button-md"><i className="gj-icon delete" /> ' + gj.grid.messages[data.locale].Delete.toUpperCase() + '</button>';
+            data.inlineEditing.updateButton = '<button role="update" className="gj-button-md"><i className="gj-icon check-circle" /> ' + gj.grid.messages[data.locale].Update.toUpperCase() + '</button>';
+            data.inlineEditing.cancelButton = '<button role="cancel" className="gj-button-md"><i className="gj-icon cancel" /> ' +gj.grid.messages[data.locale].Cancel.toUpperCase() + '</button>';
         }
     },
 
@@ -6666,7 +6666,7 @@ gj.grid.plugins.inlineEditing.private = {
                             };
                             $editorField = $editorField.dropdown(config);
                         } else {
-                            $editorField = $('<input type="text" value="' + value + '" class="gj-width-full"/>');
+                            $editorField = $('<input type="text" value="' + value + '" className="gj-width-full"/>');
                             if (data.uiLibrary === 'materialdesign') {
                                 $editorField.addClass('gj-textbox-md').css('font-size', $grid.css('font-size'));
                             }
@@ -6722,7 +6722,7 @@ gj.grid.plugins.inlineEditing.private = {
                     if (column.mode !== 'editOnly') {
                         gj.grid.methods.renderDisplayElement($grid, $displayContainer, column, record, gj.grid.methods.getId(record, $grid.data('primaryKey'), position), 'update');
                         if ($cell.find('span.gj-dirty').length === 0) {
-                            $cell.prepend($('<span class="gj-dirty" />'));
+                            $cell.prepend($('<span className="gj-dirty" />'));
                         }
                     }
                     gj.grid.plugins.inlineEditing.events.cellDataChanged($grid, $cell, column, record, newValue);
@@ -6796,7 +6796,7 @@ gj.grid.plugins.inlineEditing.public = {
      * @method
      * @return array
      * @example sample <!-- grid, grid.inlineEditing -->
-     * <button id="btnGetChanges" class="gj-button-md">Get Changes</button>
+     * <button id="btnGetChanges" className="gj-button-md">Get Changes</button>
      * <br/><br/>
      * <table id="grid"></table>
      * <script>
@@ -6825,8 +6825,8 @@ gj.grid.plugins.inlineEditing.public = {
      * <script>
      *     var grid, renderer;
      *     renderer = function (value, record, $cell, $displayEl, id) {
-     *         var $editBtn = $('<i class="fa fa-pencil gj-cursor-pointer" data-key="' + id + '"></i>'),
-     *             $updateBtn = $('<i class="fa fa-save gj-cursor-pointer" data-key="' + id + '"></i>').hide();
+     *         var $editBtn = $('<i className="fa fa-pencil gj-cursor-pointer" data-key="' + id + '"></i>'),
+     *             $updateBtn = $('<i className="fa fa-save gj-cursor-pointer" data-key="' + id + '"></i>').hide();
      *         $editBtn.on('click', function (e) {
      *             grid.edit($(this).data('key'));
      *             $editBtn.hide();
@@ -6876,8 +6876,8 @@ gj.grid.plugins.inlineEditing.public = {
      * <script>
      *     var grid, renderer;
      *     renderer = function (value, record, $cell, $displayEl, id) {
-     *         var $editBtn = $('<i class="fa fa-pencil gj-cursor-pointer" data-key="' + id + '"></i>'),
-     *             $updateBtn = $('<i class="fa fa-save gj-cursor-pointer" data-key="' + id + '"></i>').hide();
+     *         var $editBtn = $('<i className="fa fa-pencil gj-cursor-pointer" data-key="' + id + '"></i>'),
+     *             $updateBtn = $('<i className="fa fa-save gj-cursor-pointer" data-key="' + id + '"></i>').hide();
      *         $editBtn.on('click', function (e) {
      *             grid.edit($(this).data('key'));
      *             $editBtn.hide();
@@ -6928,8 +6928,8 @@ gj.grid.plugins.inlineEditing.public = {
      * <script>
      *     var grid, renderer;
      *     renderer = function (value, record, $cell, $displayEl, id) {
-     *         var $editBtn = $('<i class="fa fa-pencil gj-cursor-pointer" data-key="' + id + '"></i>'),
-     *             $cancelBtn = $('<i class="fa fa-undo gj-cursor-pointer" data-key="' + id + '"></i>').hide();
+     *         var $editBtn = $('<i className="fa fa-pencil gj-cursor-pointer" data-key="' + id + '"></i>'),
+     *             $cancelBtn = $('<i className="fa fa-undo gj-cursor-pointer" data-key="' + id + '"></i>').hide();
      *         $editBtn.on('click', function (e) {
      *             grid.edit($(this).data('key'));
      *             $editBtn.hide();
@@ -7296,16 +7296,16 @@ gj.grid.plugins.pagination = {
                  *             limit: 2, 
                  *             sizes: [2, 5, 10, 20],
                  *             leftControls: [
-                 *                 $('<div title="First" data-role="page-first" class="custom-item"><i class="fa fa-fast-backward" aria-hidden="true" /></div>'),
-                 *                 $('<div title="Previous" data-role="page-previous" class="custom-item"><i class="fa fa-backward" aria-hidden="true" /></div>'),
+                 *                 $('<div title="First" data-role="page-first" className="custom-item"><i className="fa fa-fast-backward" aria-hidden="true" /></div>'),
+                 *                 $('<div title="Previous" data-role="page-previous" className="custom-item"><i className="fa fa-backward" aria-hidden="true" /></div>'),
                  *                 $('<div> Page </div>'),
-                 *                 $('<div class="custom-item"></div>').append($('<input type="text" data-role="page-number" style="margin: 0 5px; width: 34px; height: 16px; text-align: right;" value="0">')),
+                 *                 $('<div className="custom-item"></div>').append($('<input type="text" data-role="page-number" style="margin: 0 5px; width: 34px; height: 16px; text-align: right;" value="0">')),
                  *                 $('<div>of&nbsp;</div>'),
                  *                 $('<div data-role="page-label-last" style="margin-right: 5px;">0</div>'),
-                 *                 $('<div title="Next" data-role="page-next" class="custom-item"><i class="fa fa-forward" aria-hidden="true" /></div>'),
-                 *                 $('<div title="Last" data-role="page-last" class="custom-item"><i class="fa fa-fast-forward" aria-hidden="true" /></div>'),
-                 *                 $('<div title="Reload" data-role="page-refresh" class="custom-item"><i class="fa fa-refresh" aria-hidden="true" /></div>'),
-                 *                 $('<div class="custom-item"></div>').append($('<select data-role="page-size" style="margin: 0 5px; width: 50px;"></select>'))
+                 *                 $('<div title="Next" data-role="page-next" className="custom-item"><i className="fa fa-forward" aria-hidden="true" /></div>'),
+                 *                 $('<div title="Last" data-role="page-last" className="custom-item"><i className="fa fa-fast-forward" aria-hidden="true" /></div>'),
+                 *                 $('<div title="Reload" data-role="page-refresh" className="custom-item"><i className="fa fa-refresh" aria-hidden="true" /></div>'),
+                 *                 $('<div className="custom-item"></div>').append($('<select data-role="page-size" style="margin: 0 5px; width: 50px;"></select>'))
                  *             ],
                  *             rightControls: [
                  *                 $('<div>Displaying records&nbsp;</div>'),
@@ -7350,31 +7350,31 @@ gj.grid.plugins.pagination = {
 
         glyphicons: {
             icons: {
-                first: '<span class="glyphicon glyphicon-step-backward"></span>',
-                previous: '<span class="glyphicon glyphicon-backward"></span>',
-                next: '<span class="glyphicon glyphicon-forward"></span>',
-                last: '<span class="glyphicon glyphicon-step-forward"></span>',
-                refresh: '<span class="glyphicon glyphicon-refresh"></span>'
+                first: '<span className="glyphicon glyphicon-step-backward"></span>',
+                previous: '<span className="glyphicon glyphicon-backward"></span>',
+                next: '<span className="glyphicon glyphicon-forward"></span>',
+                last: '<span className="glyphicon glyphicon-step-forward"></span>',
+                refresh: '<span className="glyphicon glyphicon-refresh"></span>'
             }
         },
 
         materialicons: {
             icons: {
-                first: '<i class="gj-icon first-page" />',
-                previous: '<i class="gj-icon chevron-left" />',
-                next: '<i class="gj-icon chevron-right" />',
-                last: '<i class="gj-icon last-page" />',
-                refresh: '<i class="gj-icon refresh" />'
+                first: '<i className="gj-icon first-page" />',
+                previous: '<i className="gj-icon chevron-left" />',
+                next: '<i className="gj-icon chevron-right" />',
+                last: '<i className="gj-icon last-page" />',
+                refresh: '<i className="gj-icon refresh" />'
             }
         },
 
         fontawesome: {
             icons: {
-                first: '<i class="fa fa-fast-backward" aria-hidden="true"></i>',
-                previous: '<i class="fa fa-backward" aria-hidden="true"></i>',
-                next: '<i class="fa fa-forward" aria-hidden="true"></i>',
-                last: '<i class="fa fa-fast-forward" aria-hidden="true"></i>',
-                refresh: '<i class="fa fa-refresh" aria-hidden="true"></i>'
+                first: '<i className="fa fa-fast-backward" aria-hidden="true"></i>',
+                previous: '<i className="fa fa-backward" aria-hidden="true"></i>',
+                next: '<i className="fa fa-forward" aria-hidden="true"></i>',
+                last: '<i className="fa fa-fast-forward" aria-hidden="true"></i>',
+                refresh: '<i className="fa fa-refresh" aria-hidden="true"></i>'
             }
         }
     },
@@ -7439,16 +7439,16 @@ gj.grid.plugins.pagination = {
             var msg = gj.grid.messages[data.locale];
             if (typeof (data.pager.leftControls) === 'undefined') {
                 data.pager.leftControls = [
-                    $('<button type="button" class="btn btn-default btn-sm">' + (data.icons.first || msg.First) + '</button>').attr('title', msg.FirstPageTooltip).attr('data-role', 'page-first'),
-                    $('<button type="button" class="btn btn-default btn-sm">' + (data.icons.previous || msg.Previous) + '</button>').attr('title', msg.PreviousPageTooltip).attr('data-role', 'page-previous'),
+                    $('<button type="button" className="btn btn-default btn-sm">' + (data.icons.first || msg.First) + '</button>').attr('title', msg.FirstPageTooltip).attr('data-role', 'page-first'),
+                    $('<button type="button" className="btn btn-default btn-sm">' + (data.icons.previous || msg.Previous) + '</button>').attr('title', msg.PreviousPageTooltip).attr('data-role', 'page-previous'),
                     $('<div>' + msg.Page + '</div>'),
-                    $('<input data-role="page-number" class="form-control input-sm" type="text" value="0">'),
+                    $('<input data-role="page-number" className="form-control input-sm" type="text" value="0">'),
                     $('<div>' + msg.Of + '</div>'),
                     $('<div data-role="page-label-last">0</div>'),
-                    $('<button type="button" class="btn btn-default btn-sm">' + (data.icons.next || msg.Next) + '</button>').attr('title', msg.NextPageTooltip).attr('data-role', 'page-next'),
-                    $('<button type="button" class="btn btn-default btn-sm">' + (data.icons.last || msg.Last) + '</button>').attr('title', msg.LastPageTooltip).attr('data-role', 'page-last'),
-                    $('<button type="button" class="btn btn-default btn-sm">' + (data.icons.refresh || msg.Refresh) + '</button>').attr('title', msg.Refresh).attr('data-role', 'page-refresh'),
-                    $('<select data-role="page-size" class="form-control input-sm" width="60"></select>')
+                    $('<button type="button" className="btn btn-default btn-sm">' + (data.icons.next || msg.Next) + '</button>').attr('title', msg.NextPageTooltip).attr('data-role', 'page-next'),
+                    $('<button type="button" className="btn btn-default btn-sm">' + (data.icons.last || msg.Last) + '</button>').attr('title', msg.LastPageTooltip).attr('data-role', 'page-last'),
+                    $('<button type="button" className="btn btn-default btn-sm">' + (data.icons.refresh || msg.Refresh) + '</button>').attr('title', msg.Refresh).attr('data-role', 'page-refresh'),
+                    $('<select data-role="page-size" className="form-control input-sm" width="60"></select>')
                 ];
             }
             if (typeof (data.pager.rightControls) === 'undefined') {
@@ -7467,16 +7467,16 @@ gj.grid.plugins.pagination = {
             var msg = gj.grid.messages[data.locale];
             if (typeof (data.pager.leftControls) === 'undefined') {
                 data.pager.leftControls = [
-                    $('<button class="btn btn-default btn-sm gj-cursor-pointer">' + (data.icons.first || msg.First) + '</button>').attr('title', msg.FirstPageTooltip).attr('data-role', 'page-first'),
-                    $('<button class="btn btn-default btn-sm gj-cursor-pointer">' + (data.icons.previous || msg.Previous) + '</button>').attr('title', msg.PreviousPageTooltip).attr('data-role', 'page-previous'),
+                    $('<button className="btn btn-default btn-sm gj-cursor-pointer">' + (data.icons.first || msg.First) + '</button>').attr('title', msg.FirstPageTooltip).attr('data-role', 'page-first'),
+                    $('<button className="btn btn-default btn-sm gj-cursor-pointer">' + (data.icons.previous || msg.Previous) + '</button>').attr('title', msg.PreviousPageTooltip).attr('data-role', 'page-previous'),
                     $('<div>' + msg.Page + '</div>'),
-                    $('<div class="input-group"><input data-role="page-number" class="form-control form-control-sm" type="text" value="0"></div>'),
+                    $('<div className="input-group"><input data-role="page-number" className="form-control form-control-sm" type="text" value="0"></div>'),
                     $('<div>' + msg.Of + '</div>'),
                     $('<div data-role="page-label-last">0</div>'),
-                    $('<button class="btn btn-default btn-sm gj-cursor-pointer">' + (data.icons.next || msg.Next) + '</button>').attr('title', msg.NextPageTooltip).attr('data-role', 'page-next'),
-                    $('<button class="btn btn-default btn-sm gj-cursor-pointer">' + (data.icons.last || msg.Last) + '</button>').attr('title', msg.LastPageTooltip).attr('data-role', 'page-last'),
-                    $('<button class="btn btn-default btn-sm gj-cursor-pointer">' + (data.icons.refresh || msg.Refresh) + '</button>').attr('title', msg.Refresh).attr('data-role', 'page-refresh'),
-                    $('<select data-role="page-size" class="form-control input-sm" width="60"></select>')
+                    $('<button className="btn btn-default btn-sm gj-cursor-pointer">' + (data.icons.next || msg.Next) + '</button>').attr('title', msg.NextPageTooltip).attr('data-role', 'page-next'),
+                    $('<button className="btn btn-default btn-sm gj-cursor-pointer">' + (data.icons.last || msg.Last) + '</button>').attr('title', msg.LastPageTooltip).attr('data-role', 'page-last'),
+                    $('<button className="btn btn-default btn-sm gj-cursor-pointer">' + (data.icons.refresh || msg.Refresh) + '</button>').attr('title', msg.Refresh).attr('data-role', 'page-refresh'),
+                    $('<select data-role="page-size" className="form-control input-sm" width="60"></select>')
                 ];
             }
             if (typeof (data.pager.rightControls) === 'undefined') {
@@ -7498,18 +7498,18 @@ gj.grid.plugins.pagination = {
             }
             if (typeof (data.pager.rightControls) === 'undefined') {
                 data.pager.rightControls = [
-                    $('<span class="">' + msg.RowsPerPage + '</span>'),
-                    $('<select data-role="page-size" class="gj-grid-md-limit-select" width="52"></select></div>'),
-                    $('<span class="gj-md-spacer-32">&nbsp;</span>'),
-                    $('<span data-role="record-first" class="">0</span>'),
-                    $('<span class="">-</span>'),
-                    $('<span data-role="record-last" class="">0</span>'),
-                    $('<span class="gj-grid-mdl-pager-label">' + msg.Of + '</span>'),
-                    $('<span data-role="record-total" class="">0</span>'),
-                    $('<span class="gj-md-spacer-32">&nbsp;</span>'),
-                    $('<button class="gj-button-md">' + (data.icons.previous || msg.Previous) + '</button>').attr('title', msg.PreviousPageTooltip).attr('data-role', 'page-previous').addClass(data.icons.first ? 'gj-button-md-icon' : ''),
-                    $('<span class="gj-md-spacer-24">&nbsp;</span>'),
-                    $('<button class="gj-button-md">' + (data.icons.next || msg.Next) + '</button>').attr('title', msg.NextPageTooltip).attr('data-role', 'page-next').addClass(data.icons.first ? 'gj-button-md-icon' : '')
+                    $('<span className="">' + msg.RowsPerPage + '</span>'),
+                    $('<select data-role="page-size" className="gj-grid-md-limit-select" width="52"></select></div>'),
+                    $('<span className="gj-md-spacer-32">&nbsp;</span>'),
+                    $('<span data-role="record-first" className="">0</span>'),
+                    $('<span className="">-</span>'),
+                    $('<span data-role="record-last" className="">0</span>'),
+                    $('<span className="gj-grid-mdl-pager-label">' + msg.Of + '</span>'),
+                    $('<span data-role="record-total" className="">0</span>'),
+                    $('<span className="gj-md-spacer-32">&nbsp;</span>'),
+                    $('<button className="gj-button-md">' + (data.icons.previous || msg.Previous) + '</button>').attr('title', msg.PreviousPageTooltip).attr('data-role', 'page-previous').addClass(data.icons.first ? 'gj-button-md-icon' : ''),
+                    $('<span className="gj-md-spacer-24">&nbsp;</span>'),
+                    $('<button className="gj-button-md">' + (data.icons.next || msg.Next) + '</button>').attr('title', msg.NextPageTooltip).attr('data-role', 'page-next').addClass(data.icons.first ? 'gj-button-md-icon' : '')
                 ];
             }
         },
@@ -7839,7 +7839,7 @@ gj.grid.plugins.responsiveDesign = {
              * <script>
              *     $('#grid').grid({
              *         dataSource: '/Players/Get',
-             *         detailTemplate: '<div class="row"></div>',
+             *         detailTemplate: '<div className="row"></div>',
              *         responsive: true,
              *         showHiddenColumnsAsDetails: true,
              *         uiLibrary: 'bootstrap',
@@ -7860,7 +7860,7 @@ gj.grid.plugins.responsiveDesign = {
              *     ];
              *     $('#grid').grid({
              *         dataSource: data,
-             *         detailTemplate: '<div class="row"></div>',
+             *         detailTemplate: '<div className="row"></div>',
              *         responsive: true,
              *         showHiddenColumnsAsDetails: true,
              *         uiLibrary: 'bootstrap',
@@ -7974,7 +7974,7 @@ gj.grid.plugins.responsiveDesign = {
                             $placeholder = $('<div data-id="' + column.field + '"/>').html(tmp);
                             $placeholder.addClass(data.style.rowDetailItem);
                             if (!details || !details.length) {
-                                details = $('<div class="row"/>');
+                                details = $('<div className="row"/>');
                             }
                             details.append($placeholder);
                         } else {
@@ -8001,7 +8001,7 @@ gj.grid.plugins.responsiveDesign = {
          * @method
          * @return grid object
          * @example sample <!-- grid -->
-         * <button onclick="grid.makeResponsive()" class="gj-button-md">Make Responsive</button>
+         * <button onclick="grid.makeResponsive()" className="gj-button-md">Make Responsive</button>
          * <br/><br/>
          * <table id="grid"></table>
          * <script>
@@ -8132,7 +8132,7 @@ gj.grid.plugins.toolbar = {
               *     var grid = $('#grid').grid({
               *         dataSource: '/Players/Get',
               *         uiLibrary: 'bootstrap',
-              *         toolbarTemplate: '<div class="row"><div class="col-xs-8" style="line-height:34px"><span data-role="title">Grid Title</span></div><div class="col-xs-4 text-right"><button onclick="grid.reload()" class="btn btn-default">click here to refresh</button></div></div>',
+              *         toolbarTemplate: '<div className="row"><div className="col-xs-8" style="line-height:34px"><span data-role="title">Grid Title</span></div><div className="col-xs-4 text-right"><button onclick="grid.reload()" className="btn btn-default">click here to refresh</button></div></div>',
               *         columns: [ { field: 'ID', width: 34 }, { field: 'Name' }, { field: 'PlaceOfBirth' } ],
               *         pager: { limit: 5 }
               *     });
@@ -8235,8 +8235,8 @@ gj.grid.plugins.toolbar = {
          * @param {object} text - The text of the new grid title.
          * @return string or grid object
          * @example text <!-- grid, grid.toolbar -->
-         * <button onclick="grid.title('New Title')" class="gj-button-md">Set New Title</button>
-         * <button onclick="alert(grid.title())" class="gj-button-md">Get Title</button>
+         * <button onclick="grid.title('New Title')" className="gj-button-md">Set New Title</button>
+         * <button onclick="alert(grid.title())" className="gj-button-md">Get Title</button>
          * <br/><br/>
          * <table id="grid"></table>
          * <script>
@@ -8247,8 +8247,8 @@ gj.grid.plugins.toolbar = {
          *     });
          * </script>
          * @example html.template <!-- grid, grid.toolbar -->
-         * <button onclick="grid.title('New Title')" class="gj-button-md">Set New Title</button>
-         * <button onclick="alert(grid.title())" class="gj-button-md">Get Title</button>
+         * <button onclick="grid.title('New Title')" className="gj-button-md">Set New Title</button>
+         * <button onclick="alert(grid.title())" className="gj-button-md">Get Title</button>
          * <br/><br/>
          * <table id="grid"></table>
          * <script>
@@ -8343,9 +8343,9 @@ gj.grid.plugins.resizableColumns = {
             if ($columns.length) {
                 for (i = 0; i < $columns.length - 1; i++) {
                     $column = $($columns[i]);
-                    $wrapper = $('<div class="gj-grid-column-resizer-wrapper" />');
+                    $wrapper = $('<div className="gj-grid-column-resizer-wrapper" />');
                     marginRight = parseInt($column.css('padding-right'), 10) + 3;
-                    $resizer = $('<span class="gj-grid-column-resizer" />').css('margin-right', '-' + marginRight + 'px');
+                    $resizer = $('<span className="gj-grid-column-resizer" />').css('margin-right', '-' + marginRight + 'px');
                     $resizer.draggable({
                         start: function () {
                             $grid.addClass('gj-unselectable');
@@ -8496,7 +8496,7 @@ gj.grid.plugins.rowReorder = {
              *     });
              * </script>
              * @example Hidden.OrderNumber <!-- grid, grid.rowReorder, draggable, droppable -->
-             * <button onclick="alert(JSON.stringify(grid.getAll()))" class="gj-button-md">Show Data</button><br/><br/>
+             * <button onclick="alert(JSON.stringify(grid.getAll()))" className="gj-button-md">Show Data</button><br/><br/>
              * <table id="grid"></table>
              * <script>
              *     var data = [
@@ -8664,7 +8664,7 @@ gj.grid.plugins.export = {
          * @param {boolean} includeAllRecords - include records that are not visible when you are using local dataSource.
          * @return string
          * @example Local.Data <!-- grid, dropdown -->
-         * <button onclick="alert(grid.getCSV(true))" class="gj-button-md">Get All</button>
+         * <button onclick="alert(grid.getCSV(true))" className="gj-button-md">Get All</button>
          * <br/><br/>
          * <table id="grid"></table>
          * <script>
@@ -8681,7 +8681,7 @@ gj.grid.plugins.export = {
          *     });
          * </script>
          * @example Remote.Data <!-- grid, dropdown -->
-         * <button onclick="alert(grid.getCSV())" class="gj-button-md">Get CSV</button>
+         * <button onclick="alert(grid.getCSV())" className="gj-button-md">Get CSV</button>
          * <br/><br/>
          * <table id="grid"></table>
          * <script>
@@ -8728,8 +8728,8 @@ gj.grid.plugins.export = {
          * @param {boolean} includeAllRecords - include records that are not visible when you are using local dataSource.
          * @return grid object
          * @example Local.Data <!-- grid, dropdown -->
-         * <button onclick="grid.downloadCSV()" class="gj-button-md">Download Only First Page</button>
-         * <button onclick="grid.downloadCSV('myfilename.csv', true)" class="gj-button-md">Download All Data</button>
+         * <button onclick="grid.downloadCSV()" className="gj-button-md">Download Only First Page</button>
+         * <button onclick="grid.downloadCSV('myfilename.csv', true)" className="gj-button-md">Download All Data</button>
          * <br/><br/>
          * <table id="grid"></table>
          * <script>
@@ -8746,7 +8746,7 @@ gj.grid.plugins.export = {
          *     });
          * </script>
          * @example Remote.Data <!-- grid, dropdown -->
-         * <button onclick="grid.downloadCSV('myfilename.csv')" class="gj-button-md">Download CSV</button>
+         * <button onclick="grid.downloadCSV('myfilename.csv')" className="gj-button-md">Download CSV</button>
          * <br/><br/>
          * <table id="grid"></table>
          * <script>
@@ -9093,7 +9093,7 @@ gj.grid.plugins.headerFilter = {
             for (i = 0; i < data.columns.length; i++) {
                 $th = $('<th/>');
                 if (data.columns[i].filterable) {
-                    $ctrl = $('<input data-field="' + data.columns[i].field + '" class="gj-width-full" />');
+                    $ctrl = $('<input data-field="' + data.columns[i].field + '" className="gj-width-full" />');
                     if ('onchange' === data.headerFilter.type) {
                         $ctrl.on('input propertychange', function (e) {
                             gj.grid.plugins.headerFilter.private.reload($grid, $(this));
@@ -9231,7 +9231,7 @@ gj.grid.plugins.grouping = {
                 /** Expand row icon definition.
                  * @alias icons.expandGroup
                  * @type String
-                 * @default '<i class="gj-icon plus" />'
+                 * @default '<i className="gj-icon plus" />'
                  * @example Right.Down.Icons <!-- materialicons, grid -->
                  * <table id="grid"></table>
                  * <script>
@@ -9241,18 +9241,18 @@ gj.grid.plugins.grouping = {
                  *         columns: [ { field: 'Name', sortable: true }, { field: 'PlaceOfBirth' } ],
                  *         grouping: { groupBy: 'CountryName' },
                  *         icons: {
-                 *             expandGroup: '<i class="material-icons">keyboard_arrow_right</i>',
-                 *             collapseGroup: '<i class="material-icons">keyboard_arrow_down</i>'
+                 *             expandGroup: '<i className="material-icons">keyboard_arrow_right</i>',
+                 *             collapseGroup: '<i className="material-icons">keyboard_arrow_down</i>'
                  *         }
                  *     });
                  * </script>
                  */
-                expandGroup: '<i class="gj-icon plus" />',
+                expandGroup: '<i className="gj-icon plus" />',
 
                 /** Collapse row icon definition.
                  * @alias icons.collapseGroup
                  * @type String
-                 * @default '<i class="gj-icon minus" />'
+                 * @default '<i className="gj-icon minus" />'
                  * @example Right.Down.Icons <!-- materialicons, grid -->
                  * <table id="grid"></table>
                  * <script>
@@ -9262,27 +9262,27 @@ gj.grid.plugins.grouping = {
                  *         columns: [ { field: 'Name', sortable: true }, { field: 'PlaceOfBirth' } ],
                  *         grouping: { groupBy: 'CountryName' },
                  *         icons: {
-                 *             expandGroup: '<i class="material-icons">keyboard_arrow_right</i>',
-                 *             collapseGroup: '<i class="material-icons">keyboard_arrow_down</i>'
+                 *             expandGroup: '<i className="material-icons">keyboard_arrow_right</i>',
+                 *             collapseGroup: '<i className="material-icons">keyboard_arrow_down</i>'
                  *         }
                  *     });
                  * </script>
                  */
-                collapseGroup: '<i class="gj-icon minus" />'
+                collapseGroup: '<i className="gj-icon minus" />'
             }
         },
 
         fontawesome: {
             icons: {
-                expandGroup: '<i class="fa fa-plus" aria-hidden="true"></i>',
-                collapseGroup: '<i class="fa fa-minus" aria-hidden="true"></i>'
+                expandGroup: '<i className="fa fa-plus" aria-hidden="true"></i>',
+                collapseGroup: '<i className="fa fa-minus" aria-hidden="true"></i>'
             }
         },
 
         glyphicons: {
             icons: {
-                expandGroup: '<span class="glyphicon glyphicon-plus" />',
-                collapseGroup: '<span class="glyphicon glyphicon-minus" />'
+                expandGroup: '<span className="glyphicon glyphicon-plus" />',
+                collapseGroup: '<span className="glyphicon glyphicon-minus" />'
             }
         }
     },
@@ -9296,7 +9296,7 @@ gj.grid.plugins.grouping = {
                 if (previousValue !== record[data.grouping.groupBy] || $row[0].rowIndex === 1) {
                     var colspan = gj.grid.methods.countVisibleColumns($grid) - 1,
                         $groupRow = $('<tr role="group" />'),
-                        $expandCollapseCell = $('<td class="gj-text-align-center gj-unselectable gj-cursor-pointer" />');
+                        $expandCollapseCell = $('<td className="gj-text-align-center gj-unselectable gj-cursor-pointer" />');
 
                     $expandCollapseCell.append('<div data-role="display">' + data.icons.collapseGroup + '</div>');
                     $expandCollapseCell.on('click', gj.grid.plugins.grouping.private.createExpandCollapseHandler(data));
@@ -9644,7 +9644,7 @@ gj.tree.config = {
          * <div id="tree"></div>
          * <script>
          *     var tree = $('#tree').tree({
-         *         dataSource: [ { text: 'folder', imageHtml: '<i class="material-icons">folder</i>', children: [ { text: 'file', imageHtml: '<i class="material-icons">insert_drive_file</i>' } ] } ]
+         *         dataSource: [ { text: 'folder', imageHtml: '<i className="material-icons">folder</i>', children: [ { text: 'file', imageHtml: '<i className="material-icons">insert_drive_file</i>' } ] } ]
          *     });
          * </script>
          * @example Custom.HTML.Field.Name <!-- materialicons, tree -->
@@ -9652,7 +9652,7 @@ gj.tree.config = {
          * <script>
          *     var tree = $('#tree').tree({
          *         imageHtmlField: 'icon',
-         *         dataSource: [ { text: 'folder', icon: '<i class="material-icons">folder</i>', children: [ { text: 'file', icon: '<i class="material-icons">insert_drive_file</i>' } ] } ]
+         *         dataSource: [ { text: 'folder', icon: '<i className="material-icons">folder</i>', children: [ { text: 'file', icon: '<i className="material-icons">insert_drive_file</i>' } ] } ]
          *     });
          * </script>
          */
@@ -9886,38 +9886,38 @@ gj.tree.config = {
             /** Expand icon definition.
              * @alias icons.expand
              * @type String
-             * @default '<i class="gj-icon chevron-right" />'
+             * @default '<i className="gj-icon chevron-right" />'
              * @example Plus.Minus.Icons <!-- materialicons, tree -->
              * <div id="tree"></div>
              * <script>
              *     var tree = $('#tree').tree({
              *         dataSource: '/Locations/Get',
              *         icons: { 
-             *             expand: '<i class="material-icons">add</i>',
-             *             collapse: '<i class="material-icons">remove</i>'
+             *             expand: '<i className="material-icons">add</i>',
+             *             collapse: '<i className="material-icons">remove</i>'
              *         }
              *     });
              * </script>
              */
-            expand: '<i class="gj-icon chevron-right" />',
+            expand: '<i className="gj-icon chevron-right" />',
 
             /** Collapse icon definition.
              * @alias icons.collapse
              * @type String
-             * @default '<i class="gj-icon chevron-down" />'
+             * @default '<i className="gj-icon chevron-down" />'
              * @example Plus.Minus.Icons <!-- materialicons, tree -->
              * <div id="tree"></div>
              * <script>
              *     var tree = $('#tree').tree({
              *         dataSource: '/Locations/Get',
              *         icons: { 
-             *             expand: '<i class="material-icons">add</i>',
-             *             collapse: '<i class="material-icons">remove</i>'
+             *             expand: '<i className="material-icons">add</i>',
+             *             collapse: '<i className="material-icons">remove</i>'
              *         }
              *     });
              * </script>
              */
-            collapse: '<i class="gj-icon chevron-down" />'
+            collapse: '<i className="gj-icon chevron-down" />'
         }
     },
 
@@ -9941,8 +9941,8 @@ gj.tree.config = {
             border: 'gj-tree-bootstrap-border'
         },
         icons: {
-            expand: '<i class="gj-icon plus" />',
-            collapse: '<i class="gj-icon minus" />'
+            expand: '<i className="gj-icon plus" />',
+            collapse: '<i className="gj-icon minus" />'
         }
     },
 
@@ -9957,8 +9957,8 @@ gj.tree.config = {
             expander: 'gj-tree-font-awesome-expander'
         },
         icons: {
-            expand: '<i class="fa fa-plus" aria-hidden="true"></i>',
-            collapse: '<i class="fa fa-minus" aria-hidden="true"></i>'
+            expand: '<i className="fa fa-plus" aria-hidden="true"></i>',
+            collapse: '<i className="fa fa-minus" aria-hidden="true"></i>'
         }
     },
 
@@ -9967,8 +9967,8 @@ gj.tree.config = {
             expander: 'gj-tree-glyphicons-expander'
         },
         icons: {
-            expand: '<span class="glyphicon glyphicon-plus" />',
-            collapse: '<span class="glyphicon glyphicon-minus" />'
+            expand: '<span className="glyphicon glyphicon-plus" />',
+            collapse: '<span className="glyphicon glyphicon-minus" />'
         }
     }
 };
@@ -9983,7 +9983,7 @@ gj.tree.events = {
      * @event initialized
      * @param {object} e - event data
      * @example Event.Sample <!-- tree -->
-     * <button id="reload" class="gj-button-md">Reload</button>
+     * <button id="reload" className="gj-button-md">Reload</button>
      * <div id="tree"></div>
      * <script>
      *     var tree = $('#tree').tree({
@@ -10123,8 +10123,8 @@ gj.tree.events = {
      * @param {object} e - event data
      * @param {object} node - the node as jquery object
      * @example Event.Sample <!-- tree -->
-     * <button onclick="tree.enable(northAmerica, false)" class="gj-button-md">Enable North America</button>
-     * <button onclick="tree.disable(northAmerica, false)" class="gj-button-md">Disable North America</button>
+     * <button onclick="tree.enable(northAmerica, false)" className="gj-button-md">Enable North America</button>
+     * <button onclick="tree.disable(northAmerica, false)" className="gj-button-md">Disable North America</button>
      * <br/><br/>
      * <div id="tree" data-source="/Locations/Get"></div>
      * <script>
@@ -10150,8 +10150,8 @@ gj.tree.events = {
      * @param {object} e - event data
      * @param {object} node - the node as jquery object
      * @example Event.Sample <!-- tree -->
-     * <button onclick="tree.enable(northAmerica, false)" class="gj-button-md">Enable North America</button>
-     * <button onclick="tree.disable(northAmerica, false)" class="gj-button-md">Disable North America</button>
+     * <button onclick="tree.enable(northAmerica, false)" className="gj-button-md">Enable North America</button>
+     * <button onclick="tree.disable(northAmerica, false)" className="gj-button-md">Disable North America</button>
      * <br/><br/>
      * <div id="tree" data-source="/Locations/Get"></div>
      * <script>
@@ -10176,7 +10176,7 @@ gj.tree.events = {
      * @event destroying
      * @param {object} e - event data
      * @example Event.Sample <!-- tree -->
-     * <button onclick="tree.destroy()" class="gj-button-md">Destroy</button>
+     * <button onclick="tree.destroy()" className="gj-button-md">Destroy</button>
      * <br/><br/>
      * <div id="tree" data-source="/Locations/Get"></div>
      * <script>
@@ -10228,7 +10228,7 @@ gj.tree.methods = {
 
     initialize: function () {
         var data = this.data(),
-            $root = $('<ul class="' + data.style.list + '"/>');
+            $root = $('<ul className="' + data.style.list + '"/>');
         this.empty().addClass(data.style.wrapper).append($root);
         if (data.width) {
             this.width(data.width);
@@ -10318,7 +10318,7 @@ gj.tree.methods = {
         }
 
         if (data.imageCssClassField && nodeData[data.imageCssClassField]) {
-            $span = $('<span data-role="image"><span class="' + nodeData[data.imageCssClassField] + '"></span></span>');
+            $span = $('<span data-role="image"><span className="' + nodeData[data.imageCssClassField] + '"></span></span>');
             $span.insertBefore($display);
         } else if (data.imageUrlField && nodeData[data.imageUrlField]) {
             $span = $('<span data-role="image"></span>');
@@ -10748,7 +10748,7 @@ gj.tree.widget = function ($element, jsConfig) {
      * @param {object} params - Params that needs to be send to the server. Only in use for remote data sources.
      * @return jQuery object
      * @example Method.Sample <!-- tree -->
-     * <button onclick="tree.reload()" class="gj-button-md">Click to load</button>
+     * <button onclick="tree.reload()" className="gj-button-md">Click to load</button>
      * <br/><br/>
      * <div id="tree"></div>
      * <script>
@@ -10805,7 +10805,7 @@ gj.tree.widget = function ($element, jsConfig) {
      * @param {Number} position - Position where the new node need to be added. 
      * @return jQuery object
      * @example Append.ToRoot <!-- tree -->
-     * <button onclick="append()" class="gj-button-md">Append To Root</button>
+     * <button onclick="append()" className="gj-button-md">Append To Root</button>
      * <br/>
      * <div id="tree" data-source="/Locations/Get"></div>
      * <script>
@@ -10815,7 +10815,7 @@ gj.tree.widget = function ($element, jsConfig) {
      *     }
      * </script>
      * @example Append.Parent <!-- tree -->
-     * <button onclick="append()" class="gj-button-md">Append To Asia</button>
+     * <button onclick="append()" className="gj-button-md">Append To Asia</button>
      * <br/>
      * <div id="tree" data-source="/Locations/Get"></div>
      * <script>
@@ -10829,7 +10829,7 @@ gj.tree.widget = function ($element, jsConfig) {
      *     }
      * </script>
      * @example Bootstrap <!-- bootstrap, tree -->
-     * <button onclick="append()" class="btn btn-default">Append To Asia</button>
+     * <button onclick="append()" className="btn btn-default">Append To Asia</button>
      * <br/><br/>
      * <div id="tree" data-source="/Locations/Get" data-ui-library="bootstrap"></div>
      * <script>
@@ -10843,7 +10843,7 @@ gj.tree.widget = function ($element, jsConfig) {
      *     }
      * </script>
      * @example Prepend <!-- tree -->
-     * <button onclick="append()" class="gj-button-md">Prepend in Asia</button>
+     * <button onclick="append()" className="gj-button-md">Prepend in Asia</button>
      * <br/>
      * <div id="tree" data-source="/Locations/Get"></div>
      * <script>
@@ -10857,7 +10857,7 @@ gj.tree.widget = function ($element, jsConfig) {
      *     }
      * </script>
      * @example Position <!-- tree -->
-     * <button onclick="append()" class="gj-button-md">Append to Asia as second</button>
+     * <button onclick="append()" className="gj-button-md">Append to Asia as second</button>
      * <br/>
      * <div id="tree" data-source="/Locations/Get"></div>
      * <script>
@@ -10881,7 +10881,7 @@ gj.tree.widget = function ($element, jsConfig) {
      * @param {object} node - The node as jQuery object
      * @return jQuery object
      * @example Method.Sample <!-- tree -->
-     * <button onclick="remove()" class="gj-button-md">Remove USA</button>
+     * <button onclick="remove()" className="gj-button-md">Remove USA</button>
      * <br/>
      * <div id="tree"></div>
      * <script>
@@ -10906,7 +10906,7 @@ gj.tree.widget = function ($element, jsConfig) {
      * @return jQuery object
      * @example Method.Sample <!-- tree -->
      * <input type="text" id="nodeName" />
-     * <button onclick="save()" class="gj-button-md">Save</button>
+     * <button onclick="save()" className="gj-button-md">Save</button>
      * <br/>
      * <div id="tree"></div>
      * <script>
@@ -10934,7 +10934,7 @@ gj.tree.widget = function ($element, jsConfig) {
      * @method
      * @return jQuery object
      * @example Method.Sample <!-- tree -->
-     * <button onclick="tree.destroy()" class="gj-button-md">Destroy</button>
+     * <button onclick="tree.destroy()" className="gj-button-md">Destroy</button>
      * <br/>
      * <div id="tree"></div>
      * <script>
@@ -10954,8 +10954,8 @@ gj.tree.widget = function ($element, jsConfig) {
      * @param {boolean} cascade - Expand all children
      * @return jQuery object
      * @example Method.Sample <!-- tree -->
-     * <button onclick="expand()" class="gj-button-md">Expand Asia</button>
-     * <button onclick="collapse()" class="gj-button-md">Collapse Asia</button>
+     * <button onclick="expand()" className="gj-button-md">Expand Asia</button>
+     * <button onclick="collapse()" className="gj-button-md">Collapse Asia</button>
      * <br/>
      * <div id="tree"></div>
      * <script>
@@ -10972,7 +10972,7 @@ gj.tree.widget = function ($element, jsConfig) {
      *     }
      * </script>
      * @example Cascade <!-- tree -->
-     * <button onclick="expand()" class="gj-button-md">Expand North America</button>
+     * <button onclick="expand()" className="gj-button-md">Expand North America</button>
      * <br/>
      * <div id="tree"></div>
      * <script>
@@ -10996,8 +10996,8 @@ gj.tree.widget = function ($element, jsConfig) {
      * @param {boolean} cascade - Collapse all children
      * @return jQuery object
      * @example Method.Sample <!-- tree -->
-     * <button onclick="expand()" class="gj-button-md">Expand Asia</button>
-     * <button onclick="collapse()" class="gj-button-md">Collapse Asia</button>
+     * <button onclick="expand()" className="gj-button-md">Expand Asia</button>
+     * <button onclick="collapse()" className="gj-button-md">Collapse Asia</button>
      * <br/>
      * <div id="tree"></div>
      * <script>
@@ -11014,7 +11014,7 @@ gj.tree.widget = function ($element, jsConfig) {
      *     }
      * </script>
      * @example Cascade <!-- tree -->
-     * <button onclick="collapse()" class="gj-button-md">Collapse North America</button>
+     * <button onclick="collapse()" className="gj-button-md">Collapse North America</button>
      * <br/>
      * <div id="tree"></div>
      * <script>
@@ -11036,8 +11036,8 @@ gj.tree.widget = function ($element, jsConfig) {
      * @method
      * @return jQuery object
      * @example Sample <!-- tree -->
-     * <button onclick="tree.expandAll()" class="gj-button-md">Expand All</button>
-     * <button onclick="tree.collapseAll()" class="gj-button-md">Collapse All</button>
+     * <button onclick="tree.expandAll()" className="gj-button-md">Expand All</button>
+     * <button onclick="tree.collapseAll()" className="gj-button-md">Collapse All</button>
      * <br/>
      * <div id="tree" data-source="/Locations/Get"></div>
      * <script>
@@ -11053,8 +11053,8 @@ gj.tree.widget = function ($element, jsConfig) {
      * @method
      * @return jQuery object
      * @example Sample <!-- tree -->
-     * <button onclick="tree.expandAll()" class="gj-button-md">Expand All</button>
-     * <button onclick="tree.collapseAll()" class="gj-button-md">Collapse All</button>
+     * <button onclick="tree.expandAll()" className="gj-button-md">Expand All</button>
+     * <button onclick="tree.collapseAll()" className="gj-button-md">Collapse All</button>
      * <br/>
      * <div id="tree" data-source="/Locations/Get"></div>
      * <script>
@@ -11071,7 +11071,7 @@ gj.tree.widget = function ($element, jsConfig) {
      * @param {string|number} id - The id of the record that needs to be returned
      * @return object
      * @example sample <!-- tree -->
-     * <button id="btnGetData" class="gj-button-md">Get Data</button>
+     * <button id="btnGetData" className="gj-button-md">Get Data</button>
      * <br/>
      * <div id="tree"></div>
      * <script>
@@ -11095,7 +11095,7 @@ gj.tree.widget = function ($element, jsConfig) {
      * @param {string} text - The text of the record that needs to be returned
      * @return object
      * @example sample <!-- tree -->
-     * <button id="btnGetData" class="gj-button-md">Get Data</button>
+     * <button id="btnGetData" className="gj-button-md">Get Data</button>
      * <br/>
      * <div id="tree"></div>
      * <script>
@@ -11160,8 +11160,8 @@ gj.tree.widget = function ($element, jsConfig) {
      * @method
      * @return Array
      * @example sample <!-- tree -->
-     * <button onclick="alert(JSON.stringify(tree.getAll()))" class="gj-button-md">Get All Data</button>
-     * <button onclick="tree.addNode({ text: 'New Node' });" class="gj-button-md">Add New Node</button>
+     * <button onclick="alert(JSON.stringify(tree.getAll()))" className="gj-button-md">Get All Data</button>
+     * <button onclick="tree.addNode({ text: 'New Node' });" className="gj-button-md">Add New Node</button>
      * <br/>
      * <div id="tree"></div>
      * <script>
@@ -11180,8 +11180,8 @@ gj.tree.widget = function ($element, jsConfig) {
      * @param {Object} node - The node as jquery object.
      * @return jQuery Object
      * @example Select.Method <!-- tree -->
-     * <button onclick="tree.select(northAmerica)" class="gj-button-md">Select North America</button>
-     * <button onclick="tree.unselect(northAmerica)" class="gj-button-md">Unselect North America</button>
+     * <button onclick="tree.select(northAmerica)" className="gj-button-md">Select North America</button>
+     * <button onclick="tree.unselect(northAmerica)" className="gj-button-md">Unselect North America</button>
      * <br/>
      * <div id="tree" data-source="/Locations/Get"></div>
      * <script>
@@ -11207,8 +11207,8 @@ gj.tree.widget = function ($element, jsConfig) {
      * @param {Object} node - The node as jquery object.
      * @return jQuery Object
      * @example UnSelect.Method <!-- tree -->
-     * <button onclick="tree.select(northAmerica)" class="gj-button-md">Select North America</button>
-     * <button onclick="tree.unselect(northAmerica)" class="gj-button-md">Unselect North America</button>
+     * <button onclick="tree.select(northAmerica)" className="gj-button-md">Select North America</button>
+     * <button onclick="tree.unselect(northAmerica)" className="gj-button-md">Unselect North America</button>
      * <br/>
      * <div id="tree" data-source="/Locations/Get"></div>
      * <script>
@@ -11233,8 +11233,8 @@ gj.tree.widget = function ($element, jsConfig) {
      * @method
      * @return jQuery object
      * @example Sample <!-- tree -->
-     * <button onclick="tree.selectAll()" class="gj-button-md">Select All</button>
-     * <button onclick="tree.unselectAll()" class="gj-button-md">Unselect All</button>
+     * <button onclick="tree.selectAll()" className="gj-button-md">Select All</button>
+     * <button onclick="tree.unselectAll()" className="gj-button-md">Unselect All</button>
      * <br/>
      * <div id="tree" data-source="/Locations/Get"></div>
      * <script>
@@ -11255,8 +11255,8 @@ gj.tree.widget = function ($element, jsConfig) {
      * @method
      * @return jQuery object
      * @example Sample <!-- tree -->
-     * <button onclick="tree.selectAll()" class="gj-button-md">Select All</button>
-     * <button onclick="tree.unselectAll()" class="gj-button-md">Unselect All</button>
+     * <button onclick="tree.selectAll()" className="gj-button-md">Select All</button>
+     * <button onclick="tree.unselectAll()" className="gj-button-md">Unselect All</button>
      * <br/>
      * <div id="tree" data-source="/Locations/Get"></div>
      * <script>
@@ -11277,7 +11277,7 @@ gj.tree.widget = function ($element, jsConfig) {
      * @method
      * @return array
      * @example Sample <!-- tree -->
-     * <button id="btnShowSelection" class="gj-button-md">Show Selections</button>
+     * <button id="btnShowSelection" className="gj-button-md">Show Selections</button>
      * <br/>
      * <div id="tree" data-source="/Locations/Get"></div>
      * <script>
@@ -11360,10 +11360,10 @@ gj.tree.widget = function ($element, jsConfig) {
      * @param {Boolean} cascade - Enable all children. Set to true by default.
      * @return jQuery Object
      * @example Material.Design <!-- checkbox, tree -->
-     * <button onclick="tree.enable(northAmerica)" class="gj-button-md">Enable North America (Cascade)</button>
-     * <button onclick="tree.disable(northAmerica)" class="gj-button-md">Disable North America (Cascade)</button>
-     * <button onclick="tree.enable(northAmerica, false)" class="gj-button-md">Enable North America (Non-Cascade)</button>
-     * <button onclick="tree.disable(northAmerica, false)" class="gj-button-md">Disable North America (Non-Cascade)</button>
+     * <button onclick="tree.enable(northAmerica)" className="gj-button-md">Enable North America (Cascade)</button>
+     * <button onclick="tree.disable(northAmerica)" className="gj-button-md">Disable North America (Cascade)</button>
+     * <button onclick="tree.enable(northAmerica, false)" className="gj-button-md">Enable North America (Non-Cascade)</button>
+     * <button onclick="tree.disable(northAmerica, false)" className="gj-button-md">Disable North America (Non-Cascade)</button>
      * <br/>
      * <div id="tree" data-source="/Locations/Get"></div>
      * <script>
@@ -11377,10 +11377,10 @@ gj.tree.widget = function ($element, jsConfig) {
      *     });
      * </script>
      * @example Bootstrap <!-- bootstrap, checkbox, tree -->
-     * <button onclick="tree.enable(northAmerica)" class="btn btn-default">Enable North America (Cascade)</button>
-     * <button onclick="tree.disable(northAmerica)" class="btn btn-default">Disable North America (Cascade)</button>
-     * <button onclick="tree.enable(northAmerica, false)" class="btn btn-default">Enable North America (Non-Cascade)</button>
-     * <button onclick="tree.disable(northAmerica, false)" class="btn btn-default">Disable North America (Non-Cascade)</button>
+     * <button onclick="tree.enable(northAmerica)" className="btn btn-default">Enable North America (Cascade)</button>
+     * <button onclick="tree.disable(northAmerica)" className="btn btn-default">Disable North America (Cascade)</button>
+     * <button onclick="tree.enable(northAmerica, false)" className="btn btn-default">Enable North America (Non-Cascade)</button>
+     * <button onclick="tree.disable(northAmerica, false)" className="btn btn-default">Disable North America (Non-Cascade)</button>
      * <br/>
      * <div id="tree" data-source="/Locations/Get"></div>
      * <script>
@@ -11395,10 +11395,10 @@ gj.tree.widget = function ($element, jsConfig) {
      *     });
      * </script>
      * @example Bootstrap.4 <!-- bootstrap4, fontawesome, checkbox, tree -->
-     * <button onclick="tree.enable(northAmerica)" class="btn btn-default">Enable North America (Cascade)</button>
-     * <button onclick="tree.disable(northAmerica)" class="btn btn-default">Disable North America (Cascade)</button>
-     * <button onclick="tree.enable(northAmerica, false)" class="btn btn-default">Enable North America (Non-Cascade)</button>
-     * <button onclick="tree.disable(northAmerica, false)" class="btn btn-default">Disable North America (Non-Cascade)</button>
+     * <button onclick="tree.enable(northAmerica)" className="btn btn-default">Enable North America (Cascade)</button>
+     * <button onclick="tree.disable(northAmerica)" className="btn btn-default">Disable North America (Cascade)</button>
+     * <button onclick="tree.enable(northAmerica, false)" className="btn btn-default">Enable North America (Non-Cascade)</button>
+     * <button onclick="tree.disable(northAmerica, false)" className="btn btn-default">Disable North America (Non-Cascade)</button>
      * <br/><br/>
      * <div id="tree" data-source="/Locations/Get"></div>
      * <script>
@@ -11423,8 +11423,8 @@ gj.tree.widget = function ($element, jsConfig) {
      * @method
      * @return jQuery Object
      * @example Sample <!-- checkbox, tree -->
-     * <button onclick="tree.enableAll()" class="gj-button-md">Enable All</button>
-     * <button onclick="tree.disableAll()" class="gj-button-md">Disable All</button>
+     * <button onclick="tree.enableAll()" className="gj-button-md">Enable All</button>
+     * <button onclick="tree.disableAll()" className="gj-button-md">Disable All</button>
      * <br/>
      * <div id="tree" data-source="/Locations/Get"></div>
      * <script>
@@ -11444,10 +11444,10 @@ gj.tree.widget = function ($element, jsConfig) {
      * @param {Boolean} cascade - Disable all children. Set to true by default.
      * @return jQuery Object
      * @example Sample <!-- checkbox, tree -->
-     * <button onclick="tree.enable(northAmerica)" class="gj-button-md">Enable North America (Cascade)</button>
-     * <button onclick="tree.disable(northAmerica)" class="gj-button-md">Disable North America (Cascade)</button>
-     * <button onclick="tree.enable(northAmerica, false)" class="gj-button-md">Enable North America (Non-Cascade)</button>
-     * <button onclick="tree.disable(northAmerica, false)" class="gj-button-md">Disable North America (Non-Cascade)</button>
+     * <button onclick="tree.enable(northAmerica)" className="gj-button-md">Enable North America (Cascade)</button>
+     * <button onclick="tree.disable(northAmerica)" className="gj-button-md">Disable North America (Cascade)</button>
+     * <button onclick="tree.enable(northAmerica, false)" className="gj-button-md">Enable North America (Non-Cascade)</button>
+     * <button onclick="tree.disable(northAmerica, false)" className="gj-button-md">Disable North America (Non-Cascade)</button>
      * <br/>
      * <div id="tree" data-source="/Locations/Get"></div>
      * <script>
@@ -11470,8 +11470,8 @@ gj.tree.widget = function ($element, jsConfig) {
      * @method
      * @return jQuery Object
      * @example Sample <!-- checkbox, tree -->
-     * <button onclick="tree.enableAll()" class="gj-button-md">Enable All</button>
-     * <button onclick="tree.disableAll()" class="gj-button-md">Disable All</button>
+     * <button onclick="tree.enableAll()" className="gj-button-md">Enable All</button>
+     * <button onclick="tree.disableAll()" className="gj-button-md">Disable All</button>
      * <br/>
      * <div id="tree" data-source="/Locations/Get"></div>
      * <script>
@@ -11709,7 +11709,7 @@ gj.tree.plugins.checkboxes = {
          * @method
          * @return Array
          * @example Base.Theme <!-- checkbox, tree -->
-         * <button id="btnGet" class="gj-button-md">Get Checked Nodes</button>
+         * <button id="btnGet" className="gj-button-md">Get Checked Nodes</button>
          * <div id="tree"></div>
          * <script>
          *     var tree = $('#tree').tree({
@@ -11739,8 +11739,8 @@ gj.tree.plugins.checkboxes = {
          * @method
          * @return tree as jQuery object
          * @example Sample <!-- checkbox, tree -->
-         * <button onclick="tree.checkAll()" class="gj-button-md">Check All</button>
-         * <button onclick="tree.uncheckAll()" class="gj-button-md">Uncheck All</button>
+         * <button onclick="tree.checkAll()" className="gj-button-md">Check All</button>
+         * <button onclick="tree.uncheckAll()" className="gj-button-md">Uncheck All</button>
          * <br/><br/>
          * <div id="tree" data-source="/Locations/Get"></div>
          * <script>
@@ -11765,8 +11765,8 @@ gj.tree.plugins.checkboxes = {
          * @method
          * @return tree as jQuery object
          * @example Sample <!-- checkbox, tree -->
-         * <button onclick="tree.checkAll()" class="gj-button-md">Check All</button>
-         * <button onclick="tree.uncheckAll()" class="gj-button-md">Uncheck All</button>
+         * <button onclick="tree.checkAll()" className="gj-button-md">Check All</button>
+         * <button onclick="tree.uncheckAll()" className="gj-button-md">Uncheck All</button>
          * <br/><br/>
          * <div id="tree" data-source="/Locations/Get"></div>
          * <script>
@@ -11792,7 +11792,7 @@ gj.tree.plugins.checkboxes = {
          * @param {object} node - The node as jQuery object
          * @return tree as jQuery object
          * @example Sample <!-- checkbox, tree -->
-         * <button onclick="tree.check(tree.getNodeByText('China'))" class="gj-button-md">Check China</button>
+         * <button onclick="tree.check(tree.getNodeByText('China'))" className="gj-button-md">Check China</button>
          * <br/>
          * <div id="tree" data-source="/Locations/Get"></div>
          * <script>
@@ -11815,7 +11815,7 @@ gj.tree.plugins.checkboxes = {
          * @param {object} node - The node as jQuery object
          * @return tree as jQuery object
          * @example Sample <!-- checkbox, tree -->
-         * <button onclick="tree.uncheck(tree.getNodeByText('China'))" class="gj-button-md">UnCheck China</button>
+         * <button onclick="tree.uncheck(tree.getNodeByText('China'))" className="gj-button-md">UnCheck China</button>
          * <br/>
          * <div id="tree" data-source="/Locations/Get"></div>
          * <script>
@@ -11895,7 +11895,7 @@ gj.tree.plugins.dragAndDrop = {
               *     });
               * </script>
               * @example Bootstrap.3 <!-- bootstrap, draggable, droppable, tree -->
-              * <div class="container">
+              * <div className="container">
               *     <h3>Drag and Drop Tree Nodes</h3>
               *     <div id="tree"></div>
               * </div>
@@ -11907,7 +11907,7 @@ gj.tree.plugins.dragAndDrop = {
               *     });
               * </script>
               * @example Bootstrap.4 <!-- bootstrap4, draggable, droppable, tree -->
-              * <div class="container">
+              * <div className="container">
               *     <h3>Drag and Drop Tree Nodes</h3>
               *     <div id="tree"></div>
               * </div>
@@ -11978,8 +11978,8 @@ gj.tree.plugins.dragAndDrop = {
 
                     $tree.data('dragReady', false);
                     $dragEl = $display.clone().wrap('<div data-role="wrapper"/>').closest('div')
-                        .wrap('<li class="' + data.style.item + '" />').closest('li')
-                        .wrap('<ul class="' + data.style.list + '" />').closest('ul');
+                        .wrap('<li className="' + data.style.item + '" />').closest('li')
+                        .wrap('<ul className="' + data.style.list + '" />').closest('ul');
                     $('body').append($dragEl);
                     $dragEl.attr('data-role', 'draggable-clone').addClass('gj-unselectable').addClass(data.style.dragEl);
                     $dragEl.find('[data-role="wrapper"]').prepend('<span data-role="indicator" />');
@@ -12326,24 +12326,24 @@ gj.checkbox.config = {
          * @default 'materialdesign'
          * @example Material.Design <!-- checkbox  -->
          * <input type="checkbox" id="checkbox"/><br/><br/>
-         * <button onclick="$chkb.state('checked')" class="gj-button-md">Checked</button>
-         * <button onclick="$chkb.state('unchecked')" class="gj-button-md">Unchecked</button>
-         * <button onclick="$chkb.state('indeterminate')" class="gj-button-md">Indeterminate</button>
-         * <button onclick="$chkb.prop('disabled', false)" class="gj-button-md">Enable</button>
-         * <button onclick="$chkb.prop('disabled', true)" class="gj-button-md">Disable</button>
+         * <button onclick="$chkb.state('checked')" className="gj-button-md">Checked</button>
+         * <button onclick="$chkb.state('unchecked')" className="gj-button-md">Unchecked</button>
+         * <button onclick="$chkb.state('indeterminate')" className="gj-button-md">Indeterminate</button>
+         * <button onclick="$chkb.prop('disabled', false)" className="gj-button-md">Enable</button>
+         * <button onclick="$chkb.prop('disabled', true)" className="gj-button-md">Disable</button>
          * <script>
          *     var $chkb = $('#checkbox').checkbox({
          *         uiLibrary: 'materialdesign'
          *     });
          * </script>
          * @example Bootstrap.3 <!-- bootstrap, checkbox -->
-         * <div class="container-fluid" style="margin-top:10px">
+         * <div className="container-fluid" style="margin-top:10px">
          *     <input type="checkbox" id="checkbox"/><br/><br/>
-         *     <button onclick="$chkb.state('checked')" class="btn btn-default">Checked</button>
-         *     <button onclick="$chkb.state('unchecked')" class="btn btn-default">Unchecked</button>
-         *     <button onclick="$chkb.state('indeterminate')" class="btn btn-default">Indeterminate</button>
-         *     <button onclick="$chkb.prop('disabled', false)" class="btn btn-default">Enable</button>
-         *     <button onclick="$chkb.prop('disabled', true)" class="btn btn-default">Disable</button>
+         *     <button onclick="$chkb.state('checked')" className="btn btn-default">Checked</button>
+         *     <button onclick="$chkb.state('unchecked')" className="btn btn-default">Unchecked</button>
+         *     <button onclick="$chkb.state('indeterminate')" className="btn btn-default">Indeterminate</button>
+         *     <button onclick="$chkb.prop('disabled', false)" className="btn btn-default">Enable</button>
+         *     <button onclick="$chkb.prop('disabled', true)" className="btn btn-default">Disable</button>
          * </div>
          * <script>
          *     var $chkb = $('#checkbox').checkbox({
@@ -12351,13 +12351,13 @@ gj.checkbox.config = {
          *     });
          * </script>
          * @example Bootstrap.4 <!-- bootstrap4, checkbox -->
-         * <div class="container-fluid" style="margin-top:10px">
+         * <div className="container-fluid" style="margin-top:10px">
          *     <input type="checkbox" id="checkbox"/><br/><br/>
-         *     <button onclick="$chkb.state('checked')" class="btn btn-default">Checked</button>
-         *     <button onclick="$chkb.state('unchecked')" class="btn btn-default">Unchecked</button>
-         *     <button onclick="$chkb.state('indeterminate')" class="btn btn-default">Indeterminate</button>
-         *     <button onclick="$chkb.prop('disabled', false)" class="btn btn-default">Enable</button>
-         *     <button onclick="$chkb.prop('disabled', true)" class="btn btn-default">Disable</button>
+         *     <button onclick="$chkb.state('checked')" className="btn btn-default">Checked</button>
+         *     <button onclick="$chkb.state('unchecked')" className="btn btn-default">Unchecked</button>
+         *     <button onclick="$chkb.state('indeterminate')" className="btn btn-default">Indeterminate</button>
+         *     <button onclick="$chkb.prop('disabled', false)" className="btn btn-default">Enable</button>
+         *     <button onclick="$chkb.prop('disabled', true)" className="btn btn-default">Disable</button>
          * </div>
          * <script>
          *     var $chkb = $('#checkbox').checkbox({
@@ -12374,13 +12374,13 @@ gj.checkbox.config = {
          * @type (materialicons|fontawesome|glyphicons)
          * @default 'materialicons'
          * @example Bootstrap.4.FontAwesome <!-- bootstrap4, checkbox, fontawesome -->
-         * <div class="container-fluid" style="margin-top:10px">
+         * <div className="container-fluid" style="margin-top:10px">
          *     <input type="checkbox" id="checkbox"/><br/><br/>
-         *     <button onclick="$chkb.state('checked')" class="btn btn-default">Checked</button>
-         *     <button onclick="$chkb.state('unchecked')" class="btn btn-default">Unchecked</button>
-         *     <button onclick="$chkb.state('indeterminate')" class="btn btn-default">Indeterminate</button>
-         *     <button onclick="$chkb.prop('disabled', false)" class="btn btn-default">Enable</button>
-         *     <button onclick="$chkb.prop('disabled', true)" class="btn btn-default">Disable</button>
+         *     <button onclick="$chkb.state('checked')" className="btn btn-default">Checked</button>
+         *     <button onclick="$chkb.state('unchecked')" className="btn btn-default">Unchecked</button>
+         *     <button onclick="$chkb.state('indeterminate')" className="btn btn-default">Indeterminate</button>
+         *     <button onclick="$chkb.prop('disabled', false)" className="btn btn-default">Enable</button>
+         *     <button onclick="$chkb.prop('disabled', true)" className="btn btn-default">Disable</button>
          * </div>
          * <script>
          *     var $chkb = $('#checkbox').checkbox({
@@ -12450,7 +12450,7 @@ gj.checkbox.methods = {
         var data = $chkb.data(), $wrapper, $span;
 
         if (data.style.wrapperCssClass) {
-            $wrapper = $('<label class="' + data.style.wrapperCssClass + ' ' + data.style.iconsCssClass + '"></label>');
+            $wrapper = $('<label className="' + data.style.wrapperCssClass + ' ' + data.style.iconsCssClass + '"></label>');
             if ($chkb.attr('id')) {
                 $wrapper.attr('for', $chkb.attr('id'));
             }
@@ -12543,7 +12543,7 @@ gj.checkbox.widget = function ($element, jsConfig) {
      * @fires change
      * @return checkbox as jquery object
      * @example sample <!-- checkbox -->
-     * <button onclick="$chkb.toggle()" class="gj-button-md">toggle</button>
+     * <button onclick="$chkb.toggle()" className="gj-button-md">toggle</button>
      * <hr/>
      * <input type="checkbox" id="checkbox"/>
      * <script>
@@ -12560,10 +12560,10 @@ gj.checkbox.widget = function ($element, jsConfig) {
      * @param {string} value - State of the checkbox. Accept only checked, unchecked or indeterminate as values.
      * @return checked|unchecked|indeterminate|checkbox as jquery object
      * @example sample <!-- checkbox -->
-     * <button onclick="$chkb.state('checked')" class="gj-button-md">Set to checked</button>
-     * <button onclick="$chkb.state('unchecked')" class="gj-button-md">Set to unchecked</button>
-     * <button onclick="$chkb.state('indeterminate')" class="gj-button-md">Set to indeterminate</button>
-     * <button onclick="alert($chkb.state())" class="gj-button-md">Get state</button>
+     * <button onclick="$chkb.state('checked')" className="gj-button-md">Set to checked</button>
+     * <button onclick="$chkb.state('unchecked')" className="gj-button-md">Set to unchecked</button>
+     * <button onclick="$chkb.state('indeterminate')" className="gj-button-md">Set to indeterminate</button>
+     * <button onclick="alert($chkb.state())" className="gj-button-md">Get state</button>
      * <hr/>
      * <input type="checkbox" id="checkbox"/>
      * <script>
@@ -12578,7 +12578,7 @@ gj.checkbox.widget = function ($element, jsConfig) {
      * @method
      * @return checkbox as jquery object
      * @example sample <!-- checkbox -->
-     * <button onclick="$chkb.destroy()" class="gj-button-md">Destroy</button>
+     * <button onclick="$chkb.destroy()" className="gj-button-md">Destroy</button>
      * <input type="checkbox" id="checkbox"/>
      * <script>
      *     var $chkb = $('#checkbox').checkbox();
@@ -12759,45 +12759,45 @@ gj.editor.config = {
 
     materialicons: {
         icons: {
-            bold: '<i class="gj-icon bold" />',
-            italic: '<i class="gj-icon italic" />',
-            strikethrough: '<i class="gj-icon strikethrough" />',
-            underline: '<i class="gj-icon underlined" />',
+            bold: '<i className="gj-icon bold" />',
+            italic: '<i className="gj-icon italic" />',
+            strikethrough: '<i className="gj-icon strikethrough" />',
+            underline: '<i className="gj-icon underlined" />',
 
-            listBulleted: '<i class="gj-icon list-bulleted" />',
-            listNumbered: '<i class="gj-icon list-numbered" />',
-            indentDecrease: '<i class="gj-icon indent-decrease" />',
-            indentIncrease: '<i class="gj-icon indent-increase" />',
+            listBulleted: '<i className="gj-icon list-bulleted" />',
+            listNumbered: '<i className="gj-icon list-numbered" />',
+            indentDecrease: '<i className="gj-icon indent-decrease" />',
+            indentIncrease: '<i className="gj-icon indent-increase" />',
 
-            alignLeft: '<i class="gj-icon align-left" />',
-            alignCenter: '<i class="gj-icon align-center" />',
-            alignRight: '<i class="gj-icon align-right" />',
-            alignJustify: '<i class="gj-icon align-justify" />',
+            alignLeft: '<i className="gj-icon align-left" />',
+            alignCenter: '<i className="gj-icon align-center" />',
+            alignRight: '<i className="gj-icon align-right" />',
+            alignJustify: '<i className="gj-icon align-justify" />',
 
-            undo: '<i class="gj-icon undo" />',
-            redo: '<i class="gj-icon redo" />'
+            undo: '<i className="gj-icon undo" />',
+            redo: '<i className="gj-icon redo" />'
         }
     },
 
     fontawesome: {
         icons: {
-            bold: '<i class="fa fa-bold" aria-hidden="true"></i>',
-            italic: '<i class="fa fa-italic" aria-hidden="true"></i>',
-            strikethrough: '<i class="fa fa-strikethrough" aria-hidden="true"></i>',
-            underline: '<i class="fa fa-underline" aria-hidden="true"></i>',
+            bold: '<i className="fa fa-bold" aria-hidden="true"></i>',
+            italic: '<i className="fa fa-italic" aria-hidden="true"></i>',
+            strikethrough: '<i className="fa fa-strikethrough" aria-hidden="true"></i>',
+            underline: '<i className="fa fa-underline" aria-hidden="true"></i>',
 
-            listBulleted: '<i class="fa fa-list-ul" aria-hidden="true"></i>',
-            listNumbered: '<i class="fa fa-list-ol" aria-hidden="true"></i>',
-            indentDecrease: '<i class="fa fa-indent" aria-hidden="true"></i>',
-            indentIncrease: '<i class="fa fa-outdent" aria-hidden="true"></i>',
+            listBulleted: '<i className="fa fa-list-ul" aria-hidden="true"></i>',
+            listNumbered: '<i className="fa fa-list-ol" aria-hidden="true"></i>',
+            indentDecrease: '<i className="fa fa-indent" aria-hidden="true"></i>',
+            indentIncrease: '<i className="fa fa-outdent" aria-hidden="true"></i>',
 
-            alignLeft: '<i class="fa fa-align-left" aria-hidden="true"></i>',
-            alignCenter: '<i class="fa fa-align-center" aria-hidden="true"></i>',
-            alignRight: '<i class="fa fa-align-right" aria-hidden="true"></i>',
-            alignJustify: '<i class="fa fa-align-justify" aria-hidden="true"></i>',
+            alignLeft: '<i className="fa fa-align-left" aria-hidden="true"></i>',
+            alignCenter: '<i className="fa fa-align-center" aria-hidden="true"></i>',
+            alignRight: '<i className="fa fa-align-right" aria-hidden="true"></i>',
+            alignJustify: '<i className="fa fa-align-justify" aria-hidden="true"></i>',
 
-            undo: '<i class="fa fa-undo" aria-hidden="true"></i>',
-            redo: '<i class="fa fa-repeat" aria-hidden="true"></i>'
+            undo: '<i className="fa fa-undo" aria-hidden="true"></i>',
+            redo: '<i className="fa fa-repeat" aria-hidden="true"></i>'
         }
     }
 };
@@ -12876,26 +12876,26 @@ gj.editor.methods = {
         if (typeof (data.buttons) === 'undefined') {
             data.buttons = [
                 [
-                    '<button type="button" class="' + data.style.button + '" title="' + msg.bold + '" role="bold">' + data.icons.bold + '</button>',
-                    '<button type="button" class="' + data.style.button + '" title="' + msg.italic + '" role="italic">' + data.icons.italic + '</button>',
-                    '<button type="button" class="' + data.style.button + '" title="' + msg.strikethrough + '" role="strikethrough">' + data.icons.strikethrough + '</button>',
-                    '<button type="button" class="' + data.style.button + '" title="' + msg.underline + '" role="underline">' + data.icons.underline + '</button>'
+                    '<button type="button" className="' + data.style.button + '" title="' + msg.bold + '" role="bold">' + data.icons.bold + '</button>',
+                    '<button type="button" className="' + data.style.button + '" title="' + msg.italic + '" role="italic">' + data.icons.italic + '</button>',
+                    '<button type="button" className="' + data.style.button + '" title="' + msg.strikethrough + '" role="strikethrough">' + data.icons.strikethrough + '</button>',
+                    '<button type="button" className="' + data.style.button + '" title="' + msg.underline + '" role="underline">' + data.icons.underline + '</button>'
                 ],
                 [
-                    '<button type="button" class="' + data.style.button + '" title="' + msg.listBulleted + '" role="insertunorderedlist">' + data.icons.listBulleted + '</button>',
-                    '<button type="button" class="' + data.style.button + '" title="' + msg.listNumbered + '" role="insertorderedlist">' + data.icons.listNumbered + '</button>',
-                    '<button type="button" class="' + data.style.button + '" title="' + msg.indentDecrease + '" role="outdent">' + data.icons.indentDecrease + '</button>',
-                    '<button type="button" class="' + data.style.button + '" title="' + msg.indentIncrease + '" role="indent">' + data.icons.indentIncrease + '</button>'
+                    '<button type="button" className="' + data.style.button + '" title="' + msg.listBulleted + '" role="insertunorderedlist">' + data.icons.listBulleted + '</button>',
+                    '<button type="button" className="' + data.style.button + '" title="' + msg.listNumbered + '" role="insertorderedlist">' + data.icons.listNumbered + '</button>',
+                    '<button type="button" className="' + data.style.button + '" title="' + msg.indentDecrease + '" role="outdent">' + data.icons.indentDecrease + '</button>',
+                    '<button type="button" className="' + data.style.button + '" title="' + msg.indentIncrease + '" role="indent">' + data.icons.indentIncrease + '</button>'
                 ],
                 [
-                    '<button type="button" class="' + data.style.button + '" title="' + msg.alignLeft + '" role="justifyleft">' + data.icons.alignLeft + '</button>',
-                    '<button type="button" class="' + data.style.button + '" title="' + msg.alignCenter + '" role="justifycenter">' + data.icons.alignCenter + '</button>',
-                    '<button type="button" class="' + data.style.button + '" title="' + msg.alignRight + '" role="justifyright">' + data.icons.alignRight + '</button>',
-                    '<button type="button" class="' + data.style.button + '" title="' + msg.alignJustify + '" role="justifyfull">' + data.icons.alignJustify + '</button>'
+                    '<button type="button" className="' + data.style.button + '" title="' + msg.alignLeft + '" role="justifyleft">' + data.icons.alignLeft + '</button>',
+                    '<button type="button" className="' + data.style.button + '" title="' + msg.alignCenter + '" role="justifycenter">' + data.icons.alignCenter + '</button>',
+                    '<button type="button" className="' + data.style.button + '" title="' + msg.alignRight + '" role="justifyright">' + data.icons.alignRight + '</button>',
+                    '<button type="button" className="' + data.style.button + '" title="' + msg.alignJustify + '" role="justifyfull">' + data.icons.alignJustify + '</button>'
                 ],
                 [
-                    '<button type="button" class="' + data.style.button + '" title="' + msg.undo + '" role="undo">' + data.icons.undo + '</button>',
-                    '<button type="button" class="' + data.style.button + '" title="' + msg.redo + '" role="redo">' + data.icons.redo + '</button>'
+                    '<button type="button" className="' + data.style.button + '" title="' + msg.undo + '" role="undo">' + data.icons.undo + '</button>',
+                    '<button type="button" className="' + data.style.button + '" title="' + msg.redo + '" role="redo">' + data.icons.redo + '</button>'
                 ]
             ];
         }
@@ -12996,14 +12996,14 @@ gj.editor.widget = function ($element, jsConfig) {
      * @param {string} html - The html content that needs to be set.
      * @return string | editor
      * @example Get <!-- editor, materialicons -->
-     * <button class="gj-button-md" onclick="alert($editor.content())">Get Content</button>
+     * <button className="gj-button-md" onclick="alert($editor.content())">Get Content</button>
      * <hr/>
      * <div id="editor">My <b>content</b>.</div>
      * <script>
      *     var $editor = $('#editor').editor();
      * </script>
      * @example Set <!-- editor, materialicons -->
-     * <button class="gj-button-md" onclick="$editor.content('<h1>new value</h1>')">Set Content</button>
+     * <button className="gj-button-md" onclick="$editor.content('<h1>new value</h1>')">Set Content</button>
      * <hr/>
      * <textarea id="editor"></textarea>
      * <script>
@@ -13018,7 +13018,7 @@ gj.editor.widget = function ($element, jsConfig) {
      * @method
      * @return jquery element
      * @example sample <!-- editor, materialicons -->
-     * <button class="gj-button-md" onclick="editor.destroy()">Destroy</button><br/>
+     * <button className="gj-button-md" onclick="editor.destroy()">Destroy</button><br/>
      * <textarea id="editor"></textarea>
      * <script>
      *     var editor = $('#editor').editor();
@@ -13215,19 +13215,19 @@ gj.dropdown.config = {
          *     $('#dropdown').dropdown({ placeholder: 'Select One...', width: 200, dataSource: '/Locations/GetCountries', valueField: 'id' });
          * </script>
          * @example HTML.Config <!-- dropdown -->
-         * <input type="text" class="gj-textbox-md" placeholder="Select One..." style="width: 200px" /><br/>
+         * <input type="text" className="gj-textbox-md" placeholder="Select One..." style="width: 200px" /><br/>
          * <select id="dropdown" placeholder="Select One..." width="200" data-source="/Locations/GetCountries" data-value-field="id"></select>
          * <script>
          *     $('#dropdown').dropdown();
          * </script>
          * @example Bootstrap <!-- bootstrap, dropdown -->
-         * <input type="text" class="form-control" placeholder="Select One..." style="width: 200px" /><br/>
+         * <input type="text" className="form-control" placeholder="Select One..." style="width: 200px" /><br/>
          * <select id="dropdown" placeholder="Select One..." width="200" data-source="/Locations/GetCountries" data-value-field="id"></select>
          * <script>
          *     $('#dropdown').dropdown({ uiLibrary: 'bootstrap' });
          * </script>
          * @example Bootstrap.4 <!-- bootstrap4, dropdown -->
-         * <input type="text" class="form-control" placeholder="Select One..." style="width: 200px" /><br/>
+         * <input type="text" className="form-control" placeholder="Select One..." style="width: 200px" /><br/>
          * <select id="dropdown" placeholder="Select One..." width="200" data-source="/Locations/GetCountries" data-value-field="id"></select>
          * <script>
          *     $('#dropdown').dropdown({ uiLibrary: 'bootstrap4' });
@@ -13306,7 +13306,7 @@ gj.dropdown.config = {
             /** DropDown icon definition.
              * @alias icons.dropdown
              * @type String
-             * @default '<i class="gj-icon arrow-dropdown" />'
+             * @default '<i className="gj-icon arrow-dropdown" />'
              * @example Custom.Material.Icon <!-- materialicons, dropdown -->
              * <select id="dropdown"></select>
              * <script>
@@ -13315,7 +13315,7 @@ gj.dropdown.config = {
              *         valueField: 'id',
              *         width: 200,
              *         icons: { 
-             *             dropdown: '<i class="material-icons">keyboard_arrow_down</i>'
+             *             dropdown: '<i className="material-icons">keyboard_arrow_down</i>'
              *         }
              *     });
              * </script>
@@ -13328,14 +13328,14 @@ gj.dropdown.config = {
              *         uiLibrary: 'bootstrap',
              *         width: 200,
              *         icons: { 
-             *             dropdown: '<span class="glyphicon glyphicon-triangle-bottom" />'
+             *             dropdown: '<span className="glyphicon glyphicon-triangle-bottom" />'
              *         }
              *     });
              * </script>
              */
-            dropdown: '<i class="gj-icon arrow-dropdown" />',
+            dropdown: '<i className="gj-icon arrow-dropdown" />',
 
-            dropup: '<i class="gj-icon arrow-dropup" />'
+            dropup: '<i className="gj-icon arrow-dropup" />'
         },
 
         style: {
@@ -13374,8 +13374,8 @@ gj.dropdown.config = {
 
     fontawesome: {
         icons: {
-            dropdown: '<i class="fa fa-caret-down" aria-hidden="true"></i>',
-            dropup: '<i class="fa fa-caret-up" aria-hidden="true"></i>'
+            dropdown: '<i className="fa fa-caret-down" aria-hidden="true"></i>',
+            dropup: '<i className="fa fa-caret-up" aria-hidden="true"></i>'
         },
         style: {
             expander: 'gj-dropdown-expander-fa'
@@ -13384,8 +13384,8 @@ gj.dropdown.config = {
 
     glyphicons: {
         icons: {
-            dropdown: '<span class="caret"></span>',
-            dropup: '<span class="dropup"><span class="caret" ></span></span>'
+            dropdown: '<span className="caret"></span>',
+            dropup: '<span className="dropup"><span className="caret" ></span></span>'
         },
         style: {
             expander: 'gj-dropdown-expander-glyphicons'
@@ -13417,7 +13417,7 @@ gj.dropdown.methods = {
             $display = $('<span role="display"></span>'),
             $expander = $('<span role="expander">' + data.icons.dropdown + '</span>').addClass(data.style.expander),
             $presenter = $('<button role="presenter" type="button"></button>').addClass(data.style.presenter),
-            $list = $('<ul role="list" class="' + data.style.list + '"></ul>').attr('guid', $dropdown.attr('data-guid'));
+            $list = $('<ul role="list" className="' + data.style.list + '"></ul>').attr('guid', $dropdown.attr('data-guid'));
 
         if ($wrapper.length === 0) {
             $wrapper = $('<div role="wrapper" />').addClass(data.style.wrapper); // The css class needs to be added before the wrapping, otherwise doesn't work.
@@ -13558,7 +13558,7 @@ gj.dropdown.methods = {
                 $dropdown.prepend('<option value=""></option>');
                 $dropdown[0].selectedIndex = 0;
                 if (data.placeholder) {
-                    $display[0].innerHTML = '<span class="placeholder">' + data.placeholder + '</span>';
+                    $display[0].innerHTML = '<span className="placeholder">' + data.placeholder + '</span>';
                 }
             } else {
                 for (i = 0; i < selections.length; i++) {
@@ -13639,7 +13639,7 @@ gj.dropdown.methods = {
             $display[0].innerHTML = record[data.textField];
         } else {
             if (data.placeholder) {
-                $display[0].innerHTML = '<span class="placeholder">' + data.placeholder + '</span>';
+                $display[0].innerHTML = '<span className="placeholder">' + data.placeholder + '</span>';
             }
             $dropdown[0].value = '';
         }
@@ -13747,7 +13747,7 @@ gj.dropdown.widget = function ($element, jsConfig) {
      * @param {string} value - The value that needs to be selected.
      * @return string
      * @example Get <!-- dropdown, materialicons -->
-     * <button class="gj-button-md" onclick="alert($dropdown.value())">Get Value</button>
+     * <button className="gj-button-md" onclick="alert($dropdown.value())">Get Value</button>
      * <hr/>
      * <select id="dropdown" width="200">
      *     <option value="1">One</option>
@@ -13758,7 +13758,7 @@ gj.dropdown.widget = function ($element, jsConfig) {
      *     var $dropdown = $('#dropdown').dropdown();
      * </script>
      * @example Set <!-- dropdown, materialicons -->
-     * <button class="gj-button-md" onclick="$dropdown.value('3')">Set Value</button>
+     * <button className="gj-button-md" onclick="$dropdown.value('3')">Set Value</button>
      * <hr/>
      * <select id="dropdown" width="200">
      *     <option value="1">One</option>
@@ -13785,7 +13785,7 @@ gj.dropdown.widget = function ($element, jsConfig) {
      * @method
      * @return jquery element
      * @example sample <!-- dropdown, materialicons -->
-     * <button class="gj-button-md" onclick="dropdown.destroy()">Destroy</button>
+     * <button className="gj-button-md" onclick="dropdown.destroy()">Destroy</button>
      * <select id="dropdown" width="200">
      *     <option value="1">One</option>
      *     <option value="2" selected>Two</option>
@@ -14275,13 +14275,13 @@ gj.datepicker.config = {
             /** datepicker icon definition.
              * @alias icons.rightIcon
              * @type String
-             * @default '<i class="gj-icon event" />'
+             * @default '<i className="gj-icon event" />'
              * @example Custom.Material.Icon <!-- materialicons, datepicker -->
              * <input id="datepicker" width="312" />
              * <script>
              *     $('#datepicker').datepicker({
              *         icons: { 
-             *             rightIcon: '<i class="material-icons">date_range</i>'
+             *             rightIcon: '<i className="material-icons">date_range</i>'
              *         }
              *     });
              * </script>
@@ -14291,7 +14291,7 @@ gj.datepicker.config = {
              *     $('#datepicker').datepicker({
              *         uiLibrary: 'bootstrap',
              *         icons: {
-             *             rightIcon: '<span class="glyphicon glyphicon-chevron-down"></span>'
+             *             rightIcon: '<span className="glyphicon glyphicon-chevron-down"></span>'
              *         }
              *     });
              * </script>
@@ -14301,15 +14301,15 @@ gj.datepicker.config = {
              *     $('#datepicker').datepicker({
              *         uiLibrary: 'bootstrap4',
              *         icons: {
-             *             rightIcon: '<i class="material-icons">date_range</i>'
+             *             rightIcon: '<i className="material-icons">date_range</i>'
              *         }
              *     });
              * </script>
              */
-            rightIcon: '<i class="gj-icon">event</i>',
+            rightIcon: '<i className="gj-icon">event</i>',
 
-            previousMonth: '<i class="gj-icon chevron-left"></i>',
-            nextMonth: '<i class="gj-icon chevron-right"></i>'
+            previousMonth: '<i className="gj-icon chevron-left"></i>',
+            nextMonth: '<i className="gj-icon chevron-right"></i>'
         },
 
         fontSize: undefined,
@@ -14476,17 +14476,17 @@ gj.datepicker.config = {
 
     fontawesome: {
         icons: {
-            rightIcon: '<i class="fa fa-calendar" aria-hidden="true"></i>',
-            previousMonth: '<i class="fa fa-chevron-left" aria-hidden="true"></i>',
-            nextMonth: '<i class="fa fa-chevron-right" aria-hidden="true"></i>'
+            rightIcon: '<i className="fa fa-calendar" aria-hidden="true"></i>',
+            previousMonth: '<i className="fa fa-chevron-left" aria-hidden="true"></i>',
+            nextMonth: '<i className="fa fa-chevron-right" aria-hidden="true"></i>'
         }
     },
 
     glyphicons: {
         icons: {
-            rightIcon: '<span class="glyphicon glyphicon-calendar"></span>',
-            previousMonth: '<span class="glyphicon glyphicon-chevron-left"></span>',
-            nextMonth: '<span class="glyphicon glyphicon-chevron-right"></span>'
+            rightIcon: '<span className="glyphicon glyphicon-calendar"></span>',
+            previousMonth: '<span className="glyphicon glyphicon-chevron-left"></span>',
+            nextMonth: '<span className="glyphicon glyphicon-chevron-right"></span>'
         }
     }
 };
@@ -14535,9 +14535,9 @@ gj.datepicker.methods = {
 
         if (data.showRightIcon) {
             if (data.uiLibrary === 'bootstrap') {
-                $rightIcon = $('<span class="input-group-addon">' + data.icons.rightIcon + '</span>');
+                $rightIcon = $('<span className="input-group-addon">' + data.icons.rightIcon + '</span>');
             } else if (data.uiLibrary === 'bootstrap4') {
-                $rightIcon = $('<span class="input-group-append"><button class="btn btn-outline-secondary border-left-0" type="button">' + data.icons.rightIcon + '</button></span>');
+                $rightIcon = $('<span className="input-group-append"><button className="btn btn-outline-secondary border-left-0" type="button">' + data.icons.rightIcon + '</button></span>');
             } else {
                 $rightIcon = $(data.icons.rightIcon);
             }
@@ -14605,13 +14605,13 @@ gj.datepicker.methods = {
         $calendar.append($body);
 
         if (data.footer) {
-            $footer = $('<div role="footer" class="' + data.style.footer + '" />');
+            $footer = $('<div role="footer" className="' + data.style.footer + '" />');
 
-            $btnCancel = $('<button class="' + data.style.button + '">' + gj.core.messages[data.locale].cancel + '</button>');
+            $btnCancel = $('<button className="' + data.style.button + '">' + gj.core.messages[data.locale].cancel + '</button>');
             $btnCancel.on('click', function () { $datepicker.close(); });
             $footer.append($btnCancel);
 
-            $btnOk = $('<button class="' + data.style.button + '">' + gj.core.messages[data.locale].ok + '</button>');
+            $btnOk = $('<button className="' + data.style.button + '">' + gj.core.messages[data.locale].ok + '</button>');
             $btnOk.on('click', function () {
                 var date, dayArr, dayStr = $calendar.attr('selectedDay');
                 if (dayStr) {
@@ -14631,7 +14631,7 @@ gj.datepicker.methods = {
         $('body').append($calendar);
 
         if (data.modal) {
-            $calendar.wrapAll('<div role="modal" class="' + data.style.modal + '"/>');
+            $calendar.wrapAll('<div role="modal" className="' + data.style.modal + '"/>');
             gj.core.center($calendar);
         }
 
@@ -14650,7 +14650,7 @@ gj.datepicker.methods = {
             });
             $year.html(gj.core.formatDate(date, 'yyyy', data.locale));
             $header.append($year);
-            $date = $('<div role="date" class="selected" />').on('click', function () {
+            $date = $('<div role="date" className="selected" />').on('click', function () {
                 gj.datepicker.methods.renderMonth($datepicker, $calendar, data);
                 $date.addClass('selected');
                 $year.removeClass('selected');
@@ -14723,9 +14723,9 @@ gj.datepicker.methods = {
             day = (daysInMonth[prevMonth.month] - firstDayPosition + i);
             date = new Date(prevMonth.year, prevMonth.month, day);
             if (data.calendarWeeks && i === 1) {
-                $row.append('<td class="calendar-week"><div>' + gj.datepicker.methods.getWeekNumber(date) + '</div></td>');
+                $row.append('<td className="calendar-week"><div>' + gj.datepicker.methods.getWeekNumber(date) + '</div></td>');
             }
-            $cell = $('<td class="other-month" />');
+            $cell = $('<td className="other-month" />');
             if (data.showOtherMonths) {
                 $day = $('<div>' + day + '</div>');
                 $cell.append($day);
@@ -14750,7 +14750,7 @@ gj.datepicker.methods = {
             if (weekDay == 0) {
                 $row = $('<tr>');
                 if (data.calendarWeeks) {
-                    $row.append('<td class="calendar-week"><div>' + gj.datepicker.methods.getWeekNumber(date) + '</div></td>');
+                    $row.append('<td className="calendar-week"><div>' + gj.datepicker.methods.getWeekNumber(date) + '</div></td>');
                 }
             }
             $cell = $('<td day="' + i + '" month="' + month + '" year="' + year + '" />');
@@ -14779,7 +14779,7 @@ gj.datepicker.methods = {
         nextMonth = gj.datepicker.methods.getNextMonth(month, year);
         for (i = 1; weekDay != 0; i++) {
             date = new Date(nextMonth.year, nextMonth.month, i);
-            $cell = $('<td class="other-month" />');
+            $cell = $('<td className="other-month" />');
             if (data.showOtherMonths) {
                 $day = $('<div>' + i + '</div>');
                 if (data.selectOtherMonths && gj.datepicker.methods.isSelectable(data, date)) {
@@ -15384,14 +15384,14 @@ gj.datepicker.widget = function ($element, jsConfig) {
      * @param {string} value - The value that needs to be selected.
      * @return string | datepicker object
      * @example Get <!-- datepicker -->
-     * <button class="gj-button-md" onclick="alert($datepicker.value())">Get Value</button>
+     * <button className="gj-button-md" onclick="alert($datepicker.value())">Get Value</button>
      * <hr/>
      * <input id="datepicker" width="312" />
      * <script>
      *     var $datepicker = $('#datepicker').datepicker();
      * </script>
      * @example Set <!-- datepicker -->
-     * <button class="gj-button-md" onclick="$datepicker.value('08/01/2017')">Set Value</button>
+     * <button className="gj-button-md" onclick="$datepicker.value('08/01/2017')">Set Value</button>
      * <hr/>
      * <input id="datepicker" width="312" />
      * <script>
@@ -15406,7 +15406,7 @@ gj.datepicker.widget = function ($element, jsConfig) {
      * @method
      * @return jquery element
      * @example sample <!-- datepicker -->
-     * <button class="gj-button-md" onclick="datepicker.destroy()">Destroy</button>
+     * <button className="gj-button-md" onclick="datepicker.destroy()">Destroy</button>
      * <input id="datepicker" width="312" />
      * <script>
      *     var datepicker = $('#datepicker').datepicker();
@@ -15420,8 +15420,8 @@ gj.datepicker.widget = function ($element, jsConfig) {
      * @method
      * @return datepicker
      * @example Open.Close <!-- datepicker -->
-     * <button class="gj-button-md" onclick="$datepicker.open()">Open</button>
-     * <button class="gj-button-md" onclick="$datepicker.close()">Close</button>
+     * <button className="gj-button-md" onclick="$datepicker.open()">Open</button>
+     * <button className="gj-button-md" onclick="$datepicker.close()">Close</button>
      * <hr/>
      * <input id="datepicker" width="312" />
      * <script>
@@ -15436,8 +15436,8 @@ gj.datepicker.widget = function ($element, jsConfig) {
      * @method
      * @return datepicker
      * @example Open.Close <!-- datepicker -->
-     * <button class="gj-button-md" onclick="$datepicker.open()">Open</button>
-     * <button class="gj-button-md" onclick="$datepicker.close()">Close</button>
+     * <button className="gj-button-md" onclick="$datepicker.open()">Open</button>
+     * <button className="gj-button-md" onclick="$datepicker.close()">Close</button>
      * <hr/>
      * <input id="datepicker" width="312" />
      * <script>
@@ -15704,7 +15704,7 @@ gj.timepicker.config = {
         size: 'default',
 
         icons: {
-            rightIcon: '<i class="gj-icon clock" />'
+            rightIcon: '<i className="gj-icon clock" />'
         },
 
         style: {
@@ -15764,9 +15764,9 @@ gj.timepicker.methods = {
             $header = $('<div role="header" />'),
             $mode = $('<div role="mode" />'),
             $body = $('<div role="body" />'),
-            $btnOk = $('<button class="' + data.style.button + '">' + gj.core.messages[data.locale].ok + '</button>'),
-            $btnCancel = $('<button class="' + data.style.button + '">' + gj.core.messages[data.locale].cancel + '</button>'),
-            $footer = $('<div role="footer" class="' + data.style.footer + '" />');
+            $btnOk = $('<button className="' + data.style.button + '">' + gj.core.messages[data.locale].ok + '</button>'),
+            $btnCancel = $('<button className="' + data.style.button + '">' + gj.core.messages[data.locale].cancel + '</button>'),
+            $footer = $('<div role="footer" className="' + data.style.footer + '" />');
 
         date = gj.core.parseDate(data.value, data.format, data.locale);
         if (!date || isNaN(date.getTime())) {
@@ -15833,7 +15833,7 @@ gj.timepicker.methods = {
         $('body').append($clock);
 
         if (data.modal) {
-            $clock.wrapAll('<div role="modal" class="' + data.style.modal + '"/>');
+            $clock.wrapAll('<div role="modal" className="' + data.style.modal + '"/>');
             gj.core.center($clock);
         }
         return $clock;
@@ -16002,7 +16002,7 @@ gj.timepicker.methods = {
         $body.empty();
         $dial = $('<div role="dial"></div>');
 
-        $dial.append('<div role="arrow" style="transform: rotate(-90deg); display: none;"><div class="arrow-begin"></div><div class="arrow-end"></div></div>');
+        $dial.append('<div role="arrow" style="transform: rotate(-90deg); display: none;"><div className="arrow-begin"></div><div className="arrow-end"></div></div>');
 
         $dial.append('<span role="hour" style="transform: translate(54px, -93.5307px);">1</span>');
         $dial.append('<span role="hour" style="transform: translate(93.5307px, -54px);">2</span>');
@@ -16047,7 +16047,7 @@ gj.timepicker.methods = {
         $body.empty();
         $dial = $('<div role="dial"></div>');
 
-        $dial.append('<div role="arrow" style="transform: rotate(-90deg); display: none;"><div class="arrow-begin"></div><div class="arrow-end"></div></div>');
+        $dial.append('<div role="arrow" style="transform: rotate(-90deg); display: none;"><div className="arrow-begin"></div><div className="arrow-end"></div></div>');
 
         $dial.append('<span role="hour" style="transform: translate(54px, -93.5307px);">5</span>');
         $dial.append('<span role="hour" style="transform: translate(93.5307px, -54px);">10</span>');
@@ -16199,14 +16199,14 @@ gj.timepicker.widget = function ($element, jsConfig) {
      * @param {string} value - The value that needs to be selected.
      * @return string
      * @example Get <!-- timepicker -->
-     * <button class="gj-button-md" onclick="alert($timepicker.value())">Get Value</button>
+     * <button className="gj-button-md" onclick="alert($timepicker.value())">Get Value</button>
      * <hr/>
      * <input id="timepicker" width="312" />
      * <script>
      *     var $timepicker = $('#timepicker').timepicker();
      * </script>
      * @example Set <!-- timepicker -->
-     * <button class="gj-button-md" onclick="$timepicker.value('11:00')">Set Value</button>
+     * <button className="gj-button-md" onclick="$timepicker.value('11:00')">Set Value</button>
      * <hr/>
      * <input id="timepicker" width="312" />
      * <script>
@@ -16221,7 +16221,7 @@ gj.timepicker.widget = function ($element, jsConfig) {
      * @method
      * @return jquery element
      * @example sample <!-- timepicker -->
-     * <button class="gj-button-md" onclick="timepicker.destroy()">Destroy</button>
+     * <button className="gj-button-md" onclick="timepicker.destroy()">Destroy</button>
      * <input id="timepicker" width="312" />
      * <script>
      *     var timepicker = $('#timepicker').timepicker();
@@ -16235,8 +16235,8 @@ gj.timepicker.widget = function ($element, jsConfig) {
      * @method
      * @return timepicker
      * @example Open.Close <!-- timepicker -->
-     * <button class="gj-button-md" onclick="$timepicker.open()">Open</button>
-     * <button class="gj-button-md" onclick="$timepicker.close()">Close</button>
+     * <button className="gj-button-md" onclick="$timepicker.open()">Open</button>
+     * <button className="gj-button-md" onclick="$timepicker.close()">Close</button>
      * <hr/>
      * <input id="timepicker" width="312" />
      * <script>
@@ -16251,8 +16251,8 @@ gj.timepicker.widget = function ($element, jsConfig) {
      * @method
      * @return timepicker
      * @example Open.Close <!-- timepicker -->
-     * <button class="gj-button-md" onclick="$timepicker.open()">Open</button>
-     * <button class="gj-button-md" onclick="$timepicker.close()">Close</button>
+     * <button className="gj-button-md" onclick="$timepicker.open()">Open</button>
+     * <button className="gj-button-md" onclick="$timepicker.close()">Close</button>
      * <hr/>
      * <input id="timepicker" width="312" />
      * <script>
@@ -16626,14 +16626,14 @@ gj.datetimepicker.methods = {
 
         // Init header        
         $header = $('<div role="header" />');
-        $date = $('<div role="date" class="selected" />');
+        $date = $('<div role="date" className="selected" />');
         $date.on('click', gj.datetimepicker.methods.createShowDateHandler($datetimepicker, $picker, data));
         $date.html(gj.core.formatDate(new Date(), 'ddd, mmm dd', data.locale));
         $header.append($date);
 
         $switch = $('<div role="switch"></div>');
 
-        $calendarMode = $('<i class="gj-icon selected" role="calendarMode">event</i>');
+        $calendarMode = $('<i className="gj-icon selected" role="calendarMode">event</i>');
         $calendarMode.on('click', gj.datetimepicker.methods.createShowDateHandler($datetimepicker, $picker, data));
         $switch.append($calendarMode);
 
@@ -16643,7 +16643,7 @@ gj.datetimepicker.methods = {
         $time.append($('<div role="minute" />').on('click', gj.datetimepicker.methods.createShowMinuteHandler($datetimepicker, $picker, data)).html(gj.core.formatDate(new Date(), 'MM', data.locale)));
         $switch.append($time);
 
-        $clockMode = $('<i class="gj-icon" role="clockMode">clock</i>');
+        $clockMode = $('<i className="gj-icon" role="clockMode">clock</i>');
         $clockMode.on('click', gj.datetimepicker.methods.createShowHourHandler($datetimepicker, $picker, data));
         $switch.append($clockMode);
         $header.append($switch);
@@ -16775,14 +16775,14 @@ gj.datetimepicker.widget = function ($element, jsConfig) {
      * @param {string} value - The value that needs to be selected.
      * @return string
      * @example Get <!-- datetimepicker -->
-     * <button class="gj-button-md" onclick="alert($datetimepicker.value())">Get Value</button>
+     * <button className="gj-button-md" onclick="alert($datetimepicker.value())">Get Value</button>
      * <hr/>
      * <input id="datetimepicker" width="312" value="17:50 03/27/2018" />
      * <script>
      *     var $datetimepicker = $('#datetimepicker').datetimepicker();
      * </script>
      * @example Set <!-- datetimepicker -->
-     * <button class="gj-button-md" onclick="$datetimepicker.value('13:40 08/01/2017')">Set Value</button>
+     * <button className="gj-button-md" onclick="$datetimepicker.value('13:40 08/01/2017')">Set Value</button>
      * <hr/>
      * <input id="datetimepicker" width="312" />
      * <script>
@@ -16797,8 +16797,8 @@ gj.datetimepicker.widget = function ($element, jsConfig) {
      * @method
      * @return datetimepicker
      * @example Open.Close <!-- datetimepicker -->
-     * <button class="gj-button-md" onclick="$picker.open()">Open</button>
-     * <button class="gj-button-md" onclick="$picker.close()">Close</button>
+     * <button className="gj-button-md" onclick="$picker.open()">Open</button>
+     * <button className="gj-button-md" onclick="$picker.close()">Close</button>
      * <hr/>
      * <input id="input" width="312" />
      * <script>
@@ -16813,8 +16813,8 @@ gj.datetimepicker.widget = function ($element, jsConfig) {
      * @method
      * @return datetimepicker
      * @example Open.Close <!-- datetimepicker -->
-     * <button class="gj-button-md" onclick="$picker.open()">Open</button>
-     * <button class="gj-button-md" onclick="$picker.close()">Close</button>
+     * <button className="gj-button-md" onclick="$picker.open()">Open</button>
+     * <button className="gj-button-md" onclick="$picker.close()">Close</button>
      * <hr/>
      * <input id="input" width="312" />
      * <script>
@@ -16829,7 +16829,7 @@ gj.datetimepicker.widget = function ($element, jsConfig) {
      * @method
      * @return jquery element
      * @example sample <!-- datetimepicker -->
-     * <button class="gj-button-md" onclick="datetimepicker.destroy()">Destroy</button>
+     * <button className="gj-button-md" onclick="datetimepicker.destroy()">Destroy</button>
      * <input id="datetimepicker" width="312" />
      * <script>
      *     var datetimepicker = $('#datetimepicker').datetimepicker();
@@ -16969,7 +16969,7 @@ gj.slider.config = {
          *    });
          * </script>
          * @example Bootstrap.4 <!-- bootstrap4, slider -->
-         * <div class="container" />
+         * <div className="container" />
          *     <input id="slider" width="300" />
          *     Value: <span id="value"></span>
          * </div>
@@ -17239,14 +17239,14 @@ gj.slider.widget = function ($element, jsConfig) {
      * @param {string} value - The value that needs to be selected.
      * @return string
      * @example Get <!-- slider -->
-     * <button class="gj-button-md" onclick="alert($slider.value())">Get Value</button>
+     * <button className="gj-button-md" onclick="alert($slider.value())">Get Value</button>
      * <hr/>
      * <input id="slider" width="300" />
      * <script>
      *     var $slider = $('#slider').slider();
      * </script>
      * @example Set <!-- slider -->
-     * <button class="gj-button-md" onclick="$slider.value(77)">Set Value</button>
+     * <button className="gj-button-md" onclick="$slider.value(77)">Set Value</button>
      * <hr/>
      * <input id="slider" width="300"  />
      * <script>
@@ -17261,7 +17261,7 @@ gj.slider.widget = function ($element, jsConfig) {
      * @method
      * @return jquery element
      * @example sample <!-- slider -->
-     * <button class="gj-button-md" onclick="slider.destroy()">Destroy</button>
+     * <button className="gj-button-md" onclick="slider.destroy()">Destroy</button>
      * <input id="slider" width="300" />
      * <script>
      *     var slider = $('#slider').slider();
@@ -17354,7 +17354,7 @@ gj.colorpicker.config = {
         value: undefined,
 
         icons: {
-            rightIcon: '<i class="gj-icon">event</i>'
+            rightIcon: '<i className="gj-icon">event</i>'
         },
 
         style: {
@@ -17490,14 +17490,14 @@ gj.colorpicker.widget = function ($element, jsConfig) {
      * @param {string} value - The value that needs to be selected.
      * @return string
      * @example Get <!-- colorpicker -->
-     * <button class="gj-button-md" onclick="alert($colorpicker.value())">Get Value</button>
+     * <button className="gj-button-md" onclick="alert($colorpicker.value())">Get Value</button>
      * <hr/>
      * <input id="colorpicker" />
      * <script>
      *     var $colorpicker = $('#colorpicker').colorpicker();
      * </script>
      * @example Set <!-- colorpicker -->
-     * <button class="gj-button-md" onclick="$colorpicker.value('#FF0000')">Set Value</button>
+     * <button className="gj-button-md" onclick="$colorpicker.value('#FF0000')">Set Value</button>
      * <hr/>
      * <input id="colorpicker" />
      * <script>
@@ -17512,7 +17512,7 @@ gj.colorpicker.widget = function ($element, jsConfig) {
      * @method
      * @return jquery element
      * @example sample <!-- colorpicker -->
-     * <button class="gj-button-md" onclick="colorpicker.destroy()">Destroy</button>
+     * <button className="gj-button-md" onclick="colorpicker.destroy()">Destroy</button>
      * <input id="colorpicker" />
      * <script>
      *     var colorpicker = $('#colorpicker').colorpicker();
@@ -17526,7 +17526,7 @@ gj.colorpicker.widget = function ($element, jsConfig) {
      * @method
      * @return jquery element
      * @example sample <!-- colorpicker -->
-     * <button class="gj-button-md" onclick="colorpicker.open()">Open</button>
+     * <button className="gj-button-md" onclick="colorpicker.open()">Open</button>
      * <input id="colorpicker" />
      * <script>
      *     var colorpicker = $('#colorpicker').colorpicker();
@@ -17540,7 +17540,7 @@ gj.colorpicker.widget = function ($element, jsConfig) {
      * @method
      * @return jquery element
      * @example sample <!-- colorpicker -->
-     * <button class="gj-button-md" onclick="colorpicker.close()">Close</button>
+     * <button className="gj-button-md" onclick="colorpicker.close()">Close</button>
      * <input id="colorpicker" />
      * <script>
      *     var colorpicker = $('#colorpicker').colorpicker();

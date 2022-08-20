@@ -1,0 +1,196 @@
+<svg id="svg-toke" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 878.789 674" fill-opacity="0">
+  <defs>
+    <pattern id="pattern-tokenomics" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 808 821">
+      <image id="coin" width="808" height="821" xlink:href="/public/assets/Group%201239-image.png"/>
+    </pattern>
+    
+    <linearGradient id="linear-gradient" x1="0.788" y1="-0.159" x2="-0.084" y2="1.244" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.648" stop-color="#4752ef"/>
+      <stop offset="1" stop-color="#5237f1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.738" y1="0.63" x2="0.409" y2="0.495" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.813" stop-color="#4199ed"/>
+      <stop offset="1" stop-color="#44a4ee"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-0.352" y1="-0.1" x2="0.296" y2="0.379" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-4" x1="0.619" y1="1.038" x2="0.2" y2="-0.043" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.466" stop-color="#5d78ed"/>
+      <stop offset="1" stop-color="#a37cef"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.482" y1="1.385" x2="0.514" y2="0.242" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.713" stop-color="#4899ed"/>
+      <stop offset="1" stop-color="#50adee"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.83" y1="-0.213" x2="0.329" y2="0.583" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.627" stop-color="#4f52ef"/>
+      <stop offset="1" stop-color="#6334f1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="0.906" y1="0.393" x2="-0.039" y2="0.549" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#00b3ea"/>
+      <stop offset="0.687" stop-color="#008fed"/>
+      <stop offset="1" stop-color="#0079f0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="-0.019" y1="0.371" x2="1.274" y2="0.598" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#5b62ed"/>
+      <stop offset="0.486" stop-color="#3a85ec"/>
+      <stop offset="1" stop-color="#00c4ec"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-9" x1="0.694" y1="-0.237" x2="0.337" y2="0.922" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-10" x1="0.569" y1="0.965" x2="0.417" y2="-0.025" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.776" stop-color="#4b99ed"/>
+      <stop offset="1" stop-color="#53a7ee"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-11" x1="1.219" y1="0.128" x2="0.133" y2="0.881" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-12" x1="1.186" y1="0.418" x2="0.488" y2="0.528" gradientUnits="objectBoundingBox">
+      <stop offset="0.161" stop-color="#3a76ed"/>
+      <stop offset="0.813" stop-color="#5d5bf0"/>
+      <stop offset="1" stop-color="#6853f1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-13" x1="-0.225" y1="0.554" x2="1.334" y2="0.458" xlink:href="#linear-gradient-4"/>
+    <linearGradient id="linear-gradient-14" x1="-0.717" y1="-0.037" x2="0.698" y2="0.596" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_1239" data-name="Group 1239" transform="translate(-158.634 -99)">
+    <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(280 114)" fill="none" stroke="#b133ff" stroke-width="1" opacity="0.571">
+      <ellipse cx="336" cy="329.5" rx="336" ry="329.5" stroke="none"/>
+      <ellipse cx="336" cy="329.5" rx="335.5" ry="329" fill="none"/>
+    </g>
+    <ellipse id="Ellipse_11" data-name="Ellipse 11" cx="256.5" cy="250" rx="256.5" ry="250" transform="translate(360 194)" fill="#240090" opacity="0.269"/>
+    <g id="Group_1222" data-name="Group 1222" transform="translate(571.587 398.181)">
+      <rect id="Image_1" data-name="Image 1" width="88" height="89" transform="translate(0.413 -0.181)" fill="url(#pattern-tokenomics)"/>
+    </g>
+    <animateTransform id="anim-coin" xlink:href="#Group_1222" attributeName="transform" attributeType="XML" type="rotate" from="120 50 50" to="0 50 50"  dur="1.4s" additive="sum" begin="indefinite" />
+    <g id="Group_1023" data-name="Group 1023" transform="translate(158.246 99)">
+      <rect id="Rectangle_96" data-name="Rectangle 96" width="241" height="85" rx="8" transform="translate(-0.246)" fill="rgba(255,255,255,0.2)"/>
+      <text id="Initial_Circulating_Supply_at_TGE:_0.605_from_1B_Total_Supply" data-name="Initial Circulating Supply at TGE: 0.605% from 1B Total Supply" transform="translate(15.754 27)" fill="#fff" font-size="13" font-family="Exo-Bold, Exo" font-weight="700"><tspan x="0" y="0">Initial Circulating Supply at TGE:</tspan><tspan font-size="15"><tspan x="0" y="19">0.605% from 1B Total Supply</tspan></tspan></text>
+      <text id="Initial_Market_Capital_242_000" data-name="Initial Market Capital $242,000" transform="translate(15.754 71)" fill="#fff" font-size="13" font-family="Exo-Bold, Exo" font-weight="700"><tspan x="0" y="0">Initial Market Capital $242,000</tspan></text>
+    </g>
+    <animateTransform id="anim-group_1023-round" xlink:href="#Group_1023" attributeName="transform" attributeType="XML" type="translate" from="-500 0" to="0 0"  dur="0.48s" additive="sum" begin="indefinite" />
+    <g id="Group_1238" data-name="Group 1238" transform="translate(404.899 232.631)">
+      <path id="Path_2178" data-name="Path 2178" d="M457.608,330.933,521.651,205.24a209.658,209.658,0,0,0-58.965-19.729L438.207,324.338a68.913,68.913,0,0,1,19.4,6.595Z" transform="translate(-215.052 -182.315)" fill="url(#linear-gradient)"/>
+      <path id="Path_2179" data-name="Path 2179" d="M459.951,330.245l78.9-116.978a193.938,193.938,0,0,0-22.127-13.034l-64.04,125.693A69.142,69.142,0,0,1,459.951,330.245Z" transform="translate(-210.128 -177.308)" fill="url(#linear-gradient-2)"/>
+      <path id="Path_2180" data-name="Path 2180" d="M462.943,330.552,551.76,220.873c-5.417-4.385-8.972-7.017-14.751-10.914l-78.9,116.978Q460.606,328.641,462.943,330.552Z" transform="translate(-208.283 -174)" fill="url(#linear-gradient-3)"/>
+      <path id="Path_2181" data-name="Path 2181" d="M484.9,363.68l136.431-36.556c-12.026-44.882-34.689-79.779-70.8-109.021L461.716,327.782a69.47,69.47,0,0,1,23.184,35.9Z" transform="translate(-207.056 -171.23)" fill="url(#linear-gradient-4)"/>
+      <path id="Path_2182" data-name="Path 2182" d="M615.447,299.455,479.016,336.011a69.5,69.5,0,0,1,2.336,17.883q0,1.817-.092,3.614L622.326,364.9A199.96,199.96,0,0,0,615.447,299.455Z" transform="translate(-201.172 -143.56)" fill="url(#linear-gradient-5)"/>
+      <path id="Path_2183" data-name="Path 2183" d="M459.576,395.154l82.948,114.167c52.628-38.236,83.008-94.192,86.414-159.154l-141.066-7.393A69.337,69.337,0,0,1,459.576,395.154Z" transform="translate(-207.784 -128.827)" fill="url(#linear-gradient-6)"/>
+      <path id="Path_2184" data-name="Path 2184" d="M429.219,395.293V536.2c46.465,0,86.038-12.857,123.63-40.169L469.9,381.86A69.1,69.1,0,0,1,429.219,395.293Z" transform="translate(-218.109 -115.533)" fill="url(#linear-gradient-7)"/>
+      <path id="Path_2185" data-name="Path 2185" d="M457.14,394.528a69.091,69.091,0,0,1-36.53-10.389L346.048,503.462c35.465,22.16,69.641,31.959,111.459,31.959v-140.9C457.384,394.52,457.263,394.528,457.14,394.528Z" transform="translate(-246.397 -114.757)" fill="url(#linear-gradient-8)"/>
+      <path id="Path_2186" data-name="Path 2186" d="M416.715,373.51,308.988,463.9a199.979,199.979,0,0,0,49.665,43.173L433.215,387.75a69.775,69.775,0,0,1-16.5-14.24Z" transform="translate(-259.002 -118.373)" fill="url(#linear-gradient-9)"/>
+      <path id="Path_2187" data-name="Path 2187" d="M412.994,368.365a69.083,69.083,0,0,1,10.662-36.958l-119.229-74.5c-49.245,78.81-42.487,175.469,17.247,246.657L429.4,413.169a69.142,69.142,0,0,1-16.406-44.8Z" transform="translate(-271.688 -158.032)" fill="url(#linear-gradient-10)"/>
+      <path id="Path_2188" data-name="Path 2188" d="M448.427,325.065,395.7,194.555c-43.081,17.407-74.956,44.153-99.579,83.558l119.229,74.5a69.66,69.66,0,0,1,33.077-27.548Z" transform="translate(-263.379 -179.239)" fill="url(#linear-gradient-11)"/>
+      <path id="Path_2189" data-name="Path 2189" d="M435.954,324.254,409.084,186.01a203.388,203.388,0,0,0-38.66,11.451l52.73,130.51A68.9,68.9,0,0,1,435.954,324.254Z" transform="translate(-238.106 -182.145)" fill="url(#linear-gradient-12)"/>
+      <path id="Path_2190" data-name="Path 2190" d="M439.037,324.021c.123,0,.244.009.367.009V183.13a203.348,203.348,0,0,0-40.133,3.865l26.871,138.244a69.749,69.749,0,0,1,12.895-1.218Z" transform="translate(-228.294 -183.126)" fill="url(#linear-gradient-13)"/>
+      <path id="Path_2191" data-name="Path 2191" d="M441.264,325.149l24.479-138.827a184.881,184.881,0,0,0-36.524-3.2v140.9a69.8,69.8,0,0,1,12.045,1.127Z" transform="translate(-218.109 -183.126)" fill="url(#linear-gradient-14)"/>
+    </g>
+    
+    <animate xlink:href="#Group_1238" attributeName="opacity" from="0" to="1" dur="1.5s" begin="indefinite"/>
+    <!-- <animateTransform xlink:href="#circle-toke" attributeType="xml" attributeName="transform" type="rotate" from="50 50 50" to="0 50 50" dur="1.5s" additive="sum" begin="indefinite" /> -->
+    <!-- <animateTransform xlink:href="#Group_1238" attributeType="xml" attributeName="transform" type="translate" from="120 100 " to="0 0" dur="0.5s" additive="sum" begin="indefinite" /> -->
+    <g id="Group_1000" data-name="Group 1000" transform="translate(679.279 197)">
+      <g id="_3_SEED" data-name=" 3 SEED" transform="translate(23.888)">
+        <text id="_4.5_PRIVATE_ROUND" data-name="4.5% PRIVATE ROUND" transform="translate(-0.167 16)" fill="#fff" font-size="16" font-family="Exo-Bold, Exo" font-weight="700"><tspan x="0" y="0">4.5% PRIVATE ROUND</tspan></text>
+      </g>
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="6.689" cy="6.689" r="6.689" transform="translate(0 5.248)" fill="#fff"/>
+    </g>
+    <animateTransform id="anim-private-round" xlink:href="#Group_1000" attributeName="transform" attributeType="XML" type="translate" from="500 0" to="0 0"  dur="0.48s" additive="sum" begin="indefinite" />
+    <g id="Group_1000-2" data-name="Group 1000-2" transform="translate(731.215 225.909)">
+      <g id="_7_PRIVATE_ROUND" data-name=" 7 PRIVATE ROUND" transform="translate(23.888)">
+        <text id="_2_PRE-PUBLIC_ROUND" data-name="2% PRE-PUBLIC ROUND" transform="translate(0 16)" fill="#fff" font-size="16" font-family="Exo-Bold, Exo" font-weight="700"><tspan x="0" y="0">2% PRE-PUBLIC ROUND</tspan></text>
+      </g>
+      <circle id="Ellipse_8-2" data-name="Ellipse 8-2" cx="6.689" cy="6.689" r="6.689" transform="translate(0 5.248)" fill="#fff"/>
+    </g>
+    <animateTransform id="anim-pre-round" xlink:href="#Group_1000-2" attributeName="transform" attributeType="XML" type="translate" from="500 0" to="0 0"  dur="0.66s" additive="sum" begin="indefinite" />
+    <g id="Group_1001" data-name="Group 1001" transform="translate(774.514 256.779)">
+      <g id="_2_IDO_SALE" data-name=" 2 IDO SALE" transform="translate(23.888)">
+        <text id="_1.5_IDO_SALE" data-name="1.5% IDO SALE" transform="translate(0 16)" fill="#fff" font-size="16" font-family="Exo-Bold, Exo" font-weight="700"><tspan x="0" y="0">1.5% IDO SALE</tspan></text>
+      </g>
+      <circle id="Ellipse_8-3" data-name="Ellipse 8-3" cx="6.689" cy="6.689" r="6.689" transform="translate(0 4.292)" fill="#fff"/>
+    </g>
+    <animateTransform id="anim-ido-round" xlink:href="#Group_1001" attributeName="transform" attributeType="XML" type="translate" from="500 0" to="0 0"  dur="0.84s" additive="sum" begin="indefinite" />
+    <g id="Group_1002" data-name="Group 1002" transform="translate(816.875 314.089)">
+      <g id="_10_TEAM" data-name=" 10 TEAM" transform="translate(23.888)">
+        <text id="_10_TEAM-2" data-name="10% TEAM" transform="translate(0 16)" fill="#fff" font-size="16" font-family="Exo-Bold, Exo" font-weight="700"><tspan x="0" y="0">10% TEAM</tspan></text>
+      </g>
+      <circle id="Ellipse_8-4" data-name="Ellipse 8-4" cx="6.689" cy="6.689" r="6.689" transform="translate(0 5.246)" fill="#fff"/>
+    </g>
+    <animateTransform id="anim-team-round" xlink:href="#Group_1002" attributeName="transform" attributeType="XML" type="translate" from="500 0" to="0 0"  dur="1.02s" additive="sum" begin="indefinite" />
+    <g id="Group_1003" data-name="Group 1003" transform="translate(842.124 413.527)">
+      <g id="_5_ADVISOR" data-name=" 5 ADVISOR" transform="translate(23.888)">
+        <text id="_5_ADVISORS" data-name="5% ADVISORS" transform="translate(0 16)" fill="#fff" font-size="16" font-family="Exo-Bold, Exo" font-weight="700"><tspan x="0" y="0">5% ADVISORS</tspan></text>
+      </g>
+      <circle id="Ellipse_8-5" data-name="Ellipse 8-5" cx="6.689" cy="6.689" r="6.689" transform="translate(0 5.248)" fill="#fff"/>
+    </g>
+    <animateTransform id="anim-advisor-round" xlink:href="#Group_1003" attributeName="transform" attributeType="XML" type="translate" from="500 0" to="0 0"  dur="1.20s" additive="sum" begin="indefinite" />
+    <g id="Group_1003-2" data-name="Group 1003-2" transform="translate(803.534 546.148)">
+      <g id="_11_GAME_DEVELOPMENT" data-name=" 11 GAME DEVELOPMENT" transform="translate(23.889)">
+        <text id="_14_GAME_DEVELOPMENT" data-name="14% GAME DEVELOPMENT" transform="translate(0 16)" fill="#fff" font-size="16" font-family="Exo-Bold, Exo" font-weight="700"><tspan x="0" y="0">14% GAME DEVELOPMENT</tspan></text>
+      </g>
+      <circle id="Ellipse_8-6" data-name="Ellipse 8-6" cx="6.689" cy="6.689" r="6.689" transform="translate(0 5.248)" fill="#fff"/>
+    </g>
+    <animateTransform id="anim-game-round" xlink:href="#Group_1003-2" attributeName="transform" attributeType="XML" type="translate" from="500 0" to="0 0"  dur="1.38s" additive="sum" begin="indefinite" />
+    <g id="Group_1004" data-name="Group 1004" transform="translate(686.644 654.752)">
+      <g id="_10_STAKING_REWARD" data-name=" 10 STAKING REWARD" transform="translate(23.888)">
+        <text id="_10_STAKING_REWARD-2" data-name="10% STAKING REWARD" transform="translate(0 16)" fill="#fff" font-size="16" font-family="Exo-Bold, Exo" font-weight="700"><tspan x="0" y="0">10% STAKING REWARD</tspan></text>
+      </g>
+      <ellipse id="Ellipse_8-7" data-name="Ellipse 8-7" cx="6.689" cy="6.211" rx="6.689" ry="6.211" transform="translate(0 6.203)" fill="#fff"/>
+    </g>
+    <animateTransform id="anim-stack-round" xlink:href="#Group_1004" attributeName="transform" attributeType="XML" type="translate" from="500 0" to="0 0"  dur="1.56s" additive="sum" begin="indefinite" />
+    <g id="Group_1005" data-name="Group 1005" transform="translate(379.163 656.252)">
+      <g id="_9_ECOSYSTEM_FUND" data-name=" 9 ECOSYSTEM FUND" transform="translate(24.843)">
+        <text id="_9_ECOSYSTEM_FUND-2" data-name="9% ECOSYSTEM FUND" transform="translate(0 16)" fill="#fff" font-size="16" font-family="Exo-Bold, Exo" font-weight="700"><tspan x="0" y="0">9% ECOSYSTEM FUND</tspan></text>
+      </g>
+      <ellipse id="Ellipse_8-8" data-name="Ellipse 8-8" cx="7.166" cy="6.689" rx="7.166" ry="6.689" transform="translate(0 4.291)" fill="#fff"/>
+    </g>
+    <animateTransform id="anim-eco-round" xlink:href="#Group_1005" attributeName="transform" attributeType="XML" type="translate" from="-500 0" to="0 0"  dur="1.56s" additive="sum" begin="indefinite" />
+    <g id="Group_1006" data-name="Group 1006" transform="translate(233.328 603.967)">
+      <g id="_5_AFFILIATE_MARKETING" data-name=" 5 AFFILIATE MARKETING" transform="translate(24.844)">
+        <text id="_5_AFFILIATE_MARKETING-2" data-name="5% AFFILIATE &amp; MARKETING" transform="translate(0 16)" fill="#fff" font-size="16" font-family="Exo-Bold, Exo" font-weight="700"><tspan x="0" y="0">5% AFFILIATE &amp; MARKETING</tspan></text>
+      </g>
+      <circle id="Ellipse_8-9" data-name="Ellipse 8-9" cx="7.166" cy="7.166" r="7.166" transform="translate(0 5.248)" fill="#fff"/>
+    </g>
+    <animateTransform id="anim-marketing-round" xlink:href="#Group_1006" attributeName="transform" attributeType="XML" type="translate" from="-500 0" to="0 0"  dur="1.38s" additive="sum" begin="indefinite" />
+    <g id="Group_1007" data-name="Group 1007" transform="translate(158.634 413.527)">
+      <g id="_20_PLAY_TO_EARN_REWARD" data-name=" 20 PLAY TO EARN REWARD" transform="translate(24.844)">
+        <text id="_20_PLAY_TO_EARN_REWARD-2" data-name="20% PLAY TO EARN REWARD" transform="translate(0 16)" fill="#fff" font-size="16" font-family="Exo-Bold, Exo" font-weight="700"><tspan x="0" y="0">20% PLAY TO EARN REWARD</tspan></text>
+      </g>
+      <ellipse id="Ellipse_8-10" data-name="Ellipse 8-10" cx="7.166" cy="6.689" rx="7.166" ry="6.689" transform="translate(0 4.291)" fill="#fff"/>
+    </g>
+    <animateTransform id="anim-play-round" xlink:href="#Group_1007" attributeName="transform" attributeType="XML" type="translate" from="-500 0" to="0 0"  dur="1.20s" additive="sum" begin="indefinite" />
+    <g id="Group_999" data-name="Group 999" transform="translate(628.185 166.5)">
+      <g id="_3_PARTNERSHIP" data-name=" 3 PARTNERSHIP" transform="translate(23.888)">
+        <text id="_3_SEED_SALE" data-name="3% SEED SALE" transform="translate(0 16)" fill="#fff" font-size="16" font-family="Exo-Bold, Exo" font-weight="700"><tspan x="0" y="0">3% SEED SALE</tspan></text>
+      </g>
+      <circle id="Ellipse_8-11" data-name="Ellipse 8-11" cx="6.689" cy="6.689" r="6.689" transform="translate(0 5.248)" fill="#fff"/>
+    </g>
+    <animateTransform id="anim-seed-round" xlink:href="#Group_999" attributeName="transform" attributeType="XML" type="translate" from="500 0" to="0 0"  dur="0.3s" additive="sum" begin="indefinite" />
+    <g id="Group_999-2" data-name="Group 999" transform="translate(443.968 199.5)">
+      <g id="_3_PARTNERSHIP-2" data-name=" 3 PARTNERSHIP" transform="translate(23.888)">
+        <text id="_3_PARTNERSHIP-3" data-name="3% PARTNERSHIP" transform="translate(0 16)" fill="#fff" font-size="16" font-family="Exo-Bold, Exo" font-weight="700"><tspan x="0" y="0">3% PARTNERSHIP</tspan></text>
+      </g>
+      <circle id="Ellipse_8-11-2" data-name="Ellipse 8-11" cx="6.689" cy="6.689" r="6.689" transform="translate(0 5.248)" fill="#fff"/>
+    </g>
+    <animateTransform id="anim-partnership-round" xlink:href="#Group_999-2" attributeName="transform" attributeType="XML" type="translate" from="-500 0" to="0 0"  dur="0.66s" additive="sum" begin="indefinite" />
+    <g id="Group_999-3" data-name="Group 999" transform="translate(268.586 236.199)">
+      <g id="_3_PARTNERSHIP-4" data-name=" 3 PARTNERSHIP" transform="translate(23.888)">
+        <text id="_3_RESERVES_INCENTIVES" data-name="3% RESERVES &amp; INCENTIVES" transform="translate(0 16)" fill="#fff" font-size="16" font-family="Exo-Bold, Exo" font-weight="700"><tspan x="0" y="0">3% RESERVES &amp; INCENTIVES</tspan></text>
+      </g>
+      <circle id="Ellipse_8-11-3" data-name="Ellipse 8-11" cx="6.689" cy="6.689" r="6.689" transform="translate(0 5.248)" fill="#fff"/>
+    </g>
+    <animateTransform id="anim-reserves-round" xlink:href="#Group_999-3" attributeName="transform" attributeType="XML" type="translate" from="-500 0" to="0 0"  dur="0.84s" additive="sum" begin="indefinite" />
+    <g id="Group_1008" data-name="Group 1008" transform="translate(281.366 277.359)">
+      <g id="_15_LIQUIDITY_INCENTIVES" data-name=" 15 LIQUIDITY INCENTIVES" transform="translate(24.844)">
+        <text id="_10_LIQUIDITY_" data-name="10% LIQUIDITY " transform="translate(0 16)" fill="#fff" font-size="16" font-family="Exo-Bold, Exo" font-weight="700"><tspan x="0" y="0">10% LIQUIDITY</tspan></text>
+      </g>
+      <ellipse id="Ellipse_8-12" data-name="Ellipse 8-12" cx="7.166" cy="6.689" rx="7.166" ry="6.689" transform="translate(0 5.248)" fill="#fff"/>
+    </g>
+    <animateTransform id="anim-liquid-round" xlink:href="#Group_1008" attributeName="transform" attributeType="XML" type="translate" from="-500 0" to="0 0"  dur="1.02s" additive="sum" begin="indefinite" />
+  </g>
+  <animate xlink:href="#svg-toke" attributeName="fill-opacity" attributeType="xml"  from="0" to="1" dur="1s" accumulate="sum" fill="freeze" begin="indefinite"/>
+</svg>
+
+

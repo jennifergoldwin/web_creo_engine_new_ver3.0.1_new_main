@@ -1,17 +1,17 @@
 <%- include ('partials/header_app',{title:"Creo Engine"}) %> 
 
-<section class='bg-light'>
-    <div class="container">
-        <div class="font-barlow pv-3">
-            <div class="row  align-items-center h-100">
-                <div class="col text-center text-dark">
-                    <div class="row">
-                        <div class="col">
-                            <div class="card mb-3">
-                                <div class="card-header">
+<section className='bg-light'>
+    <div className="container">
+        <div className="font-barlow pv-3">
+            <div className="row  align-items-center h-100">
+                <div className="col text-center text-dark">
+                    <div className="row">
+                        <div className="col">
+                            <div className="card mb-3">
+                                <div className="card-header">
                                     Creo Owned
                                 </div>
-                                <div class="card-body">
+                                <div className="card-body">
                                     <div id="creo-owned">
                                         0
                                     </div>
@@ -19,81 +19,81 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row mb-3">
-                        <div class="col">
-                            <div class="card mb-3" style="height:100%">
-                                <div class="card-header">
-                                    Creo Locked (<span class='jmlvesting'>0</span>)
+                    <div className="row mb-3">
+                        <div className="col">
+                            <div className="card mb-3" style="height:100%">
+                                <div className="card-header">
+                                    Creo Locked (<span className='jmlvesting'>0</span>)
                                 </div>
-                                <div class="card-body">
+                                <div className="card-body">
                                     <div id='vesting-list'>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row mb-3">
-                        <div class="col">
-                            <div class="card text-center" style="height: 100%;">
-                                <div class="card-title">
-                                    <div class="card-header">
-                                        Seed Sale <span class='sale-period'>-</span>
+                    <div className="row mb-3">
+                        <div className="col">
+                            <div className="card text-center" style="height: 100%;">
+                                <div className="card-title">
+                                    <div className="card-header">
+                                        Seed Sale <span className='sale-period'>-</span>
                                     </div>
                                 </div>
-                                <div class="card-body">
-                                    <div class="row mb-3">
-                                        <div class="col">
-                                             <a class='sale-kuota text-med text-main'>
+                                <div className="card-body">
+                                    <div className="row mb-3">
+                                        <div className="col">
+                                             <a className='sale-kuota text-med text-main'>
                                                 0<br/>
                                                 CREOENGINE
                                              </a>
                                         </div>
                                     </div>
-                                    <div class="row mb-3">
-                                        <div class="col">
+                                    <div className="row mb-3">
+                                        <div className="col">
                                             Start<br/>
-                                            <span class='sale-start'>
+                                            <span className='sale-start'>
                                                 -
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="row mb-3">
-                                        <div class="col">
+                                    <div className="row mb-3">
+                                        <div className="col">
                                             End<br/>
-                                            <span class='sale-end'>
+                                            <span className='sale-end'>
                                                 -
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="row mb-3">
-                                        <div class="col">
+                                    <div className="row mb-3">
+                                        <div className="col">
                                             Token Price<br/>
-                                            <span class='sale-price'>
+                                            <span className='sale-price'>
                                                 0 BUSD
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="row mb-3">
-                                        <div class="col">
+                                    <div className="row mb-3">
+                                        <div className="col">
                                             Token Allocation<br/>
-                                             <span class='sale-allocation'>
+                                             <span className='sale-allocation'>
                                                 0
                                             </span>
                                             % From Total Supply
                                         </div>
                                     </div>
-                                    <div class="row mb-3">
-                                        <div class="col">
+                                    <div className="row mb-3">
+                                        <div className="col">
                                             Token Remaining<br/>
-                                            <span class='sale-remaining'>
+                                            <span className='sale-remaining'>
                                                 0 CREOENGINE
                                             </span>
                                         </div>
                                     </div>
-                                    <!-- <div class="row mb-3">
-                                        <div class="col">
+                                    <!-- <div className="row mb-3">
+                                        <div className="col">
                                             Allocation<br/>
-                                            <span class='sale-allocation'>
+                                            <span className='sale-allocation'>
                                                 0
                                             </span>
                                             % From Total Supply
@@ -101,7 +101,7 @@
                                     </div> -->
                                     <hr/>
                                     <div id='div-to-open-buy'>
-                                        <button class='btn btn-success' data-toggle='modal' data-target='#modal-buy-token'>
+                                        <button className='btn btn-success' data-toggle='modal' data-target='#modal-buy-token'>
                                             Buy Now
                                         </button>
                                     </div>
@@ -121,57 +121,57 @@
 1637319000
 1637319927.578 -->
 
-<div class="modal" id="modal-buy-token">
-    <div class="modal-dialog">
-        <div class="modal-content bg-dark font-barlow">
-            <div class="modal-header">
-                <h4 class="modal-title">
+<div className="modal" id="modal-buy-token">
+    <div className="modal-dialog">
+        <div className="modal-content bg-dark font-barlow">
+            <div className="modal-header">
+                <h4 className="modal-title">
                     BUY CREO
                 </h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <button type="button" className="close" data-dismiss="modal">&times;</button>
             </div>
-            <div class="modal-body">
-                <div class="row mb-3">
-                    <div class="col">
+            <div className="modal-body">
+                <div className="row mb-3">
+                    <div className="col">
                         Seed Sale 
                     </div>
-                    <div class="col">
-                        <span class='sale-period'>-</span>
+                    <div className="col">
+                        <span className='sale-period'>-</span>
                     </div>
                 </div>
-                <div class="row mb-3">
-                    <div class="col">
+                <div className="row mb-3">
+                    <div className="col">
                         Token Price
                     </div>
-                    <div class="col">
-                        <span class='sale-price'>-</span>
+                    <div className="col">
+                        <span className='sale-price'>-</span>
                     </div>
                 </div>
-                <div class="row mb-3">
-                    <div class="col align-self-center">
+                <div className="row mb-3">
+                    <div className="col align-self-center">
                         CREO Amount
                     </div>
-                    <div class="col">
-                        <input type='number' class='form-control' id='buyamount' onkeyup="calctotalbuy(this.value)">
+                    <div className="col">
+                        <input type='number' className='form-control' id='buyamount' onkeyup="calctotalbuy(this.value)">
                     </div>
                 </div>
                 <hr/>
-                <div class="row">
-                    <div class="col text-center">
+                <div className="row">
+                    <div className="col text-center">
                         Total<br/>
                         <span id='totalbuy'>0</span>
                         BUSD<br/>
                     </div>
                 </div>
                 <hr/>
-                <div class="row">
-                    <div class="col">
-                        <button class='btn btn-primary btn-block' id='btn-approve-busd' onclick="approveapp('busd')">
+                <div className="row">
+                    <div className="col">
+                        <button className='btn btn-primary btn-block' id='btn-approve-busd' onclick="approveapp('busd')">
                             Approve BUSD
                         </button>
                     </div>
-                    <div class="col">
-                        <button class='btn btn-success btn-block' onclick="buytoken()" id='btn-buy-now'>
+                    <div className="col">
+                        <button className='btn btn-success btn-block' onclick="buytoken()" id='btn-buy-now'>
                             Buy Now
                         </button>
                     </div>

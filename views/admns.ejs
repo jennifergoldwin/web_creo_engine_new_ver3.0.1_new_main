@@ -1,102 +1,102 @@
 <%- include ('partials/header_app',{title:"Creo Engine"}) %> 
 
-<section class='bg-light pt-10'>
-    <div class="container">
+<section className='bg-light pt-10'>
+    <div className="container">
         
-        <!-- <div class="row mb-3">
-            <div class="col text-center" id='divconnectwallet'>
-                <button class='btn btn-primary'  onclick="approveapp('busd')">
+        <!-- <div className="row mb-3">
+            <div className="col text-center" id='divconnectwallet'>
+                <button className='btn btn-primary'  onclick="approveapp('busd')">
                     Approve
                 </button>
             </div>
         </div> -->
         
-        <div class="row mb-3" id='divadmns'>
-            <div class="col mb-3 font-barlow">
-                <div class="card" style='height:100%'>
-                    <div class="card-title bg-dark">
-                        <div class="card-header text-center text-white">
+        <div className="row mb-3" id='divadmns'>
+            <div className="col mb-3 font-barlow">
+                <div className="card" style='height:100%'>
+                    <div className="card-title bg-dark">
+                        <div className="card-header text-center text-white">
                             <h4>
                                 Info
                             </h4>
                         </div>
                     </div>
-                    <div class="card-body">
-                        <!-- <div class="row mb-3">
-                            <div class="col">
+                    <div className="card-body">
+                        <!-- <div className="row mb-3">
+                            <div className="col">
                                 Wallet Penampung
                             </div>
-                            <div class="col">
+                            <div className="col">
                                 ---
-                                <span class='float-right'>
-                                    <button class='btn btn-success'>
-                                        <i class='fa fa-cog'></i>
+                                <span className='float-right'>
+                                    <button className='btn btn-success'>
+                                        <i className='fa fa-cog'></i>
                                     </button>
                                 </span>
                             </div>
                         </div> -->
-                        <div class="row mb-3">
-                            <div class="col">
+                        <div className="row mb-3">
+                            <div className="col">
                                 Likuidasi Sale
                             </div>
-                            <div class="col" id='div-likuidasi-sale'>
+                            <div className="col" id='div-likuidasi-sale'>
                                 ---
                             </div>
                         </div>
-                        <div class="row mb-3">
-                            <div class="col">
+                        <div className="row mb-3">
+                            <div className="col">
                                 Active Sale
                             </div>
-                            <div class="col" id='div-active-sale'>
+                            <div className="col" id='div-active-sale'>
                                 ---
                             </div>
                         </div>
-                        <div class="row mb-3">
-                            <div class="col">
+                        <div className="row mb-3">
+                            <div className="col">
                                 Jumlah Vesting (Unit)
                             </div>
-                            <div class="col banyakvesting">
+                            <div className="col banyakvesting">
                                 0
                             </div>
                         </div>
-                        <div class="row mb-3">
-                            <div class="col">
+                        <div className="row mb-3">
+                            <div className="col">
                                 Total Vesting (CREO)
                             </div>
-                            <div class="col" id='totalvesting'>
+                            <div className="col" id='totalvesting'>
                                 0
                             </div>
                         </div>
-                        <div class="row mb-3">
-                            <div class="col">
+                        <div className="row mb-3">
+                            <div className="col">
                                 Total CREO Dijual
                             </div>
-                            <div class="col" id='total-creo-dijual'>
+                            <div className="col" id='total-creo-dijual'>
                                 0
                             </div>
                         </div>
-                        <div class="row mb-3">
-                            <div class="col">
+                        <div className="row mb-3">
+                            <div className="col">
                                 Total CREO Terjual
                             </div>
-                            <div class="col" id='total-creo-terjual'>
+                            <div className="col" id='total-creo-terjual'>
                                 0
                             </div>
                         </div>
-                        <div class="row mb-3">
-                            <div class="col">
+                        <div className="row mb-3">
+                            <div className="col">
                                 Total BUSD Terkumpul
                             </div>
-                            <div class="col" id='total-busd-terkumpul'>
+                            <div className="col" id='total-busd-terkumpul'>
                                 0
                             </div>
                         </div>
                         
-                        <div class="row mb-3">
-                            <div class="col">
+                        <div className="row mb-3">
+                            <div className="col">
                                 Total Jumlah Transaksi
                             </div>
-                            <div class="col" id='total-jumlah-pembeli'>
+                            <div className="col" id='total-jumlah-pembeli'>
                                 0
                             </div>
                         </div>
@@ -106,16 +106,16 @@
                     </div>
                 </div>
             </div>
-            <div class="col mb-3 font-barlow">
-                <div class="card" style='height:100%'>
-                    <div class="card-title bg-dark text-white">
-                        <div class="card-header text-center">
+            <div className="col mb-3 font-barlow">
+                <div className="card" style='height:100%'>
+                    <div className="card-title bg-dark text-white">
+                        <div className="card-header text-center">
                             <h4>
                                 Admin (<span id='jmladmin'>0</span>) 
                             </h4>
                         </div>
                     </div>
-                    <div class="card-body text-center" id='div-card-admin'>
+                    <div className="card-body text-center" id='div-card-admin'>
                     </div>
                     <div id='footer-tambahadmin'>
 
@@ -125,52 +125,52 @@
         
         
         </div>
-        <div class="row mb-3">
-            <div class="col text-center">
-                <button class='btn btn-info' data-toggle='modal' data-target='#modal-set-active-sale'>
-                    <i class='fa fa-database mr-3'></i>
+        <div className="row mb-3">
+            <div className="col text-center">
+                <button className='btn btn-info' data-toggle='modal' data-target='#modal-set-active-sale'>
+                    <i className='fa fa-database mr-3'></i>
                     Set Active Sale
                 </button>
-                <button class='btn btn-primary' data-toggle='modal' data-target='#modal-likuidasi-sale'>
-                    <i class='fa fa-calendar mr-3'></i>
+                <button className='btn btn-primary' data-toggle='modal' data-target='#modal-likuidasi-sale'>
+                    <i className='fa fa-calendar mr-3'></i>
                     Set Likuidasi
                 </button>
             </div>
         </div>
-        <div class="row mb-3">
-            <div class="col mb-3 font-barlow" >
-                <div class="card" style='height:100%'>
-                    <div class="card-title bg-dark">
-                        <div class="card-header">
-                            <h4 class='text-left text-white'>
+        <div className="row mb-3">
+            <div className="col mb-3 font-barlow" >
+                <div className="card" style='height:100%'>
+                    <div className="card-title bg-dark">
+                        <div className="card-header">
+                            <h4 className='text-left text-white'>
                                 Seed Sale
                             </h4>
                         </div>
                     </div>
-                        <!-- <h4 class="card-header">
+                        <!-- <h4 className="card-header">
                             </h4> -->
-                    <div class="card-body bg-light">
-                        <div class="table-responsive">
-                            <table class='table table-hover table-striped'>
+                    <div className="card-body bg-light">
+                        <div className="table-responsive">
+                            <table className='table table-hover table-striped'>
                                 <tr>
                                     <th>
                                         Periode
                                     </th>
                                     <th>
                                         1 
-                                        <span class='ml-3' id='set-sale1'>
+                                        <span className='ml-3' id='set-sale1'>
                                             
                                         </span>
                                     </th>
                                     <th>
                                         2
-                                        <span class='ml-3' id='set-sale2'>
+                                        <span className='ml-3' id='set-sale2'>
                                             
                                         </span>
                                     </th>
                                     <th>
                                         3
-                                        <span class='ml-3' id='set-sale3'>
+                                        <span className='ml-3' id='set-sale3'>
                                             
                                         </span>
                                     </th>
@@ -369,39 +369,39 @@
     </div>
 </section>
 
-<section class='bg-dark pt-10'>
-    <div class="container">
-        <div class="row mb-3">
-            <div class="col mb-3 font-barlow" >
-                <div class="card"style='height:100%'>
-                    <div class="card-title bg-dark">
-                        <!-- <div class="card-header">
-                            <h4 class='text-left'>
+<section className='bg-dark pt-10'>
+    <div className="container">
+        <div className="row mb-3">
+            <div className="col mb-3 font-barlow" >
+                <div className="card"style='height:100%'>
+                    <div className="card-title bg-dark">
+                        <!-- <div className="card-header">
+                            <h4 className='text-left'>
                                 Seed Sale
-                                <span class='float-right'>
-                                        <button class='btn btn-success'>
-                                            <i class='fa fa-calendar'></i>
+                                <span className='float-right'>
+                                        <button className='btn btn-success'>
+                                            <i className='fa fa-calendar'></i>
                                             Set Likuidasi
                                         </button>
                                     </span>
                             </h4>
                         </div> -->
-                        <div class="card-header text-white">
-                            <h4 class='text-left'>
-                                Vesting (<span class='banyakvesting'></span>)
-                                <span class='float-right'>
-                                    <button class='btn btn-success' data-toggle='modal' data-target='#modal-vesting'>
-                                        <i class='fa fa-plus'></i>
+                        <div className="card-header text-white">
+                            <h4 className='text-left'>
+                                Vesting (<span className='banyakvesting'></span>)
+                                <span className='float-right'>
+                                    <button className='btn btn-success' data-toggle='modal' data-target='#modal-vesting'>
+                                        <i className='fa fa-plus'></i>
                                         Tambah Vesting
                                     </button>
                                 </span>
                             </h4>
                         </div>
                     </div>
-                    <!-- <div class="card-title">
+                    <!-- <div className="card-title">
                     </div> -->
-                    <div class="card-body bg-light">
-                        <table class='table table-hovered table-striped'>
+                    <div className="card-body bg-light">
+                        <table className='table table-hovered table-striped'>
                             <thead>
 
                                 <tr>
@@ -433,19 +433,19 @@
     </div>
 </section>
 
-<div class="modal" id="modal-set-active-sale">
-    <div class="modal-dialog">
-        <div class="modal-content bg-dark font-barlow">
-        <div class="modal-header">
-            <h4 class="modal-title">
+<div className="modal" id="modal-set-active-sale">
+    <div className="modal-dialog">
+        <div className="modal-content bg-dark font-barlow">
+        <div className="modal-header">
+            <h4 className="modal-title">
                 Set Active Sale
             </h4>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <button type="button" className="close" data-dismiss="modal">&times;</button>
         </div>
-        <div class="modal-body">
-            <div class="row mb-3">
-                <div class="col">
-                    <select class='form-control' id='opsi-active-sale'>
+        <div className="modal-body">
+            <div className="row mb-3">
+                <div className="col">
+                    <select className='form-control' id='opsi-active-sale'>
                         <option value='1'>Periode 1</option>
                         <option value='2'>Periode 2</option>
                         <option value='3'>Periode 3</option>
@@ -455,11 +455,11 @@
             </div>
         </div>
 
-        <div class="modal-footer">
-            <div class="row">
-                <div class="col">
-                    <button type="button" class="btn btn-success" onclick='setactivesale()' id='btn-set-active-sale'>
-                        <i class='fa fa-check mr-3'></i>
+        <div className="modal-footer">
+            <div className="row">
+                <div className="col">
+                    <button type="button" className="btn btn-success" onclick='setactivesale()' id='btn-set-active-sale'>
+                        <i className='fa fa-check mr-3'></i>
                         Set
                     </button>
                 </div>
@@ -469,103 +469,103 @@
         </div>
     </div>
 </div>
-<div class="modal" id="modal-vesting">
-    <div class="modal-dialog">
-        <div class="modal-content bg-dark font-barlow">
-        <div class="modal-header">
-            <h4 class="modal-title">
+<div className="modal" id="modal-vesting">
+    <div className="modal-dialog">
+        <div className="modal-content bg-dark font-barlow">
+        <div className="modal-header">
+            <h4 className="modal-title">
                 Set Vesting
             </h4>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <button type="button" className="close" data-dismiss="modal">&times;</button>
         </div>
-        <div class="modal-body">
-            <div class="row mb-3">
-                <div class="col">
+        <div className="modal-body">
+            <div className="row mb-3">
+                <div className="col">
                     <label>
                         Keterangan
                     </label>
-                    <input type='text' class='form-control' id='input-set-vesting-keterangan'>
+                    <input type='text' className='form-control' id='input-set-vesting-keterangan'>
                 </div>
             </div>
-            <div class="row mb-3">
-                <div class="col">
+            <div className="row mb-3">
+                <div className="col">
                     <label>
                         Jumlah (CREO)
                     </label>
-                    <input type='text' class='form-control' id='input-set-vesting-jumlah'>
+                    <input type='text' className='form-control' id='input-set-vesting-jumlah'>
                 </div>
             </div>
-            <div class="row mb-3">
-                <div class="col">
+            <div className="row mb-3">
+                <div className="col">
                     <label>
                         Wallet Penerima
                     </label>
-                    <input type='text' class='form-control' id='input-set-vesting-wallet'>
+                    <input type='text' className='form-control' id='input-set-vesting-wallet'>
                 </div>
             </div>
-            <!-- <div class="row mb-3">
-                <div class="col">
+            <!-- <div className="row mb-3">
+                <div className="col">
                     <label>
                         Likuidasi
                     </label>
-                    <input type='text' class='form-control bg-light' id='input-set-vesting-likuidasi'>
+                    <input type='text' className='form-control bg-light' id='input-set-vesting-likuidasi'>
                 </div>
             </div> -->
-            <div class="row mb-3">
-                <div class="col">
+            <div className="row mb-3">
+                <div className="col">
                     <label>
                         Pencairan Awal
                     </label>
-                    <div class="input-group mb-3">
-                        <input type="number" class="form-control" placeholder="Pencairan Awal" id='input-set-vesting-awal'>
-                        <div class="input-group-append">
-                            <span class="input-group-text">%</span>
+                    <div className="input-group mb-3">
+                        <input type="number" className="form-control" placeholder="Pencairan Awal" id='input-set-vesting-awal'>
+                        <div className="input-group-append">
+                            <span className="input-group-text">%</span>
                         </div>
                     </div>
-                    <!-- <input type='number' class='form-control bg-light' id='input-set-vesting-likuidasi'> -->
+                    <!-- <input type='number' className='form-control bg-light' id='input-set-vesting-likuidasi'> -->
                 </div>
             </div>
-            <div class="row mb-3">
-                <div class="col">
+            <div className="row mb-3">
+                <div className="col">
                     <label>
                        Jeda Waktu Pencairan
                     </label>
-                    <div class="input-group mb-3">
-                        <input type="number" class="form-control" placeholder="Jeda Waktu Pencairan" id='input-set-vesting-waktu'>
-                        <div class="input-group-append">
-                            <span class="input-group-text">Hari</span>
+                    <div className="input-group mb-3">
+                        <input type="number" className="form-control" placeholder="Jeda Waktu Pencairan" id='input-set-vesting-waktu'>
+                        <div className="input-group-append">
+                            <span className="input-group-text">Hari</span>
                         </div>
                     </div>
-                    <!-- <input type='number' class='form-control bg-light' id='input-set-vesting-likuidasi'> -->
+                    <!-- <input type='number' className='form-control bg-light' id='input-set-vesting-likuidasi'> -->
                 </div>
             </div>
-            <div class="row mb-3">
-                <div class="col">
+            <div className="row mb-3">
+                <div className="col">
                     <label>
                        Berapa Kali Pencairan
                     </label>
-                    <div class="input-group mb-3">
-                        <input type="number" class="form-control" placeholder="Berapa Kali Pencairan" id='input-set-vesting-kali'>
-                        <div class="input-group-append">
-                            <span class="input-group-text">Kali</span>
+                    <div className="input-group mb-3">
+                        <input type="number" className="form-control" placeholder="Berapa Kali Pencairan" id='input-set-vesting-kali'>
+                        <div className="input-group-append">
+                            <span className="input-group-text">Kali</span>
                         </div>
                     </div>
-                    <!-- <input type='number' class='form-control bg-light' id='input-set-vesting-likuidasi'> -->
+                    <!-- <input type='number' className='form-control bg-light' id='input-set-vesting-likuidasi'> -->
                 </div>
             </div>
         </div>
 
-        <div class="modal-footer">
-            <div class="row">
-                <div class="col">
-                    <button type="button" id='btn-approve-creo-vesting' class="btn btn-primary btn-block" onclick="approveapp('creo-vesting')">
-                        <i class='fa fa-check mr-3'></i>
+        <div className="modal-footer">
+            <div className="row">
+                <div className="col">
+                    <button type="button" id='btn-approve-creo-vesting' className="btn btn-primary btn-block" onclick="approveapp('creo-vesting')">
+                        <i className='fa fa-check mr-3'></i>
                         Approve
                     </button>
                 </div>
-                <div class="col">
-                    <button type="button" class="btn btn-success" onclick='setvesting()' id='btn-set-vesting-program'>
-                        <i class='fa fa-check mr-3'></i>
+                <div className="col">
+                    <button type="button" className="btn btn-success" onclick='setvesting()' id='btn-set-vesting-program'>
+                        <i className='fa fa-check mr-3'></i>
                         Set
                     </button>
                 </div>
@@ -575,28 +575,28 @@
         </div>
     </div>
 </div>
-<div class="modal" id="modal-tambahadm">
-    <div class="modal-dialog">
-        <div class="modal-content bg-dark font-barlow">
+<div className="modal" id="modal-tambahadm">
+    <div className="modal-dialog">
+        <div className="modal-content bg-dark font-barlow">
 
-        <div class="modal-header">
-            <p class="modal-title">
+        <div className="modal-header">
+            <p className="modal-title">
                 Masukan Wallet Admin / Governance
             </p>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <button type="button" className="close" data-dismiss="modal">&times;</button>
         </div>
 
-        <div class="modal-body">
-            <div class="row">
-                <div class="col">
-                    <input type='text' class='form-control' id='input-set-governance'>
+        <div className="modal-body">
+            <div className="row">
+                <div className="col">
+                    <input type='text' className='form-control' id='input-set-governance'>
                 </div>
             </div>
         </div>
 
-        <div class="modal-footer">
-            <button type="button" class="btn btn-success" onclick='addgovernance()' id='btn-set-gov'>
-                <i class='fa fa-plus mr-3'></i>
+        <div className="modal-footer">
+            <button type="button" className="btn btn-success" onclick='addgovernance()' id='btn-set-gov'>
+                <i className='fa fa-plus mr-3'></i>
                 Tambah
             </button>
         </div>
@@ -605,28 +605,28 @@
     </div>
 </div>
 
-<div class="modal" id="modal-likuidasi-sale">
-    <div class="modal-dialog">
-        <div class="modal-content bg-dark font-barlow">
+<div className="modal" id="modal-likuidasi-sale">
+    <div className="modal-dialog">
+        <div className="modal-content bg-dark font-barlow">
 
-        <div class="modal-header">
-            <p class="modal-title">
+        <div className="modal-header">
+            <p className="modal-title">
                 Masukan Tanggal Likuidasi Sale
             </p>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <button type="button" className="close" data-dismiss="modal">&times;</button>
         </div>
 
-        <div class="modal-body">
-            <div class="row mb-3">
-                <div class="col p-3">
-                    <input type='text' class='form-control bg-light' id='input-set-likuidasi'>
+        <div className="modal-body">
+            <div className="row mb-3">
+                <div className="col p-3">
+                    <input type='text' className='form-control bg-light' id='input-set-likuidasi'>
                 </div>
             </div>
         </div>
 
-        <div class="modal-footer">
-            <button type="button" class="btn btn-success"  onclick='setlikuidasi()' id='btn-set-likuidasi'>
-                <i class='fa fa-check mr-3'></i>
+        <div className="modal-footer">
+            <button type="button" className="btn btn-success"  onclick='setlikuidasi()' id='btn-set-likuidasi'>
+                <i className='fa fa-check mr-3'></i>
                 Set Tanggal Likuidasi
             </button>
         </div>
@@ -635,121 +635,121 @@
     </div>
 </div>
 
-<div class="modal" id="modal-setsale">
-    <div class="modal-dialog">
-        <div class="modal-content bg-dark font-barlow">
-        <div class="modal-header">
-            <p class="modal-title">
-                Seed Sale Periode <span class='set-periode'></span>
+<div className="modal" id="modal-setsale">
+    <div className="modal-dialog">
+        <div className="modal-content bg-dark font-barlow">
+        <div className="modal-header">
+            <p className="modal-title">
+                Seed Sale Periode <span className='set-periode'></span>
             </p>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <button type="button" className="close" data-dismiss="modal">&times;</button>
         </div>
 
-        <div class="modal-body">
+        <div className="modal-body">
            
-            <div class="row mb-3">
-                <div class="col">
+            <div className="row mb-3">
+                <div className="col">
                     <label>
                         Kuota (CREO)
                     </label>
-                    <div class="input-group mb-3">
-                        <input type='number' class='form-control' placeholder="Kuota" id='input-set-kuota'>
+                    <div className="input-group mb-3">
+                        <input type='number' className='form-control' placeholder="Kuota" id='input-set-kuota'>
                     </div>
                 </div>
             </div>
-            <div class="row mb-3">
-                <div class="col">
+            <div className="row mb-3">
+                <div className="col">
                     <label>
                         Harga (BUSD)
                     </label>
-                    <div class="input-group mb-3">
-                        <input type='number' class='form-control' placeholder="Harga" id='input-set-harga'>
+                    <div className="input-group mb-3">
+                        <input type='number' className='form-control' placeholder="Harga" id='input-set-harga'>
                     </div>
                 </div>
             </div>
-            <div class="row mb-3">
-                <div class="col">
+            <div className="row mb-3">
+                <div className="col">
                     <label>
                         Tanggal Mulai
                     </label>
                 </div>
-                <div class="col-12">
-                    <input type='text' class='form-control bg-light' id='input-set-mulai'>
+                <div className="col-12">
+                    <input type='text' className='form-control bg-light' id='input-set-mulai'>
                 </div>
             </div>
-            <div class="row mb-3">
-                <div class="col">
+            <div className="row mb-3">
+                <div className="col">
                     <label>
                         Tanggal Selesai
                     </label>
                 </div>
-                <div class="col-12">
-                    <input type='text' class='form-control bg-light' id='input-set-selesai'>
+                <div className="col-12">
+                    <input type='text' className='form-control bg-light' id='input-set-selesai'>
                 </div>
             </div>
-            <div class="row mb-3">
-                <div class="col">
+            <div className="row mb-3">
+                <div className="col">
                     <label>
                         Wallet Penerima
                     </label>
-                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Wallet Penerima" id='input-set-beneficiary'>
+                     <div className="input-group mb-3">
+                        <input type="text" className="form-control" placeholder="Wallet Penerima" id='input-set-beneficiary'>
                     </div>
                 </div>
             </div>
-            <div class="row mb-3">
-                <div class="col">
+            <div className="row mb-3">
+                <div className="col">
                     <label>
                         Nilai TGE
                     </label>
-                    <div class="input-group mb-3">
-                        <input type="number" class="form-control" placeholder="Pencairan Awal" id='input-set-awal'>
-                        <div class="input-group-append">
-                            <span class="input-group-text">%</span>
+                    <div className="input-group mb-3">
+                        <input type="number" className="form-control" placeholder="Pencairan Awal" id='input-set-awal'>
+                        <div className="input-group-append">
+                            <span className="input-group-text">%</span>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row mb-3">
-                <div class="col">
+            <div className="row mb-3">
+                <div className="col">
                     <label>
                         Jeda Waktu Pencairan
                     </label>
-                    <div class="input-group mb-3">
-                        <input type="number" class="form-control" placeholder="Jeda Waktu Pencairan" id='input-set-jeda'>
-                        <div class="input-group-append">
-                            <span class="input-group-text">Hari</span>
+                    <div className="input-group mb-3">
+                        <input type="number" className="form-control" placeholder="Jeda Waktu Pencairan" id='input-set-jeda'>
+                        <div className="input-group-append">
+                            <span className="input-group-text">Hari</span>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row mb-3">
-                <div class="col">
+            <div className="row mb-3">
+                <div className="col">
                     <label>
                         Berapa Kali Pencairan
                     </label>
-                    <div class="input-group mb-3">
-                        <input type="number" class="form-control" placeholder="Berapa Kali Pencairan" id='input-set-kali'>
-                        <div class="input-group-append">
-                            <span class="input-group-text">Kali</span>
+                    <div className="input-group mb-3">
+                        <input type="number" className="form-control" placeholder="Berapa Kali Pencairan" id='input-set-kali'>
+                        <div className="input-group-append">
+                            <span className="input-group-text">Kali</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="modal-footer">
-            <div class="row">
-                <div class="col" id="div-revoke">
-                    <button type="button" id='btn-approve-creo' class="btn btn-primary btn-block" onclick="approveapp('creo')">
-                        <i class='fa fa-check mr-3'></i>
+        <div className="modal-footer">
+            <div className="row">
+                <div className="col" id="div-revoke">
+                    <button type="button" id='btn-approve-creo' className="btn btn-primary btn-block" onclick="approveapp('creo')">
+                        <i className='fa fa-check mr-3'></i>
                         Approve
                     </button>
                 </div>
-                <div class="col" id='div-sale'>
-                    <button type="button" id='btn-set-sale-program' class="btn btn-success btn-block" onclick="setsaleprogram()">
-                        <i class='fa fa-save mr-3'></i>
-                        Set Sale <span class='set-periode'></span>
+                <div className="col" id='div-sale'>
+                    <button type="button" id='btn-set-sale-program' className="btn btn-success btn-block" onclick="setsaleprogram()">
+                        <i className='fa fa-save mr-3'></i>
+                        Set Sale <span className='set-periode'></span>
                     </button>
                 </div>
             </div>
@@ -758,45 +758,45 @@
         </div>
     </div>
 </div>
-<div class="modal" id="modal-setminmax">
-    <div class="modal-dialog">
-        <div class="modal-content bg-dark font-barlow">
-        <div class="modal-header">
-            <p class="modal-title">
-                Set Min Max Periode <span class='set-periode'></span>
+<div className="modal" id="modal-setminmax">
+    <div className="modal-dialog">
+        <div className="modal-content bg-dark font-barlow">
+        <div className="modal-header">
+            <p className="modal-title">
+                Set Min Max Periode <span className='set-periode'></span>
             </p>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <button type="button" className="close" data-dismiss="modal">&times;</button>
         </div>
 
-        <div class="modal-body">
-            <div class="row mb-3">
-                <div class="col">
+        <div className="modal-body">
+            <div className="row mb-3">
+                <div className="col">
                     <label>
                         Minimum Purchase (CREO)
                     </label>
-                    <div class="input-group mb-3">
-                        <input type='number' class='form-control' placeholder="Min" id='input-set-min'>
+                    <div className="input-group mb-3">
+                        <input type='number' className='form-control' placeholder="Min" id='input-set-min'>
                     </div>
                 </div>
             </div>
-            <div class="row mb-3">
-                <div class="col">
+            <div className="row mb-3">
+                <div className="col">
                     <label>
                         Maximum Purchase (CREO)
                     </label>
-                    <div class="input-group mb-3">
-                        <input type='number' class='form-control' placeholder="Max" id='input-set-max'>
+                    <div className="input-group mb-3">
+                        <input type='number' className='form-control' placeholder="Max" id='input-set-max'>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="modal-footer">
-            <div class="row">
-                <div class="col" id='div-sale'>
-                    <button type="button" id='btn-set-minmax-program' class="btn btn-success btn-block" onclick="setminmaxprogram()">
-                        <i class='fa fa-save mr-3'></i>
-                        Set Min Max Periode <span class='set-periode'></span>
+        <div className="modal-footer">
+            <div className="row">
+                <div className="col" id='div-sale'>
+                    <button type="button" id='btn-set-minmax-program' className="btn btn-success btn-block" onclick="setminmaxprogram()">
+                        <i className='fa fa-save mr-3'></i>
+                        Set Min Max Periode <span className='set-periode'></span>
                     </button>
                 </div>
             </div>

@@ -136,7 +136,7 @@ async function disconnectwallet() {
   }
   selectedAccount=null;
   $('#divconnectwallet').html(`
-    <button class='btn btn-primary'  onclick="connectwallet()">
+    <button className='btn btn-primary'  onclick="connectwallet()">
         Connect Wallet
     </button>
   `);
@@ -180,7 +180,7 @@ async function fetchAccountData() {
 	selectedAccount = accounts[0];
   selectedaccountshort=shortenaddress(selectedAccount);
   $('#divconnectwallet').html(`
-    <button class='btn btn-success'  onclick="disconnectwallet()">
+    <button className='btn btn-success'  onclick="disconnectwallet()">
       Connected With ${selectedaccountshort}
     </button>
   `);
@@ -231,7 +231,7 @@ async function setactivesale() {
     }
   );
   $('#btn-set-active-sale').html(`
-    <i class='fa fa-check mr-3'></i>
+    <i className='fa fa-check mr-3'></i>
     Set
   `);
   $('#btn-set-active-sale').attr('disabled',false);
@@ -359,7 +359,7 @@ async function setupbuyerdetail() {
           redeemtitle = 'TGE Value';
         }
         var redeembtn = `
-          <button class='btn btn-danger'>
+          <button className='btn btn-danger'>
             Locked
           </button>
         `;
@@ -370,8 +370,8 @@ async function setupbuyerdetail() {
             if (now < saleredeemtime) {
               var li = getdate(saleredeemtime, 1);
               lockeduntil = `
-                <div class='row'>
-                  <div class='col text-center text-primary'>
+                <div className='row'>
+                  <div className='col text-center text-primary'>
                     Redeemable After : ${li}
                   </div>
                 </div>
@@ -379,15 +379,15 @@ async function setupbuyerdetail() {
             }else{
               var li = getdate(timeshouldbereleased, 1);
               lockeduntil = `
-                <div class='row'>
-                  <div class='col text-center text-primary'>
+                <div className='row'>
+                  <div className='col text-center text-primary'>
                     Unlocked At : ${li}
                   </div>
                 </div>
               `;
               if (now < timeshouldbereleased) {
                 redeembtn = `
-                  <button class='btn btn-danger'>
+                  <button className='btn btn-danger'>
                     Locked
                   </button>
                 `;
@@ -395,8 +395,8 @@ async function setupbuyerdetail() {
                 if (redeemedlistinint.includes(j)) {
                   redeembtn = ``;
                   lockeduntil = `
-                    <div class='row'>
-                      <div class='col text-center text-success'>
+                    <div className='row'>
+                      <div className='col text-center text-success'>
                         Already Redeemed
                       </div>
                     </div>
@@ -404,20 +404,20 @@ async function setupbuyerdetail() {
                 } else {
                   if (e[0] > 0) {
                     redeembtn = `
-                      <button class='btn btn-success' onclick="redeembuytoken('${c[i]}','${buyindex}','${j}')" id='redeem-buy-token-period-${c[i]}-${buyindex}-${j}'>
+                      <button className='btn btn-success' onclick="redeembuytoken('${c[i]}','${buyindex}','${j}')" id='redeem-buy-token-period-${c[i]}-${buyindex}-${j}'>
                         Redeem
                       </button>
                     `;
                   } else {
                     redeembtn = `
-                      <button class='btn btn-success' onclick="redeemvestingperiod('${c[i]}','${j}')" id='redeem-vesting-period-${c[i]}-${j}'>
+                      <button className='btn btn-success' onclick="redeemvestingperiod('${c[i]}','${j}')" id='redeem-vesting-period-${c[i]}-${j}'>
                         Redeem
                       </button>
                     `;
                   }
                   lockeduntil = `
-                    <div class='row'>
-                      <div class='col text-center text-success'>
+                    <div className='row'>
+                      <div className='col text-center text-success'>
                         Unlocked
                       </div>
                     </div>
@@ -428,15 +428,15 @@ async function setupbuyerdetail() {
           }
         }
         daftarredeem += `
-          <div class='mb-3'>
-            <div class='row'>
-              <div class='col'>
+          <div className='mb-3'>
+            <div className='row'>
+              <div className='col'>
                 ${redeemtitle}
               </div>
-              <div class='col'>
+              <div className='col'>
                 ${numberformat(redeemamount)}
               </div>
-              <div class='col'>
+              <div className='col'>
                 ${redeembtn}
               </div>
             </div>
@@ -447,24 +447,24 @@ async function setupbuyerdetail() {
       }
       totaljmlvesting++;
       vestinglist+=`
-        <div class="card mb-3">
-          <div class="card-header bg-primary text-white">
-              <div class="row">
-                  <div class="col text-left">
+        <div className="card mb-3">
+          <div className="card-header bg-primary text-white">
+              <div className="row">
+                  <div className="col text-left">
                       ${keterangan}
                   </div>
-                  <div class="col">
+                  <div className="col">
                       ${numberformat(nilaivt)} CREO
                   </div>
-                  <div class="col text-right">
+                  <div className="col text-right">
                       <a href='#detilvesting${i}' data-toggle='collapse'>
                           ${jmlredeemable} Redeemable
                       </a>
                   </div>
               </div>
           </div>
-          <div class="collapse" id='detilvesting${i}'>
-              <div class="card-body">
+          <div className="collapse" id='detilvesting${i}'>
+              <div className="card-body">
                   ${daftarredeem}
               </div>
           </div>
@@ -527,26 +527,26 @@ async function setupvestingdetail() {
   
   if(govlist.includes(selectedAccount)){
     $('#footer-tambahadmin').html(`
-        <div class='card-footer text-center'>
-          <button class='btn btn-success' data-target='#modal-tambahadm' data-toggle='modal'>
-              <i class='fa fa-plus mr-3'></i>
+        <div className='card-footer text-center'>
+          <button className='btn btn-success' data-target='#modal-tambahadm' data-toggle='modal'>
+              <i className='fa fa-plus mr-3'></i>
               Tambah Admin
           </button>
         </div>
     `);
     $('#set-sale1').html(`
-      <button class='btn btn-success' onclick="setsalemodal('1')">
-          <i class='fa fa-cog'></i>
+      <button className='btn btn-success' onclick="setsalemodal('1')">
+          <i className='fa fa-cog'></i>
       </button>
     `);
     $('#set-sale2').html(`
-      <button class='btn btn-success' onclick="setsalemodal('2')">
-          <i class='fa fa-cog'></i>
+      <button className='btn btn-success' onclick="setsalemodal('2')">
+          <i className='fa fa-cog'></i>
       </button>
     `);
     $('#set-sale3').html(`
-      <button class='btn btn-success' onclick="setsalemodal('3')">
-          <i class='fa fa-cog'></i>
+      <button className='btn btn-success' onclick="setsalemodal('3')">
+          <i className='fa fa-cog'></i>
       </button>
     `);
   }else{
@@ -559,12 +559,12 @@ async function setupvestingdetail() {
   for(var i=0; i<govlist.length; i++){
     var y=shortenaddress(govlist[i]);
     admlist+=`
-      <div class="row mb-3">
-        <div class="col align-self-center">
+      <div className="row mb-3">
+        <div className="col align-self-center">
             ${y}
-            <span class='ml-3'>
-                <button class='btn btn-danger' onclick="removegov('${govlist[i]}')">
-                    <i class='fa fa-times'></i>
+            <span className='ml-3'>
+                <button className='btn btn-danger' onclick="removegov('${govlist[i]}')">
+                    <i className='fa fa-times'></i>
                 </button>
             </span>
         </div>
@@ -580,26 +580,26 @@ async function setupgovdetail(){
 
   if(govlist.includes(selectedAccount)){
     $('#footer-tambahadmin').html(`
-        <div class='card-footer text-center'>
-          <button class='btn btn-success' data-target='#modal-tambahadm' data-toggle='modal'>
-              <i class='fa fa-plus mr-3'></i>
+        <div className='card-footer text-center'>
+          <button className='btn btn-success' data-target='#modal-tambahadm' data-toggle='modal'>
+              <i className='fa fa-plus mr-3'></i>
               Tambah Admin
           </button>
         </div>
     `);
     $('#set-sale1').html(`
-      <button class='btn btn-success' onclick="setsalemodal('1')">
-          <i class='fa fa-cog'></i>
+      <button className='btn btn-success' onclick="setsalemodal('1')">
+          <i className='fa fa-cog'></i>
       </button>
     `);
     $('#set-sale2').html(`
-      <button class='btn btn-success' onclick="setsalemodal('2')">
-          <i class='fa fa-cog'></i>
+      <button className='btn btn-success' onclick="setsalemodal('2')">
+          <i className='fa fa-cog'></i>
       </button>
     `);
     $('#set-sale3').html(`
-      <button class='btn btn-success' onclick="setsalemodal('3')">
-          <i class='fa fa-cog'></i>
+      <button className='btn btn-success' onclick="setsalemodal('3')">
+          <i className='fa fa-cog'></i>
       </button>
     `);
   }else{
@@ -613,12 +613,12 @@ async function setupgovdetail(){
   for(var i=0; i<govlist.length; i++){
     var y=shortenaddress(govlist[i]);
     admlist+=`
-      <div class="row mb-3">
-        <div class="col align-self-center">
+      <div className="row mb-3">
+        <div className="col align-self-center">
             ${y}
-            <span class='ml-3'>
-                <button class='btn btn-danger' onclick="removegov('${govlist[i]}')">
-                    <i class='fa fa-times'></i>
+            <span className='ml-3'>
+                <button className='btn btn-danger' onclick="removegov('${govlist[i]}')">
+                    <i className='fa fa-times'></i>
                 </button>
             </span>
         </div>
@@ -690,19 +690,19 @@ async function setupactivesale() {
 
     if (parseFloat(salearr[i - 1][1]) > timenow) {
       $('#div-to-open-buy').html(`
-        <button class='btn btn-muted' disabled>
+        <button className='btn btn-muted' disabled>
           Sale Not Started
         </button>
       `);
     }else if (salearr[i - 1][2] < timenow) {
       $('#div-to-open-buy').html(`
-        <button class='btn btn-danger' disabled>
+        <button className='btn btn-danger' disabled>
           Sale Ended
         </button>
       `);
     } else {
       $('#div-to-open-buy').html(`
-        <button class='btn btn-success' data-toggle='modal' data-target='#modal-buy-token'>
+        <button className='btn btn-success' data-toggle='modal' data-target='#modal-buy-token'>
             Buy Now
         </button>
       `);
@@ -839,16 +839,16 @@ async function setupsaledetail(){
       `);
       if(govlist.includes(selectedAccount)){
         $('#ss-min-' + i).append(`
-          <span class='ml-3'>
-            <button class='btn btn-success' onclick="setminmax('${i}')">
-              <i class='fa fa-cog'></i>
+          <span className='ml-3'>
+            <button className='btn btn-success' onclick="setminmax('${i}')">
+              <i className='fa fa-cog'></i>
             </button>
           </span>
         `);
         $('#ss-max-' + i).append(`
-          <span class='ml-3'>
-            <button class='btn btn-success' onclick="setminmax('${i}')">
-              <i class='fa fa-cog'></i>
+          <span className='ml-3'>
+            <button className='btn btn-success' onclick="setminmax('${i}')">
+              <i className='fa fa-cog'></i>
             </button>
           </span>
         `);
@@ -886,8 +886,8 @@ async function setminmaxprogram(){
       console.log(err);
       toastr.warning(err);
       $('#btn-set-minmax-program').html(`
-        <i class='fa fa-save mr-3'></i>
-        Set Min Max Periode <span class='set-periode'>${periode}</span>
+        <i className='fa fa-save mr-3'></i>
+        Set Min Max Periode <span className='set-periode'>${periode}</span>
       `);
       $('#btn-set-minmax-program').attr('disabled',false);
       return;
@@ -897,8 +897,8 @@ async function setminmaxprogram(){
   toastr.success("Min Max Program Ter Set");
   setupsaledetail();
   $('#btn-set-minmax-program').html(`
-      <i class='fa fa-save mr-3'></i>
-      Set Min Max Periode <span class='set-periode'>${periode}</span>
+      <i className='fa fa-save mr-3'></i>
+      Set Min Max Periode <span className='set-periode'>${periode}</span>
   `);
   $('#btn-set-minmax-program').attr('disabled', false);
   $('#modal-setminmax').modal('hide');
@@ -923,7 +923,7 @@ async function addgovernance(){
       console.log(err);
       toastr.warning(err);
       $('#btn-set-gov').html(`
-        <i class='fa fa-plus mr-3'></i>
+        <i className='fa fa-plus mr-3'></i>
         Tambah
       `);
       $('#btn-set-gov').attr('disabled',false);
@@ -932,12 +932,12 @@ async function addgovernance(){
   });
   var y=shortenaddress(w);
   $('#div-card-admin').append(`
-    <div class="row mb-3">
-      <div class="col align-self-center">
+    <div className="row mb-3">
+      <div className="col align-self-center">
           ${y}
-          <span class='ml-3'>
-              <button class='btn btn-danger' onclick="removegov('${w}')">
-                  <i class='fa fa-times'></i>
+          <span className='ml-3'>
+              <button className='btn btn-danger' onclick="removegov('${w}')">
+                  <i className='fa fa-times'></i>
               </button>
           </span>
       </div>
@@ -946,7 +946,7 @@ async function addgovernance(){
   govlist=await creoapp.methods.getgovernance().call();
   $('#jmladmin').html(govlist.length);
   $('#btn-set-gov').html(`
-    <i class='fa fa-plus mr-3'></i>
+    <i className='fa fa-plus mr-3'></i>
     Tambah
   `);
   $('#btn-set-gov').attr('disabled',false);
@@ -976,8 +976,8 @@ async function setsalemodal(periode) {
     $('#input-set-kuota').val(kuota);
     $('#input-set-kuota').attr("disabled",true);
     $('#div-revoke').html(`
-      <button type="button" id='btn-remove-sale' class="btn btn-danger btn-block" onclick="removesale('${periode}')">
-        <i class='fa fa-times mr-3'></i>
+      <button type="button" id='btn-remove-sale' className="btn btn-danger btn-block" onclick="removesale('${periode}')">
+        <i className='fa fa-times mr-3'></i>
         Remove Sale
       </button>
     `);
@@ -1031,8 +1031,8 @@ async function setsalemodal(periode) {
     }
   } else {
     $('#div-revoke').html(`
-      <button type="button" id='btn-approve-creo' class="btn btn-primary btn-block" onclick="approveapp('creo')">
-          <i class='fa fa-check mr-3'></i>
+      <button type="button" id='btn-approve-creo' className="btn btn-primary btn-block" onclick="approveapp('creo')">
+          <i className='fa fa-check mr-3'></i>
           Approve
       </button>
     `);
@@ -1048,7 +1048,7 @@ async function setsalemodal(periode) {
 
 function setloading(x){
   $('#'+x).html(`
-    <i class='fa fa-spin fa-spinner mr-3'></i>
+    <i className='fa fa-spin fa-spinner mr-3'></i>
     Processing ...
   `);
   $('#'+x).attr('disabled',true);
@@ -1078,7 +1078,7 @@ async function setlikuidasi(){
     if(err){
       $('#btn-set-likuidasi').attr('disabled',false);
       $('#btn-set-likuidasi').html(`
-        <i class='fa fa-check mr-3'></i>
+        <i className='fa fa-check mr-3'></i>
         Set Likuidasi
       `);
       console.log(err);
@@ -1089,7 +1089,7 @@ async function setlikuidasi(){
   getlikuidasi();
   $('#btn-set-likuidasi').attr('disabled',false);
   $('#btn-set-likuidasi').html(`
-    <i class='fa fa-check mr-3'></i>
+    <i className='fa fa-check mr-3'></i>
     Set Likuidasi
   `);
 }
@@ -1102,7 +1102,7 @@ async function cancelvesting(index) {
     if(err){
       $('#btn-cancel-vesting').attr('disabled',false);
       $('#btn-cancel-vesting').html(`
-        <i class='fa fa-times'></i>
+        <i className='fa fa-times'></i>
         Cancel
       `);
       console.log(err);
@@ -1179,7 +1179,7 @@ async function setvesting(){
     if(err){
       $('#btn-set-vesting-program').attr('disabled',false);
       $('#btn-set-vesting-program').html(`
-        <i class='fa fa-check mr-3'></i>
+        <i className='fa fa-check mr-3'></i>
         Set
       `);
       console.log(err);
@@ -1190,7 +1190,7 @@ async function setvesting(){
   $('#modal-vesting').modal('hide');
   $('#btn-set-vesting-program').attr('disabled',false);
   $('#btn-set-vesting-program').html(`
-    <i class='fa fa-check mr-3'></i>
+    <i className='fa fa-check mr-3'></i>
     Set
   `);
   toastr.success("Vesting Program Set");
@@ -1203,7 +1203,7 @@ async function removesale(periode) {
     if(err){
       $('#btn-set-likuidasi').attr('disabled',false);
       $('#btn-set-likuidasi').html(`
-        <i class='fa fa-check mr-3'></i>
+        <i className='fa fa-check mr-3'></i>
         Set Likuidasi
       `);
       console.log(err);
@@ -1212,7 +1212,7 @@ async function removesale(periode) {
    });
   $('#btn-remove-sale').attr('disabled',false);
   $('#btn-remove-sale').html(`
-    <i class='fa fa-times mr-3'></i>
+    <i className='fa fa-times mr-3'></i>
     Remove Sale
   `);
   $('#modal-setsale').modal('hide');
@@ -1337,8 +1337,8 @@ async function setsaleprogram(){
     if(err){
       $('#btn-set-sale-program').attr('disabled',false);
       $('#btn-set-sale-program').html(`
-        <i class='fa fa-plus mr-3'></i>
-        Set Sale <span class='set-periode'></span>
+        <i className='fa fa-plus mr-3'></i>
+        Set Sale <span className='set-periode'></span>
       `);
       console.log(err);
       return;
@@ -1348,8 +1348,8 @@ async function setsaleprogram(){
   $('#modal-setsale').modal('hide');
   $('#btn-set-sale-program').attr('disabled',false);
   $('#btn-set-sale-program').html(`
-    <i class='fa fa-plus mr-3'></i>
-    Set Seed Sale Periode <span class='set-periode'></span>
+    <i className='fa fa-plus mr-3'></i>
+    Set Seed Sale Periode <span className='set-periode'></span>
   `);
   toastr.success("Sale Program Set");
 }

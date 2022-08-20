@@ -1,3 +1,28 @@
+// const dec = document.querySelectorAll(".desc-utl");
+
+
+
+
+
+
+// console.log(dec[0]);
+
+// const btn = document.querySelectorAll(".wrap-util-li");
+
+
+// btn.forEach((element,x)=>{
+//   element.addEventListener("click",()=>{
+//     console.log(x);
+//     for(let i = 0; i<btn.length;i++){
+//       dec[i].classList.remove("selected");
+//       btn[i].classList.remove("selected");
+//     }
+//     dec[x].classList.add("selected")
+//     btn[x].classList.add("selected")
+//   })
+  
+// })
+
 const txts=document.querySelector(".animate-text").children,
           txtsLen=txts.length;
       let index=0;

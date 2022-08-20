@@ -17,7 +17,7 @@
       <image id="COIN_1_1_3x" data-name="COIN 1_1@3x" width="137.234" height="151.671" transform="matrix(0.985, -0.174, 0.174, 0.985, 0, 23.83)" xlink:href="Group%201226-image2.png"/>
     </g>
     <g id="coin-top" transform="translate(1406.927 45.891)">
-      <rect id="COIN_top" data-name="COIN top" class="cls-1" width="88.914" height="80.762"/>
+      <rect id="COIN_top" data-name="COIN top" className="cls-1" width="88.914" height="80.762"/>
     </g>
   </g>
 </svg>
