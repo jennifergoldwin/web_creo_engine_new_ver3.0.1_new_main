@@ -7,6 +7,13 @@ import bodyParser from "body-parser";
 
 const app = express();
 const port = 8000;
+const code = "UA-238166031-1";
+const url_api =
+  "https://api-dev.evermoreknights.com/hooks/creo/event/total-register";
+const urls = [
+  `https://www.google-analytics.com/collect?v=1&t=pageview&tid=${code}&cid=555&dp=%2Fekpre-registration`,
+  "https://api-dev.evermoreknights.com/hooks/creo/event/total-register",
+];
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 var listTeam = [
@@ -167,7 +174,16 @@ app.use("/public", express.static(__dirname + "/public"));
 // Set Views
 app.set("view engine", "ejs");
 
-app.get("", (req, res) => {
+app.get("", async (req, res) => {
+  await fetch(
+    `https://www.google-analytics.com/collect?v=1&t=pageview&tid=${code}&cid=555&dp=%2Fhome`,
+    {
+      headers: {
+        "user-agent":
+          "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36",
+      },
+    }
+  );
   res.render("index", {
     listTeam: listTeam,
     listGame: listGame,
@@ -184,79 +200,92 @@ app.get("/app", (req, res) => {
   res.render("app");
 });
 app.get("/ekpre-registration", (req, res) => {
-  const url_api =
-    "https://api-dev.evermoreknights.com/hooks/creo/event/total-register";
-  fetch(url_api)
-    .then((res) => res.json())
-    .then((data) => {
-      //   console.log(data.data.total);
-      totalRegister = data.data.total;
-      // totalRegister = 100000;
-      if (parseInt(totalRegister) >= 15000) {
-        gacha1 = true;
-        gacha2 = false;
-        gacha3 = false;
-        gacha4 = false;
-        gacha5 = false;
-      }
-      if (parseInt(totalRegister) >= 30000) {
-        gacha1 = true;
-        gacha2 = true;
-        gacha3 = false;
-        gacha4 = false;
-        gacha5 = false;
-      }
-      if (parseInt(totalRegister) >= 50000) {
-        gacha1 = true;
-        gacha2 = true;
-        gacha3 = true;
-        gacha4 = false;
-        gacha5 = false;
-      }
-      if (parseInt(totalRegister) >= 70000) {
-        gacha1 = true;
-        gacha2 = true;
-        gacha3 = true;
-        gacha4 = true;
-        gacha5 = false;
-      }
-      if (parseInt(totalRegister) >= 100000) {
-        gacha1 = true;
-        gacha2 = true;
-        gacha3 = true;
-        gacha4 = true;
-        gacha5 = true;
-      }
+  Promise.all(
+    urls.map((url) => {
+      if (url === url_api) {
+        fetch(url_api)
+          .then((res) => res.json())
+          .then((data) => {
+            //   console.log(data.data.total);
+            totalRegister = data.data.total;
+            // totalRegister = 100000;
+            if (parseInt(totalRegister) >= 15000) {
+              gacha1 = true;
+              gacha2 = false;
+              gacha3 = false;
+              gacha4 = false;
+              gacha5 = false;
+            }
+            if (parseInt(totalRegister) >= 30000) {
+              gacha1 = true;
+              gacha2 = true;
+              gacha3 = false;
+              gacha4 = false;
+              gacha5 = false;
+            }
+            if (parseInt(totalRegister) >= 50000) {
+              gacha1 = true;
+              gacha2 = true;
+              gacha3 = true;
+              gacha4 = false;
+              gacha5 = false;
+            }
+            if (parseInt(totalRegister) >= 70000) {
+              gacha1 = true;
+              gacha2 = true;
+              gacha3 = true;
+              gacha4 = true;
+              gacha5 = false;
+            }
+            if (parseInt(totalRegister) >= 100000) {
+              gacha1 = true;
+              gacha2 = true;
+              gacha3 = true;
+              gacha4 = true;
+              gacha5 = true;
+            }
 
-      if (parseInt(totalRegister) <= 15000) {
-        // width = (parseInt(totalRegister) / 100000) * 70;
-        // height = (parseInt(totalRegister) / 100000) * 50;
-        widthPrecentage = (parseInt(totalRegister) / 100000) * 70 + "%";
-        heightPrecentage = (parseInt(totalRegister) / 100000) * 50 + "%";
+            if (parseInt(totalRegister) <= 15000) {
+              // width = (parseInt(totalRegister) / 100000) * 70;
+              // height = (parseInt(totalRegister) / 100000) * 50;
+              widthPrecentage = (parseInt(totalRegister) / 100000) * 70 + "%";
+              heightPrecentage = (parseInt(totalRegister) / 100000) * 50 + "%";
+            } else {
+              if (parseInt(totalRegister) === 100000) {
+                heightPrecentage =
+                  (parseInt(totalRegister) / 100000) * 100 + "%";
+                // height = (parseInt(totalRegister) / 100000) * 100;
+              } else {
+                heightPrecentage =
+                  (parseInt(totalRegister) / 100000) * 96 + "%";
+                // height = (parseInt(totalRegister) / 100000) * 96;
+              }
+              widthPrecentage = (parseInt(totalRegister) / 100000) * 111 + "%";
+              // width = (parseInt(totalRegister) / 100000) * 111;
+            }
+          })
+          .finally(() => {
+            res.render("ekpre-registration", {
+              totalRegister,
+              widthPrecentage,
+              heightPrecentage,
+              gacha1,
+              gacha2,
+              gacha3,
+              gacha4,
+              gacha5,
+            });
+          });
       } else {
-        if (parseInt(totalRegister) === 100000) {
-          heightPrecentage = (parseInt(totalRegister) / 100000) * 100 + "%";
-          // height = (parseInt(totalRegister) / 100000) * 100;
-        } else {
-          heightPrecentage = (parseInt(totalRegister) / 100000) * 96 + "%";
-          // height = (parseInt(totalRegister) / 100000) * 96;
-        }
-        widthPrecentage = (parseInt(totalRegister) / 100000) * 111 + "%";
-        // width = (parseInt(totalRegister) / 100000) * 111;
+        fetch(url, {
+          headers: {
+            "user-agent":
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36",
+          },
+        });
       }
     })
-    .finally(() => {
-      res.render("ekpre-registration", {
-        totalRegister,
-        widthPrecentage,
-        heightPrecentage,
-        gacha1,
-        gacha2,
-        gacha3,
-        gacha4,
-        gacha5,
-      });
-    });
+  ).then(console.log("fetching data"));
 });
 app.post("/ekpre-registration", async (req, res) => {
   var email = req.body;
