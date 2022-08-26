@@ -175,15 +175,15 @@ app.use("/public", express.static(__dirname + "/public"));
 app.set("view engine", "ejs");
 
 app.get("", async (req, res) => {
-  await fetch(
-    `https://www.google-analytics.com/collect?v=1&t=pageview&tid=${code}&cid=555&dp=%2Fhome`,
-    {
-      headers: {
-        "user-agent":
-          "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36",
-      },
-    }
-  );
+  // await fetch(
+  //   `https://www.google-analytics.com/collect?v=1&t=pageview&tid=${code}&cid=555&dp=%2Fhome`,
+  //   {
+  //     headers: {
+  //       "user-agent":
+  //         "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36",
+  //     },
+  //   }
+  // );
   res.render("index", {
     listTeam: listTeam,
     listGame: listGame,
@@ -277,12 +277,12 @@ app.get("/ekpre-registration", (req, res) => {
             });
           });
       } else {
-        fetch(url, {
-          headers: {
-            "user-agent":
-              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36",
-          },
-        });
+        // fetch(url, {
+        //   headers: {
+        //     "user-agent":
+        //       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36",
+        //   },
+        // });
       }
     })
   ).then(console.log("fetching data"));
