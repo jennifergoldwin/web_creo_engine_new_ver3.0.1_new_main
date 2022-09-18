@@ -4,9 +4,15 @@ import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
 import bodyParser from "body-parser";
+// const express = require("express");
+// const { default: fetch } = require("node-fetch");
+// var cors = require("cors");
+// const app = express();
+// const port = 3000;
+// const bodyParser = require("body-parser");
 
-const app = express();
-const port = 8000;
+// const app = express();
+// const port = 3000;
 const code = "UA-238166031-1";
 const url_api =
   "https://api-dev.evermoreknights.com/hooks/creo/event/total-register";
