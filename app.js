@@ -12,7 +12,7 @@ import bodyParser from "body-parser";
 // const bodyParser = require("body-parser");
 
 // const app = express();
-// const port = 3000;
+const port = 3000;
 const code = "UA-238166031-1";
 const url_api =
   "https://api-dev.evermoreknights.com/hooks/creo/event/total-register";
