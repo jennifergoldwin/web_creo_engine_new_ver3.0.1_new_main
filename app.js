@@ -11,7 +11,7 @@ import bodyParser from "body-parser";
 // const port = 3000;
 // const bodyParser = require("body-parser");
 
-// const app = express();
+const app = express();
 const port = 3000;
 const code = "UA-238166031-1";
 const url_api =
