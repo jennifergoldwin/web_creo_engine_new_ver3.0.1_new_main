@@ -331,11 +331,11 @@ app.post("/ekpre-registration", async (req, res) => {
           html: `
             <div>
             <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
-              Dear, Commissioner<br/><br/>
+              Dear Commissioner,<br/><br/>
               Thank you for participating in Evermore Knights Pre-registration!<br/><br/>
-              In-game bonuses will be mailed to you upon the release of the game. Don't forget to claim them when the time comes!<br/>
+              In-game bonuses will be mailed to you upon the release of the game. Don't forget to claim them when the time comes!<br/><br/>
               We eagerly look forward to your journey with us in the game.<br/><br/>
-              Sincerely,<br/>
+              Sincerely,<br/><br/>
               Evermore Knights Community Team
             </p>
             </div>
