@@ -1,16 +1,22 @@
 // Imports
-import fetch from "node-fetch";
-import express from "express";
-import path from "path";
-import { fileURLToPath } from "url";
-import bodyParser from "body-parser";
-// const express = require("express");
-// const { default: fetch } = require("node-fetch");
-// var cors = require("cors");
-// const app = express();
-// const port = 3000;
-// const bodyParser = require("body-parser");
+// import fetch from "node-fetch";
+// import express from "express";
+// import path from "path";
+// import { fileURLToPath } from "url";
+// import bodyParser from "body-parser";
+// import nodemailer from "nodemailer";
+// import dotenv from "dotenv";
 
+const express = require("express");
+const { default: fetch } = require("node-fetch");
+var cors = require("cors");
+const bodyParser = require("body-parser");
+const dotenv = require("dotenv");
+const path = require("path");
+const url = require("url");
+const nodemailer = require("nodemailer");
+
+dotenv.config();
 const app = express();
 const port = 3000;
 const code = "UA-238166031-1";
@@ -295,7 +301,6 @@ app.get("/ekpre-registration", (req, res) => {
 });
 app.post("/ekpre-registration", async (req, res) => {
   var email = req.body;
-  console.log(email);
   var resJson = "";
   fetch("https://api-dev.evermoreknights.com/hooks/creo/event/pre-register", {
     method: "POST",
@@ -306,9 +311,48 @@ app.post("/ekpre-registration", async (req, res) => {
   })
     .then((res) => res.json())
     .then((data) => {
-      console.log(data.message);
-      console.log(data);
+      console.log(req.body.email);
+      console.log(data.status);
       resJson = data;
+      if (data.status) {
+        var transporter = nodemailer.createTransport({
+          service: "Gmail",
+          auth: {
+            user: "contact@creoengine.com",
+            pass: process.env.APP_PASSWORD,
+          },
+        });
+
+        var emailOptions = {
+          from: "contact@creoengine.com",
+          // to: req.body.email,
+          to: "jennifergoldwinn25@gmail.com",
+          subject: "Evermore Knights Pre-Registration Succeed",
+          html: `
+            <div>
+            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+              Dear, Commissioner<br/><br/>
+              Thank you for participating in Evermore Knights Pre-registration!<br/><br/>
+              In-game bonuses will be mailed to you upon the release of the game. Don't forget to claim them when the time comes!<br/>
+              We eagerly look forward to your journey with us in the game.<br/><br/>
+              Sincerely,<br/>
+              Evermore Knights Community Team
+            </p>
+            </div>
+          `,
+        };
+
+        transporter.sendMail(emailOptions, (error, info) => {
+          if (error) {
+            console.log("test " + error);
+            // res.redirect('/contact_send');
+          } else {
+            console.log("Message Sent: " + info.response);
+            console.log("Email Message: " + emailMessage);
+            // res.redirect('/contact_error');
+          }
+        });
+      }
     })
     .finally(() => {
       res.json(resJson);
