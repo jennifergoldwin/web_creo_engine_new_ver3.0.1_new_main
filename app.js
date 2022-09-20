@@ -1,33 +1,18 @@
 // Imports
-// import fetch from "node-fetch";
-// import express from "express";
-// import path from "path";
-// import { fileURLToPath } from "url";
-// import bodyParser from "body-parser";
-// import nodemailer from "nodemailer";
-// import dotenv from "dotenv";
-
-const express = require("express");
-const { default: fetch } = require("node-fetch");
-var cors = require("cors");
-const bodyParser = require("body-parser");
-const dotenv = require("dotenv");
-const path = require("path");
-const url = require("url");
-const nodemailer = require("nodemailer");
+import fetch from "node-fetch";
+import express from "express";
+import path from "path";
+import { fileURLToPath } from "url";
+import bodyParser from "body-parser";
+import nodemailer from "nodemailer";
+import dotenv from "dotenv";
 
 dotenv.config();
 const app = express();
 const port = 3000;
-const code = "UA-238166031-1";
-const url_api =
-  "https://api-dev.evermoreknights.com/hooks/creo/event/total-register";
-const urls = [
-  `https://www.google-analytics.com/collect?v=1&t=pageview&tid=${code}&cid=555&dp=%2Fekpre-registration`,
-  "https://api-dev.evermoreknights.com/hooks/creo/event/total-register",
-];
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
 var listTeam = [
   {
     url: "/public/assets/team/JAVIER.png",
@@ -186,16 +171,7 @@ app.use("/public", express.static(__dirname + "/public"));
 // Set Views
 app.set("view engine", "ejs");
 
-app.get("", async (req, res) => {
-  // await fetch(
-  //   `https://www.google-analytics.com/collect?v=1&t=pageview&tid=${code}&cid=555&dp=%2Fhome`,
-  //   {
-  //     headers: {
-  //       "user-agent":
-  //         "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36",
-  //     },
-  //   }
-  // );
+app.get("", (req, res) => {
   res.render("index", {
     listTeam: listTeam,
     listGame: listGame,
@@ -211,96 +187,93 @@ app.get("/admns", (req, res) => {
 app.get("/app", (req, res) => {
   res.render("app");
 });
+app.get("/ar", (req, res) => {
+  res.render("ar");
+});
+app.get("/ar2", (req, res) => {
+  res.render("ar2");
+});
+app.get("/vr", (req, res) => {
+  res.render("vr");
+});
 app.get("/ekpre-registration", (req, res) => {
-  Promise.all(
-    urls.map((url) => {
-      if (url === url_api) {
-        fetch(url_api)
-          .then((res) => res.json())
-          .then((data) => {
-            //   console.log(data.data.total);
-            totalRegister = data.data.total;
-            // totalRegister = 100000;
-            if (parseInt(totalRegister) >= 15000) {
-              gacha1 = true;
-              gacha2 = false;
-              gacha3 = false;
-              gacha4 = false;
-              gacha5 = false;
-            }
-            if (parseInt(totalRegister) >= 30000) {
-              gacha1 = true;
-              gacha2 = true;
-              gacha3 = false;
-              gacha4 = false;
-              gacha5 = false;
-            }
-            if (parseInt(totalRegister) >= 50000) {
-              gacha1 = true;
-              gacha2 = true;
-              gacha3 = true;
-              gacha4 = false;
-              gacha5 = false;
-            }
-            if (parseInt(totalRegister) >= 70000) {
-              gacha1 = true;
-              gacha2 = true;
-              gacha3 = true;
-              gacha4 = true;
-              gacha5 = false;
-            }
-            if (parseInt(totalRegister) >= 100000) {
-              gacha1 = true;
-              gacha2 = true;
-              gacha3 = true;
-              gacha4 = true;
-              gacha5 = true;
-            }
+  const url_api =
+    "https://api-dev.evermoreknights.com/hooks/creo/event/total-register";
+  fetch(url_api)
+    .then((res) => res.json())
+    .then((data) => {
+      //   console.log(data.data.total);
+      totalRegister = data.data.total;
+      // totalRegister = 100000;
+      if (parseInt(totalRegister) >= 15000) {
+        gacha1 = true;
+        gacha2 = false;
+        gacha3 = false;
+        gacha4 = false;
+        gacha5 = false;
+      }
+      if (parseInt(totalRegister) >= 30000) {
+        gacha1 = true;
+        gacha2 = true;
+        gacha3 = false;
+        gacha4 = false;
+        gacha5 = false;
+      }
+      if (parseInt(totalRegister) >= 50000) {
+        gacha1 = true;
+        gacha2 = true;
+        gacha3 = true;
+        gacha4 = false;
+        gacha5 = false;
+      }
+      if (parseInt(totalRegister) >= 70000) {
+        gacha1 = true;
+        gacha2 = true;
+        gacha3 = true;
+        gacha4 = true;
+        gacha5 = false;
+      }
+      if (parseInt(totalRegister) >= 100000) {
+        gacha1 = true;
+        gacha2 = true;
+        gacha3 = true;
+        gacha4 = true;
+        gacha5 = true;
+      }
 
-            if (parseInt(totalRegister) <= 15000) {
-              // width = (parseInt(totalRegister) / 100000) * 70;
-              // height = (parseInt(totalRegister) / 100000) * 50;
-              widthPrecentage = (parseInt(totalRegister) / 100000) * 70 + "%";
-              heightPrecentage = (parseInt(totalRegister) / 100000) * 50 + "%";
-            } else {
-              if (parseInt(totalRegister) === 100000) {
-                heightPrecentage =
-                  (parseInt(totalRegister) / 100000) * 100 + "%";
-                // height = (parseInt(totalRegister) / 100000) * 100;
-              } else {
-                heightPrecentage =
-                  (parseInt(totalRegister) / 100000) * 96 + "%";
-                // height = (parseInt(totalRegister) / 100000) * 96;
-              }
-              widthPrecentage = (parseInt(totalRegister) / 100000) * 111 + "%";
-              // width = (parseInt(totalRegister) / 100000) * 111;
-            }
-          })
-          .finally(() => {
-            res.render("ekpre-registration", {
-              totalRegister,
-              widthPrecentage,
-              heightPrecentage,
-              gacha1,
-              gacha2,
-              gacha3,
-              gacha4,
-              gacha5,
-            });
-          });
+      if (parseInt(totalRegister) <= 15000) {
+        // width = (parseInt(totalRegister) / 100000) * 70;
+        // height = (parseInt(totalRegister) / 100000) * 50;
+        widthPrecentage = (parseInt(totalRegister) / 100000) * 70 + "%";
+        heightPrecentage = (parseInt(totalRegister) / 100000) * 50 + "%";
       } else {
-        // fetch(url, {
-        //   headers: {
-        //     "user-agent":
-        //       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36",
-        //   },
-        // });
+        if (parseInt(totalRegister) === 100000) {
+          heightPrecentage = (parseInt(totalRegister) / 100000) * 100 + "%";
+          // height = (parseInt(totalRegister) / 100000) * 100;
+        } else {
+          heightPrecentage = (parseInt(totalRegister) / 100000) * 96 + "%";
+          // height = (parseInt(totalRegister) / 100000) * 96;
+        }
+        widthPrecentage = (parseInt(totalRegister) / 100000) * 111 + "%";
+        // width = (parseInt(totalRegister) / 100000) * 111;
       }
     })
-  ).then(console.log("fetching data"));
+    .finally(() => {
+      res.render("ekpre-registration", {
+        totalRegister,
+        widthPrecentage,
+        heightPrecentage,
+        gacha1,
+        gacha2,
+        gacha3,
+        gacha4,
+        gacha5,
+      });
+    });
 });
 app.post("/ekpre-registration", async (req, res) => {
   var email = req.body;
+  console.log(email);
   var resJson = "";
   fetch("https://api-dev.evermoreknights.com/hooks/creo/event/pre-register", {
     method: "POST",
@@ -311,33 +284,32 @@ app.post("/ekpre-registration", async (req, res) => {
   })
     .then((res) => res.json())
     .then((data) => {
-      console.log(req.body.email);
-      console.log(data.status);
+      console.log(data.message);
+      console.log(data);
       resJson = data;
       if (data.status) {
         var transporter = nodemailer.createTransport({
           service: "Gmail",
           auth: {
             user: "contact@creoengine.com",
-            pass: process.env.APP_PASSWORD,
+            pass: "exhyjrywanpqjaft",
           },
         });
 
         var emailOptions = {
           from: "contact@creoengine.com",
-          // to: req.body.email,
-          to: "jennifergoldwinn25@gmail.com",
+          to: req.body.email,
           subject: "Evermore Knights Pre-Registration Succeed",
           html: `
             <div>
-            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
-              Dear Commissioner,<br/><br/>
-              Thank you for participating in Evermore Knights Pre-registration!<br/><br/>
-              In-game bonuses will be mailed to you upon the release of the game. Don't forget to claim them when the time comes!<br/><br/>
-              We eagerly look forward to your journey with us in the game.<br/><br/>
-              Sincerely,<br/><br/>
-              Evermore Knights Community Team
-            </p>
+              <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                Dear Commissioner,<br/><br/>
+                Thank you for participating in Evermore Knights Pre-registration!<br/><br/>
+                In-game bonuses will be mailed to you upon the release of the game. Don't forget to claim them when the time comes!<br/><br/>
+                We eagerly look forward to your journey with us in the game.<br/><br/>
+                Sincerely,<br/><br/>
+                Evermore Knights Community Team
+              </p>
             </div>
           `,
         };
@@ -358,6 +330,25 @@ app.post("/ekpre-registration", async (req, res) => {
       res.json(resJson);
     });
 });
+
+app.get("/info/total_circulating", (req, res) => {
+  // var tokensale=10412576;
+  var tokensale = 30463031;
+  var tge = 4226322;
+  var mm = 3500000;
+  var liquidity = 10000000;
+  var total = tge + mm + liquidity;
+  res.render("circulation", { total: tokensale });
+});
+app.get("/info/total_supply", (req, res) => {
+  // var tokensale=4912576;
+  // var tge=4226322;
+  // var mm=3500000;
+  // var liquidity=10000000;
+  // var total=tge+mm+liquidity;
+  res.render("totalsupply", { total: "998425261.469345" });
+});
+
 // app.get("/logo",(req,res)=>{
 //     res.send('/public/assets/logo_creo.png')
 // });
