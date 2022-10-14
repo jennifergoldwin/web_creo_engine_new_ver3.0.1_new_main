@@ -1,6 +1,6 @@
 // Imports
 import fetch from "node-fetch";
-import express from "express";
+import express, { response } from "express";
 import path from "path";
 import { fileURLToPath } from "url";
 import bodyParser from "body-parser";
@@ -197,110 +197,144 @@ app.get("/vr", (req, res) => {
   res.render("vr");
 });
 app.get("/ekpre-registration", (req, res) => {
+  var responseClone = "";
   const url_api =
     "https://api-dev.evermoreknights.com/hooks/creo/event/total-register";
-  fetch(url_api)
-    .then((res) => res.json())
-    .then((data) => {
-      //   console.log(data.data.total);
-      totalRegister = data.data.total;
-      // totalRegister = 100000;
-      if (parseInt(totalRegister) >= 15000) {
-        gacha1 = true;
-        gacha2 = false;
-        gacha3 = false;
-        gacha4 = false;
-        gacha5 = false;
-      }
-      if (parseInt(totalRegister) >= 30000) {
-        gacha1 = true;
-        gacha2 = true;
-        gacha3 = false;
-        gacha4 = false;
-        gacha5 = false;
-      }
-      if (parseInt(totalRegister) >= 50000) {
-        gacha1 = true;
-        gacha2 = true;
-        gacha3 = true;
-        gacha4 = false;
-        gacha5 = false;
-      }
-      if (parseInt(totalRegister) >= 70000) {
-        gacha1 = true;
-        gacha2 = true;
-        gacha3 = true;
-        gacha4 = true;
-        gacha5 = false;
-      }
-      if (parseInt(totalRegister) >= 100000) {
-        gacha1 = true;
-        gacha2 = true;
-        gacha3 = true;
-        gacha4 = true;
-        gacha5 = true;
-      }
 
-      if (parseInt(totalRegister) <= 15000) {
-        // width = (parseInt(totalRegister) / 100000) * 70;
-        // height = (parseInt(totalRegister) / 100000) * 50;
-        widthPrecentage = (parseInt(totalRegister) / 100000) * 70 + "%";
-        heightPrecentage = (parseInt(totalRegister) / 100000) * 50 + "%";
-      } else {
-        if (parseInt(totalRegister) === 100000) {
-          heightPrecentage = (parseInt(totalRegister) / 100000) * 100 + "%";
-          // height = (parseInt(totalRegister) / 100000) * 100;
-        } else {
-          heightPrecentage = (parseInt(totalRegister) / 100000) * 96 + "%";
-          // height = (parseInt(totalRegister) / 100000) * 96;
-        }
-        widthPrecentage = (parseInt(totalRegister) / 100000) * 111 + "%";
-        // width = (parseInt(totalRegister) / 100000) * 111;
-      }
+  try {
+    fetch(url_api, {
+      headers: {
+        "Content-Type": "application/json",
+      },
     })
-    .finally(() => {
-      res.render("ekpre-registration", {
-        totalRegister,
-        widthPrecentage,
-        heightPrecentage,
-        gacha1,
-        gacha2,
-        gacha3,
-        gacha4,
-        gacha5,
+      .then((res) => {
+        responseClone = res.clone();
+        return res.json();
+      })
+      .then(
+        (data) => {
+          //   console.log(data.data.total);
+          totalRegister = data.data.total;
+          // totalRegister = 100000;
+          if (parseInt(totalRegister) >= 15000) {
+            gacha1 = true;
+            gacha2 = false;
+            gacha3 = false;
+            gacha4 = false;
+            gacha5 = false;
+          }
+          if (parseInt(totalRegister) >= 30000) {
+            gacha1 = true;
+            gacha2 = true;
+            gacha3 = false;
+            gacha4 = false;
+            gacha5 = false;
+          }
+          if (parseInt(totalRegister) >= 50000) {
+            gacha1 = true;
+            gacha2 = true;
+            gacha3 = true;
+            gacha4 = false;
+            gacha5 = false;
+          }
+          if (parseInt(totalRegister) >= 70000) {
+            gacha1 = true;
+            gacha2 = true;
+            gacha3 = true;
+            gacha4 = true;
+            gacha5 = false;
+          }
+          if (parseInt(totalRegister) >= 100000) {
+            gacha1 = true;
+            gacha2 = true;
+            gacha3 = true;
+            gacha4 = true;
+            gacha5 = true;
+          }
+
+          if (parseInt(totalRegister) <= 15000) {
+            // width = (parseInt(totalRegister) / 100000) * 70;
+            // height = (parseInt(totalRegister) / 100000) * 50;
+            widthPrecentage = (parseInt(totalRegister) / 100000) * 70 + "%";
+            heightPrecentage = (parseInt(totalRegister) / 100000) * 50 + "%";
+          } else {
+            if (parseInt(totalRegister) === 100000) {
+              heightPrecentage = (parseInt(totalRegister) / 100000) * 100 + "%";
+              // height = (parseInt(totalRegister) / 100000) * 100;
+            } else {
+              heightPrecentage = (parseInt(totalRegister) / 100000) * 96 + "%";
+              // height = (parseInt(totalRegister) / 100000) * 96;
+            }
+            widthPrecentage = (parseInt(totalRegister) / 100000) * 111 + "%";
+            // width = (parseInt(totalRegister) / 100000) * 111;
+          }
+        },
+        (rejectionReason) => {
+          console.log(
+            "Error parsing JSON from response:",
+            rejectionReason,
+            responseClone
+          ); // 4
+          responseClone
+            .text() // 5
+            .then(function (bodyText) {
+              console.log(
+                "Received the following instead of valid JSON:",
+                bodyText
+              ); // 6
+            });
+        }
+      )
+      .finally(() => {
+        res.render("ekpre-registration", {
+          totalRegister,
+          widthPrecentage,
+          heightPrecentage,
+          gacha1,
+          gacha2,
+          gacha3,
+          gacha4,
+          gacha5,
+        });
       });
-    });
+  } catch (error) {
+    console.log(error);
+  }
 });
 app.post("/ekpre-registration", async (req, res) => {
   var email = req.body;
+  var responseClone = "";
   console.log(email);
   var resJson = "";
-  fetch("https://api-dev.evermoreknights.com/hooks/creo/event/pre-register", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(email),
-  })
-    .then((res) => res.json())
-    .then((data) => {
-      console.log(data.message);
-      console.log(data);
-      resJson = data;
-      if (data.status) {
-        var transporter = nodemailer.createTransport({
-          service: "Gmail",
-          auth: {
-            user: "contact@creoengine.com",
-            pass: "exhyjrywanpqjaft",
-          },
-        });
+  try {
+    fetch("https://api-dev.evermoreknights.com/hooks/creo/event/pre-register", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(email),
+    })
+      .then((res) => {
+        responseClone = res.clone();
+        return res.json();
+      })
+      .then(
+        (data) => {
+          resJson = data;
+          if (data.status) {
+            var transporter = nodemailer.createTransport({
+              service: "Gmail",
+              auth: {
+                user: "contact@creoengine.com",
+                pass: "exhyjrywanpqjaft",
+              },
+            });
 
-        var emailOptions = {
-          from: "contact@creoengine.com",
-          to: req.body.email,
-          subject: "Evermore Knights Pre-Registration Succeed",
-          html: `
+            var emailOptions = {
+              from: "contact@creoengine.com",
+              to: req.body.email,
+              subject: "Evermore Knights Pre-Registration Succeed",
+              html: `
             <div>
               <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
                 Dear Commissioner,<br/><br/>
@@ -312,23 +346,40 @@ app.post("/ekpre-registration", async (req, res) => {
               </p>
             </div>
           `,
-        };
+            };
 
-        transporter.sendMail(emailOptions, (error, info) => {
-          if (error) {
-            console.log("test " + error);
-            // res.redirect('/contact_send');
-          } else {
-            console.log("Message Sent: " + info.response);
-            console.log("Email Message: " + emailMessage);
-            // res.redirect('/contact_error');
+            transporter.sendMail(emailOptions, (error, info) => {
+              if (error) {
+                console.log("test " + error);
+                // res.redirect('/contact_send');
+              } else {
+                console.log("Message Sent: " + info.response);
+                console.log("Email Message: " + emailMessage);
+                // res.redirect('/contact_error');
+              }
+            });
           }
-        });
-      }
-    })
-    .finally(() => {
-      res.json(resJson);
-    });
+        },
+        (rejectionReason) => {
+          console.log(
+            "Error parsing JSON from response:",
+            rejectionReason,
+            responseClone
+          ); // 4
+          responseClone.text().then(function (bodyText) {
+            console.log(
+              "Received the following instead of valid JSON:",
+              bodyText
+            ); // 6
+          });
+        }
+      )
+      .finally(() => {
+        res.json(resJson);
+      });
+  } catch (error) {
+    console.log(error);
+  }
 });
 
 app.get("/info/total_circulating", (req, res) => {
