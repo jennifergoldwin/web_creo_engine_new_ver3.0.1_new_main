@@ -1572,7 +1572,7 @@ section{
 
 /*--------TEAM MEMBER--------------*/
 .wrap-team-member-container{
-    display: grid; grid-column: auto;  grid-template-columns: repeat(6, 1fr); padding-top: 2rem;
+    display: grid; grid-column: auto;  grid-template-columns: repeat(5, 1fr); padding-top: 2rem;
 }
 .wrap-advisor-member-container{
     display: grid; grid-column: auto;  grid-template-columns: 20% 20% 20%; justify-content: center; 
