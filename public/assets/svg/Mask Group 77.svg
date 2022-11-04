@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1566" height="1154" viewBox="0 0 1566 1154">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.656" stop-color="#d9d9d9"/>
+      <stop offset="1" stop-color="#d9d9d9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="1" x2="0.584" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#687794"/>
+      <stop offset="1" stop-color="#525d74" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1177" data-name="Rectangle 1177" width="1566" height="1154" transform="translate(-9956 13476)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <pattern id="pattern" width="1" height="1" viewBox="0.181 59.26 650.232 750.691">
+      <image preserveAspectRatio="none" width="650.594" height="1007.003" xlink:href="Mask%20Group%2077-image.png"/>
+    </pattern>
+    <pattern id="pattern-2" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1402 1096">
+      <image width="1402" height="1096" xlink:href="Mask%20Group%2077-image2.png"/>
+    </pattern>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_15" data-name="Rectangle 15" width="738.387" height="707.267" transform="translate(1980.682 764.267) rotate(180)" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <pattern id="pattern-3" width="1" height="1" viewBox="3.896 0.33 734.446 892.177">
+      <image preserveAspectRatio="none" width="742.465" height="882.003" xlink:href="Mask%20Group%2077-image3.png"/>
+    </pattern>
+    <pattern id="pattern-4" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1567 1400">
+      <image width="1567" height="1400" xlink:href="Mask%20Group%2077-image4.png"/>
+    </pattern>
+    <clipPath id="clip-path-3">
+      <path id="Vector" d="M454.116,0,.891-.4-34.6,55.143,0,107.373H454.116L497.745,53.68Z" transform="matrix(1, 0, 0, 1, 0, 0)" fill="url(#linear-gradient-2)"/>
+    </clipPath>
+    <pattern id="pattern-5" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 617 259">
+      <image width="617" height="259" xlink:href="Mask%20Group%2077-image5.png"/>
+    </pattern>
+    <filter id="JOIN_NOW" x="437.449" y="495.572" width="638" height="134" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Mask_Group_77" data-name="Mask Group 77" transform="translate(9956 -13476)" clip-path="url(#clip-path)">
+    <g id="Group_2238" data-name="Group 2238" transform="translate(-10022 13641.717)">
+      <rect id="_0000s_0006_curtis_1" data-name="_0000s_0006_curtis 1" width="650.594" height="869.695" transform="translate(67.656 -147.707)" fill="url(#pattern)"/>
+      <rect id="_0000s_0004_teen-female" width="707.737" height="553.066" transform="translate(-86.598 478.23) rotate(-13.709)" fill="url(#pattern-2)"/>
+      <g id="Mask_group" data-name="Mask group" transform="translate(-163.551 -223)">
+        <g id="Rectangle_15-2" data-name="Rectangle 15" transform="translate(-65)" clip-path="url(#clip-path-2)">
+          <rect id="_0000s_0002_Astra_2" data-name="_0000s_0002_Astra 2" width="734.222" height="882.003" transform="translate(1223.095 149.81) rotate(-9.799)" fill="url(#pattern-3)"/>
+        </g>
+      </g>
+      <rect id="_0000s_0003_Adult-male_1" data-name="_0000s_0003_Adult-male 1" width="735" height="654" transform="translate(1013.744 336.019)" fill="url(#pattern-4)"/>
+      <g id="Group_2236" data-name="Group 2236" transform="translate(-102.551 -187.234)">
+        <g id="Group_3072" data-name="Group 3072" transform="translate(43.625 -1384.095)">
+          <g id="Group_3071" data-name="Group 3071" transform="translate(531.589 2056)">
+            <g id="Rectangle_7" data-name="Rectangle 7" fill="#012845">
+              <path d="M 735.923095703125 109.3730239868164 L 734.9642944335938 109.3730239868164 L -1.249999968422344e-05 109.3730239868164 L -1.05831253528595 109.3730239868164 L -1.653612494468689 108.4980239868164 L -37.32741165161133 56.05952453613281 L -38.07521438598633 54.96022415161133 L -37.35121154785156 53.84522247314453 L -1.677412509918213 -1.089276552200317 L -1.085912466049194 -1.999976515769958 L -1.249999968422344e-05 -1.999976515769958 L 734.9642944335938 -1.999976515769958 L 736.0151977539062 -1.999976515769958 L 736.6112670898438 -1.134576559066772 L 776.43017578125 56.66812515258789 L 777.27490234375 57.89432525634766 L 776.3424072265625 59.05522155761719 L 736.5234985351562 108.6255264282227 L 735.923095703125 109.3730239868164 Z" stroke="none"/>
+              <path d="M 0 -3.0517578125e-05 L -35.67388916015625 54.93452453613281 L 0 107.3730773925781 L 734.9642333984375 107.3730773925781 L 774.7832641601562 57.8027458190918 L 734.9642333984375 -3.0517578125e-05 L 0 -3.0517578125e-05 M -2.171875 -4.000030517578125 L 737.0660400390625 -4.000030517578125 L 779.7666625976562 57.98596954345703 L 736.8817749023438 111.3730773925781 L -2.11663818359375 111.3730773925781 L -40.47674560546875 54.98596954345703 L -2.171875 -4.000030517578125 Z" stroke="none" fill="#e1c268"/>
+            </g>
+            <g id="Mask_group-2" data-name="Mask group" transform="translate(-1)" opacity="0.4">
+              <g id="Vector-2" data-name="Vector" clip-path="url(#clip-path-3)">
+                <g id="Group_1537" data-name="Group 1537" transform="translate(-156.321 -160.356)">
+                  <g id="Group" transform="translate(67.064 90.624)">
+                    <path id="Vector-3" data-name="Vector" d="M188.231,93.567c0,51.676-42.137,93.567-94.116,93.567S0,145.243,0,93.567,42.137,0,94.116,0s94.116,41.891,94.116,93.567Z" transform="translate(10.048 192.215) rotate(-75)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-4" data-name="Vector" d="M493.315,2041.044l35.735,61.687-61.479,35.375-35.735-61.687Z" transform="translate(-431.836 -1984.694)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-5" data-name="Vector" d="M575.559,2086.8l20.707,35.746-35.625,20.5L539.934,2107.3Z" transform="translate(-443.211 -1989.509)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-6" data-name="Vector" d="M601.658,1978.067l35.735,61.687-61.479,35.375-35.735-61.687Z" transform="translate(-443.236 -1978.067)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-7" data-name="Vector" d="M555.654,2149.775l35.735,61.687-61.479,35.375-35.735-61.687Z" transform="translate(-438.396 -1996.135)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-8" data-name="Vector" d="M664.029,2086.783l35.735,61.687-61.479,35.375-35.735-61.687Z" transform="translate(-449.799 -1989.507)" fill="#fff" opacity="0.3"/>
+                  </g>
+                  <g id="Group-2" data-name="Group" transform="translate(316.677 157.507)">
+                    <path id="Vector-9" data-name="Vector" d="M188.231,93.567c0,51.676-42.137,93.567-94.116,93.567S0,145.243,0,93.567,42.137,0,94.116,0s94.116,41.891,94.116,93.567Z" transform="translate(10.048 192.215) rotate(-75)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-10" data-name="Vector" d="M772.282,2115.789l35.735,61.687-61.479,35.375L710.8,2151.164Z" transform="translate(-710.804 -2059.442)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-11" data-name="Vector" d="M854.528,2161.552l20.707,35.746-35.625,20.5L818.9,2182.051Z" transform="translate(-722.178 -2064.257)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-12" data-name="Vector" d="M880.625,2052.815,916.36,2114.5l-61.479,35.375-35.735-61.687Z" transform="translate(-722.204 -2052.815)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-13" data-name="Vector" d="M834.622,2224.523l35.735,61.687-61.479,35.375L773.143,2259.9Z" transform="translate(-717.363 -2070.883)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-14" data-name="Vector" d="M943,2161.532l35.735,61.687-61.479,35.375-35.735-61.687Z" transform="translate(-728.767 -2064.255)" fill="#fff" opacity="0.3"/>
+                  </g>
+                  <g id="Group-3" data-name="Group" transform="translate(158.437 249.603)">
+                    <path id="Vector-15" data-name="Vector" d="M187.134,93.567A93.567,93.567,0,1,1,93.567,0a93.567,93.567,0,0,1,93.567,93.567Z" transform="translate(10.179 190.953) rotate(-75)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-16" data-name="Vector" d="M0,0H70.9V70.9H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 61.403, 55.897)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-17" data-name="Vector" d="M0,0H41.086V41.086H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 132.302, 96.73)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-18" data-name="Vector" d="M0,0H70.9V70.9H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 158.226, 0)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-19" data-name="Vector" d="M0,0H70.9V70.9H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 117.301, 152.744)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-20" data-name="Vector" d="M0,0H70.9V70.9H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 214.139, 96.826)" fill="#fff" opacity="0.3"/>
+                  </g>
+                  <g id="Group-4" data-name="Group" transform="translate(225.311)">
+                    <path id="Vector-21" data-name="Vector" d="M187.134,93.567A93.567,93.567,0,1,1,93.567,0a93.567,93.567,0,0,1,93.567,93.567Z" transform="translate(10.179 190.953) rotate(-75)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-22" data-name="Vector" d="M0,0H70.9V70.9H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 61.403, 55.906)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-23" data-name="Vector" d="M0,0H41.086V41.086H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 132.302, 96.73)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-24" data-name="Vector" d="M0,0H70.9V70.9H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 158.21, 0)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-25" data-name="Vector" d="M0,0H70.9V70.9H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 117.285, 152.744)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-26" data-name="Vector" d="M0,0H70.9V70.9H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 214.138, 96.835)" fill="#fff" opacity="0.3"/>
+                  </g>
+                  <g id="Group-5" data-name="Group" transform="translate(310.663 373.321)">
+                    <path id="Vector-27" data-name="Vector" d="M187.134,93.567A93.567,93.567,0,1,1,93.567,0a93.567,93.567,0,0,1,93.567,93.567Z" transform="translate(10.194 190.959) rotate(-75)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-28" data-name="Vector" d="M0,0H70.9V70.9H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 61.403, 55.9)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-29" data-name="Vector" d="M0,0H41.086V41.086H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 132.303, 96.733)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-30" data-name="Vector" d="M0,0H70.9V70.9H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 158.227, 0)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-31" data-name="Vector" d="M0,0H70.9V70.9H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 117.301, 152.744)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-32" data-name="Vector" d="M0,0H70.9V70.9H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 214.139, 96.826)" fill="#fff" opacity="0.3"/>
+                  </g>
+                  <g id="Group-6" data-name="Group" transform="translate(0 341.694)">
+                    <path id="Vector-33" data-name="Vector" d="M187.134,93.567A93.567,93.567,0,1,1,93.567,0a93.567,93.567,0,0,1,93.567,93.567Z" transform="translate(10.194 190.953) rotate(-75)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-34" data-name="Vector" d="M0,0H70.9V70.9H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 61.403, 55.899)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-35" data-name="Vector" d="M0,0H41.086V41.086H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 132.303, 96.73)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-36" data-name="Vector" d="M0,0H70.9V70.9H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 158.227, 0)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-37" data-name="Vector" d="M0,0H70.9V70.9H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 117.301, 152.744)" fill="#fff" opacity="0.3"/>
+                    <path id="Vector-38" data-name="Vector" d="M0,0H70.9V70.9H0Z" transform="matrix(0.5, 0.866, -0.866, 0.5, 214.139, 96.826)" fill="#fff" opacity="0.3"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <text id="Evermore_Knights_CBT_starts_on:_1st_November_2022_at_8_AM_UTC_" data-name="Evermore Knights CBT starts on:
+1st November, 2022 at 8 AM UTC!" transform="translate(575.215 689.498)" fill="#fff" font-size="22" font-family="Lato-Regular, Lato"><tspan x="210.695" y="22">Evermore Knights CBT starts on:</tspan><tspan font-size="32" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="121.621" y="59">1st November, 2022 at 8 AM UTC!</tspan></tspan></text>
+        <g id="Group_2234" data-name="Group 2234" transform="translate(21023.744 -6263)">
+          <path id="Path_3122" data-name="Path 3122" d="M-20470.961,6978.321l-11.207,11.718,11.207,12.34,9.217-12.34Z" fill="#e1c268"/>
+          <path id="Path_3123" data-name="Path 3123" d="M-20484.41,6963l13.326,6.878-13.326,20.285,13.377,18.917-13.377,8.232v-8.718l-18.807-18.432,18.807-19.677Z" fill="#e1c268"/>
+          <path id="Path_3124" data-name="Path 3124" d="M-20503.217,6990.156l-9.457-8.963-15.566,8.963,15.566,9.22Z" fill="#e1c268"/>
+        </g>
+        <g id="Group_2235" data-name="Group 2235" transform="translate(-19135.242 7717.313) rotate(180)">
+          <path id="Path_3122-2" data-name="Path 3122" d="M-20470.961,6978.321l-11.207,11.718,11.207,12.34,9.217-12.34Z" fill="#e1c268"/>
+          <path id="Path_3123-2" data-name="Path 3123" d="M-20484.41,6963l13.326,6.878-13.326,20.285,13.377,18.917-13.377,8.232v-8.718l-18.807-18.432,18.807-19.677Z" fill="#e1c268"/>
+          <path id="Path_3124-2" data-name="Path 3124" d="M-20503.217,6990.156l-9.457-8.963-15.566,8.963,15.566,9.22Z" fill="#e1c268"/>
+        </g>
+      </g>
+      <rect id="Evermore_Knight_Logo_Blue_Glow_2" data-name="Evermore Knight_Logo_Blue Glow 2" width="808.105" height="340.444" transform="translate(461.397 17.411)" fill="url(#pattern-5)"/>
+      <g transform="matrix(1, 0, 0, 1, 66, -165.72)" filter="url(#JOIN_NOW)">
+        <text id="JOIN_NOW-2" data-name="JOIN NOW" transform="translate(756.45 552.57)" fill="#fff" font-size="27" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.085em"><tspan x="-234.035" y="0">PRE-REGISTRATION HAS ENDED</tspan><tspan fill="#e1c95d" font-size="31"><tspan x="-288.712" y="37">THANK YOU FOR PARTICIPATING! </tspan></tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
