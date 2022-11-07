@@ -1405,11 +1405,16 @@ section{
 .wrap-partnership-3-container{
     display: grid; grid-column: auto; grid-template-columns: repeat(1, minmax(120px, 1fr))
 }
-
+/*--------AWARDS--------------*/
+.wrap-awards-container{
+    display: grid; gap: 2rem;  grid-column: auto;
+    grid-template-columns: repeat(2,1fr) ;
+}
 /*--------TEAM MEMBER--------------*/
 .wrap-team-member-container{
     display: grid; grid-column: auto;  grid-template-columns: repeat(5, 1fr); padding-top: 2rem;
 }
+
 .wrap-advisor-member-container{
     display: grid; grid-column: auto;  grid-template-columns: 20% 20% 20%; justify-content: center; 
 }
@@ -1479,7 +1484,7 @@ section{
         grid-template-columns: repeat(1, 1fr);
     }
     
-    .wrap-list-game-container{
+    .wrap-list-game-container,.wrap-awards-container{
         grid-template-columns: repeat(1, 1fr);
     }
     .wrap-media-list{
@@ -1487,6 +1492,7 @@ section{
     }
     .wrap-wallet-container{
         grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
     }
     .cmc{
         grid-column: 1 / span 2;
